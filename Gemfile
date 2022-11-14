@@ -11,6 +11,23 @@ gem 'pycall'
 gem 'charty'
 gem 'gr-plot'
 gem 'histogram'
-gem 'rsruby'
+#gem 'rsruby'
+gem 'sinatra'
+
+gem "sass"
+gem "haml"
+gem "coffee-script"
+gem "shotgun"
+gem 'puma'
+gem 'rack'
+gem 'sinatra_more'
+
+group :development do
+  gem 'sinatra-contrib'
+end
+
+group :test do
+  gem 'rspec'
+end
 
 ruby '3.1.2'

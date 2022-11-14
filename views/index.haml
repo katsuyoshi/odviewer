@@ -1,0 +1,6 @@
+%h1 This is the application root.
+
+%ul
+  - @daisen_data.each do |k,v|
+    %li
+      %a{href: "/graph/#{k}"}= k

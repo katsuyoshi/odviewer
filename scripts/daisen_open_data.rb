@@ -18,6 +18,8 @@ class DaisenOpenData
   private
 
   def load
+    return @data if @data
+    
     @data = {}
     config_path = File.join(@root_dir, 'dim.json')
     config = JSON.parse(File.read(config_path))
