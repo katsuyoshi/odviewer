@@ -1,17 +1,61 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    charty (0.2.12)
+      matplotlib (>= 1.2.0)
+      pandas (>= 0.3.5)
+      playwright-ruby-client
+      red-colors (>= 0.3.0)
+      red-datasets (>= 0.1.2)
+      red-palette (>= 0.5.0)
+    concurrent-ruby (1.1.10)
+    csv (3.2.5)
     date (3.2.2)
+    fiddle (1.1.0)
+    gr-plot (0.0.1)
+      ruby-gr
+    histogram (0.2.4.1)
     json (2.6.2)
+    matplotlib (1.2.0)
+      pycall (>= 1.0.0)
+    matrix (0.4.2)
+    mime-types (3.4.1)
+      mime-types-data (~> 3.2015)
+    mime-types-data (3.2022.0105)
     mini_portile2 (2.8.0)
     nokogiri (1.13.9)
       mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
+    numo-narray (0.9.2.1)
+    numpy (0.4.0)
+      pycall (>= 1.2.0.beta1)
     open-uri (0.2.0)
       stringio
       time
       uri
+    pandas (0.3.8)
+      numpy
+      pycall (>= 1.0.0)
+    pkg-config (1.4.9)
+    playwright-ruby-client (1.27.0)
+      concurrent-ruby (>= 1.1.6)
+      mime-types (>= 3.0)
+    pycall (1.4.1)
     racc (1.6.0)
+    red-colors (0.3.0)
+      matrix
+    red-datasets (0.1.5)
+      csv (>= 3.2.4)
+      rexml
+      rubyzip
+    red-palette (0.5.0)
+      red-colors (>= 0.3.0)
+    rexml (3.2.5)
+    ruby-gr (0.66.0.0)
+      fiddle
+      numo-narray
+      pkg-config
+    rubyzip (2.3.2)
     stringio (3.0.2)
     time (0.2.0)
       date
@@ -21,12 +65,16 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  charty
+  gr-plot
+  histogram
   json
   nokogiri
   open-uri
+  pycall
 
 RUBY VERSION
    ruby 3.1.2p20
 
 BUNDLED WITH
-   2.1.4
+   2.3.25

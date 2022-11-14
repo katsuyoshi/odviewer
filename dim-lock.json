@@ -9,22 +9,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-10-25T07:53:20.000Z",
       "eTag": "635795f0-6c4",
-      "lastDownloaded": "2022-11-12T10:27:39.092Z",
-      "integrity": "",
-      "postProcesses": [
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": " 国保加入世帯の状況",
-      "url": "https://www.city.daisen.lg.jp/docs/2021120600022//file_contents/01_.csv",
-      "path": "./data_files/ 国保加入世帯の状況/01_.csv",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "lastModified": "2022-10-25T07:53:20.000Z",
-      "eTag": "635795f0-6c4",
-      "lastDownloaded": "2022-11-12T10:56:54.038Z",
+      "lastDownloaded": "2022-11-12T15:54:50.783Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -33,13 +18,13 @@
     },
     {
       "name": "国保加入被保険者の状況",
-      "url": "https://www.city.daisen.lg.jp/docs/2021120600039//file_contents/02_.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120600039/file_contents/02_.csv",
       "path": "./data_files/国保加入被保険者の状況/02_.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-10-25T07:52:15.000Z",
       "eTag": "635795af-7e2",
-      "lastDownloaded": "2022-11-12T10:56:54.178Z",
+      "lastDownloaded": "2022-11-12T15:54:50.832Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -48,13 +33,13 @@
     },
     {
       "name": "保険給付の状況",
-      "url": "https://www.city.daisen.lg.jp/docs/2021120600046//file_contents/03_.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120600046/file_contents/03_.csv",
       "path": "./data_files/保険給付の状況/03_.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-10-25T07:50:11.000Z",
       "eTag": "63579533-ac6",
-      "lastDownloaded": "2022-11-12T10:56:54.276Z",
+      "lastDownloaded": "2022-11-12T15:54:50.901Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -63,13 +48,13 @@
     },
     {
       "name": "高額療養費支給の状況",
-      "url": "https://www.city.daisen.lg.jp/docs/2021120600053//file_contents/04_.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120600053/file_contents/04_.csv",
       "path": "./data_files/高額療養費支給の状況/04_.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-10-25T07:35:26.000Z",
       "eTag": "635791be-76c",
-      "lastDownloaded": "2022-11-12T10:56:54.390Z",
+      "lastDownloaded": "2022-11-12T15:54:50.974Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -78,13 +63,13 @@
     },
     {
       "name": "後期高齢者医療費の状況",
-      "url": "https://www.city.daisen.lg.jp/docs/2021120600060//file_contents/05_.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120600060/file_contents/05_.csv",
       "path": "./data_files/後期高齢者医療費の状況/05_.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-10-25T07:34:07.000Z",
       "eTag": "6357916f-8e1",
-      "lastDownloaded": "2022-11-12T10:56:54.576Z",
+      "lastDownloaded": "2022-11-12T15:54:51.044Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -93,13 +78,13 @@
     },
     {
       "name": "福祉医療費の状況（件数）",
-      "url": "https://www.city.daisen.lg.jp/docs/2021120600084//file_contents/06_.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120600084/file_contents/06_.csv",
       "path": "./data_files/福祉医療費の状況（件数）/06_.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-10-25T07:32:51.000Z",
       "eTag": "63579123-828",
-      "lastDownloaded": "2022-11-12T10:56:54.691Z",
+      "lastDownloaded": "2022-11-12T15:54:51.112Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -108,13 +93,13 @@
     },
     {
       "name": "福祉医療費の状況（金額）",
-      "url": "https://www.city.daisen.lg.jp/docs/2021120600091//file_contents/07_.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120600091/file_contents/07_.csv",
       "path": "./data_files/福祉医療費の状況（金額）/07_.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-10-25T07:30:49.000Z",
       "eTag": "635790a9-872",
-      "lastDownloaded": "2022-11-12T10:56:54.791Z",
+      "lastDownloaded": "2022-11-12T15:54:51.176Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -123,13 +108,13 @@
     },
     {
       "name": "国民年金加入状況",
-      "url": "https://www.city.daisen.lg.jp/docs/2021120600107//file_contents/08_.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120600107/file_contents/08_.csv",
       "path": "./data_files/国民年金加入状況/08_.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-10-25T07:29:14.000Z",
       "eTag": "6357904a-701",
-      "lastDownloaded": "2022-11-12T10:56:54.974Z",
+      "lastDownloaded": "2022-11-12T15:54:51.248Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -138,13 +123,13 @@
     },
     {
       "name": "拠出年金給付状況",
-      "url": "https://www.city.daisen.lg.jp/docs/2021120600114//file_contents/09_.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120600114/file_contents/09_.csv",
       "path": "./data_files/拠出年金給付状況/09_.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-10-25T07:27:27.000Z",
       "eTag": "63578fdf-dbe",
-      "lastDownloaded": "2022-11-12T10:56:55.088Z",
+      "lastDownloaded": "2022-11-12T15:54:51.318Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -153,13 +138,13 @@
     },
     {
       "name": "無拠出年金給付状況",
-      "url": "https://www.city.daisen.lg.jp/docs/2021120600121//file_contents/10_.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120600121/file_contents/10_.csv",
       "path": "./data_files/無拠出年金給付状況/10_.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-10-25T07:24:23.000Z",
       "eTag": "63578f27-596",
-      "lastDownloaded": "2022-11-12T10:56:55.180Z",
+      "lastDownloaded": "2022-11-12T15:54:51.394Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -168,13 +153,13 @@
     },
     {
       "name": "し尿処理の状況データ",
-      "url": "https://www.city.daisen.lg.jp/docs/2021120900207//file_contents/sinyousyori.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120900207/file_contents/sinyousyori.csv",
       "path": "./data_files/し尿処理の状況データ/sinyousyori.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-09T02:39:48.000Z",
       "eTag": "62787ef4-3e7",
-      "lastDownloaded": "2022-11-12T10:56:55.322Z",
+      "lastDownloaded": "2022-11-12T15:54:51.537Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -183,13 +168,13 @@
     },
     {
       "name": "ごみ処理の状況データ",
-      "url": "https://www.city.daisen.lg.jp/docs/2021120900191//file_contents/gomisyori.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120900191/file_contents/gomisyori.csv",
       "path": "./data_files/ごみ処理の状況データ/gomisyori.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-09T02:42:22.000Z",
       "eTag": "62787f8e-5f4",
-      "lastDownloaded": "2022-11-12T10:56:55.592Z",
+      "lastDownloaded": "2022-11-12T15:54:51.600Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -198,13 +183,13 @@
     },
     {
       "name": "主要死因別死亡者数",
-      "url": "https://www.city.daisen.lg.jp/docs/2021120900375//file_contents/01_1.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120900375/file_contents/01_1.csv",
       "path": "./data_files/主要死因別死亡者数/01_1.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-09T01:54:08.000Z",
       "eTag": "62787440-b37",
-      "lastDownloaded": "2022-11-12T10:56:55.820Z",
+      "lastDownloaded": "2022-11-12T15:54:51.668Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -213,13 +198,13 @@
     },
     {
       "name": "乳幼児健診の受診状況",
-      "url": "https://www.city.daisen.lg.jp/docs/2021120900399//file_contents/03_1.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120900399/file_contents/03_1.csv",
       "path": "./data_files/乳幼児健診の受診状況/03_1.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-09T01:49:51.000Z",
       "eTag": "6278733f-ae3",
-      "lastDownloaded": "2022-11-12T10:56:55.904Z",
+      "lastDownloaded": "2022-11-12T15:54:51.726Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -228,13 +213,13 @@
     },
     {
       "name": "各種健（検）診の受診状況",
-      "url": "https://www.city.daisen.lg.jp/docs/2021121000166//file_contents/04_1.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121000166/file_contents/04_1.csv",
       "path": "./data_files/各種健（検）診の受診状況/04_1.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-09T01:48:05.000Z",
       "eTag": "627872d5-bf5",
-      "lastDownloaded": "2022-11-12T10:56:56.036Z",
+      "lastDownloaded": "2022-11-12T15:54:51.790Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -243,13 +228,13 @@
     },
     {
       "name": "予防接種の状況",
-      "url": "https://www.city.daisen.lg.jp/docs/2021121000197//file_contents/02_1.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121000197/file_contents/02_1.csv",
       "path": "./data_files/予防接種の状況/02_1.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-02T06:18:08.000Z",
       "eTag": "626f77a0-afe",
-      "lastDownloaded": "2022-11-12T10:56:56.120Z",
+      "lastDownloaded": "2022-11-12T15:54:51.853Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -258,13 +243,13 @@
     },
     {
       "name": "過去の積雪深",
-      "url": "https://www.city.daisen.lg.jp/docs/2022011100027//file_contents/sekisetu.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2022011100027/file_contents/sekisetu.csv",
       "path": "./data_files/過去の積雪深/sekisetu.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-11T07:24:00.000Z",
       "eTag": "627b6490-2412e",
-      "lastDownloaded": "2022-11-12T10:56:56.552Z",
+      "lastDownloaded": "2022-11-12T15:54:52.002Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -273,13 +258,13 @@
     },
     {
       "name": "住民基本台帳人口及び世帯数の推移",
-      "url": "https://www.city.daisen.lg.jp/docs/2021120600251//file_contents/2-9.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120600251/file_contents/2-9.csv",
       "path": "./data_files/住民基本台帳人口及び世帯数の推移/2-9.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-09T05:59:19.000Z",
       "eTag": "6278adb7-6965",
-      "lastDownloaded": "2022-11-12T10:56:56.799Z",
+      "lastDownloaded": "2022-11-12T15:54:52.127Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -288,13 +273,13 @@
     },
     {
       "name": "建築確認申請の状況",
-      "url": "https://www.city.daisen.lg.jp/docs/2021121300228//file_contents/kenchikukakuninsinseinojoukyou.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121300228/file_contents/kenchikukakuninsinseinojoukyou.csv",
       "path": "./data_files/建築確認申請の状況/kenchikukakuninsinseinojoukyou.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2021-12-14T15:00:40.000Z",
       "eTag": "61b8b198-572c",
-      "lastDownloaded": "2022-11-12T10:56:56.970Z",
+      "lastDownloaded": "2022-11-12T15:54:52.198Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -303,13 +288,13 @@
     },
     {
       "name": "道路現況詳細（市道）",
-      "url": "https://www.city.daisen.lg.jp/docs/2021121000258//file_contents/doro5.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121000258/file_contents/doro5.csv",
       "path": "./data_files/道路現況詳細（市道）/doro5.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2021-12-14T15:00:30.000Z",
       "eTag": "61b8b18e-2ebd",
-      "lastDownloaded": "2022-11-12T10:56:57.060Z",
+      "lastDownloaded": "2022-11-12T15:54:52.259Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -318,13 +303,13 @@
     },
     {
       "name": "雪の諸記録",
-      "url": "https://www.city.daisen.lg.jp/docs/2021121000241//file_contents/doro4.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121000241/file_contents/doro4.csv",
       "path": "./data_files/雪の諸記録/doro4.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2021-12-14T15:00:29.000Z",
       "eTag": "61b8b18d-37dd",
-      "lastDownloaded": "2022-11-12T10:56:57.168Z",
+      "lastDownloaded": "2022-11-12T15:54:52.433Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -333,13 +318,13 @@
     },
     {
       "name": "河川の状況",
-      "url": "https://www.city.daisen.lg.jp/docs/2021121000234//file_contents/doro3.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121000234/file_contents/doro3.csv",
       "path": "./data_files/河川の状況/doro3.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2021-12-14T15:00:26.000Z",
       "eTag": "61b8b18a-6cd",
-      "lastDownloaded": "2022-11-12T10:56:57.253Z",
+      "lastDownloaded": "2022-11-12T15:54:52.500Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -348,13 +333,13 @@
     },
     {
       "name": "国道・県道の状況",
-      "url": "https://www.city.daisen.lg.jp/docs/2021121000210//file_contents/doro2.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121000210/file_contents/doro2.csv",
       "path": "./data_files/国道・県道の状況/doro2.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2021-12-14T15:00:26.000Z",
       "eTag": "61b8b18a-c32",
-      "lastDownloaded": "2022-11-12T10:56:57.356Z",
+      "lastDownloaded": "2022-11-12T15:54:52.562Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -363,13 +348,13 @@
     },
     {
       "name": "市道の状況",
-      "url": "https://www.city.daisen.lg.jp/docs/2021121000203//file_contents/doro1.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121000203/file_contents/doro1.csv",
       "path": "./data_files/市道の状況/doro1.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2021-12-14T15:00:26.000Z",
       "eTag": "61b8b18a-5b12",
-      "lastDownloaded": "2022-11-12T10:56:57.499Z",
+      "lastDownloaded": "2022-11-12T15:54:52.637Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -378,13 +363,13 @@
     },
     {
       "name": "図書館蔵書冊数の状況",
-      "url": "https://www.city.daisen.lg.jp/docs/2021120600169//file_contents/16_.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120600169/file_contents/16_.csv",
       "path": "./data_files/図書館蔵書冊数の状況/16_.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2021-12-14T15:00:23.000Z",
       "eTag": "61b8b187-5019",
-      "lastDownloaded": "2022-11-12T10:56:57.654Z",
+      "lastDownloaded": "2022-11-12T15:54:52.706Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -393,13 +378,13 @@
     },
     {
       "name": "図書館貸出状況の推移",
-      "url": "https://www.city.daisen.lg.jp/docs/2021120600176//file_contents/17_.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120600176/file_contents/17_.csv",
       "path": "./data_files/図書館貸出状況の推移/17_.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2021-12-14T15:00:22.000Z",
       "eTag": "61b8b186-3732",
-      "lastDownloaded": "2022-11-12T10:56:57.757Z",
+      "lastDownloaded": "2022-11-12T15:54:52.771Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -408,13 +393,13 @@
     },
     {
       "name": "障がい者の状況",
-      "url": "https://www.city.daisen.lg.jp/docs/2021120300045//file_contents/shougai_jyoukyou.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120300045/file_contents/shougai_jyoukyou.csv",
       "path": "./data_files/障がい者の状況/shougai_jyoukyou.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2021-12-14T15:00:05.000Z",
       "eTag": "61b8b175-861",
-      "lastDownloaded": "2022-11-12T10:56:57.842Z",
+      "lastDownloaded": "2022-11-12T15:54:52.832Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -422,14 +407,14 @@
       "headers": {}
     },
     {
-      "name": "等級・障がい別の状況 ",
-      "url": "https://www.city.daisen.lg.jp/docs/2021120300052//file_contents/shougai_toukyuu_bui.csv",
-      "path": "./data_files/等級・障がい別の状況 /shougai_toukyuu_bui.csv",
+      "name": "等級・障がい別の状況",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120300052/file_contents/shougai_toukyuu_bui.csv",
+      "path": "./data_files/等級・障がい別の状況/shougai_toukyuu_bui.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2021-12-14T15:00:03.000Z",
       "eTag": "61b8b173-e12",
-      "lastDownloaded": "2022-11-12T10:56:57.926Z",
+      "lastDownloaded": "2022-11-12T15:54:52.895Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -438,13 +423,13 @@
     },
     {
       "name": "住民基本台帳人口・世帯数",
-      "url": "https://www.city.daisen.lg.jp/docs/2021121000227//file_contents/R03.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121000227/file_contents/R03.csv",
       "path": "./data_files/住民基本台帳人口・世帯数/R03.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-07-14T07:13:59.000Z",
       "eTag": "62cfc237-9ff",
-      "lastDownloaded": "2022-11-12T10:56:58.001Z",
+      "lastDownloaded": "2022-11-12T15:54:52.958Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -453,13 +438,13 @@
     },
     {
       "name": "子育て施設一覧",
-      "url": "https://www.city.daisen.lg.jp/docs/2021120800064//file_contents/kosodatesisetu.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120800064/file_contents/kosodatesisetu.csv",
       "path": "./data_files/子育て施設一覧/kosodatesisetu.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-11T08:00:35.000Z",
       "eTag": "627b6d23-3488",
-      "lastDownloaded": "2022-11-12T10:56:58.124Z",
+      "lastDownloaded": "2022-11-12T15:54:53.026Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -468,13 +453,13 @@
     },
     {
       "name": "文化財一覧",
-      "url": "https://www.city.daisen.lg.jp/docs/2021121400010//file_contents/bunkazai.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121400010/file_contents/bunkazai.csv",
       "path": "./data_files/文化財一覧/bunkazai.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-11T07:32:23.000Z",
       "eTag": "627b6687-d8d1",
-      "lastDownloaded": "2022-11-12T10:56:58.422Z",
+      "lastDownloaded": "2022-11-12T15:54:53.098Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -483,13 +468,13 @@
     },
     {
       "name": "公園の状況",
-      "url": "https://www.city.daisen.lg.jp/docs/2021120900184//file_contents/kouen2.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120900184/file_contents/kouen2.csv",
       "path": "./data_files/公園の状況/kouen2.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-11T07:28:01.000Z",
       "eTag": "627b6581-438",
-      "lastDownloaded": "2022-11-12T10:56:58.518Z",
+      "lastDownloaded": "2022-11-12T15:54:53.160Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -498,13 +483,13 @@
     },
     {
       "name": "指定緊急避難場所一覧",
-      "url": "https://www.city.daisen.lg.jp/docs/2021121300013//file_contents/hinan_basyo.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121300013/file_contents/hinan_basyo.csv",
       "path": "./data_files/指定緊急避難場所一覧/hinan_basyo.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-11T07:27:00.000Z",
       "eTag": "627b6544-3a82",
-      "lastDownloaded": "2022-11-12T10:56:58.659Z",
+      "lastDownloaded": "2022-11-12T15:54:53.232Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -513,13 +498,13 @@
     },
     {
       "name": "指定避難所一覧",
-      "url": "https://www.city.daisen.lg.jp/docs/2021121300020//file_contents/hinansyo.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121300020/file_contents/hinansyo.csv",
       "path": "./data_files/指定避難所一覧/hinansyo.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-11T07:26:00.000Z",
       "eTag": "627b6508-2f28",
-      "lastDownloaded": "2022-11-12T10:56:58.811Z",
+      "lastDownloaded": "2022-11-12T15:54:53.305Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -528,13 +513,13 @@
     },
     {
       "name": "地域別農家戸数・農家人口・農業就業人口",
-      "url": "https://www.city.daisen.lg.jp/docs/2021120900054//file_contents/3-2.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120900054/file_contents/3-2.csv",
       "path": "./data_files/地域別農家戸数・農家人口・農業就業人口/3-2.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-11T07:21:54.000Z",
       "eTag": "627b6412-7001",
-      "lastDownloaded": "2022-11-12T10:56:59.039Z",
+      "lastDownloaded": "2022-11-12T15:54:53.371Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -543,13 +528,13 @@
     },
     {
       "name": "年齢（各歳・5歳階級）別・男女別人口",
-      "url": "https://www.city.daisen.lg.jp/docs/2021120600190//file_contents/2-1.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120600190/file_contents/2-1.csv",
       "path": "./data_files/年齢（各歳・5歳階級）別・男女別人口/2-1.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-11T07:20:51.000Z",
       "eTag": "627b63d3-9be3",
-      "lastDownloaded": "2022-11-12T10:56:59.258Z",
+      "lastDownloaded": "2022-11-12T15:54:53.524Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -558,13 +543,13 @@
     },
     {
       "name": "人口集中地区の推移",
-      "url": "https://www.city.daisen.lg.jp/docs/2021120600213//file_contents/2-3.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120600213/file_contents/2-3.csv",
       "path": "./data_files/人口集中地区の推移/2-3.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-11T07:19:46.000Z",
       "eTag": "627b6392-18c",
-      "lastDownloaded": "2022-11-12T10:56:59.466Z",
+      "lastDownloaded": "2022-11-12T15:54:53.594Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -573,13 +558,13 @@
     },
     {
       "name": "月別平均気温の推移",
-      "url": "https://www.city.daisen.lg.jp/docs/2021120300038//file_contents/1-1.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120300038/file_contents/1-1.csv",
       "path": "./data_files/月別平均気温の推移/1-1.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-11T07:18:27.000Z",
       "eTag": "627b6343-b33",
-      "lastDownloaded": "2022-11-12T10:56:59.600Z",
+      "lastDownloaded": "2022-11-12T15:54:53.657Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -588,13 +573,13 @@
     },
     {
       "name": "月別平均風速の推移",
-      "url": "https://www.city.daisen.lg.jp/docs/2021120600152//file_contents/1-3.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120600152/file_contents/1-3.csv",
       "path": "./data_files/月別平均風速の推移/1-3.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-11T06:41:37.000Z",
       "eTag": "627b5aa1-cfd",
-      "lastDownloaded": "2022-11-12T10:56:59.743Z",
+      "lastDownloaded": "2022-11-12T15:54:53.724Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -603,13 +588,13 @@
     },
     {
       "name": "気象の諸記録",
-      "url": "https://www.city.daisen.lg.jp/docs/2021120600183//file_contents/1-5.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120600183/file_contents/1-5.csv",
       "path": "./data_files/気象の諸記録/1-5.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-11T06:40:31.000Z",
       "eTag": "627b5a5f-1023",
-      "lastDownloaded": "2022-11-12T10:56:59.867Z",
+      "lastDownloaded": "2022-11-12T15:54:53.789Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -618,13 +603,13 @@
     },
     {
       "name": "産業（大分類）、従業者規模別事業所数及び従業者数",
-      "url": "https://www.city.daisen.lg.jp/docs/2021120900238//file_contents/4-4.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120900238/file_contents/4-4.csv",
       "path": "./data_files/産業（大分類）、従業者規模別事業所数及び従業者数/4-4.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-11T06:39:20.000Z",
       "eTag": "627b5a18-35f4",
-      "lastDownloaded": "2022-11-12T10:57:00.019Z",
+      "lastDownloaded": "2022-11-12T15:54:53.892Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -633,13 +618,13 @@
     },
     {
       "name": "産業（大分類）別事業所数の推移",
-      "url": "https://www.city.daisen.lg.jp/docs/2021120900153//file_contents/4-1.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120900153/file_contents/4-1.csv",
       "path": "./data_files/産業（大分類）別事業所数の推移/4-1.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-11T06:34:16.000Z",
       "eTag": "627b58e8-2b0c",
-      "lastDownloaded": "2022-11-12T10:57:00.102Z",
+      "lastDownloaded": "2022-11-12T15:54:53.958Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -648,13 +633,13 @@
     },
     {
       "name": "年齢（５歳階級）別配偶関係",
-      "url": "https://www.city.daisen.lg.jp/docs/2021120900023//file_contents/2-12.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120900023/file_contents/2-12.csv",
       "path": "./data_files/年齢（５歳階級）別配偶関係/2-12.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-11T02:53:38.000Z",
       "eTag": "627b2532-1244",
-      "lastDownloaded": "2022-11-12T10:57:00.191Z",
+      "lastDownloaded": "2022-11-12T15:54:54.131Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -663,13 +648,13 @@
     },
     {
       "name": "経営耕地面積の状況",
-      "url": "https://www.city.daisen.lg.jp/docs/2021120900122//file_contents/3-1-1.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120900122/file_contents/3-1-1.csv",
       "path": "./data_files/経営耕地面積の状況/3-1-1.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-11T02:52:28.000Z",
       "eTag": "627b24ec-842",
-      "lastDownloaded": "2022-11-12T10:57:00.254Z",
+      "lastDownloaded": "2022-11-12T15:54:54.192Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -678,13 +663,13 @@
     },
     {
       "name": "販売目的の作物別作付け状況",
-      "url": "https://www.city.daisen.lg.jp/docs/2021120900139//file_contents/3-1-2.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120900139/file_contents/3-1-2.csv",
       "path": "./data_files/販売目的の作物別作付け状況/3-1-2.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-11T02:51:19.000Z",
       "eTag": "627b24a7-75f",
-      "lastDownloaded": "2022-11-12T10:57:00.327Z",
+      "lastDownloaded": "2022-11-12T15:54:54.266Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -693,13 +678,13 @@
     },
     {
       "name": "医療施設数（病院）・病床数（開設主体・保健所別）",
-      "url": "https://www.city.daisen.lg.jp/docs/2021121300051//file_contents/11-11.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121300051/file_contents/11-11.csv",
       "path": "./data_files/医療施設数（病院）・病床数（開設主体・保健所別）/11-11.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-11T02:48:50.000Z",
       "eTag": "627b2412-329",
-      "lastDownloaded": "2022-11-12T10:57:00.425Z",
+      "lastDownloaded": "2022-11-12T15:54:54.320Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -708,13 +693,13 @@
     },
     {
       "name": "病院の従事者数（2次医療圏）",
-      "url": "https://www.city.daisen.lg.jp/docs/2021121300075//file_contents/11-12.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121300075/file_contents/11-12.csv",
       "path": "./data_files/病院の従事者数（2次医療圏）/11-12.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-11T00:59:09.000Z",
       "eTag": "627b0a5d-d6d",
-      "lastDownloaded": "2022-11-12T10:57:00.510Z",
+      "lastDownloaded": "2022-11-12T15:54:54.387Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -723,13 +708,13 @@
     },
     {
       "name": "事業所数・従業者数・製造品出荷額等の推移",
-      "url": "https://www.city.daisen.lg.jp/docs/2021120900245//file_contents/5-1.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120900245/file_contents/5-1.csv",
       "path": "./data_files/事業所数・従業者数・製造品出荷額等の推移/5-1.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-11T00:30:14.000Z",
       "eTag": "627b0396-501f",
-      "lastDownloaded": "2022-11-12T10:57:00.642Z",
+      "lastDownloaded": "2022-11-12T15:54:54.498Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -738,13 +723,13 @@
     },
     {
       "name": "秋田自動車道ＩＣ出入状況",
-      "url": "https://www.city.daisen.lg.jp/docs/2021121000128//file_contents/8-1.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121000128/file_contents/8-1.csv",
       "path": "./data_files/秋田自動車道ＩＣ出入状況/8-1.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-11T00:28:46.000Z",
       "eTag": "627b033e-380",
-      "lastDownloaded": "2022-11-12T10:57:00.737Z",
+      "lastDownloaded": "2022-11-12T15:54:54.531Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -753,13 +738,13 @@
     },
     {
       "name": "自動車保有台数の状況",
-      "url": "https://www.city.daisen.lg.jp/docs/2021121000142//file_contents/8-3.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121000142/file_contents/8-3.csv",
       "path": "./data_files/自動車保有台数の状況/8-3.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-11T00:27:36.000Z",
       "eTag": "627b02f8-13bb",
-      "lastDownloaded": "2022-11-12T10:57:00.909Z",
+      "lastDownloaded": "2022-11-12T15:54:54.594Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -768,13 +753,13 @@
     },
     {
       "name": "産業（中分類）別事業所数の推移",
-      "url": "https://www.city.daisen.lg.jp/docs/2021120900252//file_contents/5-2.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120900252/file_contents/5-2.csv",
       "path": "./data_files/産業（中分類）別事業所数の推移/5-2.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-11T00:24:20.000Z",
       "eTag": "627b0234-f8c",
-      "lastDownloaded": "2022-11-12T10:57:00.976Z",
+      "lastDownloaded": "2022-11-12T15:54:54.665Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -783,13 +768,13 @@
     },
     {
       "name": "産業（中分類）別商店数・従業者数・年間商品販売額等",
-      "url": "https://www.city.daisen.lg.jp/docs/2021120900320//file_contents/6-2.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120900320/file_contents/6-2.csv",
       "path": "./data_files/産業（中分類）別商店数・従業者数・年間商品販売額等/6-2.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-11T00:23:07.000Z",
       "eTag": "627b01eb-5da",
-      "lastDownloaded": "2022-11-12T10:57:01.049Z",
+      "lastDownloaded": "2022-11-12T15:54:54.732Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -798,13 +783,13 @@
     },
     {
       "name": "商店数・従業者数・年間商品販売額の推移",
-      "url": "https://www.city.daisen.lg.jp/docs/2021120900313//file_contents/6-1.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120900313/file_contents/6-1.csv",
       "path": "./data_files/商店数・従業者数・年間商品販売額の推移/6-1.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-11T00:20:30.000Z",
       "eTag": "627b014e-caa",
-      "lastDownloaded": "2022-11-12T10:57:01.114Z",
+      "lastDownloaded": "2022-11-12T15:54:54.794Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -813,13 +798,13 @@
     },
     {
       "name": "面積規模別商店数・従業者数・年間商品販売額（小売業）",
-      "url": "https://www.city.daisen.lg.jp/docs/2021120900351//file_contents/6-5.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120900351/file_contents/6-5.csv",
       "path": "./data_files/面積規模別商店数・従業者数・年間商品販売額（小売業）/6-5.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-11T00:18:23.000Z",
       "eTag": "627b00cf-1406",
-      "lastDownloaded": "2022-11-12T10:57:01.231Z",
+      "lastDownloaded": "2022-11-12T15:54:54.857Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -828,13 +813,13 @@
     },
     {
       "name": "市内各駅乗客数（１日平均）",
-      "url": "https://www.city.daisen.lg.jp/docs/2021121000135//file_contents/8-2.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121000135/file_contents/8-2.csv",
       "path": "./data_files/市内各駅乗客数（１日平均）/8-2.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-11T00:16:54.000Z",
       "eTag": "627b0076-2ef",
-      "lastDownloaded": "2022-11-12T10:57:01.454Z",
+      "lastDownloaded": "2022-11-12T15:54:54.917Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -843,13 +828,13 @@
     },
     {
       "name": "産業（中分類）別従業者数の推移",
-      "url": "https://www.city.daisen.lg.jp/docs/2021120900269//file_contents/5-3.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120900269/file_contents/5-3.csv",
       "path": "./data_files/産業（中分類）別従業者数の推移/5-3.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-11T00:15:35.000Z",
       "eTag": "627b0027-f85",
-      "lastDownloaded": "2022-11-12T10:57:02.389Z",
+      "lastDownloaded": "2022-11-12T15:54:54.982Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -858,13 +843,13 @@
     },
     {
       "name": "産業（中分類）別現金給与総額の推移",
-      "url": "https://www.city.daisen.lg.jp/docs/2021120900276//file_contents/5-4.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120900276/file_contents/5-4.csv",
       "path": "./data_files/産業（中分類）別現金給与総額の推移/5-4.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-11T00:13:42.000Z",
       "eTag": "627affb6-21e8dd",
-      "lastDownloaded": "2022-11-12T10:57:07.327Z",
+      "lastDownloaded": "2022-11-12T15:54:56.138Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -873,13 +858,13 @@
     },
     {
       "name": "経営規模別農家数",
-      "url": "https://www.city.daisen.lg.jp/docs/2021120900085//file_contents/3-4.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120900085/file_contents/3-4.csv",
       "path": "./data_files/経営規模別農家数/3-4.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-11T00:12:30.000Z",
       "eTag": "627aff6e-3306",
-      "lastDownloaded": "2022-11-12T10:57:07.408Z",
+      "lastDownloaded": "2022-11-12T15:54:56.175Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -888,13 +873,13 @@
     },
     {
       "name": "産業（中分類）別原材料使用額等の推移",
-      "url": "https://www.city.daisen.lg.jp/docs/2021120900283//file_contents/5-5.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120900283/file_contents/5-5.csv",
       "path": "./data_files/産業（中分類）別原材料使用額等の推移/5-5.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-11T00:11:09.000Z",
       "eTag": "627aff1d-1bfd",
-      "lastDownloaded": "2022-11-12T10:57:07.520Z",
+      "lastDownloaded": "2022-11-12T15:54:56.239Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -903,13 +888,13 @@
     },
     {
       "name": "産業（中分類）別製造品出荷額等の推移",
-      "url": "https://www.city.daisen.lg.jp/docs/2021120900290//file_contents/5-6.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120900290/file_contents/5-6.csv",
       "path": "./data_files/産業（中分類）別製造品出荷額等の推移/5-6.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-09T06:24:01.000Z",
       "eTag": "6278b381-1c9d",
-      "lastDownloaded": "2022-11-12T10:57:07.609Z",
+      "lastDownloaded": "2022-11-12T15:54:56.302Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -918,13 +903,13 @@
     },
     {
       "name": "製造業の概要",
-      "url": "https://www.city.daisen.lg.jp/docs/2021120900306//file_contents/5-7.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120900306/file_contents/5-7.csv",
       "path": "./data_files/製造業の概要/5-7.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-09T06:22:53.000Z",
       "eTag": "6278b33d-14f1f",
-      "lastDownloaded": "2022-11-12T10:57:07.853Z",
+      "lastDownloaded": "2022-11-12T15:54:56.431Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -933,13 +918,13 @@
     },
     {
       "name": "セルフサービス店商店数・従業者数・年間商品販売額等",
-      "url": "https://www.city.daisen.lg.jp/docs/2021120900337//file_contents/6-3.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120900337/file_contents/6-3.csv",
       "path": "./data_files/セルフサービス店商店数・従業者数・年間商品販売額等/6-3.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-09T06:18:54.000Z",
       "eTag": "6278b24e-345",
-      "lastDownloaded": "2022-11-12T10:57:08.084Z",
+      "lastDownloaded": "2022-11-12T15:54:56.492Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -948,13 +933,13 @@
     },
     {
       "name": "小売業の業態別商店数・従業者数・売場面積・年間商品販売額",
-      "url": "https://www.city.daisen.lg.jp/docs/2021120900344//file_contents/6-4.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120900344/file_contents/6-4.csv",
       "path": "./data_files/小売業の業態別商店数・従業者数・売場面積・年間商品販売額/6-4.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-09T06:17:49.000Z",
       "eTag": "6278b20d-ed3",
-      "lastDownloaded": "2022-11-12T10:57:08.161Z",
+      "lastDownloaded": "2022-11-12T15:54:56.559Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -963,13 +948,13 @@
     },
     {
       "name": "地域別、産業（大分類）別就業者数",
-      "url": "https://www.city.daisen.lg.jp/docs/2021120600244//file_contents/2-8.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120600244/file_contents/2-8.csv",
       "path": "./data_files/地域別、産業（大分類）別就業者数/2-8.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-09T06:16:37.000Z",
       "eTag": "6278b1c5-fa1",
-      "lastDownloaded": "2022-11-12T10:57:08.243Z",
+      "lastDownloaded": "2022-11-12T15:54:56.626Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -978,13 +963,13 @@
     },
     {
       "name": "産業（大分類）、年齢（5歳階級）、15歳以上就業者数",
-      "url": "https://www.city.daisen.lg.jp/docs/2021120600237//file_contents/2-7.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120600237/file_contents/2-7.csv",
       "path": "./data_files/産業（大分類）、年齢（5歳階級）、15歳以上就業者数/2-7.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-09T06:15:15.000Z",
       "eTag": "6278b173-1859",
-      "lastDownloaded": "2022-11-12T10:57:08.310Z",
+      "lastDownloaded": "2022-11-12T15:54:56.695Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -993,13 +978,13 @@
     },
     {
       "name": "労働力人口",
-      "url": "https://www.city.daisen.lg.jp/docs/2021120600220//file_contents/2-6.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120600220/file_contents/2-6.csv",
       "path": "./data_files/労働力人口/2-6.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-09T06:13:42.000Z",
       "eTag": "6278b116-1b5e",
-      "lastDownloaded": "2022-11-12T10:57:08.357Z",
+      "lastDownloaded": "2022-11-12T15:54:56.759Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -1008,13 +993,13 @@
     },
     {
       "name": "専業・兼業農家数",
-      "url": "https://www.city.daisen.lg.jp/docs/2021120900061//file_contents/3-3.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120900061/file_contents/3-3.csv",
       "path": "./data_files/専業・兼業農家数/3-3.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-09T06:12:19.000Z",
       "eTag": "6278b0c3-299b",
-      "lastDownloaded": "2022-11-12T10:57:08.463Z",
+      "lastDownloaded": "2022-11-12T15:54:56.824Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -1023,13 +1008,13 @@
     },
     {
       "name": "地域別経営耕地面積",
-      "url": "https://www.city.daisen.lg.jp/docs/2021120900092//file_contents/3-5.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120900092/file_contents/3-5.csv",
       "path": "./data_files/地域別経営耕地面積/3-5.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-09T06:08:26.000Z",
       "eTag": "6278afda-595f",
-      "lastDownloaded": "2022-11-12T10:57:08.575Z",
+      "lastDownloaded": "2022-11-12T15:54:56.899Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -1038,13 +1023,13 @@
     },
     {
       "name": "農産物販売金額規模別農家数",
-      "url": "https://www.city.daisen.lg.jp/docs/2021120900115//file_contents/3-6.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120900115/file_contents/3-6.csv",
       "path": "./data_files/農産物販売金額規模別農家数/3-6.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-09T06:07:06.000Z",
       "eTag": "6278af8a-17d3",
-      "lastDownloaded": "2022-11-12T10:57:08.652Z",
+      "lastDownloaded": "2022-11-12T15:54:56.962Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -1053,13 +1038,13 @@
     },
     {
       "name": "産業（大分類）別従業者数の推移",
-      "url": "https://www.city.daisen.lg.jp/docs/2021120900177//file_contents/4-2.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120900177/file_contents/4-2.csv",
       "path": "./data_files/産業（大分類）別従業者数の推移/4-2.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-09T06:05:58.000Z",
       "eTag": "6278af46-2f61",
-      "lastDownloaded": "2022-11-12T10:57:08.735Z",
+      "lastDownloaded": "2022-11-12T15:54:57.032Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -1068,13 +1053,13 @@
     },
     {
       "name": "月別降水量の推移",
-      "url": "https://www.city.daisen.lg.jp/docs/2021120600138//file_contents/1-2.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120600138/file_contents/1-2.csv",
       "path": "./data_files/月別降水量の推移/1-2.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-09T06:04:42.000Z",
       "eTag": "6278aefa-f04",
-      "lastDownloaded": "2022-11-12T10:57:08.857Z",
+      "lastDownloaded": "2022-11-12T15:54:57.093Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -1083,13 +1068,13 @@
     },
     {
       "name": "（各地域別）人口・世帯数・面積・人口密度",
-      "url": "https://www.city.daisen.lg.jp/docs/2021120600206//file_contents/2-2.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120600206/file_contents/2-2.csv",
       "path": "./data_files/（各地域別）人口・世帯数・面積・人口密度/2-2.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-09T06:03:33.000Z",
       "eTag": "6278aeb5-a24",
-      "lastDownloaded": "2022-11-12T10:57:08.919Z",
+      "lastDownloaded": "2022-11-12T15:54:57.155Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -1098,13 +1083,13 @@
     },
     {
       "name": "産業（大分類）別事業所数及び従業の地位別従業者数",
-      "url": "https://www.city.daisen.lg.jp/docs/2021120900214//file_contents/4-3.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120900214/file_contents/4-3.csv",
       "path": "./data_files/産業（大分類）別事業所数及び従業の地位別従業者数/4-3.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-09T06:01:55.000Z",
       "eTag": "6278ae53-37b2",
-      "lastDownloaded": "2022-11-12T10:57:09.039Z",
+      "lastDownloaded": "2022-11-12T15:54:57.332Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -1113,13 +1098,13 @@
     },
     {
       "name": "秋田県年齢別人口流動調査による人口動態の推移",
-      "url": "https://www.city.daisen.lg.jp/docs/2021120900016//file_contents/2-10.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120900016/file_contents/2-10.csv",
       "path": "./data_files/秋田県年齢別人口流動調査による人口動態の推移/2-10.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-09T06:00:32.000Z",
       "eTag": "6278ae00-52b",
-      "lastDownloaded": "2022-11-12T10:57:09.149Z",
+      "lastDownloaded": "2022-11-12T15:54:57.386Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -1128,13 +1113,13 @@
     },
     {
       "name": "選挙人名簿登録者数の推移",
-      "url": "https://www.city.daisen.lg.jp/docs/2021121300044//file_contents/senkyoninnmeibosuii.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121300044/file_contents/senkyoninnmeibosuii.csv",
       "path": "./data_files/選挙人名簿登録者数の推移/senkyoninnmeibosuii.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-09T05:57:00.000Z",
       "eTag": "6278ad2c-123e",
-      "lastDownloaded": "2022-11-12T10:57:09.233Z",
+      "lastDownloaded": "2022-11-12T15:54:57.449Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -1143,13 +1128,13 @@
     },
     {
       "name": "地目別土地面積",
-      "url": "https://www.city.daisen.lg.jp/docs/2021121000029//file_contents/06_.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121000029/file_contents/06_.csv",
       "path": "./data_files/地目別土地面積/06_.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-09T02:56:26.000Z",
       "eTag": "627882da-3d3c",
-      "lastDownloaded": "2022-11-12T10:57:09.341Z",
+      "lastDownloaded": "2022-11-12T15:54:57.513Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -1158,13 +1143,13 @@
     },
     {
       "name": "地目別土地評価額",
-      "url": "https://www.city.daisen.lg.jp/docs/2021121000104//file_contents/07_1.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121000104/file_contents/07_1.csv",
       "path": "./data_files/地目別土地評価額/07_1.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-09T02:54:13.000Z",
       "eTag": "62788255-5271",
-      "lastDownloaded": "2022-11-12T10:57:09.471Z",
+      "lastDownloaded": "2022-11-12T15:54:57.582Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -1173,13 +1158,13 @@
     },
     {
       "name": "地目別面積構成比",
-      "url": "https://www.city.daisen.lg.jp/docs/2021121000081//file_contents/06_2_.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121000081/file_contents/06_2_.csv",
       "path": "./data_files/地目別面積構成比/06_2_.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-09T02:52:07.000Z",
       "eTag": "627881d7-3911",
-      "lastDownloaded": "2022-11-12T10:57:09.565Z",
+      "lastDownloaded": "2022-11-12T15:54:57.653Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -1188,13 +1173,13 @@
     },
     {
       "name": "地目別土地評価額構成比",
-      "url": "https://www.city.daisen.lg.jp/docs/2021121000111//file_contents/07_02.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121000111/file_contents/07_02.csv",
       "path": "./data_files/地目別土地評価額構成比/07_02.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-09T02:50:47.000Z",
       "eTag": "62788187-38a9",
-      "lastDownloaded": "2022-11-12T10:57:09.666Z",
+      "lastDownloaded": "2022-11-12T15:54:57.714Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -1203,13 +1188,13 @@
     },
     {
       "name": "生活保護費の状況",
-      "url": "https://www.city.daisen.lg.jp/docs/2021121400072//file_contents/hogohi.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121400072/file_contents/hogohi.csv",
       "path": "./data_files/生活保護費の状況/hogohi.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-09T02:49:18.000Z",
       "eTag": "6278812e-cc7",
-      "lastDownloaded": "2022-11-12T10:57:09.750Z",
+      "lastDownloaded": "2022-11-12T15:54:57.776Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -1218,13 +1203,13 @@
     },
     {
       "name": "生活保護の状況",
-      "url": "https://www.city.daisen.lg.jp/docs/2021121400065//file_contents/hogo.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121400065/file_contents/hogo.csv",
       "path": "./data_files/生活保護の状況/hogo.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-09T02:48:10.000Z",
       "eTag": "627880ea-6bc",
-      "lastDownloaded": "2022-11-12T10:57:09.828Z",
+      "lastDownloaded": "2022-11-12T15:54:57.839Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -1233,13 +1218,13 @@
     },
     {
       "name": "合併浄化槽補助金のデータ",
-      "url": "https://www.city.daisen.lg.jp/docs/2021120900030//file_contents/joukasou_hojo.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120900030/file_contents/joukasou_hojo.csv",
       "path": "./data_files/合併浄化槽補助金のデータ/joukasou_hojo.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-09T02:46:14.000Z",
       "eTag": "62788076-461e",
-      "lastDownloaded": "2022-11-12T10:57:09.973Z",
+      "lastDownloaded": "2022-11-12T15:54:57.914Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -1248,13 +1233,13 @@
     },
     {
       "name": "交通事故発生件数データ",
-      "url": "https://www.city.daisen.lg.jp/docs/2021120900221//file_contents/koutuujiko.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120900221/file_contents/koutuujiko.csv",
       "path": "./data_files/交通事故発生件数データ/koutuujiko.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-09T02:44:11.000Z",
       "eTag": "62787ffb-2df6",
-      "lastDownloaded": "2022-11-12T10:57:10.100Z",
+      "lastDownloaded": "2022-11-12T15:54:57.983Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -1263,13 +1248,13 @@
     },
     {
       "name": "主要文化施設の利用状況",
-      "url": "https://www.city.daisen.lg.jp/docs/2021120700029//file_contents/syuyoubunkasisetunoriyoujyoukyou.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120700029/file_contents/syuyoubunkasisetunoriyoujyoukyou.csv",
       "path": "./data_files/主要文化施設の利用状況/syuyoubunkasisetunoriyoujyoukyou.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-09T02:29:07.000Z",
       "eTag": "62787c73-7233",
-      "lastDownloaded": "2022-11-12T10:57:10.315Z",
+      "lastDownloaded": "2022-11-12T15:54:58.062Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -1278,13 +1263,13 @@
     },
     {
       "name": "公民館の利用状況",
-      "url": "https://www.city.daisen.lg.jp/docs/2021120700012//file_contents/kouminkannoriyoujyoukyou.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120700012/file_contents/kouminkannoriyoujyoukyou.csv",
       "path": "./data_files/公民館の利用状況/kouminkannoriyoujyoukyou.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-09T02:27:41.000Z",
       "eTag": "62787c1d-e93b",
-      "lastDownloaded": "2022-11-12T10:57:10.554Z",
+      "lastDownloaded": "2022-11-12T15:54:58.143Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -1293,13 +1278,13 @@
     },
     {
       "name": "公営企業会計決算額の推移（市立大曲病院）",
-      "url": "https://www.city.daisen.lg.jp/docs/2021121300150//file_contents/02_.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121300150/file_contents/02_.csv",
       "path": "./data_files/公営企業会計決算額の推移（市立大曲病院）/02_.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-09T02:24:58.000Z",
       "eTag": "62787b7a-70b",
-      "lastDownloaded": "2022-11-12T10:57:10.634Z",
+      "lastDownloaded": "2022-11-12T15:54:58.204Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -1308,13 +1293,13 @@
     },
     {
       "name": "市立大曲病院の利用者数",
-      "url": "https://www.city.daisen.lg.jp/docs/2021121300143//file_contents/01_.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121300143/file_contents/01_.csv",
       "path": "./data_files/市立大曲病院の利用者数/01_.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-09T02:23:45.000Z",
       "eTag": "62787b31-3d7",
-      "lastDownloaded": "2022-11-12T10:57:10.707Z",
+      "lastDownloaded": "2022-11-12T15:54:58.264Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -1322,14 +1307,14 @@
       "headers": {}
     },
     {
-      "name": "特別会計歳入歳出別決算額の推移 ",
-      "url": "https://www.city.daisen.lg.jp/docs/2021121300129//file_contents/05_.csv",
-      "path": "./data_files/特別会計歳入歳出別決算額の推移 /05_.csv",
+      "name": "特別会計歳入歳出別決算額の推移",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121300129/file_contents/05_.csv",
+      "path": "./data_files/特別会計歳入歳出別決算額の推移/05_.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-09T02:10:10.000Z",
       "eTag": "62787802-90c9",
-      "lastDownloaded": "2022-11-12T10:57:10.850Z",
+      "lastDownloaded": "2022-11-12T15:54:58.340Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -1337,14 +1322,14 @@
       "headers": {}
     },
     {
-      "name": " 一般会計年度別歳入歳出決算額の推移",
-      "url": "https://www.city.daisen.lg.jp/docs/2021121300082//file_contents/01_.csv",
-      "path": "./data_files/ 一般会計年度別歳入歳出決算額の推移/01_.csv",
+      "name": "一般会計年度別歳入歳出決算額の推移",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121300082/file_contents/01_.csv",
+      "path": "./data_files/一般会計年度別歳入歳出決算額の推移/01_.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-09T02:09:04.000Z",
       "eTag": "627877c0-411",
-      "lastDownloaded": "2022-11-12T10:57:10.911Z",
+      "lastDownloaded": "2022-11-12T15:54:58.404Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -1353,13 +1338,13 @@
     },
     {
       "name": "一般会計歳入決算額の推移",
-      "url": "https://www.city.daisen.lg.jp/docs/2021121300099//file_contents/02_.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121300099/file_contents/02_.csv",
       "path": "./data_files/一般会計歳入決算額の推移/02_.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-09T02:02:12.000Z",
       "eTag": "62787624-6d24",
-      "lastDownloaded": "2022-11-12T10:57:11.044Z",
+      "lastDownloaded": "2022-11-12T15:54:58.481Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -1368,13 +1353,13 @@
     },
     {
       "name": "一般会計歳出目的別決算額の推移",
-      "url": "https://www.city.daisen.lg.jp/docs/2021121300112//file_contents/03_.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121300112/file_contents/03_.csv",
       "path": "./data_files/一般会計歳出目的別決算額の推移/03_.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-09T02:00:50.000Z",
       "eTag": "627875d2-290f",
-      "lastDownloaded": "2022-11-12T10:57:11.151Z",
+      "lastDownloaded": "2022-11-12T15:54:58.547Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -1383,13 +1368,13 @@
     },
     {
       "name": "市税負担額の推移",
-      "url": "https://www.city.daisen.lg.jp/docs/2021120800026//file_contents/1.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120800026/file_contents/1.csv",
       "path": "./data_files/市税負担額の推移/1.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-09T01:59:30.000Z",
       "eTag": "62787582-46c",
-      "lastDownloaded": "2022-11-12T10:57:11.278Z",
+      "lastDownloaded": "2022-11-12T15:54:58.621Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -1398,13 +1383,13 @@
     },
     {
       "name": "医療機関一覧",
-      "url": "https://www.city.daisen.lg.jp/docs/2021120900047//file_contents/iryoukikan.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120900047/file_contents/iryoukikan.csv",
       "path": "./data_files/医療機関一覧/iryoukikan.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-09T01:58:06.000Z",
       "eTag": "6278752e-62af",
-      "lastDownloaded": "2022-11-12T10:57:11.397Z",
+      "lastDownloaded": "2022-11-12T15:54:58.734Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -1413,13 +1398,13 @@
     },
     {
       "name": "介護サービス事業所一覧",
-      "url": "https://www.city.daisen.lg.jp/docs/2021120900078//file_contents/kaigo.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120900078/file_contents/kaigo.csv",
       "path": "./data_files/介護サービス事業所一覧/kaigo.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-09T01:55:31.000Z",
       "eTag": "62787493-ded3",
-      "lastDownloaded": "2022-11-12T10:57:11.602Z",
+      "lastDownloaded": "2022-11-12T15:54:58.823Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -1428,13 +1413,13 @@
     },
     {
       "name": "公営企業会計決算額の推移（水道事業）",
-      "url": "https://www.city.daisen.lg.jp/docs/2021121300037//file_contents/suidou.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121300037/file_contents/suidou.csv",
       "path": "./data_files/公営企業会計決算額の推移（水道事業）/suidou.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-09T01:45:47.000Z",
       "eTag": "6278724b-5a3",
-      "lastDownloaded": "2022-11-12T10:57:11.662Z",
+      "lastDownloaded": "2022-11-12T15:54:58.883Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -1443,13 +1428,13 @@
     },
     {
       "name": "公営企業会計決算額の推移（下水道事業）",
-      "url": "https://www.city.daisen.lg.jp/docs/2021121300136//file_contents/gesuidou.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121300136/file_contents/gesuidou.csv",
       "path": "./data_files/公営企業会計決算額の推移（下水道事業）/gesuidou.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-09T01:43:43.000Z",
       "eTag": "627871cf-18a",
-      "lastDownloaded": "2022-11-12T10:57:11.729Z",
+      "lastDownloaded": "2022-11-12T15:54:58.948Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -1458,13 +1443,13 @@
     },
     {
       "name": "公営企業会計決算額の推移（簡易水道事業）",
-      "url": "https://www.city.daisen.lg.jp/docs/2021121300105//file_contents/suidou.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121300105/file_contents/suidou.csv",
       "path": "./data_files/公営企業会計決算額の推移（簡易水道事業）/suidou.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-09T01:41:50.000Z",
       "eTag": "6278715e-1e4",
-      "lastDownloaded": "2022-11-12T10:57:11.804Z",
+      "lastDownloaded": "2022-11-12T15:54:59.004Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -1473,13 +1458,13 @@
     },
     {
       "name": "簡易水道・小規模水道の状況",
-      "url": "https://www.city.daisen.lg.jp/docs/2021121300174//file_contents/kanisuido.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121300174/file_contents/kanisuido.csv",
       "path": "./data_files/簡易水道・小規模水道の状況/kanisuido.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-09T01:31:17.000Z",
       "eTag": "62786ee5-27e4",
-      "lastDownloaded": "2022-11-12T10:57:11.951Z",
+      "lastDownloaded": "2022-11-12T15:54:59.065Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -1488,13 +1473,13 @@
     },
     {
       "name": "観光客数の推移",
-      "url": "https://www.city.daisen.lg.jp/docs/2021121000265//file_contents/kankoukyakusunosuii.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121000265/file_contents/kankoukyakusunosuii.csv",
       "path": "./data_files/観光客数の推移/kankoukyakusunosuii.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-09T01:30:19.000Z",
       "eTag": "62786eab-37d4",
-      "lastDownloaded": "2022-11-12T10:57:12.056Z",
+      "lastDownloaded": "2022-11-12T15:54:59.135Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -1503,13 +1488,13 @@
     },
     {
       "name": "イベント一覧",
-      "url": "https://www.city.daisen.lg.jp/docs/2021121000302//file_contents/ibentoitiran.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121000302/file_contents/ibentoitiran.csv",
       "path": "./data_files/イベント一覧/ibentoitiran.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-09T01:29:11.000Z",
       "eTag": "62786e67-5637",
-      "lastDownloaded": "2022-11-12T10:57:12.254Z",
+      "lastDownloaded": "2022-11-12T15:54:59.206Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -1518,13 +1503,13 @@
     },
     {
       "name": "主要観光施設の来場者数",
-      "url": "https://www.city.daisen.lg.jp/docs/2021121000272//file_contents/syuyokankousisestunoraijosyasu.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121000272/file_contents/syuyokankousisestunoraijosyasu.csv",
       "path": "./data_files/主要観光施設の来場者数/syuyokankousisestunoraijosyasu.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-09T01:27:37.000Z",
       "eTag": "62786e09-2a68",
-      "lastDownloaded": "2022-11-12T10:57:12.358Z",
+      "lastDownloaded": "2022-11-12T15:54:59.270Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -1533,13 +1518,13 @@
     },
     {
       "name": "月別観光客数の推移",
-      "url": "https://www.city.daisen.lg.jp/docs/2021121000289//file_contents/tukibetukankoukyakusuunosuii.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121000289/file_contents/tukibetukankoukyakusuunosuii.csv",
       "path": "./data_files/月別観光客数の推移/tukibetukankoukyakusuunosuii.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-09T01:26:05.000Z",
       "eTag": "62786dad-3dbe",
-      "lastDownloaded": "2022-11-12T10:57:12.471Z",
+      "lastDownloaded": "2022-11-12T15:54:59.340Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -1548,13 +1533,13 @@
     },
     {
       "name": "観光施設一覧",
-      "url": "https://www.city.daisen.lg.jp/docs/2021121000319//file_contents/kankousisetuitiran.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121000319/file_contents/kankousisetuitiran.csv",
       "path": "./data_files/観光施設一覧/kankousisetuitiran.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-09T01:25:25.000Z",
       "eTag": "62786d85-298c",
-      "lastDownloaded": "2022-11-12T10:57:12.575Z",
+      "lastDownloaded": "2022-11-12T15:54:59.402Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -1563,13 +1548,13 @@
     },
     {
       "name": "公共施設",
-      "url": "https://www.city.daisen.lg.jp/docs/2021121400058//file_contents/koukyou.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121400058/file_contents/koukyou.csv",
       "path": "./data_files/公共施設/koukyou.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-09T01:24:23.000Z",
       "eTag": "62786d47-f67a",
-      "lastDownloaded": "2022-11-12T10:57:12.816Z",
+      "lastDownloaded": "2022-11-12T15:54:59.549Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -1578,13 +1563,13 @@
     },
     {
       "name": "公衆トイレ一覧",
-      "url": "https://www.city.daisen.lg.jp/docs/2021121400041//file_contents/toire.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121400041/file_contents/toire.csv",
       "path": "./data_files/公衆トイレ一覧/toire.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-09T01:23:49.000Z",
       "eTag": "62786d25-15d9",
-      "lastDownloaded": "2022-11-12T10:57:13.202Z",
+      "lastDownloaded": "2022-11-12T15:54:59.587Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -1593,13 +1578,13 @@
     },
     {
       "name": "データ一覧",
-      "url": "https://www.city.daisen.lg.jp/docs/2021121400096//file_contents/date.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121400096/file_contents/date.csv",
       "path": "./data_files/データ一覧/date.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-09T01:22:59.000Z",
       "eTag": "62786cf3-447b",
-      "lastDownloaded": "2022-11-12T10:57:13.354Z",
+      "lastDownloaded": "2022-11-12T15:54:59.657Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -1608,13 +1593,13 @@
     },
     {
       "name": "上水道の給水状況",
-      "url": "https://www.city.daisen.lg.jp/docs/2021121300167//file_contents/jousuidou.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121300167/file_contents/jousuidou.csv",
       "path": "./data_files/上水道の給水状況/jousuidou.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-09T01:21:36.000Z",
       "eTag": "62786ca0-8eb",
-      "lastDownloaded": "2022-11-12T10:57:13.414Z",
+      "lastDownloaded": "2022-11-12T15:54:59.718Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -1623,13 +1608,13 @@
     },
     {
       "name": "生活排水処理の普及状況",
-      "url": "https://www.city.daisen.lg.jp/docs/2021120900146//file_contents/20211215fukyuujoukyou.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120900146/file_contents/20211215fukyuujoukyou.csv",
       "path": "./data_files/生活排水処理の普及状況/20211215fukyuujoukyou.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-09T01:13:30.000Z",
       "eTag": "62786aba-27d",
-      "lastDownloaded": "2022-11-12T10:57:13.464Z",
+      "lastDownloaded": "2022-11-12T15:54:59.785Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -1638,13 +1623,13 @@
     },
     {
       "name": "公共下水道の状況",
-      "url": "https://www.city.daisen.lg.jp/docs/2021120900160//file_contents/20211215koukyougesuidoujoukyou.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120900160/file_contents/20211215koukyougesuidoujoukyou.csv",
       "path": "./data_files/公共下水道の状況/20211215koukyougesuidoujoukyou.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-02T07:08:08.000Z",
       "eTag": "626f8358-2b23",
-      "lastDownloaded": "2022-11-12T10:57:13.533Z",
+      "lastDownloaded": "2022-11-12T15:54:59.854Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -1653,13 +1638,13 @@
     },
     {
       "name": "生活排水処理の水洗化状況",
-      "url": "https://www.city.daisen.lg.jp/docs/2021120900108//file_contents/20211215suisenkajoukyou.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120900108/file_contents/20211215suisenkajoukyou.csv",
       "path": "./data_files/生活排水処理の水洗化状況/20211215suisenkajoukyou.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-02T07:05:26.000Z",
       "eTag": "626f82b6-b1d",
-      "lastDownloaded": "2022-11-12T10:57:13.601Z",
+      "lastDownloaded": "2022-11-12T15:54:59.915Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -1668,13 +1653,13 @@
     },
     {
       "name": "市内主要体育施設の利用状況について",
-      "url": "https://www.city.daisen.lg.jp/docs/2021120600015//file_contents/sportshalldate.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120600015/file_contents/sportshalldate.csv",
       "path": "./data_files/市内主要体育施設の利用状況について/sportshalldate.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-02T07:03:13.000Z",
       "eTag": "626f8231-29d18",
-      "lastDownloaded": "2022-11-12T10:57:14.165Z",
+      "lastDownloaded": "2022-11-12T15:55:00.098Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -1683,13 +1668,13 @@
     },
     {
       "name": "公衆無線LANアクセスポイント一覧",
-      "url": "https://www.city.daisen.lg.jp/docs/2021121000180//file_contents/kousyumusenLAN.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121000180/file_contents/kousyumusenLAN.csv",
       "path": "./data_files/公衆無線LANアクセスポイント一覧/kousyumusenLAN.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-02T07:00:28.000Z",
       "eTag": "626f818c-32b5",
-      "lastDownloaded": "2022-11-12T10:57:14.265Z",
+      "lastDownloaded": "2022-11-12T15:55:00.424Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -1698,13 +1683,13 @@
     },
     {
       "name": "児童手当の状況",
-      "url": "https://www.city.daisen.lg.jp/docs/2021120800057//file_contents/jidoteate.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120800057/file_contents/jidoteate.csv",
       "path": "./data_files/児童手当の状況/jidoteate.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-02T06:49:12.000Z",
       "eTag": "626f7ee8-8e9",
-      "lastDownloaded": "2022-11-12T10:57:14.339Z",
+      "lastDownloaded": "2022-11-12T15:55:00.483Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
@@ -1712,14 +1697,14 @@
       "headers": {}
     },
     {
-      "name": " 保育園の状況",
-      "url": "https://www.city.daisen.lg.jp/docs/2021120800019//file_contents/hoikuen.csv",
-      "path": "./data_files/ 保育園の状況/hoikuen.csv",
+      "name": "保育園の状況",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120800019/file_contents/hoikuen.csv",
+      "path": "./data_files/保育園の状況/hoikuen.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "lastModified": "2022-05-02T06:46:50.000Z",
       "eTag": "626f7e5a-63a9",
-      "lastDownloaded": "2022-11-12T10:57:14.499Z",
+      "lastDownloaded": "2022-11-12T15:55:00.600Z",
       "integrity": "",
       "postProcesses": [
         "encode UTF-8"
