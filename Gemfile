@@ -21,6 +21,7 @@ gem "shotgun"
 gem 'puma'
 gem 'rack'
 gem 'sinatra_more'
+gem 'chart_js'
 
 group :development do
   gem 'sinatra-contrib'

@@ -13,7 +13,7 @@
   .col
     %ul
       - @daisen_data.each do |k,v|
-        %li= link_to k, "/data_table/#{k}"
+        %li= link_to k, "/viewer/#{k}"
 
 !!!.row.row-cols-2.row-cols-lg-5.g-2.g-lg-3
 !!!  - @daisen_data.each do |k,v|

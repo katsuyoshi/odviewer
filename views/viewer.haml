@@ -1,0 +1,24 @@
+%h1= @kind
+
+%p
+  = link_to '一覧へ戻る', '/'
+
+%ul.nav.nav-tabs{id: 'data_viewer', role: 'tablist'}
+  %li.nav-item{role: 'presentation'}
+    %button{id: 'data-tab', type: 'button', role: 'tab', 'data-bs-toggle': 'tab', class: "nav-link active", href: '#data'}
+      データ
+
+  %li.nav-item{role: 'presentation'}
+    %button{id: 'graph-tab', type: 'button', role: 'tab', 'data-bs-toggle': 'tab', class: "nav-link", href: '#graph'}
+      グラフ
+  %li.nav-item{role: 'presentation'}
+    %button{id: 'contact-tab', type: 'button', role: 'tab', 'data-bs-toggle': 'tab', class: "nav-link", href: '#contact'}
+      Contact
+
+.tab-content.p-3
+  #data.tab-pane.active
+    = haml :_data_table
+  #graph.tab-pane
+    = haml :_graph
+  #contact.tab-pane
+    Contact
