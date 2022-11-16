@@ -7,11 +7,6 @@ git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 gem "open-uri"
 gem "nokogiri"
 gem 'json'
-gem 'pycall'
-gem 'charty'
-gem 'gr-plot'
-gem 'histogram'
-#gem 'rsruby'
 gem 'sinatra'
 
 gem "sass"
@@ -28,7 +23,7 @@ group :development do
 end
 
 group :test do
-  gem 'rspec'
+  gem 'test-unit'
 end
 
 ruby '3.1.2'

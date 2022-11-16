@@ -3,7 +3,7 @@ require 'singleton'
 require 'csv'
 
 
-class DaisenOpenData
+class OpenData
   include Singleton
 
 
@@ -51,5 +51,5 @@ end
 
 
 if $0 == __FILE__
-  DaisenOpenData.instance.data
+  OpenData.instance.data
 end

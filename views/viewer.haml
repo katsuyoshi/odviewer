@@ -1,7 +1,13 @@
 %h1= @kind
 
 %p
-  = link_to '一覧へ戻る', '/'
+  .row
+    .col-6
+      = link_to '一覧へ戻る', '/'
+    .col-3.text-right
+      = link_to "< #{@prev_kind}", "/viewer/#{@prev_kind}" if @prev_kind
+    .col-3.text-right
+      = link_to "#{@next_kind} >", "/viewer/#{@next_kind}" if @next_kind
 
 %ul.nav.nav-tabs{id: 'data_viewer', role: 'tablist'}
   %li.nav-item{role: 'presentation'}
@@ -22,3 +28,6 @@
     = haml :_graph
   #contact.tab-pane
     Contact
+
+%p
+  = link_to '一覧へ戻る', '/'

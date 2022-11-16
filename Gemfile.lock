@@ -7,40 +7,21 @@ GEM
       minitest (>= 5.1)
       tzinfo (~> 2.0)
     chart_js (1.1.1)
-    charty (0.2.12)
-      matplotlib (>= 1.2.0)
-      pandas (>= 0.3.5)
-      playwright-ruby-client
-      red-colors (>= 0.3.0)
-      red-datasets (>= 0.1.2)
-      red-palette (>= 0.5.0)
     coffee-script (2.4.1)
       coffee-script-source
       execjs
     coffee-script-source (1.12.2)
     concurrent-ruby (1.1.10)
-    csv (3.2.5)
     date (3.2.2)
-    diff-lcs (1.5.0)
     execjs (2.8.1)
     ffi (1.15.5)
-    fiddle (1.1.0)
-    gr-plot (0.0.1)
-      ruby-gr
     haml (6.0.10)
       temple (>= 0.8.2)
       thor
       tilt
-    histogram (0.2.4.1)
     i18n (1.12.0)
       concurrent-ruby (~> 1.0)
     json (2.6.2)
-    matplotlib (1.2.0)
-      pycall (>= 1.0.0)
-    matrix (0.4.2)
-    mime-types (3.4.1)
-      mime-types-data (~> 3.2015)
-    mime-types-data (3.2022.0105)
     mini_portile2 (2.8.0)
     minitest (5.16.3)
     multi_json (1.15.0)
@@ -50,23 +31,13 @@ GEM
     nokogiri (1.13.9)
       mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
-    numo-narray (0.9.2.1)
-    numpy (0.4.0)
-      pycall (>= 1.2.0.beta1)
     open-uri (0.2.0)
       stringio
       time
       uri
-    pandas (0.3.8)
-      numpy
-      pycall (>= 1.0.0)
-    pkg-config (1.4.9)
-    playwright-ruby-client (1.27.0)
-      concurrent-ruby (>= 1.1.6)
-      mime-types (>= 3.0)
+    power_assert (2.0.2)
     puma (6.0.0)
       nio4r (~> 2.0)
-    pycall (1.4.1)
     racc (1.6.0)
     rack (2.2.4)
     rack-protection (3.0.3)
@@ -74,34 +45,7 @@ GEM
     rb-fsevent (0.11.2)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
-    red-colors (0.3.0)
-      matrix
-    red-datasets (0.1.5)
-      csv (>= 3.2.4)
-      rexml
-      rubyzip
-    red-palette (0.5.0)
-      red-colors (>= 0.3.0)
-    rexml (3.2.5)
-    rspec (3.12.0)
-      rspec-core (~> 3.12.0)
-      rspec-expectations (~> 3.12.0)
-      rspec-mocks (~> 3.12.0)
-    rspec-core (3.12.0)
-      rspec-support (~> 3.12.0)
-    rspec-expectations (3.12.0)
-      diff-lcs (>= 1.2.0, < 2.0)
-      rspec-support (~> 3.12.0)
-    rspec-mocks (3.12.0)
-      diff-lcs (>= 1.2.0, < 2.0)
-      rspec-support (~> 3.12.0)
-    rspec-support (3.12.0)
-    ruby-gr (0.66.0.0)
-      fiddle
-      numo-narray
-      pkg-config
     ruby2_keywords (0.0.5)
-    rubyzip (2.3.2)
     sass (3.7.4)
       sass-listen (~> 4.0.0)
     sass-listen (4.0.0)
@@ -128,6 +72,8 @@ GEM
       tilt (>= 0.2)
     stringio (3.0.2)
     temple (0.9.1)
+    test-unit (3.5.5)
+      power_assert
     thor (1.2.1)
     tilt (2.0.11)
     time (0.2.0)
@@ -141,23 +87,19 @@ PLATFORMS
 
 DEPENDENCIES
   chart_js
-  charty
   coffee-script
-  gr-plot
   haml
-  histogram
   json
   nokogiri
   open-uri
   puma
-  pycall
   rack
-  rspec
   sass
   shotgun
   sinatra
   sinatra-contrib
   sinatra_more
+  test-unit
 
 RUBY VERSION
    ruby 3.1.2p20

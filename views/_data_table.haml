@@ -1,8 +1,3 @@
-%h1= @kind
-
-%p
-  = link_to '一覧へ戻る', '/'
-
 - headers = @csv.headers
 %table.table.table-responsive.table-striped.table-bordered
   %thead.table-dark
@@ -27,6 +22,3 @@
                 = link_to v, v, target: true
               - else
                 = r[k]
-
-%p
-  = link_to '一覧へ戻る', '/'
