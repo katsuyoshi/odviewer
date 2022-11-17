@@ -27,7 +27,7 @@ class OpenData
       path = File.join(@root_dir, 'data_files', c['name'], File.basename(c['url']))
       begin
         # @see: https://github.com/ruby/csv/issues/66
-        # row内に改行が含まれるとパースできないので前処理で' 'に置換する
+        # row内に改行が含まれるとパースできないので前処理でj前の行に追加する
         lines = []
         File.read(path).each_line do |l|
           l.chomp!
@@ -36,11 +36,12 @@ class OpenData
              l.scan(/\"/).size % 2 == 0)
              lines << l 
           else
-            lines.last << " #{l}"
+            lines.last << "#{l}"
           end
         end
         
-        @data[c['name']] = CSV.parse(lines.join("\n"), headers:true, liberal_parsing: true) #{double_quote_outside_quote: true})
+        @data[c['name']] = CSV.parse(lines.join("\n"), headers:true, liberal_parsing: true)
+        .delete_if{|row| row.map{|e| e.last}.find{|e| e} == nil}
       rescue
         puts "FAIL: reading #{path}"
       end

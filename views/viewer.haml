@@ -4,9 +4,9 @@
   .row
     .col-6
       = link_to '一覧へ戻る', '/'
-    .col-3.text-right
+    .col-6.text-end
       = link_to "< #{@prev_kind}", "/viewer/#{@prev_kind}" if @prev_kind
-    .col-3.text-right
+      &nbsp;&nbsp;
       = link_to "#{@next_kind} >", "/viewer/#{@next_kind}" if @next_kind
 
 %ul.nav.nav-tabs{id: 'data_viewer', role: 'tablist'}
@@ -18,16 +18,16 @@
     %button{id: 'graph-tab', type: 'button', role: 'tab', 'data-bs-toggle': 'tab', class: "nav-link", href: '#graph'}
       グラフ
   %li.nav-item{role: 'presentation'}
-    %button{id: 'contact-tab', type: 'button', role: 'tab', 'data-bs-toggle': 'tab', class: "nav-link", href: '#contact'}
-      Contact
+    %button{id: 'location-tab', type: 'button', role: 'tab', 'data-bs-toggle': 'tab', class: "nav-link", href: '#location'}
+      位置
 
 .tab-content.p-3
   #data.tab-pane.active
     = haml :_data_table
   #graph.tab-pane
     = haml :_graph
-  #contact.tab-pane
-    Contact
+  #location.tab-pane
+    location
 
 %p
   = link_to '一覧へ戻る', '/'

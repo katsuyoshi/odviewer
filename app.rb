@@ -30,28 +30,27 @@ get '/viewer/:kind' do
   @kind = params[:kind]
   @csv = @daisen_data[@kind]
   csv = @csv
-  headers = @csv.headers
+  headers = @csv.headers.map{|e| e&.strip}
   index = @daisen_data.keys.index @kind
-p [@daisen_data.keys, @kind, index, index-1, index+1]
   @prev_kind = @daisen_data.keys[index - 1] if index > 0
   @next_kind = @daisen_data.keys[index + 1] if index
-p [@prev_kind, @daisen_data.keys[-1], @next_kind]
-  case headers
-  when ->(a){ %w(年度 年次).find{|k| a.include?(k)}}
-    nendo = csv.map{|r| r['年度'] || r['年次']}
+  year_col = headers.find{|e| /年[\s　]*度|年[\s　]*次|測[\s　]*定[\s　]*日|^年$/ =~ e}
+
+  if year_col
+    nendo = csv.map{|r| r[year_col]}
     @chart = ChartJS.line do
       data do
         labels nendo || []
         headers.each do |k|
           case k
-          when /コード/, /都道府県/, /市町村/, /年次/
+          when /コ[\s　]*ー[\s　]*ド/, /都[\s　]*道[\s　]*府[\s　]*県/, /市[\s　]*町[\s　]*村/, /年[\s　]*度/, /年[\s　]*次/
             next
           end
           values = csv.map{|r| r[k]&.strip}
           next unless number? values.find{|v| v}
           dataset k do
             color :random
-            data csv.map{|r| number(r[k])}
+            data csv.map{|r| number(r[k]&.strip)}
           end
         end 
       end
