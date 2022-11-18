@@ -37,6 +37,7 @@ get '/viewer/:kind' do
   csv = @csv
   gen = ChartGenerator.new csv, @kind
   @charts = gen.charts
+  @titles = gen.titles
 
   haml :viewer, :layout => :layout
 end

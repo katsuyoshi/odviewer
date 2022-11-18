@@ -1,2 +1,6 @@
-- @charts.each do |chart|
-  = chart&.to_html
+- @charts.zip(@titles).each do |chart, title|
+  .row
+    .col-12.text-center
+      %h2= title
+      = chart&.to_html
+      %p 
