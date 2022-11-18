@@ -2,11 +2,12 @@
 
 %p
   .row
-    .col-6
+    .col-2
       = link_to '一覧へ戻る', '/'
-    .col-6.text-end
+    .col-6
+    .col-2.text-end
       = link_to "< #{@prev_kind}", "/viewer/#{@prev_kind}" if @prev_kind
-      &nbsp;&nbsp;
+    .col-2.text-end
       = link_to "#{@next_kind} >", "/viewer/#{@next_kind}" if @next_kind
 
 %ul.nav.nav-tabs{id: 'data_viewer', role: 'tablist'}
@@ -17,7 +18,7 @@
   %li.nav-item{role: 'presentation'}
     %button{id: 'graph-tab', type: 'button', role: 'tab', 'data-bs-toggle': 'tab', class: "nav-link", href: '#graph'}
       グラフ
-  %li.nav-item{role: 'presentation'}
+  %li.nav-item{role: 'location'}
     %button{id: 'location-tab', type: 'button', role: 'tab', 'data-bs-toggle': 'tab', class: "nav-link", href: '#location'}
       位置
 
@@ -27,7 +28,7 @@
   #graph.tab-pane
     = haml :_graph
   #location.tab-pane
-    location
+    = haml :_location
 
 %p
   = link_to '一覧へ戻る', '/'

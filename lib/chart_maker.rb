@@ -2,7 +2,7 @@ require 'csv'
 require 'chart_js'
 require 'misc'
 
-class ChartGenerator
+class ChartMaker
 
   attr_reader :charts, :titles
 

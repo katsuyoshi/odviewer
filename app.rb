@@ -9,7 +9,8 @@ require 'sass'
 require 'coffee-script'
 require 'open_data'
 require 'sinatra_more/markup_plugin'
-require 'chart_gen'
+require 'chart_maker'
+require 'location_picker'
 
 
 Sinatra::Base.register SinatraMore::MarkupPlugin
@@ -35,10 +36,20 @@ get '/viewer/:kind' do
 
   @csv = @daisen_data[@kind]
   csv = @csv
-  gen = ChartGenerator.new csv, @kind
+  gen = ChartMaker.new csv, @kind
   @charts = gen.charts
   @titles = gen.titles
+  loc_gen = LocationPicker.new csv
+  @locations = loc_gen.locations
+  @center = loc_gen.center
 
   haml :viewer, :layout => :layout
 end
 
+get '/coffee_test' do
+  haml :coffee_test, :layout => :layout
+end
+
+get '/js/app.js' do
+  coffee :'js/app'
+end

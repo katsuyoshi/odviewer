@@ -1,0 +1,52 @@
+- if @locations.empty?
+  地図表示できる項目はありません。
+- else
+  #map
+
+  #locations{data:{locations:"#{@locations.to_json}", center:"#{@center.to_json}"}}
+
+:css
+  #map { height: 640px; }
+
+
+:coffee
+
+  show_map = () ->
+    locs = $('#locations').data('locations')
+    center = $('#locations').data('center')
+    osmUrl = 'https://tile.openstreetmap.org/{z}/{x}/{y}.png'
+    osmAttribute = '© OpenStreetMap'
+
+    locations = L.layerGroup(
+      locs.map (loc) ->
+        t = loc.title
+        if loc.url
+          t = "<a href='" + loc.url + "' target='_blank'>" + t + "</a>"
+        L.marker([
+          loc.lat
+          loc.long
+        ]).bindPopup(t).openPopup()
+    )
+    osm = L.tileLayer(osmUrl,
+      maxZoom: 19
+      attribution: osmAttribute)
+    map = L.map('map',
+      center: [
+        center.lat
+        center.long
+      ]
+      zoom: 10
+      layers: [
+        osm
+        locations
+      ])
+    baseMaps = 
+      'OpenStreetMap': osm
+    overlayMaps = 'Locations': locations
+    layerControl = L.control.layers(baseMaps, overlayMaps).addTo(map)
+
+  $('#location-tab').on 'click', (e) ->
+    e.preventDefault()
+    $(this).tab 'show'
+    show_map()
+    return
