@@ -25,5 +25,3 @@ end
 group :test do
   gem 'test-unit'
 end
-
-ruby '3.1.2'
