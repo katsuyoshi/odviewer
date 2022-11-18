@@ -1,17 +1,26 @@
 require 'json'
 require 'singleton'
 require 'csv'
+require 'time'
 
 
 class OpenData
   include Singleton
 
 
-  attr_reader :data
+  attr_reader :data, :keys
 
   def initialize
     @root_dir = File.dirname(File.dirname(__FILE__))
     load
+  end
+
+  def updated_at kind
+    Time.parse(@config['contents'].find{|c| c['name']}['lastModified']).getlocal
+  end
+
+  def keys
+    @keys ||= @config['contents'].map{|c| c['name']}
   end
 
 
@@ -21,9 +30,9 @@ class OpenData
     return @data if @data
     
     @data = {}
-    config_path = File.join(@root_dir, 'dim.json')
-    config = JSON.parse(File.read(config_path))
-    config['contents'].map do |c|
+    config_path = File.join(@root_dir, 'dim-lock.json')
+    @config = JSON.parse(File.read(config_path))
+    @config['contents'].map do |c|
       path = File.join(@root_dir, 'data_files', c['name'], File.basename(c['url']))
       begin
         # @see: https://github.com/ruby/csv/issues/66

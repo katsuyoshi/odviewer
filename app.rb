@@ -27,8 +27,10 @@ end
 # NG: 乳幼児健診の受診状況
 #     住民基本台帳人口・世帯数
 get '/viewer/:kind' do
-  @daisen_data = OpenData.instance.data
+  od = OpenData.instance
+  @daisen_data = od.data
   @kind = params[:kind]
+  @updated_at = od.updated_at(@kind)
 
   index = @daisen_data.keys.index @kind
   @prev_kind = @daisen_data.keys[index - 1] if index > 0
