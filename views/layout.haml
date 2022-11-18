@@ -9,6 +9,9 @@
     %script{:crossorigin => "anonymous", :integrity => "sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=", :src => "https://code.jquery.com/jquery-3.6.1.min.js"}
     %script{:crossorigin => "", :integrity => "sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg=", :src => "https://unpkg.com/leaflet@1.9.2/dist/leaflet.js"}    %title= @title || 'Open data of Daisen city'
   %body
+    %nav.navbar.navbar-dark.bg-dark
+      .container-fluid
+        %a.navbar-brand{:href => "#"} 大仙市オープンデータビューワー
     .container
       = yield
     %script{:crossorigin => "anonymous", :integrity => "sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3", :src => "https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"}

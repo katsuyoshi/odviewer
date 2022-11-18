@@ -11,7 +11,7 @@
 
 .row
   .col
-    %ul
+    %ul.list-group
       - @daisen_data.each do |k,v|
         %li= link_to k, "/viewer/#{k}"
 
