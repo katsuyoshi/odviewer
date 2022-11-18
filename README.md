@@ -1,2 +1,77 @@
-# odviewer
-Viewer for the open data of Daisen city. 
+# ODVIEWER
+
+ODVIEWERは[秋田県大仙市が公開しているオープンデータ](https://www.city.daisen.lg.jp/categories/zokusei/opendatedoc/)のビューアーです。
+
+Herokuで公開しています。  
+https://odviewer.herokuapp.com
+
+
+現在は大仙市のみですが、今後秋田県内のデータを取り入れていきたいと考えています。
+
+オープンデータの収集は[dim](https://github.com/c-3lab/dim)というオープンデータパッケージマネージャを使っています。  
+[dim.json](/dim.json)にデータのダウンロード先を登録しdimコマンドを実行すると[data_files](/data_files)以下にダウンロードしてくれる優れたツールです。  
+
+ODVIEWERはこうしてダウンロードしたデータをテーブル形式やグラフ、地図として視覚化しています。
+
+テーブル表示
+
+![テーブル形式での表示](https://i.gyazo.com/538f6e8bfde7dad6b7b377656bd858a7.png)
+
+グラフ表示
+
+![グラフ表示](https://i.gyazo.com/8ab0e30f0816eace60217ea30214da8b.png)
+
+地図表示
+
+![地図表示](https://i.gyazo.com/422d864d48cfa331d881e971be526d02.jpg)
+
+# アプリ起動手順
+
+gem をインストールします。
+
+```
+% bundle instal
+```
+
+アプリ起動  
+rackupコマンドでアプリを起動します。  
+
+```
+% rackup                                
+Puma starting in single mode...
+* Puma version: 6.0.0 (ruby 2.7.6-p219) ("Sunflower")
+*  Min threads: 0
+*  Max threads: 5
+*  Environment: development
+*          PID: 88103
+* Listening on http://127.0.0.1:9292
+* Listening on http://[::1]:9292
+Use Ctrl-C to stop
+```
+
+Listening onで表示されるアドレス(この場合 http://127.0.0.1:9292)にWeb Browserでアクセスすると動作確認できます。
+
+
+# データ更新
+
+データの更新は dim コマンドで行います。
+
+dim コマンドのインストールは作者の方が qiita に記事を書いていますのでそちらをご覧ください。
+
+[そろそろオープンデータを無秩序に管理するのは卒業したいので📦データを管理するパッケージマネージャを開発した【ツール開発】](https://qiita.com/ryo-ma/items/0505f7790ad2b12bcdc2)
+
+```dim update```を実行するとデータが更新されます。
+
+```
+% dim update
+```
+
+# あなたの市町村に対応するには
+
+dim.jsonファイルをあなたの市町村のオープンデータに合わせて書き換えるとあなたの市町村のオープンデータビューアーになります。  
+
+大仙市の場合は[mkdimjson.rb](/scripts/mkdimjson.rb)ファイルで[秋田県大仙市が公開しているオープンデータ](https://www.city.daisen.lg.jp/categories/zokusei/opendatedoc/)から収集してdim.jsonファイルに書き込む様にしていますので参考にしてください。
+
+
+
+
