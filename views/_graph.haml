@@ -1,6 +1,9 @@
-- @charts.zip(@titles).each do |chart, title|
-  .row
-    .col-12.text-center
-      %h2= title
-      = chart&.to_html
-      %p 
+- if @charts.empty?
+  グラフ表示する項目はありません。
+- else
+  - @charts.zip(@titles).each do |chart, title|
+    .row
+      .col-12.text-center
+        %h2= title
+        = chart&.to_html
+        %p 

@@ -87,4 +87,8 @@ class MiscTest < Test::Unit::TestCase
     assert_equal -1234.567, number('▲ 1,234.567')
   end
 
+  def test_number_with_2_c_589_c_509
+    assert_equal 2588509, number("2,588,509")
+  end
+
 end

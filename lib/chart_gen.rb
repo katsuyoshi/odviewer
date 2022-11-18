@@ -6,6 +6,17 @@ class ChartGenerator
 
   attr_reader :charts, :titles
 
+  # 年次項目判定用
+  YearRegex = /年[\s　]*度|年[\s　]*次|測[\s　]*定[\s　]*日|^年$/
+
+  # 数値として扱わない項目判定用
+  NonNumberRegex = /コ[\s　]*ー[\s　]*ド|都[\s　]*道[\s　]*府[\s　]*県|市[\s　]*町[\s　]*村|年[\s　]*度|年[\s　]*次/
+
+  # グループに分類する項目判定用
+  PriorityGroups = %w(産業分類 面積規模 地区 階級 種別 河川名 路線名 図書館名 障がい部位 分類 産業大分類 内訳 施設名 公民館名 事業名 区分 区域)
+  GroupRegex = /(?=地域.*)(?!.*コード)/
+
+  # 数値として扱わない項目判定用
   def initialize csv, kind, group_dir = :opposit
     @csv = csv
     @kind = kind
@@ -18,17 +29,17 @@ class ChartGenerator
   def gen_chart
     @charts = []
     @titles = []
-    if @csv.headers.include?("地域")
-      gen_grouped_line_chart
-    else
-      gen_line_chart
-    end
+
+    # グループ化を試して
+    gen_grouped_line_chart
+    # 該当しなければグループ化なしのグラフにする
+    gen_line_chart if @charts.empty?
   end
 
   def gen_line_chart
     csv = @csv
     headers = @csv.headers.map{|e| e&.strip}
-    year_col = headers.find{|e| /年[\s　]*度|年[\s　]*次|測[\s　]*定[\s　]*日|^年$/ =~ e}
+    year_col = headers.find{|e| YearRegex =~ e}
   
     if year_col
       nendo = csv.map{|r| r[year_col]}
@@ -37,7 +48,7 @@ class ChartGenerator
           labels nendo || []
           headers.each do |k|
             case k
-            when /コ[\s　]*ー[\s　]*ド/, /都[\s　]*道[\s　]*府[\s　]*県/, /市[\s　]*町[\s　]*村/, /年[\s　]*度/, /年[\s　]*次/
+            when NonNumberRegex
               next
             end
             values = csv.map{|r| r[k]&.strip}
@@ -58,10 +69,16 @@ class ChartGenerator
     csv = @csv
     headers = @csv.headers.map{|e| e&.strip}
 
-    year_col = headers.find{|e| /年[\s　]*度|年[\s　]*次|測[\s　]*定[\s　]*日|^年$/ =~ e}
+    year_col = headers.find{|e| YearRegex =~ e}
     return unless year_col
 
-    group_col = headers.find{|e| /地域/ =~ e}
+    group_col = headers.find{|e| PriorityGroups.find{|g| /#{g}/ =~ e}}
+    #group_col = PriorityGroups.find{|g| headers.find{|e| /#{g}/ =~ e}}
+    group_col ||= headers.find{|e| GroupRegex =~ e}
+
+    # グループ化する項目の内容が1種類しかない場合グループ化しない
+    group_col = nil if csv.group_by{|r| r[group_col]}.size <= 1
+
     if group_col
       case @group_dir
       when :normal
@@ -72,7 +89,7 @@ class ChartGenerator
               labels nendo || []
               headers.each do |k|
                 case k
-                when /コ[\s　]*ー[\s　]*ド/, /都[\s　]*道[\s　]*府[\s　]*県/, /市[\s　]*町[\s　]*村/, /年[\s　]*度/, /年[\s　]*次/
+                when NonNumberRegex
                   next
                 end
                 values = rows.map{|r| r[k]&.strip}
@@ -93,13 +110,12 @@ class ChartGenerator
         group = csv.group_by{|r| r[group_col]}
         csv.headers.each do |k|
           case k
-          when /コ[\s　]*ー[\s　]*ド/, /都[\s　]*道[\s　]*府[\s　]*県/, /市[\s　]*町[\s　]*村/, /年[\s　]*度/, /年[\s　]*次/
+          when NonNumberRegex
             next
           end
           values = csv.map{|r| r[k]&.strip}
           next unless number? values.find{|v| v}
 
-          
           chart = ChartJS.line do
             data do
               nendo = group.first.last.map{|r| r[year_col]}
@@ -107,7 +123,7 @@ class ChartGenerator
               group.each do |g, r|
                 dataset g do
                   color :random
-                  data r.map{|r| r[k]&.strip}
+                  data r.map{|r| number(r[k]&.strip)}
                 end
               end
             end
@@ -118,6 +134,8 @@ class ChartGenerator
         end
       end
 
+    else
+      gen_line_chart
     end
   end
 
