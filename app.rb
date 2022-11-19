@@ -33,7 +33,9 @@ require 'open_data'
 require 'sinatra_more/markup_plugin'
 require 'chart_maker'
 require 'location_picker'
+require 'dotenv'
 
+Dotenv.load
 
 Sinatra::Base.register SinatraMore::MarkupPlugin
 set :haml, { escape_html: false }

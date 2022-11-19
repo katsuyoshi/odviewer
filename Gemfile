@@ -17,6 +17,7 @@ gem 'puma'
 gem 'rack'
 gem 'sinatra_more'
 gem 'chart_js'
+gem 'dotenv'
 
 group :development do
   gem 'sinatra-contrib'
