@@ -13,6 +13,7 @@ GEM
     coffee-script-source (1.12.2)
     concurrent-ruby (1.1.10)
     date (3.2.2)
+    dotenv (2.8.1)
     execjs (2.8.1)
     ffi (1.15.5)
     haml (6.0.10)
@@ -88,6 +89,7 @@ PLATFORMS
 DEPENDENCIES
   chart_js
   coffee-script
+  dotenv
   haml
   json
   nokogiri
