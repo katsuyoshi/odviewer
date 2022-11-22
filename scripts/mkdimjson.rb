@@ -22,36 +22,99 @@
 
 require 'nokogiri'
 require 'open-uri'
+require 'csv'
 require 'json'
 
-root_dir = File.dirname(File.dirname(__FILE__))
+@root_dir = File.expand_path("../../", __FILE__)
 
-doc = Nokogiri::HTML(URI.open("https://www.city.daisen.lg.jp/categories/zokusei/opendatedoc/"))
-list = doc.search('.title_link').map do |e|
-  e.search('a').map{|e1| [e1['href'], e1.text.strip]}.first
+# データ一覧ファイルからコンテンツを抜き取る
+def contents_of prefecture_name, city_name, name_title, url_title
+  src_dir = File.join(@root_dir, 'data_files', 'ソースリスト', prefecture_name, city_name)
+  path = Dir.chdir(src_dir) do
+    p = Dir.glob('*.csv').first
+    File.join(src_dir, p) if p
+  end
+  CSV.foreach(path, headers: true).map do |row|
+    {
+      'url' => row[url_title],
+      'name' => "#{prefecture_name}/#{city_name}/#{row[name_title]}",
+      'catalogUrl' => nil,
+      'catalogResourceId' => nil,
+      'postProcesses' => [ 'encode UTF-8' ],
+      'headers' => {},
+    }
+  end
 end
 
-list = list.map do |l|
-  doc = Nokogiri::HTML(URI.open("https://www.city.daisen.lg.jp#{l.first}"))
-  e = doc.css('a.iconFile.iconCsv').first
-  {
-    url: "https://www.city.daisen.lg.jp#{l.first}#{e['href']}",
-    name: l.last.strip,
-  }
+def contents_of_akita_city
+  prefecture_name = '秋田県'
+  city_name = '秋田市'
+  name_title = 'データ名称'
+  url_title = 'URL'
+  src_dir = File.join(@root_dir, 'data_files', 'ソースリスト', prefecture_name, city_name)
+  path = Dir.chdir(src_dir) do
+    p = Dir.glob('*.csv').first
+    File.join(src_dir, p) if p
+  end
+  contents = []
+  CSV.foreach(path, headers: true).each do |row|
+    url = row[url_title]
+    title = row[name_title]
+    next unless url
+    case row['データ形式']
+    when 'excel'
+      doc = Nokogiri::HTML(URI.open(url))
+      doc.search('.opendata').search('.articleall').each do |articl|
+        t = articl.search('h3').first.text.strip
+        url2 = url[/.*\//] + articl.search('.objectlink').search('.xls').search('a').first['href']
+        contents << {
+          'url' => url2,
+          'name' => "#{prefecture_name}/#{city_name}/#{title}/#{t}",
+          'catalogUrl' => nil,
+          'catalogResourceId' => nil,
+          'postProcesses' => [
+            'xlsx-to-csv',
+            'encode UTF-8'
+          ],
+          'headers' => {},
+        }
+      end
+    when 'csv'
+      doc = Nokogiri::HTML(URI.open(url))
+      doc.search('.opendata').search('.articleall').each do |articl|
+        articl.search('.objectlink').search('.csv').each do |c|
+          a = c.search('a').first
+          url2 = url[/.*\//] + a['href']
+          t = a.text.strip
+          contents << {
+            'url' => url2,
+            'name' => "#{prefecture_name}/#{city_name}/#{title}/#{t}",
+            'catalogUrl' => nil,
+            'catalogResourceId' => nil,
+            'postProcesses' => [
+              'encode UTF-8' ],
+            'headers' => {},
+          }
+        end
+      end
+    else
+      puts "Unsupported data format \"#{row['データ形式']}\""
+    end
+  rescue OpenURI::HTTPError => e
+    puts "\"#{title}\"'s url \"#{url}\" is missing. #{e}"
+  end
+  contents
 end
 
 
-config_path = File.join(root_dir, 'dim.json')
+# 秋田市と大仙市に対応
+contents = 
+  contents_of_akita_city +
+  #contents_of('秋田県', '大仙市', 'データ名', '公開URL') + 
+  []
+
+# dim.jsonの更新
+config_path = File.join(@root_dir, 'dim.json')
 config = JSON.parse(File.read(config_path))
-config['contents'] = list.map do |l|
-  {
-    'url' => l[:url],
-    'name' => l[:name],
-    'catalogUrl' => nil,
-    'catalogResourceId' => nil,
-    'postProcesses' => [ 'encode UTF-8' ],
-    'headers' => {},
-  }
-end
-
+config['contents'] = contents
 File.write(config_path, JSON.pretty_generate(config))
