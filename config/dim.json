@@ -1,0 +1,28 @@
+{
+  "fileVersion": "1.1",
+  "contents": [
+    {
+      "name": "ソースリスト/秋田県/秋田市",
+      "url": "https://www.city.akita.lg.jp/opendata/1000081/../../_res/projects/default_project/_page_/001/000/082/052019_open_data_list44_2.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {
+      }
+    },
+    {
+      "name": "ソースリスト/秋田県/大仙市",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121400096/file_contents/date.csv",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "postProcesses": [
+        "encode UTF-8"
+      ],
+      "headers": {
+      }
+    }
+  ]
+}

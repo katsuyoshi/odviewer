@@ -14,15 +14,21 @@ task :default => :test
 
 namespace :data do
 
-  desc 'clean data'
+  desc 'remove data_files'
   task :clean do
     rm_r './data_files'
   end
 
-  desc 'upate dim.json'
+  desc 'update config/dim.json'
+  task :setup_config do |t|
+    system "ruby ./scripts/mkconfig.rb"
+  end
+
+  desc 'update dim.json'
   task :setup do |t|
+    system "ruby ./scripts/mkconfig.rb"
     system "dim install -F -f config/dim.json"
-    system "ruby ./scripts/mkdimjson.rb"
+    system "ruby ./scripts/mkdataset.rb"
   end
 
   desc 'update data'
