@@ -68,10 +68,13 @@ def contents_of_akita_city
       doc = Nokogiri::HTML(URI.open(url))
       doc.search('.opendata').search('.articleall').each do |articl|
         t = articl.search('h3').first.text.strip
+        # 1ページに複数ファイルがあるので自分と一致したものだけにする
+        next unless t == title
+
         url2 = url[/.*\//] + articl.search('.objectlink').search('.xls').search('a').first['href']
         contents << {
           'url' => url2,
-          'name' => "#{prefecture_name}/#{city_name}/#{title}/#{t}",
+          'name' => "#{prefecture_name}/#{city_name}/#{title}",
           'catalogUrl' => nil,
           'catalogResourceId' => nil,
           'postProcesses' => [

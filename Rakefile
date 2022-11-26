@@ -26,13 +26,13 @@ namespace :data do
 
   desc 'update dim.json'
   task :setup do |t|
-    system "ruby ./scripts/mkconfig.rb"
     system "dim install -F -f config/dim.json"
     system "ruby ./scripts/mkdataset.rb"
   end
 
   desc 'update data'
   task :update do |t|
+    rm 'dim-lock.json'
     system "dim install -F"
   end
 
