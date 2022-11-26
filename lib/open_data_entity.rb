@@ -30,7 +30,7 @@ require 'akita_city_entity'
 class OpenDataEntity
   include AkitaCityEntity
 
-  attr_reader :url, :path, :classifies, :name, :file_name, :csv
+  attr_reader :url, :path, :classifies, :name, :file_name, :csvs
   attr_reader :updated_at, :checked_at
 
   def initialize config
@@ -61,7 +61,11 @@ class OpenDataEntity
   end
 
   def csv
-    @csv ||= begin
+    csvs.first
+  end
+
+  def csvs
+    @csvs ||= begin
       load
     end
   end
@@ -77,38 +81,43 @@ class OpenDataEntity
     when "秋田市"
       akita_city_entity_pre_process lines
     else
-      line
+      CsvData.new lines
     end
   end
 
-  def load
-    return @data if @data
-    
-    path = File.join(@root_dir, self.path)
-    begin
+  def load    
+    @csv ||= begin
+      path = File.join(@root_dir, self.path)
       # @see: https://github.com/ruby/csv/issues/66
       # row内に改行が含まれるとパースできないので前処理でj前の行に追加する
       lines = []
       File.read(path).each_line do |l|
         l.chomp!
+p [__LINE__]
         if lines.empty? ||
           lines.last.scan(/\"/).size % 2 == 0
+p [__LINE__]
             lines << l 
         else
+p [__LINE__]
           lines.last << "#{l}"
         end
       end
+
+      # [String, String, String ..., String] =>
+      # [CsvData, CsvData, ...]
+      csv_data = load_pre_process lines
 p [__LINE__]
-      lines = load_pre_process lines
-p lines
       
-      csv = CSV.parse(lines.join("\n"), headers:has_header?, liberal_parsing: true)
-      .delete_if{|row| row.map{|e| e.last}.find{|e| e} == nil}
-      csv
+      @csvs = csv_data.map do |d|
+p [__LINE__]
+        d.csv
+      end
     rescue => e
       puts "FAIL: reading #{path}"
       p e
-      CSV.new ""
+      puts caller
+      []
     end
   end
 

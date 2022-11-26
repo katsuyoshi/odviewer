@@ -20,43 +20,76 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
+require 'csv_data'
+
 module AkitaCityEntity
 
   def akita_city_entity_pre_process lines
-    ml = lines.find{|l| /日現在/ =~ l}
-    i = lines.index(ml)
-    if i
-      i += 1
-      @has_header = true
-    else
-      @has_header = false
-      return lines
-    end
+    sources = []
 
-    lines = lines[i..-1]
+    until lines.empty?
 
-    new_lines = []
-    found = false
-    lines.each do |l|
-      unless found
-        if /^\,/ =~ l
-          ll = new_lines.pop
-          t = ""
-          elements = CSV.new(ll).to_a.first.zip(CSV.new(l).to_a.first)
-          .map do |a|
-            t = a.first if a.first && a.first.length != 0
-            [t, a.last || ""].join(" ").strip
-          end if ll
-          new_lines << elements.join(",")
-        else
-          new_lines << l
-          found = new_lines.size > 1
-        end
+      new_lines = []
+      ml = lines.find{|l| /^\s*（[０１２３４５６７８９]+）|.+日現在/ =~ l}
+      i = lines.index(ml)
+      if i
+        i += 1
+        has_header = true
       else
-        new_lines << l
+        if sources.empty?
+          i = 0
+          has_header = false
+        else
+          # 2回目以降は区切りが見つかならければ終わりにする。
+          lines = []
+        end
+      end
+      lines = lines[i..-1] || []
+
+
+      found = !has_header
+      last = -1
+      lines.each_with_index do |l, i|
+        unless found
+          case l
+          when /^\,/
+            ll = new_lines.pop
+            t = ""
+            elements = CSV.new(ll).to_a.first.zip(CSV.new(l).to_a.first)
+            .map do |a|
+              t = a.first if a.first && a.first.length != 0
+p [__LINE__]
+              [t, a.last || ""].join(" ").strip
+            end if ll
+            new_lines << elements.join(",")
+          else
+            new_lines << l
+            found = new_lines.size > 1
+          end
+        else
+p [__LINE__]
+          case l
+          when /^[\s　]*注）/, /^[\s　]*資料/, lines.last
+p [__LINE__]
+            last = i + 1
+            break
+          else
+            new_lines << l unless lines.join("") == ""
+          end
+        end
+      end
+      sources << CsvData.new(new_lines, has_header) unless new_lines.empty?
+      new_lines = []
+p [__LINE__]
+      if last == -1
+p [__LINE__]
+        lines = []
+      else
+p [__LINE__]
+        lines = lines[last..-1] || []
       end
     end
-    new_lines
+p [__LINE__, sources]
+    sources
   end
-
 end
