@@ -94,14 +94,10 @@ end
 
 get '/*' do
   @path = params['splat'].first
-p params, @path
   @node = @od.node
   @path.split(/\//).each do |e|
-p @node.classifies
     @node = @node[e] unless e.length == 0
   end
-p @node.classifies
-@node.children.each{|k, n| p n.classifies}
   haml :index, :layout => :layout
 end 
 
