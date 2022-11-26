@@ -30,6 +30,8 @@ class OpenDataNode
     @name = name
     @parent = WeakRef.new parent if parent
     @children = {}
+    @prev_node = nil
+    @next_node = nil
   end
 
   def [] name
@@ -48,6 +50,25 @@ class OpenDataNode
     @entity = entity
     @entity.node = self
   end
+
+  def prev_node
+    @prev_node
+  end
+
+  def prev_node= node
+    @prev_node = WeakRef.new node
+    node.next_node ||= self
+  end
+
+  def next_node
+    @next_node
+  end
+
+  def next_node= node
+    @next_node = WeakRef.new node
+    node.prev_node = self
+  end
+
 
   def parents
     @parents ||= begin

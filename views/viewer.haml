@@ -2,16 +2,18 @@
 
 = haml :_breadcrumb, locals: { parents: @entity.node.parents }
 
+- prev_node = @entity.node.prev_node
+- next_node = @entity.node.next_node
 .row
   .col-8
-  .col-2.text-end
-    = link_to "< #{@prev_kind}", "/viewer/#{@prev_kind}" if @prev_kind
-  .col-2.text-end
-    = link_to "#{@next_kind} >", "/viewer/#{@next_kind}" if @next_kind
 
 .row
-  .col-6
-  .col-6.text-end
+  .col-5
+  .col-2.text-end
+    = link_to "< #{prev_node.name}", "/viewer/#{prev_node.path}" if prev_node
+  .col-2.text-start
+    = link_to "#{next_node.name} >", "/viewer/#{next_node.path}" if next_node
+  .col-3.text-end
     更新日: #{@entity.updated_at.strftime('%Y/%m/%d')}
     &nbsp;
     確認日: #{@entity.checked_at.strftime('%Y/%m/%d')}

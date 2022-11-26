@@ -4,7 +4,7 @@ class OpenDataEntiityTest < Test::Unit::TestCase
 
   setup do
     @od = OpenData.instance
-    @entiity = @od['秋田県']['秋田市']['住民基本台帳人口']['人口・世帯の推移'].entity
+    @entiity = @od['秋田県']['秋田市']['人口・世帯の推移'].entity
   end
 
   def test_csv

@@ -64,6 +64,14 @@ class OpenData
       end
       n.entity = entity
     end
+
+    prev_node = @entities[@entities.keys.last].node
+    @entities.each do |n, e|
+      node = e.node
+      node.prev_node = prev_node
+      prev_node = node
+    end
+
   end
 
   def dump_node

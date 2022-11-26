@@ -14,7 +14,7 @@ class OpenDataTest < Test::Unit::TestCase
 
   def test_second_layer_node_is_akita_city
     node = @open_data.node.children.first.last.children.first.last
-    assert_equal 288, node.children.size
+    assert_equal 212, node.children.size
     assert_equal '秋田市', node.name
   end
 
