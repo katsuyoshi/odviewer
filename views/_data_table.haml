@@ -1,30 +1,45 @@
 - entity.csv_data.each do |d|
   - title = d.title
   - csv = d.csv
-  - headers = csv.headers
 
   %h2= title if title
 
-  %table.table.table-responsive.table-striped.table-bordered
-    %thead.table-dark
-      %tr
-        - headers.each do |k|
-          %th{scope: :col}= k
-    %tbody
-      - csv.each do |r|
+  - if d.has_headers?
+    - headers = csv.headers
+    %table.table.table-responsive.table-striped.table-bordered
+      %thead.table-dark
         %tr
           - headers.each do |k|
-            - case k
-            - when /緯度/
-              - lat = r['緯度']
-              - long = r['経度']
-              %td{colspan: 2}= link_to "#{lat},#{long}", "https://www.google.co.jp/maps?ll=#{lat},#{long}&q=#{lat},#{long}", target: true
-            - when /経度/
-            - else
+            %th{scope: :col}= k
+      %tbody
+        - csv.each do |r|
+          %tr
+            - headers.each do |k|
+              - case k
+              - when /緯度/
+                - lat = r['緯度']
+                - long = r['経度']
+                %td{colspan: 2}= link_to "#{lat},#{long}", "https://www.google.co.jp/maps?ll=#{lat},#{long}&q=#{lat},#{long}", target: true
+              - when /経度/
+              - else
+                %td
+                  - v = r[k]
+                  - case v
+                  - when /^http(s)?\:/i
+                    = link_to v, v, target: true
+                  - else
+                    = r[k]
+
+  - else
+    %table.table.table-responsive.table-striped.table-bordered
+      %thead.table-dark
+      %tbody
+        - csv.each do |r|
+          %tr
+            - r.each do |v|
               %td
-                - v = r[k]
                 - case v
                 - when /^http(s)?\:/i
                   = link_to v, v, target: true
                 - else
-                  = r[k]
+                  = v

@@ -32,3 +32,27 @@ class OpenDataEntiityTest < Test::Unit::TestCase
   end
 
 end
+
+class OpenDataEntiityPopulationTest < Test::Unit::TestCase
+  setup do
+    @od = OpenData.instance
+    @entiity = @od['秋田県']['秋田市']['市域の変遷'].entity
+  end
+
+  def test_csv
+    assert_not_nil @entiity.csv
+  end
+
+end
+
+class OpenDataEntiity2Test < Test::Unit::TestCase
+  setup do
+    @od = OpenData.instance
+    @entiity = @od['秋田県']['秋田市']['秋田市人口世帯表 平成29年版'].entity
+  end
+
+  def test_csv
+    assert_equal 10, @entiity.csvs.size
+  end
+
+end

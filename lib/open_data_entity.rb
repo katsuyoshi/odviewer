@@ -74,10 +74,6 @@ class OpenDataEntity
     csv_data.map{|d| d.csv}
   end
 
-  def has_header?
-    @has_header
-  end
-
   private
 
   def load_pre_process lines

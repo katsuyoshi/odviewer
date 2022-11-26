@@ -10,9 +10,9 @@
 .row
   .col-5
   .col-2.text-end
-    = link_to "< #{prev_node.name}", "/viewer/#{prev_node.path}" if prev_node
+    = link_to "< #{prev_node.name}", "/viewer#{prev_node.path}" if prev_node
   .col-2.text-start
-    = link_to "#{next_node.name} >", "/viewer/#{next_node.path}" if next_node
+    = link_to "#{next_node.name} >", "/viewer#{next_node.path}" if next_node
   .col-3.text-end
     更新日: #{@entity.updated_at.strftime('%Y/%m/%d')}
     &nbsp;
