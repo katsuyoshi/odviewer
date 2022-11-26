@@ -1,4 +1,5 @@
 require 'test_helper'
+require 'open_data'
 
 class MiscTest < Test::Unit::TestCase
 

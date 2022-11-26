@@ -21,6 +21,7 @@ gem 'dotenv'
 
 group :development do
   gem 'sinatra-contrib'
+  gem 'debug'
 end
 
 group :test do

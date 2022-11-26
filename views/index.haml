@@ -10,13 +10,23 @@
   = link_to 'githubに公開', 'https://github.com/katsuyoshi/odviewer'
   しています。あなたの市町村に合わせてカスタマイズすることも可能です。
 
-%h1 大仙市オープンデータ
+%h2= @node.name
 
-.row
-  .col
-    %ul.list-group
-      - @daisen_data.each do |k,v|
-        %li= link_to k, "/viewer/#{k}"
+%ul
+- @node.children.each do |k, n|
+  - if n.leaf?
+    %li= link_to n.name, "/viewer#{n.path}"
+  - else
+    %li= link_to n.name, n.path
+
+
+!!!%h1 大仙市オープンデータ
+
+!!!.row
+!!!  .col
+!!!    %ul.list-group
+!!!      - @daisen_data.each do |k,v|
+!!!        %li= link_to k, "/viewer/#{k}"
 
 !!!.row.row-cols-2.row-cols-lg-5.g-2.g-lg-3
 !!!  - @daisen_data.each do |k,v|

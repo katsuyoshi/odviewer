@@ -43,16 +43,15 @@ set :haml, { escape_html: false }
 #before '/|/data_table|/viewer' do
 #end
 
-get '/' do
-  @daisen_data = OpenData.instance.data
-  haml :index, :layout => :layout
-end 
+before '/*' do
+  @od = OpenData.instance
+end
 
 # NG: 乳幼児健診の受診状況
 #     住民基本台帳人口・世帯数
 get '/viewer/:kind' do
-  od = OpenData.instance
-  @daisen_data = od.data
+  #od = OpenData.instance
+  @daisen_data = @od.data
   @kind = params[:kind]
   @updated_at = od.updated_at(@kind)
 
@@ -71,6 +70,43 @@ get '/viewer/:kind' do
 
   haml :viewer, :layout => :layout
 end
+
+get '/viewer/*' do
+  @path = params['splat'].first
+  @node = @od.node
+  @path.split(/\//).each do |e|
+    @node = @node[e] unless e.length == 0
+  end
+  @entity = @node.entity
+  @csv = @entity.csv
+
+  @charts = []
+  @locations = []
+
+  haml :viewer, :layout => :layout
+end
+
+
+get '/' do
+  @node = @od.node
+  haml :index, :layout => :layout
+end 
+
+
+get '/*' do
+  @path = params['splat'].first
+p params, @path
+  @node = @od.node
+  @path.split(/\//).each do |e|
+p @node.classifies
+    @node = @node[e] unless e.length == 0
+  end
+p @node.classifies
+@node.children.each{|k, n| p n.classifies}
+  haml :index, :layout => :layout
+end 
+
+
 
 get '/coffee_test' do
   haml :coffee_test, :layout => :layout

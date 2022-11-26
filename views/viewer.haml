@@ -1,14 +1,30 @@
-%h1= @kind
+%h1= @entity.name
 
 %p
   .row
-    .col-2
-      = link_to '一覧へ戻る', '/'
-    .col-6
+    .col-8
+      .nav{'aria-label': 'breadcrumb'}
+        %ol.breadcrumb
+          - @entity.node.parents.each do |n|
+            - unless @entity.node.parents.last == n
+              %li.breadcrumb-item
+                = link_to n.name, n.path
+            - else
+              %li.breadcrumb-item.active
+                = n.name
     .col-2.text-end
       = link_to "< #{@prev_kind}", "/viewer/#{@prev_kind}" if @prev_kind
     .col-2.text-end
       = link_to "#{@next_kind} >", "/viewer/#{@next_kind}" if @next_kind
+
+.row
+  .col-6
+  .col-6.text-end
+    更新日: #{@entity.updated_at.strftime('%Y/%m/%d')}
+    &nbsp;
+    確認日: #{@entity.checked_at.strftime('%Y/%m/%d')}
+    &nbsp;
+    = link_to haml(:_download_icon), @entity.url
 
 %ul.nav.nav-tabs{id: 'data_viewer', role: 'tablist'}
   %li.nav-item{role: 'presentation'}

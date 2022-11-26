@@ -24,7 +24,59 @@ require 'json'
 require 'singleton'
 require 'csv'
 require 'time'
+require 'open_data_entity'
+require 'open_data_node'
 
+class OpenData
+  include Singleton
+
+  attr_reader :entities, :node
+
+  def initialize
+    @entities = nil
+    @root_dir = File.dirname(File.dirname(__FILE__))
+    load
+  end
+
+  def [] name
+    @node.children[name]
+  end
+
+
+  private
+
+  def load
+    return if @entities
+    
+    @entities = {}
+    @node = OpenDataNode.new("")
+
+    config_path = File.join(@root_dir, 'dim-lock.json')
+    @config = JSON.parse(File.read(config_path))
+    @config['contents'].map do |c|
+      entity = OpenDataEntity.new(c)
+      @entities[entity.path] = entity
+
+      n = @node
+      entity.classifies.each do |e|
+        n[e] ||= OpenDataNode.new(e, n)
+        n = n[e]
+      end
+      n.entity = entity
+    end
+  end
+
+  def dump_node
+    node.children.map do |n|
+      n.children.map{|e| e.name}
+    end
+  end
+
+end
+
+
+
+__END__
 
 class OpenData
   include Singleton
