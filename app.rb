@@ -78,7 +78,6 @@ get '/viewer/*' do
     @node = @node[e] unless e.length == 0
   end
   @entity = @node.entity
-  @csv = @entity.csv
 
   @charts = []
   @locations = []

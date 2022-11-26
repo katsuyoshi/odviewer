@@ -58,7 +58,6 @@ module AkitaCityEntity
             elements = CSV.new(ll).to_a.first.zip(CSV.new(l).to_a.first)
             .map do |a|
               t = a.first if a.first && a.first.length != 0
-p [__LINE__]
               [t, a.last || ""].join(" ").strip
             end if ll
             new_lines << elements.join(",")
@@ -67,29 +66,23 @@ p [__LINE__]
             found = new_lines.size > 1
           end
         else
-p [__LINE__]
           case l
           when /^[\s　]*注）/, /^[\s　]*資料/, lines.last
-p [__LINE__]
             last = i + 1
             break
           else
-            new_lines << l unless lines.join("") == ""
+            new_lines << l
           end
         end
       end
-      sources << CsvData.new(new_lines, has_header) unless new_lines.empty?
+      sources << CsvData.new(new_lines, has_header, CSV.new(ml).first&.first) unless new_lines.empty?
       new_lines = []
-p [__LINE__]
       if last == -1
-p [__LINE__]
         lines = []
       else
-p [__LINE__]
         lines = lines[last..-1] || []
       end
     end
-p [__LINE__, sources]
     sources
   end
 end

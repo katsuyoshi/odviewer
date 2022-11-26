@@ -1,16 +1,9 @@
 %h1= @entity.name
 
+= haml :_breadcrumb, locals: { parents: @entity.node.parents }
+
 .row
   .col-8
-    .nav{'aria-label': 'breadcrumb'}
-      %ol.breadcrumb
-        - @entity.node.parents.each do |n|
-          - unless @entity.node.parents.last == n
-            %li.breadcrumb-item
-              = link_to n.name, n.path
-          - else
-            %li.breadcrumb-item.active
-              = n.name
   .col-2.text-end
     = link_to "< #{@prev_kind}", "/viewer/#{@prev_kind}" if @prev_kind
   .col-2.text-end
@@ -39,11 +32,11 @@
 
 .tab-content.p-3
   #data.tab-pane.active
-    = haml :_data_table
+    = haml :_data_table, locals: { entity: @entity }
   #graph.tab-pane
     = haml :_graph
   #location.tab-pane
     = haml :_location
 
 %p
-  = link_to '一覧へ戻る', '/'
+  = haml :_breadcrumb, locals: { parents: @entity.node.parents }

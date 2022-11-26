@@ -12,17 +12,7 @@
 
 %h2= @node.name
 
-.row
-  .col-8
-    .nav{'aria-label': 'breadcrumb'}
-      %ol.breadcrumb
-        - @node.parents.each do |n|
-          - unless @node.parents.last == n
-            %li.breadcrumb-item
-              = link_to n.name, n.path
-          - else
-            %li.breadcrumb-item.active
-              = n.name
+= haml :_breadcrumb, locals: { parents: @node.parents }
 
 %ul
 - @node.children.each do |k, n|
@@ -30,6 +20,10 @@
     %li= link_to n.name, "/viewer#{n.path}"
   - else
     %li= link_to n.name, n.path
+
+
+%p
+= haml :_breadcrumb, locals: { parents: @node.parents }
 
 
 !!!%h1 大仙市オープンデータ

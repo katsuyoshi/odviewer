@@ -64,10 +64,14 @@ class OpenDataEntity
     csvs.first
   end
 
-  def csvs
-    @csvs ||= begin
+  def csv_data
+    @csv_data ||= begin
       load
     end
+  end
+
+  def csvs
+    csv_data.map{|d| d.csv}
   end
 
   def has_header?
@@ -86,33 +90,26 @@ class OpenDataEntity
   end
 
   def load    
-    @csv ||= begin
+    @csv_data ||= begin
       path = File.join(@root_dir, self.path)
       # @see: https://github.com/ruby/csv/issues/66
-      # row内に改行が含まれるとパースできないので前処理でj前の行に追加する
+      # row内に改行が含まれるとパースできないので前処理で前の行に追加する
       lines = []
       File.read(path).each_line do |l|
         l.chomp!
-p [__LINE__]
         if lines.empty? ||
           lines.last.scan(/\"/).size % 2 == 0
-p [__LINE__]
             lines << l 
         else
-p [__LINE__]
           lines.last << "#{l}"
         end
       end
+      # 空行の削除
+      lines = lines.select{|l| l.split(/\,/).join("") != ""}
 
       # [String, String, String ..., String] =>
       # [CsvData, CsvData, ...]
-      csv_data = load_pre_process lines
-p [__LINE__]
-      
-      @csvs = csv_data.map do |d|
-p [__LINE__]
-        d.csv
-      end
+      load_pre_process lines
     rescue => e
       puts "FAIL: reading #{path}"
       p e

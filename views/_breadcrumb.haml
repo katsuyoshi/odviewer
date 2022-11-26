@@ -1,0 +1,11 @@
+.row
+  .col-8
+    .nav{'aria-label': 'breadcrumb'}
+      %ol.breadcrumb
+        - parents.each do |n|
+          - unless parents.last == n
+            %li.breadcrumb-item
+              = link_to n.name, n.path
+          - else
+            %li.breadcrumb-item.active
+              = n.name
