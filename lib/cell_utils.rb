@@ -116,7 +116,7 @@ module CellUtils
           phase = 3
         end
       when 3
-        if /^[\s　]*注）|^[\s　]*資料/ =~ r[0]
+        if /^[\s　]*注）|^[\s　]*資料|資料に基づき/ =~ r[0]
           f = true
         end
         lines1 << to_number(r).join(",") unless f
@@ -128,7 +128,7 @@ module CellUtils
   def lines_with_rectangle lines, x, y, w, h
     results = []
     CSV.parse(lines.join("\n"), liberal_parsing: true).each_with_index do |r, i|
-      if (y..(y+h)).include? i
+      if (y...(y+h)).include? i
         if w == -1
           results << to_number(r).join(",")
         else

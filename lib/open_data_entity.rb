@@ -108,7 +108,7 @@ class OpenDataEntity
     rescue => e
       puts "FAIL: reading #{path}"
       p e
-      puts caller
+      puts e.backtrace
       []
     end
   end

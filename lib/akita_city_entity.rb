@@ -27,7 +27,8 @@ module AkitaCityEntity
   include CellUtils
 
   def akita_city_entity_pre_process lines
-    case lines.first
+p lines.first
+    case 
     when /^人　口　世　帯　表/
       return akita_city_entity_pre_process_population lines
     when /^１ 　位　置　と　面　積/
@@ -50,12 +51,15 @@ module AkitaCityEntity
       return akita_city_entity_pre_process_population_changes_7 lines
     when /^８　　　人　　　口　　　動　　　態/
       return akita_city_entity_pre_process_population_changes_8 lines
-    #when /^２　　市　域　の　変　遷/
-    #  return [csv_data_with_lines(lines,1,false)]
-    when /^５　住　居　表　示　地　区　の　面　積/
+    when /^１２　外　国　人　人　口/
+      return akita_city_entity_pre_process_population_of_foreigners lines
+    when /^５　住　居　表　示　地　区　の　面　積/, /９　都　道　府　県　別　転　入　・　転　出　人　口/, /^１３　住　民　基　本　台　帳　人　口/, /１４　国 勢 調 査 人 口・世 帯 等 の 推 移/, /^１８　年　齢 （　１５歳以上　） 別　労　働　力　状　態/
       # headers 2行, タイトルなし
       return [csv_data_with_lines(lines[1..-1], 2, false)]
-    when /^４　　公　園 ・ 緑　地　面　積/
+    when /^１６　年 齢（５ 歳 階 級） 別 構 成 の 推 移/
+      # headers 3行, タイトルなし
+      return [csv_data_with_lines(lines[1..-1], 3, false)]
+    when /^４　　公　園 ・ 緑　地　面　積/, /^１５　人 口 集 中 地 区 の 推 移/
       # headers 4行, タイトルなし
       return [csv_data_with_lines(lines[1..-1], 4, false)]
     else
@@ -104,7 +108,7 @@ module AkitaCityEntity
           end
         else
           case l
-          when /^[\s　]*注）/, /^[\s　]*資料/, lines.last
+          when /^[\s　]*注）/, /^[\s　]*資料|資料に基づき/, lines.last
             last = i + 1
             break
           else
@@ -125,6 +129,44 @@ module AkitaCityEntity
   end
 
   def akita_city_entity_pre_process_population lines
+    title = lines_with_rectangle(lines, 1, 3, 1, 1).first
+    headers = lines_with_rectangle(lines, 1, 3, 5, 2)
+    lines1 = 
+      [title + " (1月)"] +
+      headers + 
+      lines_with_rectangle(lines, 1, 5, 5, 1)
+
+    title = lines_with_rectangle(lines, 7, 2, 1, 1).first
+    headers = lines_with_rectangle(lines, 7, 3, 5, 2)
+    headers = headers.map{|h| " " + h}
+    lines2 = 
+      [title] +
+      headers + 
+      lines_with_rectangle(lines, 7, 5, 5, 2)
+  
+    title = lines_with_rectangle(lines, 0, 7, 1, 1).first
+    headers = lines_with_rectangle(lines, 0, 8, 6, 2)
+    lines3 = 
+      [title] +
+      headers + 
+      lines_with_rectangle(lines, 0, 10, 6, 57) +
+      lines_with_rectangle(lines, 6, 10, 6, 19)
+    lines3 = lines3.map.with_index do |l, i|
+      if i >= 3
+        csv = CSV.new l
+        a = csv.to_a.first
+        a[0] = a[1] = a[0] || a[1]
+        l = a.join(",")
+      end
+      l
+    end
+  
+    [
+      csv_data_with_lines(lines1, 2),
+      csv_data_with_lines(lines2, 2),
+      csv_data_with_lines(lines3, 2),
+    ]
+=begin
     result = []
     data = {}
 
@@ -214,13 +256,14 @@ module AkitaCityEntity
     end
 
     result += data.map{|k, a| CsvData.new(a, true, k)}
+=end
   end
 
   def akita_city_entity_pre_process_population_changes_7 lines
     headers = lines_with_rectangle(lines, 0, 1, 8, 2)
     lines1 = headers + 
-              lines_with_rectangle(lines, 0, 4, 8, 39) + 
-              lines_with_rectangle(lines, 8, 4, 8, 39)
+              lines_with_rectangle(lines, 0, 3, 8, 41) + 
+              lines_with_rectangle(lines, 8, 4, 8, 40)
     [
       csv_data_with_lines(lines1, 2, false),
     ]
@@ -279,7 +322,7 @@ module AkitaCityEntity
           lines1 << to_number(r).join(",")
         end
       when 2
-        if /^[\s　]*注）|^[\s　]*資料/ =~ r[0]
+        if /^[\s　]*注）|^[\s　]*資料|資料に基づき/ =~ r[0]
           f = true
         end
         lines1 << to_number(r).join(",") unless f
@@ -289,11 +332,24 @@ module AkitaCityEntity
   end
 
   def akita_city_entity_pre_process_population_changes_8 lines
+    title = lines_with_rectangle(lines, 0, 1, 1, 1).first
+    headers = lines_with_rectangle(lines, 0, 2, -1, 3)
     [
-      csv_data_with_lines(lines_with_rectangle(lines, 0, 0, -1, 26), 3),
-      csv_data_with_lines(lines_with_rectangle(lines, 0, 30, 5, 16)),
-      csv_data_with_lines(lines_with_rectangle(lines, 6, 30, 5, 16)),
-      csv_data_with_lines(lines_with_rectangle(lines, 12, 30, 13, 16)),
+      csv_data_with_lines(
+        [title + " 年別"] +
+          headers +
+          lines_with_rectangle(lines, 0, 5, -1, 10),
+        3
+      ),
+      csv_data_with_lines(
+        [title + " 月別"] +
+          headers +
+          lines_with_rectangle(lines, 0, 15, -1, 12),
+        3
+      ),
+      csv_data_with_lines(lines_with_rectangle(lines, 0, 30, 5, 17)),
+      csv_data_with_lines(lines_with_rectangle(lines, 6, 30, 5, 17)),
+      csv_data_with_lines(lines_with_rectangle(lines, 12, 30, 13, 17)),
     ]
   end
 
@@ -303,18 +359,14 @@ module AkitaCityEntity
     # ヘッダーがnilで始まるので" "を追加して認識される様に
     lines1[1] = " " + lines1[1]
 
-    lines2 = lines1[0,4].map{|e| e.dup} + lines_with_rectangle(lines, 0, 15, 9, 12)
+    lines2 = lines1[0,4].map{|e| e.dup} + lines_with_rectangle(lines, 0, 16, 9, 12)
     lines2[0].gsub!(/気象 年別/, "気象 月別")
 
     title = lines_with_rectangle(lines, 10, 1, 1, 1).first
     headers = lines_with_rectangle(lines, 10, 2, 9, 1)
 
-    lines3 = [title + " " + lines_with_rectangle(lines, 11, 6, 1, 1).first] +
-              headers + 
-              lines_with_rectangle(lines, 10, 8, 9, 10)
-
     lines_set = 4.times.map do |i|
-      offset = i * 13 - (i >= 2 ? 1 : 0)
+      offset = i * 13 - (i >= 3 ? 1 : 0)
       [title + " " + lines_with_rectangle(lines, 11, 6 + offset, 1, 1).first] +
         headers + 
         lines_with_rectangle(lines, 10, 8 + offset, 9, 10)
@@ -329,6 +381,15 @@ module AkitaCityEntity
     end
   end
 
+  def akita_city_entity_pre_process_population_of_foreigners lines
+    [
+      csv_data_with_lines(
+        lines_with_rectangle(lines, 0, 2, -1, 11).zip( 
+        lines_with_rectangle(lines, 0, 13, -1, 11))
+          .map{|a,b| a + b.split(/\,/)[1..-1].join(",")},
+        1, false),
+    ]
+  end
 
 
 end
