@@ -30,12 +30,37 @@ module AkitaCityEntity
     case lines.first
     when /^人　口　世　帯　表/
       return akita_city_entity_pre_process_population lines
-    when /^１ 　位　置　と　面　積/, /^２　　市　域　の　変　遷/
+    when /^１ 　位　置　と　面　積/
       return akita_city_entity_pre_process_without_headers lines
+
+    when /^３　都　市　計　画　用　途　地　域　別　面　積/
+      # (n) タイトルで分離されているパターン
+      titles = lines.select{|e| /^（[０１２３４５６７８９]+）/ =~ e}
+      indexes = titles.map{|t| lines.index t}
+      return indexes.map.with_index do |n, i|
+        unless n == indexes.last
+          csv_data_with_lines(lines[n...(indexes[i + 1])], 2, true)
+        else
+          csv_data_with_lines(lines[n..-1], 2, true)
+        end
+      end
+    when /^６　　　気　　　　　象/
+      return akita_city_entity_pre_process_weather lines
     when /^７　人　口　・　世　帯　の　推　移/
-      return akita_city_entity_pre_7_process_population_changes lines
+      return akita_city_entity_pre_process_population_changes_7 lines
     when /^８　　　人　　　口　　　動　　　態/
-      return akita_city_entity_pre_8_process_population_changes lines
+      return akita_city_entity_pre_process_population_changes_8 lines
+    #when /^２　　市　域　の　変　遷/
+    #  return [csv_data_with_lines(lines,1,false)]
+    when /^５　住　居　表　示　地　区　の　面　積/
+      # headers 2行, タイトルなし
+      return [csv_data_with_lines(lines[1..-1], 2, false)]
+    when /^４　　公　園 ・ 緑　地　面　積/
+      # headers 4行, タイトルなし
+      return [csv_data_with_lines(lines[1..-1], 4, false)]
+    else
+      # headers 1行, タイトルなし
+      return [csv_data_with_lines(lines[1..-1], 1, false)]
     end
 
     sources = []
@@ -191,37 +216,14 @@ module AkitaCityEntity
     result += data.map{|k, a| CsvData.new(a, true, k)}
   end
 
-  def akita_city_entity_pre_7_process_population_changes lines
-    s = lines.join("\n")
-    lines1 = []
-    lines2 = []
-
-    phase = 0
-    headers = nil
-    f_l = false
-    f_r = false
-    csv = CSV.parse(s, liberal_parsing: true).each do |r|
-      case phase
-      when 0
-        case r[0]
-        when /^年次/
-          phase = 1
-          headers = r[0,8]
-        end
-      when 1
-        headers = binding_headers headers, r[0,8]
-        lines1 << headers.join(",")
-        phase = 2
-      when 2
-        if /^[\s　]*注）|^[\s　]*資料/ =~ r[0]
-          f_l = true
-        end
-        lines1 << to_number(r[0,8]).join(",") unless f_l
-        lines2 << to_number(r[8,8]).join(",") unless f_r
-      end
-    end
-    lines1 += lines2
-    [CsvData.new(lines1, true)]
+  def akita_city_entity_pre_process_population_changes_7 lines
+    headers = lines_with_rectangle(lines, 0, 1, 8, 2)
+    lines1 = headers + 
+              lines_with_rectangle(lines, 0, 4, 8, 39) + 
+              lines_with_rectangle(lines, 8, 4, 8, 39)
+    [
+      csv_data_with_lines(lines1, 2, false),
+    ]
   end
 
   def akita_city_entity_pre_process_with_headers lines, headers_size = 1
@@ -286,13 +288,45 @@ module AkitaCityEntity
     [CsvData.new(lines1, false)]
   end
 
-  def akita_city_entity_pre_8_process_population_changes lines
+  def akita_city_entity_pre_process_population_changes_8 lines
     [
       csv_data_with_lines(lines_with_rectangle(lines, 0, 0, -1, 26), 3),
       csv_data_with_lines(lines_with_rectangle(lines, 0, 30, 5, 16)),
       csv_data_with_lines(lines_with_rectangle(lines, 6, 30, 5, 16)),
       csv_data_with_lines(lines_with_rectangle(lines, 12, 30, 13, 16)),
     ]
+  end
+
+  def akita_city_entity_pre_process_weather lines
+    lines1 = lines_with_rectangle(lines, 0, 1, 9, 14)
+    lines1[0].gsub!(/気象/, "気象 年別")
+    # ヘッダーがnilで始まるので" "を追加して認識される様に
+    lines1[1] = " " + lines1[1]
+
+    lines2 = lines1[0,4].map{|e| e.dup} + lines_with_rectangle(lines, 0, 15, 9, 12)
+    lines2[0].gsub!(/気象 年別/, "気象 月別")
+
+    title = lines_with_rectangle(lines, 10, 1, 1, 1).first
+    headers = lines_with_rectangle(lines, 10, 2, 9, 1)
+
+    lines3 = [title + " " + lines_with_rectangle(lines, 11, 6, 1, 1).first] +
+              headers + 
+              lines_with_rectangle(lines, 10, 8, 9, 10)
+
+    lines_set = 4.times.map do |i|
+      offset = i * 13 - (i >= 2 ? 1 : 0)
+      [title + " " + lines_with_rectangle(lines, 11, 6 + offset, 1, 1).first] +
+        headers + 
+        lines_with_rectangle(lines, 10, 8 + offset, 9, 10)
+    end
+          
+    [
+      csv_data_with_lines(lines1, 3, true),
+      csv_data_with_lines(lines2, 3, true),
+    ] + 
+    lines_set.map do |set|
+      csv_data_with_lines(set, 1, true)
+    end
   end
 
 

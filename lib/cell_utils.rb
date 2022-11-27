@@ -31,7 +31,7 @@ module CellUtils
   
   def number v
     return nil unless number? v
-    if /\./
+    if /\./ =~ v
       v.gsub(/[△▲]/, "-").gsub(/[\s\,]/, '').to_f
     else
       v.gsub(/[△▲]/, "-").gsub(/[\s\,]/, '').to_i
@@ -111,7 +111,7 @@ module CellUtils
       when 2
         headers = binding_headers headers, r
         headers_count += 1
-        if headers_size < headers_count
+        if headers_size <= headers_count
           lines1 << uniq_headers(headers).join(",")
           phase = 3
         end

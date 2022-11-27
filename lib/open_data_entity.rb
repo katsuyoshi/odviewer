@@ -76,7 +76,7 @@ class OpenDataEntity
 
   private
 
-  def load_pre_process lines
+  def load_csv_data lines
     case node.parents[1].name
     when "秋田市"
       akita_city_entity_pre_process lines
@@ -103,9 +103,8 @@ class OpenDataEntity
       # 空行の削除
       lines = lines.select{|l| l.split(/\,/).join("") != ""}
 
-      # [String, String, String ..., String] =>
-      # [CsvData, CsvData, ...]
-      load_pre_process lines
+      # return [CsvData]
+      load_csv_data lines
     rescue => e
       puts "FAIL: reading #{path}"
       p e

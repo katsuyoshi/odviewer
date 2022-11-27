@@ -1,7 +1,8 @@
 require 'csv'
-
+require 'cell_utils'
 
 class CsvData
+  include  CellUtils
 
   attr_reader :lines, :has_header, :title
   attr_accessor :graph_type
@@ -17,9 +18,10 @@ class CsvData
     @csv ||= begin
       csv = CSV.parse(lines.join("\n"), headers: has_headers?, liberal_parsing: true)
       
+      # 空の行を削除
       csv.delete_if{|row| row.map{|e| e.is_a?(Array) ? e.last : e}.find{|e| e} == nil}
       
-      # 値が空の項目を削除
+      # 空の列を削除
       if has_headers?
         tbl = {}
         csv.each do |r|
@@ -31,6 +33,25 @@ class CsvData
         empty_keys = tbl.keys.select{|k| tbl[k].empty?}
         empty_keys.each do |k|
           csv.delete(k)
+        end
+      end
+
+      # カンマ付き数値の置換
+      if has_headers?
+        csv.headers.each do |h|
+          csv.each do |r|
+            if number?(r[h])
+              r[h] = number(r[h])
+            end
+          end
+        end
+      else
+        csv.each do |r|
+          r.each_with_index do |c, i|
+            if number?(c)
+              r[i] = number(c)
+            end
+          end
         end
       end
 
