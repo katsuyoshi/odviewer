@@ -28,13 +28,16 @@ module AkitaCityEntity
 
   def akita_city_entity_pre_process lines
 p lines.first
-    case 
+    case lines.first
     when /^人　口　世　帯　表/
+p [__LINE__]
       return akita_city_entity_pre_process_population lines
     when /^１ 　位　置　と　面　積/
+p [__LINE__]
       return akita_city_entity_pre_process_without_headers lines
 
     when /^３　都　市　計　画　用　途　地　域　別　面　積/
+p [__LINE__]
       # (n) タイトルで分離されているパターン
       titles = lines.select{|e| /^（[０１２３４５６７８９]+）/ =~ e}
       indexes = titles.map{|t| lines.index t}
@@ -46,23 +49,36 @@ p lines.first
         end
       end
     when /^６　　　気　　　　　象/
+p [__LINE__]
       return akita_city_entity_pre_process_weather lines
     when /^７　人　口　・　世　帯　の　推　移/
+p [__LINE__]
       return akita_city_entity_pre_process_population_changes_7 lines
     when /^８　　　人　　　口　　　動　　　態/
+p [__LINE__]
       return akita_city_entity_pre_process_population_changes_8 lines
     when /^１２　外　国　人　人　口/
+p [__LINE__]
       return akita_city_entity_pre_process_population_of_foreigners lines
-    when /^５　住　居　表　示　地　区　の　面　積/, /９　都　道　府　県　別　転　入　・　転　出　人　口/, /^１３　住　民　基　本　台　帳　人　口/, /１４　国 勢 調 査 人 口・世 帯 等 の 推 移/, /^１８　年　齢 （　１５歳以上　） 別　労　働　力　状　態/
+    when /^１４０　職　業　紹　介　＜ Ⅲ ＞/
+p [__LINE__]
+      return akita_city_entity_pre_process_job lines
+    when /^５　住　居　表　示　地　区　の　面　積/, /９　都　道　府　県　別　転　入　・　転　出　人　口/, /^１３　住　民　基　本　台　帳　人　口/, /１４　国 勢 調 査 人 口・世 帯 等 の 推 移/, /^１８　年　齢 （　１５歳以上　） 別　労　働　力　状　態/, /^５１　農 業 就 業 人 口 の 推 移/
+p [__LINE__]
       # headers 2行, タイトルなし
       return [csv_data_with_lines(lines[1..-1], 2, false)]
-    when /^１６　年 齢（５ 歳 階 級） 別 構 成 の 推 移/
+    when /^１６　年 齢（５ 歳 階 級） 別 構 成 の 推 移/, /^１４１　　雇　　用　　保　　険　（ Ⅱ ）/, /^１４４　労　働　組　合　と　組　合　員　の　状　況 （ Ⅱ ）/, /^４８　　農　　業　　の　　概　　況/, /^４９　農　業　の　地　区　別　現　況/, /^５０　農家数の推移（秋田市・秋田県）/
+p [__LINE__]
       # headers 3行, タイトルなし
       return [csv_data_with_lines(lines[1..-1], 3, false)]
-    when /^４　　公　園 ・ 緑　地　面　積/, /^１５　人 口 集 中 地 区 の 推 移/
+    when /^４　　公　園 ・ 緑　地　面　積/, /^１５　人 口 集 中 地 区 の 推 移/, /^１４３　労　働　者　災　害　補　償　保　険/, /^１４４　労 働 組 合 と 組 合 員 の 状 況 （Ⅰ）/
+p [__LINE__]
       # headers 4行, タイトルなし
       return [csv_data_with_lines(lines[1..-1], 4, false)]
+    when /^１４１　　雇　　用　　保　　険　　＜ Ⅲ ＞/
+      return [csv_data_with_lines(lines[1..-1], 6, false)]
     else
+p [__LINE__]
       # headers 1行, タイトルなし
       return [csv_data_with_lines(lines[1..-1], 1, false)]
     end
@@ -166,97 +182,6 @@ p lines.first
       csv_data_with_lines(lines2, 2),
       csv_data_with_lines(lines3, 2),
     ]
-=begin
-    result = []
-    data = {}
-
-    # 世帯数
-    t = "人口世帯表"
-    data[t] = []
-    s = lines.join("\n")
-    phase = 0
-    csv = CSV.parse(s, liberal_parsing: true).each do |r|
-      case phase
-      when 0
-        case r[1]
-        when /世 帯 数/
-          phase = 1
-          data[t] << r[1,5]
-        end
-      when 1
-        h = data[t].pop
-        data[t] << binding_headers(h, r[1,5]).join(",")
-        phase = 2
-      when 2
-        data[t] << to_number(r[1,5]).join(",")
-        break
-      end
-    end
-
-    data['地区別人口世帯表'] = []
-    data2 = {}
-    phase = 0
-    t_l = nil
-    t_r = nil
-    f_r = false
-    headers = nil
-    csv = CSV.parse(s, liberal_parsing: true).each do |r|
-      case phase
-      when 0
-        case r[0]
-        when /地  区  名/
-          phase = 1
-          headers = r[0,5]
-        end
-      when 1
-        headers = binding_headers headers, r[0,5]
-        headers[1] += "2"
-        headers = headers.join(",")
-        phase = 2
-      when 2
-        a1 = to_number(r[0,5])
-        if a1[0] && a1[0] != t_l
-          t_l = a1[0]
-          data[t_l] = [headers]
-        end
-        unless a1.join("") == ""
-          a1[0] = t_l
-          a1[1] = t_l if /秋　田　市/ =~ t_l
-          data[t_l] << a1.join(",")
-        end
-
-        unless f_r
-          a2 = to_number(r[6,5])
-          if a2.join("") == ""
-            f_r = true
-            next
-          end
-          if a2[0] && a2[0] != t_r
-            t_r = a2[0]
-            data2[t_r] = [headers]
-          end
-          a2[0] = t_r
-          data2[t_r] << a2.join(",")
-        end
-      end
-    end
-    data2.each do |k, a|
-      data[k] = a
-    end
-
-    data['地区別人口世帯表'] << headers
-    data.each do |k, a|
-      case k
-      when '人口世帯表', '地区別人口世帯表'
-      else
-        if /秋　田　市|計\,/ =~ a[1]
-          data['地区別人口世帯表'] << a[1]
-        end
-      end
-    end
-
-    result += data.map{|k, a| CsvData.new(a, true, k)}
-=end
   end
 
   def akita_city_entity_pre_process_population_changes_7 lines
@@ -388,6 +313,25 @@ p lines.first
         lines_with_rectangle(lines, 0, 13, -1, 11))
           .map{|a,b| a + b.split(/\,/)[1..-1].join(",")},
         1, false),
+    ]
+  end
+
+  def akita_city_entity_pre_process_job lines
+    title = lines_with_rectangle(lines, 0, 1, 1, 1).first
+    headers = lines_with_rectangle(lines, 0, 2, -1, 1)
+    [
+      csv_data_with_lines(
+        [title + " 年別"] +
+          headers +
+          lines_with_rectangle(lines, 0, 3, -1, 10),
+        1
+      ),
+      csv_data_with_lines(
+        [title + " 月別"] +
+          headers +
+          lines_with_rectangle(lines, 0, 13, -1, 12),
+        1
+      ),
     ]
   end
 
