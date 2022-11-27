@@ -37,5 +37,9 @@ end
 
 def number v
   return nil unless number? v
-  v.gsub(/[△▲]/, "-").gsub(/[\s\,]/, '').to_f
+  if /\./
+    v.gsub(/[△▲]/, "-").gsub(/[\s\,]/, '').to_f
+  else
+    v.gsub(/[△▲]/, "-").gsub(/[\s\,]/, '').to_i
+  end
 end

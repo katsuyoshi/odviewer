@@ -116,23 +116,3 @@ class OpenDataEntity
 
 
 end
-
-__END__
-
-{
-  "name": "秋田県/秋田市/位置と面積/位置と面積",
-  "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/561/03-1.xls",
-  "path": "./data_files/秋田県/秋田市/位置と面積/位置と面積/03-1.xls",
-  "catalogUrl": null,
-  "catalogResourceId": null,
-  "lastModified": "2022-04-20T23:35:48.000Z",
-  "eTag": "7600-5dd1e740736c0",
-  "lastDownloaded": "2022-11-23T14:37:04.030Z",
-  "integrity": "",
-  "postProcesses": [
-    "xlsx-to-csv",
-    "encode UTF-8"
-  ],
-  "headers": {}
-},
-

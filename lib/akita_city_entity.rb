@@ -21,14 +21,21 @@
 # SOFTWARE.
 
 require 'csv_data'
+require 'cell_utils'
 
 module AkitaCityEntity
+  include CellUtils
 
   def akita_city_entity_pre_process lines
     case lines.first
-    when /人　口　世　帯　表/
+    when /^人　口　世　帯　表/
       return akita_city_entity_pre_process_population lines
-    when /市域の変遷/
+    when /^１ 　位　置　と　面　積/, /^２　　市　域　の　変　遷/
+      return akita_city_entity_pre_process_without_headers lines
+    when /^７　人　口　・　世　帯　の　推　移/
+      return akita_city_entity_pre_7_process_population_changes lines
+    when /^８　　　人　　　口　　　動　　　態/
+      return akita_city_entity_pre_8_process_population_changes lines
     end
 
     sources = []
@@ -36,7 +43,7 @@ module AkitaCityEntity
     until lines.empty?
 
       new_lines = []
-      ml = lines.find{|l| /^\s*（[０１２３４５６７８９]+）|.+日現在/ =~ l}
+      ml = lines.find{|l| /^（[０１２３４５６７８９]+）|.+日現在/ =~ l}
       i = lines.index(ml)
       if i
         i += 1
@@ -90,26 +97,6 @@ module AkitaCityEntity
       end
     end
     sources
-  end
-
-  def binding_headers headers1, headers2
-    t = nil
-    headers1.zip(headers2).map do |a,b|
-      a ||= t
-      t = a
-      "#{a} #{b}".strip
-    end
-  end
-
-  def to_number a
-    a.map do |e|
-      case e
-      when /^[\d\,\.]+$/
-        e.gsub(/\,/, "")
-      else
-        e
-      end
-    end
   end
 
   def akita_city_entity_pre_process_population lines
@@ -203,5 +190,111 @@ module AkitaCityEntity
 
     result += data.map{|k, a| CsvData.new(a, true, k)}
   end
+
+  def akita_city_entity_pre_7_process_population_changes lines
+    s = lines.join("\n")
+    lines1 = []
+    lines2 = []
+
+    phase = 0
+    headers = nil
+    f_l = false
+    f_r = false
+    csv = CSV.parse(s, liberal_parsing: true).each do |r|
+      case phase
+      when 0
+        case r[0]
+        when /^年次/
+          phase = 1
+          headers = r[0,8]
+        end
+      when 1
+        headers = binding_headers headers, r[0,8]
+        lines1 << headers.join(",")
+        phase = 2
+      when 2
+        if /^[\s　]*注）|^[\s　]*資料/ =~ r[0]
+          f_l = true
+        end
+        lines1 << to_number(r[0,8]).join(",") unless f_l
+        lines2 << to_number(r[8,8]).join(",") unless f_r
+      end
+    end
+    lines1 += lines2
+    [CsvData.new(lines1, true)]
+  end
+
+  def akita_city_entity_pre_process_with_headers lines, headers_size = 1
+    s = lines.join("\n")
+    lines1 = []
+    f = false
+    hc = 0
+
+    phase = 0
+    headers = nil
+    csv = CSV.parse(s, liberal_parsing: true).each do |r|
+      case phase
+      when 0
+        # skip first line
+        phase = 1
+      when 1
+        if r[0]
+          phase = 2
+          headers = r
+          hc = 1
+        end
+      when 2
+        headers = binding_headers headers, r
+        hc += 1
+        if hc >= headers_size
+          lines1 << headers.join(",")
+          phase = 3
+        end
+      when 3
+        if /^[\s　]*注）|^[\s　]*資料/ =~ r[0]
+          f = true
+        end
+        lines1 << to_number(r).join(",") unless f
+      end
+    end
+    [CsvData.new(lines1, true)]
+  end
+
+  def akita_city_entity_pre_process_without_headers lines
+    s = lines.join("\n")
+    lines1 = []
+    f = false
+
+    phase = 0
+    csv = CSV.parse(s, liberal_parsing: true).each do |r|
+      case phase
+      when 0
+        # skip first line
+        phase = 1
+      when 1
+        if r[0]
+          phase = 2
+          lines1 << to_number(r).join(",")
+        end
+      when 2
+        if /^[\s　]*注）|^[\s　]*資料/ =~ r[0]
+          f = true
+        end
+        lines1 << to_number(r).join(",") unless f
+      end
+    end
+    [CsvData.new(lines1, false)]
+  end
+
+  def akita_city_entity_pre_8_process_population_changes lines
+    [
+      csv_data_with_lines(lines_with_rectangle(lines, 0, 0, -1, 26), 3),
+      csv_data_with_lines(lines_with_rectangle(lines, 0, 30, 5, 16)),
+      csv_data_with_lines(lines_with_rectangle(lines, 6, 30, 5, 16)),
+      csv_data_with_lines(lines_with_rectangle(lines, 12, 30, 13, 16)),
+    ]
+  end
+
+
 
 end

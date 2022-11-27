@@ -16,7 +16,24 @@ class CsvData
   def csv
     @csv ||= begin
       csv = CSV.parse(lines.join("\n"), headers: has_headers?, liberal_parsing: true)
-      .delete_if{|row| row.map{|e| e.is_a?(Array) ? e.last : e}.find{|e| e} == nil}
+      
+      csv.delete_if{|row| row.map{|e| e.is_a?(Array) ? e.last : e}.find{|e| e} == nil}
+      
+      # 値が空の項目を削除
+      if has_headers?
+        tbl = {}
+        csv.each do |r|
+          csv.headers.each do |h|
+            tbl[h] ||= []
+            tbl[h] << r[h] if r[h]
+          end
+        end
+        empty_keys = tbl.keys.select{|k| tbl[k].empty?}
+        empty_keys.each do |k|
+          csv.delete(k)
+        end
+      end
+
       csv
     end
   end
