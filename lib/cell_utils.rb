@@ -25,17 +25,28 @@ module CellUtils
 
   def number? v
     return nil if v.nil?
+    return true if v.is_a? Numeric
     return nil if location? v
     /^[△▲+-]?\s*(\d{1,3}?(\,\d{3})*|\d+)(\.|\.(\d+))?$/ =~ v
   end
   
   def number v
     return nil unless number? v
+    return v if v.is_a? Numeric
     if /\./ =~ v
       v.gsub(/[△▲]/, "-").gsub(/[\s\,]/, '').to_f
     else
       v.gsub(/[△▲]/, "-").gsub(/[\s\,]/, '').to_i
     end
+  end
+
+  def location? v
+    return nil unless v.scan(/\./).size == 2
+    return nil unless v.scan(/\,/).size == 1
+    v.split(",").each do |e|
+      return nil unless number? e.strip
+    end
+    true
   end
 
   def binding_headers headers1, headers2
@@ -80,12 +91,13 @@ module CellUtils
   end
 
 
-  def csv_data_with_lines lines, headers_size = 1, with_title=true
+  def csv_data_with_lines lines, headers_size=nil, with_title=true
     s = lines.join("\n")
     lines1 = []
     f = false
     title = nil
     headers_count = 0
+    headers_row = []
     headers = []
 
     phase = with_title ? 0 : 1
@@ -98,10 +110,12 @@ module CellUtils
       when 1
         unless r.join("") == ""
           if r[0]
-            headers = r
+            headers_row << r
             headers_count = 1
-            if headers_size <= headers_count
-              lines1 << uniq_headers(headers).join(",")
+            if headers_size && headers_size <= headers_count
+              headers = uniq_headers(headers_row.first)
+              lines1 << headers.join(",")
+              headers_row = []
               phase = 3
             else
               phase = 2
@@ -109,11 +123,29 @@ module CellUtils
           end
         end
       when 2
-        headers = binding_headers headers, r
+        headers_row << r
         headers_count += 1
-        if headers_size <= headers_count
-          lines1 << uniq_headers(headers).join(",")
+        if headers_size && headers_size <= headers_count
+          headers = uniq_headers(
+            headers_row[1..-1].inject(headers_row[0]) do |h, r|
+              binding_headers h, r
+            end
+          )
+          lines1 << headers.join(",")
           phase = 3
+        else
+          if /^(明治|大正|昭和|平成|令和|\d+)|総[\s　]*数/ =~ r[0]
+            headers = uniq_headers(
+              headers_row[1..-2].inject(headers_row[0]) do |h, r|
+                binding_headers h, r
+              end
+            )
+            lines1 << headers.join(",")
+            lines1 << headers_row.last.join(",")
+            headers_count -= 1
+            headers_row = []
+            phase = 3
+          end
         end
       when 3
         if /^[\s　]*注）|^[\s　]*資料|資料に基づき/ =~ r[0]
@@ -122,7 +154,12 @@ module CellUtils
         lines1 << to_number(r).join(",") unless f
       end
     end
-    CsvData.new(lines1, headers_size != 0, title)
+    if lines1.empty?
+      lines1 = headers_row
+      headers_row = []
+      headers_count = 0
+    end
+    CsvData.new(lines1, headers_count != 0, title)
   end
 
   def lines_with_rectangle lines, x, y, w, h

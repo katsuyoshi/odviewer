@@ -27,17 +27,14 @@ module AkitaCityEntity
   include CellUtils
 
   def akita_city_entity_pre_process lines
-p lines.first
-    case lines.first
+p lines.first, lines.first.split(/\,/).join("")
+    case lines.first.split(/\,/).join("")
     when /^人　口　世　帯　表/
-p [__LINE__]
       return akita_city_entity_pre_process_population lines
     when /^１ 　位　置　と　面　積/
-p [__LINE__]
       return akita_city_entity_pre_process_without_headers lines
 
     when /^３　都　市　計　画　用　途　地　域　別　面　積/
-p [__LINE__]
       # (n) タイトルで分離されているパターン
       titles = lines.select{|e| /^（[０１２３４５６７８９]+）/ =~ e}
       indexes = titles.map{|t| lines.index t}
@@ -49,38 +46,18 @@ p [__LINE__]
         end
       end
     when /^６　　　気　　　　　象/
-p [__LINE__]
       return akita_city_entity_pre_process_weather lines
     when /^７　人　口　・　世　帯　の　推　移/
-p [__LINE__]
       return akita_city_entity_pre_process_population_changes_7 lines
     when /^８　　　人　　　口　　　動　　　態/
-p [__LINE__]
       return akita_city_entity_pre_process_population_changes_8 lines
     when /^１２　外　国　人　人　口/
-p [__LINE__]
       return akita_city_entity_pre_process_population_of_foreigners lines
     when /^１４０　職　業　紹　介　＜ Ⅲ ＞/
-p [__LINE__]
       return akita_city_entity_pre_process_job lines
-    when /^５　住　居　表　示　地　区　の　面　積/, /９　都　道　府　県　別　転　入　・　転　出　人　口/, /^１３　住　民　基　本　台　帳　人　口/, /１４　国 勢 調 査 人 口・世 帯 等 の 推 移/, /^１８　年　齢 （　１５歳以上　） 別　労　働　力　状　態/, /^５１　農 業 就 業 人 口 の 推 移/
-p [__LINE__]
-      # headers 2行, タイトルなし
-      return [csv_data_with_lines(lines[1..-1], 2, false)]
-    when /^１６　年 齢（５ 歳 階 級） 別 構 成 の 推 移/, /^１４１　　雇　　用　　保　　険　（ Ⅱ ）/, /^１４４　労　働　組　合　と　組　合　員　の　状　況 （ Ⅱ ）/, /^４８　　農　　業　　の　　概　　況/, /^４９　農　業　の　地　区　別　現　況/, /^５０　農家数の推移（秋田市・秋田県）/
-p [__LINE__]
-      # headers 3行, タイトルなし
-      return [csv_data_with_lines(lines[1..-1], 3, false)]
-    when /^４　　公　園 ・ 緑　地　面　積/, /^１５　人 口 集 中 地 区 の 推 移/, /^１４３　労　働　者　災　害　補　償　保　険/, /^１４４　労 働 組 合 と 組 合 員 の 状 況 （Ⅰ）/
-p [__LINE__]
-      # headers 4行, タイトルなし
-      return [csv_data_with_lines(lines[1..-1], 4, false)]
-    when /^１４１　　雇　　用　　保　　険　　＜ Ⅲ ＞/
-      return [csv_data_with_lines(lines[1..-1], 6, false)]
     else
-p [__LINE__]
-      # headers 1行, タイトルなし
-      return [csv_data_with_lines(lines[1..-1], 1, false)]
+      # ヘッダー自動判定, タイトルなし
+      return [csv_data_with_lines(lines[1..-1], nil, false)]
     end
 
     sources = []
@@ -152,7 +129,7 @@ p [__LINE__]
       headers + 
       lines_with_rectangle(lines, 1, 5, 5, 1)
 
-    title = lines_with_rectangle(lines, 7, 2, 1, 1).first
+      title = lines_with_rectangle(lines, 7, 2, 1, 1).first
     headers = lines_with_rectangle(lines, 7, 3, 5, 2)
     headers = headers.map{|h| " " + h}
     lines2 = 
@@ -160,7 +137,7 @@ p [__LINE__]
       headers + 
       lines_with_rectangle(lines, 7, 5, 5, 2)
   
-    title = lines_with_rectangle(lines, 0, 7, 1, 1).first
+      title = lines_with_rectangle(lines, 0, 7, 1, 1).first
     headers = lines_with_rectangle(lines, 0, 8, 6, 2)
     lines3 = 
       [title] +
@@ -176,7 +153,7 @@ p [__LINE__]
       end
       l
     end
-  
+
     [
       csv_data_with_lines(lines1, 2),
       csv_data_with_lines(lines2, 2),

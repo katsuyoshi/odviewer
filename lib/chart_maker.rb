@@ -22,7 +22,6 @@
 
 require 'csv'
 require 'chart_js'
-require 'misc'
 
 class ChartMaker
 

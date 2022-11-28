@@ -100,10 +100,11 @@ class OpenDataEntity
           lines.last << "#{l}"
         end
       end
-      # 空行の削除
-      lines = lines.select{|l| l.split(/\,/).join("") != ""}
 
-      # return [CsvData]
+      # 一度CSVに変換し空行削除と数値のカンマを取り除く
+      csv_data = CsvData.new lines, false, nil
+      lines = csv_data.csv.map{|r| r.to_a.join(",")}
+
       load_csv_data lines
     rescue => e
       puts "FAIL: reading #{path}"

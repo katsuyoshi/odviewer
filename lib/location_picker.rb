@@ -21,7 +21,6 @@
 # SOFTWARE.
 
 require 'csv'
-require 'misc'
 
 class LocationPicker
 

@@ -1,7 +1,9 @@
 require 'test_helper'
-require 'open_data'
+require 'cell_utils'
 
-class MiscTest < Test::Unit::TestCase
+
+class CellUtilsTest < Test::Unit::TestCase
+  include CellUtils
 
   def test_is_number_with_1234
     assert number?('1234')
@@ -52,14 +54,6 @@ class MiscTest < Test::Unit::TestCase
     assert number?('+1,234.0')
   end
 
-  def test_is_location_with_12_d_3456_c_12_d_3456
-    assert location?('12.3456,12.3456')
-  end
-
-  def test_is_location_with_12_d_3456_c_12_d_3456_c_12_d_3456
-    assert_nil location?('12.3456,12.3456,12.3456')
-  end
-
   def test_number_1234
     assert_equal 1234, number('1234')
   end
@@ -92,4 +86,14 @@ class MiscTest < Test::Unit::TestCase
     assert_equal 2588509, number("2,588,509")
   end
 
+  def test_is_location_with_12_d_3456_c_12_d_3456
+    assert location?('12.3456,12.3456')
+  end
+
+  def test_is_location_with_12_d_3456_c_12_d_3456_c_12_d_3456
+    assert_nil location?('12.3456,12.3456,12.3456')
+  end
+
+
 end
+  

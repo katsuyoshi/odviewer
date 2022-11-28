@@ -19,7 +19,7 @@ class OpenDataEntiityTest < Test::Unit::TestCase
       "人口 女",
       "対前年人口 増減数",
       "対前年人口 増減率",
-      "世帯数",
+      "世帯数 増減率",
       "１世帯当たり の人員",
     ]
     assert_equal expected, @entiity.csv.headers

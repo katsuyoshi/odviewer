@@ -17,7 +17,7 @@ class CsvData
   def csv
     @csv ||= begin
       csv = CSV.parse(lines.join("\n"), headers: has_headers?, liberal_parsing: true)
-      
+
       # 空の行を削除
       csv.delete_if{|row| row.map{|e| e.is_a?(Array) ? e.last : e}.find{|e| e} == nil}
       
@@ -36,20 +36,26 @@ class CsvData
         end
       end
 
-      # カンマ付き数値の置換
+      # スペースの削除とカンマ付き数値の置換
       if has_headers?
         csv.headers.each do |h|
           csv.each do |r|
+            r[h] = r[h]&.strip
             if number?(r[h])
               r[h] = number(r[h])
+            else
+              r[h]
             end
           end
         end
       else
         csv.each do |r|
           r.each_with_index do |c, i|
+            c = c&.strip
             if number?(c)
               r[i] = number(c)
+            else
+              r[i] = c
             end
           end
         end
