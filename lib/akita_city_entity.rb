@@ -55,33 +55,33 @@ p lines.first, lines.first.split(/\,/).join("")
       return akita_city_entity_pre_process_population_of_foreigners lines
     when /^１４０　職　業　紹　介　＜ Ⅲ ＞/
       return akita_city_entity_pre_process_job lines
+    when  /^１８７　　　市　　　有　　　財　　　産/
+      return akita_city_entity_pre_process_properties lines
     when  /^市区町村コード/
       # ヘッダー自動判定, タイトルなし
       return [csv_data_with_lines(lines, nil, false)]
-    when  /^４４　主 要 文 化 施 設 の 利 用 状 況/
+    when  /^４４　主 要 文 化 施 設 の 利 用 状 況/,
+          /指定緊急避難場所一覧/
       # ヘッダー自動判定, タイトルあり
       return [csv_data_with_lines(lines, nil, true)]
-    when  /^１８７　　　市　　　有　　　財　　　産/
-      return akita_city_entity_pre_process_properties lines
+    when /^開設者名/
+      # ヘッダー1, タイトルなし
+      return [csv_data_with_lines(lines, 1, false)]
     when  /^質問１/,
           /^１１９　一酸化炭素（CO）濃度の測定結果/,
           /^１２０　光化学オキシダント（Ox）濃度の測定結果/,
           /^１２１　炭化水素類（HC）濃度の測定結果/,
           /^１２０　光化学オキシダント（Ox）濃度の測定結果/,
           ",４月,５月,６月,７月,８月,９月,10月,11月,12月,１月,２月,３月,累計",
-          ",全国,県,市",
-          "開設者名,施設名,市町村名,住所,電話番号,許可番号,許可区分,有効期間の開始日,有効期間の終了日",
-          "【西部地区】指定緊急避難場所一覧",
-          "【北部地区】指定緊急避難場所一覧",
-          "開設者名,施設名,所在地,電話番号"
+          ",全国,県,市"
       # TODO: 複数テーブル
       return [csv_data_with_lines(lines, nil, false)]
     when /^１３１　死　因　順　位　別　死　亡　者　数/
       return [csv_data_with_lines(lines[1..-1], 2, false)]
     when  /^１４１　　雇　　用　　保　　険　/, 
           /^１４３　労　働　者　災　害　補　償　保　険/, 
-          /^１４４　労 働 組 合 と 組 合 員 の 状 況/, /^１４４　労　働　組
-      　合　と　組　合　員　の　状　況/, 
+          /^１４４　労 働 組 合 と 組 合 員 の 状 況/, 
+          /^１４４　労　働　組　合　と　組　合　員　の　状　況/, 
           /^５９　漁　業　の　概　況/, 
           /^４７　事　業　所　数/, 
           /^７９　主要金融機関の預金・貸出金状況/, 
@@ -143,7 +143,7 @@ p lines.first, lines.first.split(/\,/).join("")
               t = a.first if a.first && a.first.length != 0
               [t, a.last || ""].join(" ").strip
             end if ll
-            new_lines << elements.join(",")
+            new_lines << join_rows(elements)
           else
             new_lines << l
             found = new_lines.size > 1
@@ -251,14 +251,14 @@ p lines.first, lines.first.split(/\,/).join("")
         headers = binding_headers headers, r
         hc += 1
         if hc >= headers_size
-          lines1 << headers.join(",")
+          lines1 << join_rows(headers)
           phase = 3
         end
       when 3
         if /^[\s　]*注）|^[\s　]*資料/ =~ r[0]
           f = true
         end
-        lines1 << to_number(r).join(",") unless f
+        lines1 << join_rows(to_number(r)) unless f
       end
     end
     [CsvData.new(lines1, true)]
@@ -278,13 +278,13 @@ p lines.first, lines.first.split(/\,/).join("")
       when 1
         if r[0]
           phase = 2
-          lines1 << to_number(r).join(",")
+          lines1 << join_rows(to_number(r))
         end
       when 2
         if /^[\s　]*注）|^[\s　]*資料|資料に基づき/ =~ r[0]
           f = true
         end
-        lines1 << to_number(r).join(",") unless f
+        lines1 << join_rows(to_number(r)) unless f
       end
     end
     [CsvData.new(lines1, false)]
@@ -345,7 +345,7 @@ p lines.first, lines.first.split(/\,/).join("")
       csv_data_with_lines(
         lines_with_rectangle(lines, 0, 2, -1, 11).zip( 
         lines_with_rectangle(lines, 0, 13, -1, 11))
-          .map{|a,b| a + b.split(/\,/)[1..-1].join(",")},
+          .map{|a,b| a + join_rows(b.split(/\,/)[1..-1])},
         1, false),
     ]
   end
