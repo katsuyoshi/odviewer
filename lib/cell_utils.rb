@@ -90,6 +90,10 @@ module CellUtils
     end
   end
 
+  def join_rows rows
+    rows.to_a.map{|e| e.is_a?(String) && /\,/ =~e ? "\"#{e}\"" : e}.join(",")
+  end
+  module_function :join_rows
 
   def csv_data_with_lines lines, headers_size=nil, with_title=true
     s = lines.join("\n")
@@ -114,7 +118,7 @@ module CellUtils
             headers_count = 1
             if headers_size && headers_size <= headers_count
               headers = uniq_headers(headers_row.first)
-              lines1 << headers.join(",")
+              lines1 << join_rows(headers)
               headers_row = []
               phase = 3
             else
@@ -131,7 +135,7 @@ module CellUtils
               binding_headers h, r
             end
           )
-          lines1 << headers.join(",")
+          lines1 << join_rows(headers)
           phase = 3
         else
           # ヘッダー直後に来るデータを区切りとする
@@ -141,8 +145,8 @@ module CellUtils
                 binding_headers h, r
               end
             )
-            lines1 << headers.join(",")
-            lines1 << headers_row.last.join(",")
+            lines1 << join_rows(headers)
+            lines1 << join_rows(headers_row.last)
             headers_count -= 1
             headers_row = []
             phase = 3
@@ -152,7 +156,7 @@ module CellUtils
         if /^[\s　]*注）|^[\s　]*資料|資料に基づき/ =~ r[0]
           f = true
         end
-        lines1 << to_number(r).join(",") unless f
+        lines1 << join_rows(to_number(r)) unless f
       end
     end
     if lines1.empty?
@@ -168,9 +172,9 @@ module CellUtils
     CSV.parse(lines.join("\n"), liberal_parsing: true).each_with_index do |r, i|
       if (y...(y+h)).include? i
         if w == -1
-          results << to_number(r).join(",")
+          results << join_rows(to_number(r))
         else
-          results << to_number(r[x, w]).join(",")
+          results << join_rows(to_number(r[x, w]))
         end
       end
     end

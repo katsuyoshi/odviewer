@@ -24,6 +24,7 @@ require 'json'
 require 'singleton'
 require 'csv'
 require 'time'
+require 'cell_utils'
 
 require 'akita_city_entity'
 
@@ -103,7 +104,9 @@ class OpenDataEntity
 
       # 一度CSVに変換し空行削除と数値のカンマを取り除く
       csv_data = CsvData.new lines, false, nil
-      lines = csv_data.csv.map{|r| r.to_a.join(",")}
+      lines = csv_data.csv.map do |r|
+        CellUtils.join_rows(r.to_a)
+      end
 
       load_csv_data lines
     rescue => e

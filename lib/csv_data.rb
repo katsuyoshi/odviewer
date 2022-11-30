@@ -40,7 +40,7 @@ class CsvData
       if has_headers?
         csv.headers.each do |h|
           csv.each do |r|
-            r[h] = r[h]&.strip
+            r[h] = r[h].strip if r[h].is_a?(String)
             if number?(r[h])
               r[h] = number(r[h])
             else
