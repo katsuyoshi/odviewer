@@ -57,6 +57,11 @@ p lines.first, lines.first.split(/\,/).join("")
       return akita_city_entity_pre_process_job lines
     when  /^１８７　　　市　　　有　　　財　　　産/
       return akita_city_entity_pre_process_properties lines
+    when  /^８２　秋田港の階級別入港船舶数/,
+          /^８３　秋田港の国別輸出入貨物状況/
+      return akita_city_entity_pre_process_port lines
+    when  /^８４　　秋田空港の利用状況/
+      return akita_city_entity_pre_process_port2 lines
     when  /^市区町村コード/
       # ヘッダー自動判定, タイトルなし
       return [csv_data_with_lines(lines, nil, false)]
@@ -86,9 +91,6 @@ p lines.first, lines.first.split(/\,/).join("")
           /^４７　事　業　所　数/, 
           /^７９　主要金融機関の預金・貸出金状況/, 
           /^１１３　電　灯 ・ 電　力　需　要　状　況/,
-          /^８２　秋田港の階級別入港船舶数/,
-          /^８３　秋田港の国別輸出入貨物状況/,
-          /^８４　　秋田空港の利用状況/,
           /^４６　文　化　財/,
           /^１７５　秋 田 市 の 歳 入/,
           /^１７０　非　行　少　年　補　導　状　況/,
@@ -392,28 +394,36 @@ p lines.first, lines.first.split(/\,/).join("")
     ]
   end
 
-=begin
-  def akita_city_entity_pre_process_properties lines
-    p [__LINE__]
-        a = lines_with_rectangle(lines, 0, 1, 2, 100)
-    p [__LINE__]
-        maches = a.select{|e| /^\(\d+\)/ =~ e}
-    p [__LINE__, maches]
-        s = 1; e = nil
-    p [__LINE__, s, e]
-        maches.map.with_index do |l, i|
-    p [__LINE__, l, maches[i + 1]]
-          e = (a.index(maches[i + 1]) || a.size) + 1
-    p [__LINE__, e]
-          lines_with_rectangle(lines, 0, s, -1, e).tap do
-    p [__LINE__, s, e]
-            s = e
-          end
-        end
-        .map do |a|
-          csv_data_with_lines(a, 2, true)
-        end
+  def akita_city_entity_pre_process_port lines
+    a = lines_with_rectangle(lines, 0, 1, 2, 100)
+    maches = a.select{|e| /^\(\d+\)/ =~ e}
+    s = 1; e = nil
+    maches.map.with_index do |l, i|
+      e = (a.index(maches[i + 1]) || a.size)
+      lines_with_rectangle(lines, 0, s, -1, e).tap do
+        s = e + 1
       end
-=end
+    end
+    .map do |a|
+      csv_data_with_lines(a, 2, true)
+    end
+  end
+
+  def akita_city_entity_pre_process_port2 lines
+    a = lines_with_rectangle(lines, 0, 1, 1, 100)
+    s = a.index(a.find{|e| /^\s*\(\d+\)/ =~ e})
+    e = a.index(a.find{|e| /１月/ =~ e})
+    title = a[s]
+    s += 1; e += 1
+
+    lines1 = lines[s...e]
+    lines2 = lines[s..(s+3)] + lines[e...-1]
+    lines1[0] = title + " 年間"
+    lines2[0] = title + " 月間"
+    [
+      csv_data_with_lines(lines1, 3, true),
+      csv_data_with_lines(lines2, 3, true)
+    ]
+  end
     
 end
