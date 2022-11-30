@@ -62,11 +62,13 @@ p lines.first, lines.first.split(/\,/).join("")
       return akita_city_entity_pre_process_port lines
     when  /^８４　　秋田空港の利用状況/
       return akita_city_entity_pre_process_port2 lines
+    when  /^４４　主 要 文 化 施 設 の 利 用 状 況/,
+          /^４４　主要文化施設の利用状況/
+      return akita_city_entity_pre_process_culture_facilities lines
     when  /^市区町村コード/
       # ヘッダー自動判定, タイトルなし
       return [csv_data_with_lines(lines, nil, false)]
-    when  /^４４　主 要 文 化 施 設 の 利 用 状 況/,
-          /指定緊急避難場所一覧/
+    when   /指定緊急避難場所一覧/
       # ヘッダー自動判定, タイトルあり
       return [csv_data_with_lines(lines, nil, true)]
     when /^開設者名/
@@ -425,5 +427,47 @@ p lines.first, lines.first.split(/\,/).join("")
       csv_data_with_lines(lines2, 3, true)
     ]
   end
+
+  def akita_city_entity_pre_process_culture_facilities lines
+    a = lines_with_rectangle(lines, 0, 0, 1, 100)
+    indexes = a.map.with_index{|l, i| /^年[\s　]*度/ =~ l ? i : nil}
+    indexes.compact!
+    size = lines.size
+    lines_set = indexes.map.with_index do |index, i|
+      s = indexes[i]
+      e = indexes[i + 1] || size
+
+      # 秋田県民会館はヘッダーが1行不足しているので補正
+      # 市立千秋美術館は空行が入るため1行不足と判断されるので補正
+      s -= 1 if /秋田県民会館|市立千秋美術館/ =~ lines[s]
+
+      a1 = lines[s + 4].split(/\,/)
+      w = a1.index(nil) || a1.size
+      # 2プロック目からは年度項目を削除してくっつけるため最初の列は不要なので1引いている
+      w -= 1 unless i == 0
+      
+      r = lines_with_rectangle(lines, i == 0 ? 0 : 1, s, w, e - s)
+      (1..3).each do |j|
+        # 0列が空だとヘッダと認識しないのでダミー追加
+        r[j] = " " + r[j]
+      end
+      r
+      
+    end
+
+    lines1 = lines_set[1..-1].inject(lines_set.first) do |set, a|
+      set.zip(a).map do |a, b|
+        [a,b].join(",")
+      end
+    end
+
+
+    # マッチする場合はヘッダ行が3行
+    h = /公民館（全数分 ）|東部市民サービスセンター/ =~ lines1[0] ? 3 : 4
+    [
+      csv_data_with_lines(lines1, h, false)
+    ]
+  end
+  
     
 end
