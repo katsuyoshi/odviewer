@@ -65,8 +65,7 @@ module CellUtils
 
     # 重複確認
     a = []
-    # セル接合している場合後にタイトルと関連している内容があるので逆から探す
-    headers.reverse.map.with_index do |h, i|
+    headers.map.with_index do |h, i|
       t = h; no = 2
       # 重複していたら数値を後につけてユニーク化する
       while a.find{|e| e == t}
@@ -75,7 +74,7 @@ module CellUtils
       end
       a << t
     end
-    a.reverse
+    a
   end
 
 
