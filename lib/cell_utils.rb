@@ -134,7 +134,8 @@ module CellUtils
           lines1 << headers.join(",")
           phase = 3
         else
-          if /^(明治|大正|昭和|平成|令和|\d+)|総[\s　]*数/ =~ r[0]
+          # ヘッダー直後に来るデータを区切りとする
+          if /^(明治|大正|昭和|平成|令和|\d+)|総[\s　]*数|合　[\s　]*計|貨物用|幼　 稚　 園|身長|総[\s　]*額|総[\s　]*計|水道事業|現年課税分|県議会議員|問題別相談|\d{4}[\/年]d{1,2}[\/月]\d{1,2}日?|\d{1,2}[\/月]\d{1,2}日?/ =~ r[0]
             headers = uniq_headers(
               headers_row[1..-2].inject(headers_row[0]) do |h, r|
                 binding_headers h, r
