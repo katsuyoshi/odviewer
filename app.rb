@@ -78,7 +78,6 @@ get '/viewer/*' do
     @node = @node[e] unless e.length == 0
   end
   @entity = @node.entity
-p @entity.csv_data.map{|d| d.has_headers?}
 
   @charts = []
   @locations = []

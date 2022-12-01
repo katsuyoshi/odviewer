@@ -170,8 +170,8 @@ module CellUtils
     results = []
     CSV.parse(lines.join("\n"), liberal_parsing: true).each_with_index do |r, i|
       if (y...(y+h)).include? i
-        if w == -1
-          results << join_rows(to_number(r))
+        if w == -1 or w == nil
+          results << join_rows(to_number(r[x..-1]))
         else
           results << join_rows(to_number(r[x, w]))
         end

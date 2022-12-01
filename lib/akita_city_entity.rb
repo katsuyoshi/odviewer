@@ -85,6 +85,14 @@ p lines.first, lines.first.split(/\,/).join("")
           /^１３８　乳幼児健康診査の受診状況/,
           /^１３９　結核健康診断の実施状況/
       return akita_city_entity_pre_process_consult_doctor lines
+    when  /^１１７　 二酸化硫黄（SO２）濃度の測定結果/,
+          /^１１８　 二酸化窒素\(NO２）濃度の測定結果/,
+          /^１１９　一酸化炭素（CO）濃度の測定結果/,
+          /^１２０　光化学オキシダント（Ox）濃度の測定結果/,
+          /^１２２　浮遊粒子状物質（SPM）の測定結果/
+      return akita_city_entity_pre_process_multi_table lines
+    when  /^１２１　炭化水素類（HC）濃度の測定結果/
+      return akita_city_entity_pre_process_multi_table lines, [3, 4]
 
     when  /^市区町村コード/
       # ヘッダー自動判定, タイトルなし
@@ -95,10 +103,7 @@ p lines.first, lines.first.split(/\,/).join("")
     when /^開設者名/
       # ヘッダー1, タイトルなし
       return [csv_data_with_lines(lines, 1, false)]
-    when  /^１１９　一酸化炭素（CO）濃度の測定結果/,
-          /^１２０　光化学オキシダント（Ox）濃度の測定結果/,
-          /^１２１　炭化水素類（HC）濃度の測定結果/,
-          /^１３０　夜間休日応急診療所の利用者数/,
+    when  /^１３０　夜間休日応急診療所の利用者数/,
           /^１４８　保　育　所　の　概　況/,
           /^１５０　身体障害者手帳の交付状況/,
           /^１５７　　国　　民　　健　　康　　保　　険/
@@ -115,8 +120,6 @@ p lines.first, lines.first.split(/\,/).join("")
           /^７９　主要金融機関の預金・貸出金状況/, 
           /^１１３　電　灯 ・ 電　力　需　要　状　況/,
           /^４６　文　化　財/,
-          /^１１７　 二酸化硫黄（SO２）濃度の測定結果/,
-          /^１１８　 二酸化窒素\(NO２）濃度の測定結果/,
           /^１４５　　　生　　　活　　　保　　　護/,
           /^１５４　　厚　生　年　金　保　険/
       # ヘッダー自動判定, タイトルあり
@@ -519,7 +522,53 @@ p lines.first, lines.first.split(/\,/).join("")
     []
   end
 
+  # (n) のタイトルが付いた複数のテーブルが配置されているパターン
+  def akita_city_entity_pre_process_multi_table lines, header_sizes = 1
+    regex = /^\s*[\(（]([\d０１２３４５６７８９]+)[\)）]/
+    # "(n)" にマッチする行を探す
+    l_a = lines_with_rectangle(lines, 0, 0, 1, 100)
+    l_indexes = l_a.map.with_index{|l, i| regex =~ l ? i : nil}
+    l_indexes.compact!
+    size = lines.size
 
+    # 列方向でも"(n)"にマッチする列を探す
+    # 2番目を探したいので1番目がある0列目は外す
+    c_a = lines[l_indexes[0]].split(/\,/)[1..-1]
+    # 0列外した分で+1している。=> i + 1
+    c_indexes = c_a.map.with_index{|l, i| regex =~ l ? i + 1 : nil}
+    c_indexes.compact!
+    c_size = c_indexes.first || 0
+
+    w = c_size <= 1 ? -1 : c_size
+
+    # 左側のテーブル
+    l_lines_set = l_indexes.map.with_index do |index, i|
+      s = l_indexes[i]
+      e = l_indexes[i + 1] || size
+      lines_with_rectangle(lines, 0, s, w, e - s)
+    end
+
+    # 右側のテーブル
+    r_lines_set = []
+    unless w == -1
+      r_a = lines_with_rectangle(lines, c_size, 0, 1, 100)
+      r_indexes = r_a.map.with_index{|l, i| regex =~ l ? i : nil}
+      r_indexes.compact!
+
+      r_lines_set = r_indexes.map.with_index do |index, i|
+        s = r_indexes[i]
+        e = r_indexes[i + 1] || size
+        lines_with_rectangle(lines, c_size, s, nil, e - s)
+      end
+    end
+    
+    # 左右合わせて番号順に並べる
+    lines_set = (l_lines_set + r_lines_set).sort{|a, b| a[0].scan(regex).first[0] <=> b[0].scan(regex).first[0]}
+    lines_set.map.with_index do |s, i|
+      hs = header_sizes.is_a?(Array) ? header_sizes[i] || 1 : header_sizes
+      csv_data_with_lines(s, hs, true)
+    end
+  end
   
     
 end
