@@ -65,6 +65,27 @@ p lines.first, lines.first.split(/\,/).join("")
     when  /^４４　主 要 文 化 施 設 の 利 用 状 況/,
           /^４４　主要文化施設の利用状況/
       return akita_city_entity_pre_process_culture_facilities lines
+    when  /^１７５　秋 田 市 の 歳 入/,
+          /^１３０　夜間休日応急診療所の利用者数/
+      return akita_city_entity_pre_process_revenue lines
+    when /^１８５　譲　与　税　と　交　付　金/
+      return akita_city_entity_pre_process_gift_tax lines
+    when  /^１８９　地 目 別 評 価 面 積 、評 価 額/,
+          /^１２９　市 立 秋 田 総 合 病 院 の 利 用 者 数/
+      return akita_city_entity_pre_process_area_evaluation lines
+    when /^質問１．現在、あなたは「福祉」とどのような関わりがありますか。/
+      return akita_city_entity_pre_process_qa lines
+    when /^１７０　非　行　少　年　補　導　状　況/
+      return akita_city_entity_pre_process_guidance_of_youth lines
+    when  "４月５月６月７月８月９月10月11月12月１月２月３月累計",
+          "全国県市"
+      return akita_city_entity_pre_process_csv lines
+    when  /^１３５　各種検診の受診状況/,
+          /^１３７　特定健康診査等の受診状況と特定保健指導の実施状況/,
+          /^１３８　乳幼児健康診査の受診状況/,
+          /^１３９　結核健康診断の実施状況/
+      return akita_city_entity_pre_process_consult_doctor lines
+
     when  /^市区町村コード/
       # ヘッダー自動判定, タイトルなし
       return [csv_data_with_lines(lines, nil, false)]
@@ -74,13 +95,13 @@ p lines.first, lines.first.split(/\,/).join("")
     when /^開設者名/
       # ヘッダー1, タイトルなし
       return [csv_data_with_lines(lines, 1, false)]
-    when  /^質問１/,
-          /^１１９　一酸化炭素（CO）濃度の測定結果/,
+    when  /^１１９　一酸化炭素（CO）濃度の測定結果/,
           /^１２０　光化学オキシダント（Ox）濃度の測定結果/,
           /^１２１　炭化水素類（HC）濃度の測定結果/,
-          /^１２０　光化学オキシダント（Ox）濃度の測定結果/,
-          ",４月,５月,６月,７月,８月,９月,10月,11月,12月,１月,２月,３月,累計",
-          ",全国,県,市"
+          /^１３０　夜間休日応急診療所の利用者数/,
+          /^１４８　保　育　所　の　概　況/,
+          /^１５０　身体障害者手帳の交付状況/,
+          /^１５７　　国　　民　　健　　康　　保　　険/
       # TODO: 複数テーブル
       return [csv_data_with_lines(lines, nil, false)]
     when /^１３１　死　因　順　位　別　死　亡　者　数/
@@ -94,18 +115,10 @@ p lines.first, lines.first.split(/\,/).join("")
           /^７９　主要金融機関の預金・貸出金状況/, 
           /^１１３　電　灯 ・ 電　力　需　要　状　況/,
           /^４６　文　化　財/,
-          /^１７５　秋 田 市 の 歳 入/,
-          /^１７０　非　行　少　年　補　導　状　況/,
           /^１１７　 二酸化硫黄（SO２）濃度の測定結果/,
           /^１１８　 二酸化窒素\(NO２）濃度の測定結果/,
           /^１４５　　　生　　　活　　　保　　　護/,
-          /^１４８　保　育　所　の　概　況/,
-          /^１５４　　厚　生　年　金　保　険/,
-          /^１３０　夜間休日応急診療所の利用者数/,
-          /^１３５　各種検診の受診状況/,
-          /^１３７　特定健康診査等の受診状況と特定保健指導の実施状況/,
-          /^１３８　乳幼児健康診査の受診状況/,
-          /^１３９　結核健康診断の実施状況/
+          /^１５４　　厚　生　年　金　保　険/
       # ヘッダー自動判定, タイトルあり
       return [csv_data_with_lines(lines[1..-1], nil, true)]
     else
@@ -398,7 +411,7 @@ p lines.first, lines.first.split(/\,/).join("")
 
   def akita_city_entity_pre_process_port lines
     a = lines_with_rectangle(lines, 0, 1, 2, 100)
-    maches = a.select{|e| /^\(\d+\)/ =~ e}
+    maches = a.select{|e| /^[\(（][\d０１２３４５６７８９]+[\)）]/ =~ e}
     s = 1; e = nil
     maches.map.with_index do |l, i|
       e = (a.index(maches[i + 1]) || a.size)
@@ -428,9 +441,9 @@ p lines.first, lines.first.split(/\,/).join("")
     ]
   end
 
-  def akita_city_entity_pre_process_culture_facilities lines
+  def akita_city_entity_pre_process_culture_facilities lines, headers_size = 4
     a = lines_with_rectangle(lines, 0, 0, 1, 100)
-    indexes = a.map.with_index{|l, i| /^年[\s　]*度/ =~ l ? i : nil}
+    indexes = a.map.with_index{|l, i| /^年[\s　]*度|^年[\s　]*次/ =~ l ? i : nil}
     indexes.compact!
     size = lines.size
     lines_set = indexes.map.with_index do |index, i|
@@ -463,11 +476,50 @@ p lines.first, lines.first.split(/\,/).join("")
 
 
     # マッチする場合はヘッダ行が3行
-    h = /公民館（全数分 ）|東部市民サービスセンター/ =~ lines1[0] ? 3 : 4
+    h = /公民館（全数分 ）|東部市民サービスセンター/ =~ lines1[0] ? 3 : headers_size
     [
       csv_data_with_lines(lines1, h, false)
     ]
   end
+
+  def akita_city_entity_pre_process_revenue lines
+    akita_city_entity_pre_process_port lines
+  end
+
+  def akita_city_entity_pre_process_gift_tax lines
+    # TODO:
+    []
+  end
+
+  def akita_city_entity_pre_process_area_evaluation lines
+    akita_city_entity_pre_process_culture_facilities lines, 2
+  end
+
+  def akita_city_entity_pre_process_qa lines
+    # TODO:
+    []
+  end
+
+  def akita_city_entity_pre_process_guidance_of_youth lines
+    # TODO:
+    #akita_city_entity_pre_process_culture_facilities lines, 5
+    []
+  end
+
+  def akita_city_entity_pre_process_csv lines
+
+    lines[0] = " " + lines[0]
+    [
+      csv_data_with_lines(lines, 1, false)
+    ]
+  end
+
+  def akita_city_entity_pre_process_consult_doctor lines
+    # TODO:
+    []
+  end
+
+
   
     
 end
