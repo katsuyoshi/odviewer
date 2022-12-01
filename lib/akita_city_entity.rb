@@ -69,7 +69,8 @@ p lines.first, lines.first.split(/\,/).join("")
     when  /^１７５　秋 田 市 の 歳 入/
       return akita_city_entity_pre_process_revenue lines
     when /^１８５　譲　与　税　と　交　付　金/
-      return akita_city_entity_pre_process_gift_tax lines
+      return akita_city_entity_pre_process_multi_table lines, [1, 2, 2]
+      #return akita_city_entity_pre_process_gift_tax lines
     when  /^１８９　地 目 別 評 価 面 積 、評 価 額/,
           /^１２９　市 立 秋 田 総 合 病 院 の 利 用 者 数/
       return akita_city_entity_pre_process_area_evaluation lines
@@ -99,7 +100,8 @@ p lines.first, lines.first.split(/\,/).join("")
     when  /^１２１　炭化水素類（HC）濃度の測定結果/
       return akita_city_entity_pre_process_multi_table lines, [3, 4]
     when  /^１３０　夜間休日応急診療所の利用者数/,
-          /^１４８　保　育　所　の　概　況/
+          /^１４８　保　育　所　の　概　況/,
+          /^４６　文　化　財/
       return akita_city_entity_pre_process_multi_table lines, 2
 
     when  /^市区町村コード/
@@ -121,7 +123,6 @@ p lines.first, lines.first.split(/\,/).join("")
           /^４７　事　業　所　数/, 
           /^７９　主要金融機関の預金・貸出金状況/, 
           /^１１３　電　灯 ・ 電　力　需　要　状　況/,
-          /^４６　文　化　財/,
           /^１４５　　　生　　　活　　　保　　　護/,
           /^１５４　　厚　生　年　金　保　険/
       # ヘッダー自動判定, タイトルあり
@@ -457,7 +458,7 @@ p lines.first, lines.first.split(/\,/).join("")
 
       # 秋田県民会館はヘッダーが1行不足しているので補正
       # 市立千秋美術館は空行が入るため1行不足と判断されるので補正
-      s -= 1 if /秋田県民会館|市立千秋美術館/ =~ lines[s]
+      s -= 1 if /秋田県民会館|市立千秋美術館|太平山自然学習センター/ =~ lines[s]
 
       a1 = lines[s + 4].split(/\,/)
       w = a1.index(nil) || a1.size
@@ -474,6 +475,15 @@ p lines.first, lines.first.split(/\,/).join("")
     end
 
     lines1 = lines_set[1..-1].inject(lines_set.first) do |set, a|
+      # ４５　主要スポーツ施設の利用状況（ Ⅱ ） の場合ヘッダーに2行追加する
+      # ４５　主要スポーツ施設の利用状況（ Ⅲ  ） の場合ヘッダーに1行追加する
+      if /Ⅱ|Ⅲ/ =~ lines[0]
+        a.insert(3, "")
+      end        
+      if /Ⅱ/ =~ lines[0]
+        a.insert(3, "")
+      end        
+      h = 5 
       set.zip(a).map do |a, b|
         [a,b].join(",")
       end
@@ -482,6 +492,8 @@ p lines.first, lines.first.split(/\,/).join("")
 
     # マッチする場合はヘッダ行が3行
     h = /公民館（全数分 ）|東部市民サービスセンター/ =~ lines1[0] ? 3 : headers_size
+    h = h + 1 if /Ⅵ/ =~ lines[0]
+    h = 5 if /Ⅱ/ =~ lines[0]
     [
       csv_data_with_lines(lines1, h, false)
     ]
@@ -550,6 +562,14 @@ p lines.first, lines.first.split(/\,/).join("")
       r_a = lines_with_rectangle(lines, c_size, 0, 1, 100)
       r_indexes = r_a.map.with_index{|l, i| regex =~ l ? i : nil}
       r_indexes.compact!
+
+      # １８５　譲　与　税　と　交　付　金 の場合したの表までのサイズを測る
+      # 令和元年度後の
+      if /１８５　/ =~ lines[0]
+        f = false
+        pt = r_a.map.with_index{|l, i| f = true if /令和元年度/ =~ l; f && l.empty? ? i : nil}.compact.first
+        size = pt
+      end
 
       r_lines_set = r_indexes.map.with_index do |index, i|
         s = r_indexes[i]
