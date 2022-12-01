@@ -31,7 +31,7 @@ require 'akita_city_entity'
 class OpenDataEntity
   include AkitaCityEntity
 
-  attr_reader :url, :path, :classifies, :name, :file_name, :csvs
+  attr_reader :url, :path, :classifies, :name, :file_name, :csvs, :title
   attr_reader :updated_at, :checked_at
 
   def initialize config
@@ -101,6 +101,7 @@ class OpenDataEntity
           lines.last << "#{l}"
         end
       end
+      @title = lines[0]&.split(/\,/).join("")
 
       # 一度CSVに変換し空行削除と数値のカンマを取り除く
       csv_data = CsvData.new lines, false, nil

@@ -1,9 +1,11 @@
 - entity.csv_data.each do |d|
   - title = d.title
   - csv = d.csv
+  - sub_title = entity.title
 
   %h2= title if title
-
+  %h3= sub_title
+  
   - if d.has_headers?
     - headers = csv.headers
     %table.table.table-responsive.table-striped.table-bordered
