@@ -138,7 +138,7 @@ module CellUtils
           phase = 3
         else
           # ヘッダー直後に来るデータを区切りとする
-          if /^(明治|大正|昭和|平成|令和|\d+)|総[\s　]*数|合　[\s　]*計|貨物用|幼　 稚　 園|身長|総[\s　]*額|総[\s　]*計|水道事業|現年課税分|県議会議員|問題別相談|\d{4}[\/年]d{1,2}[\/月]\d{1,2}日?|\d{1,2}[\/月]\d{1,2}日?/ =~ r[0]
+          if /^(明治|大正|昭和|平成|令和|\d+)|総[\s　]*数|合　[\s　]*計|貨物用|幼　 稚　 園|身長|総[\s　]*額|総[\s　]*計|水道事業|現年課税分|県議会議員|問題別相談|有効回答者数|\d{4}[\/年]d{1,2}[\/月]\d{1,2}日?|\d{1,2}[\/月]\d{1,2}日?/ =~ r[0]
             headers = uniq_headers(
               headers_row[1..-2].inject(headers_row[0]) do |h, r|
                 binding_headers h, r
@@ -152,7 +152,7 @@ module CellUtils
           end
         end
       when 3
-        if /^[\s　]*注）|^[\s　]*資料|資料に基づき/ =~ r[0]
+        if /^[\s　]*注）|^[\s　]*資料|^[\s　]*※|資料に基づき|が対象/ =~ r[0]
           f = true
         end
         lines1 << join_rows(to_number(r)) unless f
@@ -169,12 +169,12 @@ module CellUtils
   def lines_with_rectangle lines, x, y, w, h
     results = []
     CSV.parse(lines.join("\n"), liberal_parsing: true).each_with_index do |r, i|
-      if (y...(y+h)).include? i
-        if w == -1 or w == nil
-          results << join_rows(to_number(r[x..-1]))
-        else
-          results << join_rows(to_number(r[x, w]))
-        end
+      next unless y <= i && (h.nil? || h && i < (y + h))
+
+      if w == -1 or w == nil
+        results << join_rows(to_number(r[x..-1]))
+      else
+        results << join_rows(to_number(r[x, w]))
       end
     end
     results

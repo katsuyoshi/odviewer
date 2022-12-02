@@ -66,26 +66,14 @@ p lines.first, lines.first.split(/\,/).join("")
           /^４４　主要文化施設の利用状況/,
           /^４５　主要スポーツ施設の利用状況/
       return akita_city_entity_pre_process_culture_facilities lines
-    when  /^１７５　秋 田 市 の 歳 入/
-      return akita_city_entity_pre_process_revenue lines
-    when /^１８５　譲　与　税　と　交　付　金/
-      return akita_city_entity_pre_process_multi_table lines, [1, 2, 2]
-      #return akita_city_entity_pre_process_gift_tax lines
     when  /^１８９　地 目 別 評 価 面 積 、評 価 額/,
           /^１２９　市 立 秋 田 総 合 病 院 の 利 用 者 数/
       return akita_city_entity_pre_process_area_evaluation lines
     when /^質問１．現在、あなたは「福祉」とどのような関わりがありますか。/
       return akita_city_entity_pre_process_qa lines
-    when /^１７０　非　行　少　年　補　導　状　況/
-      return akita_city_entity_pre_process_multi_table lines, [4, 3]
     when  "４月５月６月７月８月９月10月11月12月１月２月３月累計",
           "全国県市"
       return akita_city_entity_pre_process_csv lines
-    when  /^１３５　各種検診の受診状況/,
-          /^１３７　特定健康診査等の受診状況と特定保健指導の実施状況/,
-          /^１３８　乳幼児健康診査の受診状況/,
-          /^１３９　結核健康診断の実施状況/
-      return akita_city_entity_pre_process_consult_doctor lines
     when  /^１５０　身体障害者手帳の交付状況/
       return akita_city_entity_pre_process_physical_disability_note lines
     when  /^１５７　　国　　民　　健　　康　　保　　険/
@@ -95,14 +83,26 @@ p lines.first, lines.first.split(/\,/).join("")
           /^１１８　 二酸化窒素\(NO２）濃度の測定結果/,
           /^１１９　一酸化炭素（CO）濃度の測定結果/,
           /^１２０　光化学オキシダント（Ox）濃度の測定結果/,
-          /^１２２　浮遊粒子状物質（SPM）の測定結果/
+          /^１２２　浮遊粒子状物質（SPM）の測定結果/,
+          /^１３８　乳幼児健康診査の受診状況/,
+          /^１３９　結核健康診断の実施状況/
       return akita_city_entity_pre_process_multi_table lines
     when  /^１２１　炭化水素類（HC）濃度の測定結果/
       return akita_city_entity_pre_process_multi_table lines, [3, 4]
     when  /^１３０　夜間休日応急診療所の利用者数/,
           /^１４８　保　育　所　の　概　況/,
-          /^４６　文　化　財/
+          /^４６　文　化　財/,
+          /^１３５　各種検診の受診状況/
       return akita_city_entity_pre_process_multi_table lines, 2
+    when /^１７０　非　行　少　年　補　導　状　況/
+      return akita_city_entity_pre_process_multi_table lines, [4, 3]
+    when  /^１７５　秋 田 市 の 歳 入/
+      return akita_city_entity_pre_process_revenue lines
+    when /^１８５　譲　与　税　と　交　付　金/
+      return akita_city_entity_pre_process_multi_table lines, [1, 2, 2]
+      #return akita_city_entity_pre_process_gift_tax lines
+    when /^１３７　特定健康診査等の受診状況と特定保健指導の実施状況/
+      return akita_city_entity_pre_process_multi_table lines, [2, 2, 1]
 
     when  /^市区町村コード/
       # ヘッダー自動判定, タイトルなし
@@ -173,7 +173,7 @@ p lines.first, lines.first.split(/\,/).join("")
           end
         else
           case l
-          when /^[\s　]*注）/, /^[\s　]*資料|資料に基づき/, lines.last
+          when /^[\s　]*注）/, /^[\s　]*資料|資料に基づき/, /^[\s　]*※/, /が対象/, lines.last
             last = i + 1
             break
           else
@@ -278,7 +278,7 @@ p lines.first, lines.first.split(/\,/).join("")
           phase = 3
         end
       when 3
-        if /^[\s　]*注）|^[\s　]*資料/ =~ r[0]
+        if /^[\s　]*注）|^[\s　]*資料|^[\s　]*※|が対象/ =~ r[0]
           f = true
         end
         lines1 << join_rows(to_number(r)) unless f
@@ -304,7 +304,7 @@ p lines.first, lines.first.split(/\,/).join("")
           lines1 << join_rows(to_number(r))
         end
       when 2
-        if /^[\s　]*注）|^[\s　]*資料|資料に基づき/ =~ r[0]
+        if /^[\s　]*注）|^[\s　]*資料|^[\s　]*※|資料に基づき|が対象/ =~ r[0]
           f = true
         end
         lines1 << join_rows(to_number(r)) unless f
@@ -513,8 +513,19 @@ p lines.first, lines.first.split(/\,/).join("")
   end
 
   def akita_city_entity_pre_process_qa lines
-    # TODO:
-    []
+    a = lines_with_rectangle(lines, 0, 1, 1, nil)
+
+    indexes = a.map.with_index{|l, i| /^質問[\d１２３４５６７８９０]+$/ =~ l ? i + 1 : nil}.compact
+    size = lines.size
+    lines_set = indexes.map.with_index do |n,i|
+      s = indexes[i]
+      e = indexes[i + 1] || size
+      lines_with_rectangle(lines, 0, s, nil, e - s)
+    end
+    
+    lines_set.map.with_index do |s, i|
+      csv_data_with_lines(s, nil, false)
+    end
   end
 
   def akita_city_entity_pre_process_csv lines
@@ -525,26 +536,18 @@ p lines.first, lines.first.split(/\,/).join("")
     ]
   end
 
-  def akita_city_entity_pre_process_consult_doctor lines
-    # TODO:
-    []
-  end
-
   # (n) のタイトルが付いた複数のテーブルが配置されているパターン
   def akita_city_entity_pre_process_multi_table lines, header_sizes = 1
     regex = /^\s*[\(（]([\d０１２３４５６７８９]+)[\)）]/
     # "(n)" にマッチする行を探す
     l_a = lines_with_rectangle(lines, 0, 0, 1, 100)
-    l_indexes = l_a.map.with_index{|l, i| regex =~ l ? i : nil}
-    l_indexes.compact!
+    l_indexes = l_a.map.with_index{|l, i| regex =~ l ? i : nil}.compact
     size = lines.size
-
     # 列方向でも"(n)"にマッチする列を探す
     # 2番目を探したいので1番目がある0列目は外す
     c_a = lines[l_indexes[0]].split(/\,/)[1..-1]
     # 0列外した分で+1している。=> i + 1
-    c_indexes = c_a.map.with_index{|l, i| regex =~ l ? i + 1 : nil}
-    c_indexes.compact!
+    c_indexes = c_a.map.with_index{|l, i| regex =~ l ? i + 1 : nil}.compact
     c_size = c_indexes.first || 0
 
     w = c_size <= 1 ? -1 : c_size
@@ -560,8 +563,7 @@ p lines.first, lines.first.split(/\,/).join("")
     r_lines_set = []
     unless w == -1
       r_a = lines_with_rectangle(lines, c_size, 0, 1, 100)
-      r_indexes = r_a.map.with_index{|l, i| regex =~ l ? i : nil}
-      r_indexes.compact!
+      r_indexes = r_a.map.with_index{|l, i| regex =~ l ? i : nil}.compact
 
       # １８５　譲　与　税　と　交　付　金 の場合したの表までのサイズを測る
       # 令和元年度後の
