@@ -100,7 +100,6 @@ p lines.first, lines.first.split(/\,/).join("")
       return akita_city_entity_pre_process_revenue lines
     when /^１８５　譲　与　税　と　交　付　金/
       return akita_city_entity_pre_process_multi_table lines, [1, 2, 2]
-      #return akita_city_entity_pre_process_gift_tax lines
     when /^１３７　特定健康診査等の受診状況と特定保健指導の実施状況/
       return akita_city_entity_pre_process_multi_table lines, [2, 2, 1]
 
@@ -501,11 +500,6 @@ p lines.first, lines.first.split(/\,/).join("")
 
   def akita_city_entity_pre_process_revenue lines
     akita_city_entity_pre_process_port lines
-  end
-
-  def akita_city_entity_pre_process_gift_tax lines
-    # TODO:
-    []
   end
 
   def akita_city_entity_pre_process_area_evaluation lines
