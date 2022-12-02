@@ -30,15 +30,15 @@ module AkitaCityEntity
 p lines.first, lines.first.split(/\,/).join("")
     case lines.first.split(/\,/).join("")
     when /^人[\s　]*口[\s　]*世[\s　]*帯[\s　]*表/
-      return akita_city_entity_pre_process_population lines
+      akita_city_entity_pre_process_population lines
     when /^１ 　位　置　と　面　積/
-      return akita_city_entity_pre_process_without_headers lines
+      akita_city_entity_pre_process_without_headers lines
 
     when /^３　都　市　計　画　用　途　地　域　別　面　積/
       # (n) タイトルで分離されているパターン
       titles = lines.select{|e| /^（[０１２３４５６７８９]+）/ =~ e}
       indexes = titles.map{|t| lines.index t}
-      return indexes.map.with_index do |n, i|
+      indexes.map.with_index do |n, i|
         unless n == indexes.last
           csv_data_with_lines(lines[n...(indexes[i + 1])], 2, true)
         else
@@ -46,50 +46,49 @@ p lines.first, lines.first.split(/\,/).join("")
         end
       end
     when /^６　　　気　　　　　象/
-      return akita_city_entity_pre_process_weather lines
+      akita_city_entity_pre_process_weather lines
     when /^７　人　口　・　世　帯　の　推　移/
-      return akita_city_entity_pre_process_population_changes_7 lines
+      akita_city_entity_pre_process_population_changes_7 lines
     when /^８　　　人　　　口　　　動　　　態/
-      return akita_city_entity_pre_process_population_changes_8 lines
+      akita_city_entity_pre_process_population_changes_8 lines
     when /^１２　外　国　人　人　口/
-      return akita_city_entity_pre_process_population_of_foreigners lines
+      akita_city_entity_pre_process_population_of_foreigners lines
     when /^１４０　職　業　紹　介　＜ Ⅲ ＞/
-      return akita_city_entity_pre_process_job lines
+      akita_city_entity_pre_process_job lines
     when  /^１８７　　　市　　　有　　　財　　　産/
-      return akita_city_entity_pre_process_properties lines
+      akita_city_entity_pre_process_properties lines
     when  /^８２　秋田港の階級別入港船舶数/,
           /^８３　秋田港の国別輸出入貨物状況/
-      return akita_city_entity_pre_process_port lines
+      akita_city_entity_pre_process_port lines
     when  /^８４　　秋田空港の利用状況/
-      return akita_city_entity_pre_process_port2 lines
+      akita_city_entity_pre_process_port2 lines
     when  /^４４　主 要 文 化 施 設 の 利 用 状 況/,
           /^４４　主要文化施設の利用状況/,
           /^４５　主要スポーツ施設の利用状況/
-      return akita_city_entity_pre_process_culture_facilities lines
+      akita_city_entity_pre_process_culture_facilities lines
     when  /^７５　手形の交換状況/
-      return akita_city_entity_pre_process_bill lines
+      akita_city_entity_pre_process_bill lines
     when  /^１８９　地 目 別 評 価 面 積 、評 価 額/,
           /^１２９　市 立 秋 田 総 合 病 院 の 利 用 者 数/
-      return akita_city_entity_pre_process_area_evaluation lines
+      akita_city_entity_pre_process_area_evaluation lines
     when /^質問１．現在、あなたは「福祉」とどのような関わりがありますか。/
-      return akita_city_entity_pre_process_qa lines
+      akita_city_entity_pre_process_qa lines
     when  "４月５月６月７月８月９月10月11月12月１月２月３月累計",
           "全国県市"
-      return akita_city_entity_pre_process_csv lines
+      akita_city_entity_pre_process_csv lines
     when  /^１５０　身体障害者手帳の交付状況/
-      return akita_city_entity_pre_process_physical_disability_note lines
+      akita_city_entity_pre_process_physical_disability_note lines
     when  /^６９　商　業　の　推　移 / #( 卸 売 ・ 小 売 業 )　/
-      return akita_city_entity_pre_process_commerce lines
+      akita_city_entity_pre_process_commerce lines
     when /^１２５　ゴミの収集・処理状況/
-      return akita_city_entity_pre_process_garbage lines
+      akita_city_entity_pre_process_garbage lines
     when  /^８８　構造別建築物の件数・床面積・工事費（着工建築物）/,
           /^９０　資金別利用関係別新設住宅の 戸数・床面積/
-      return akita_city_entity_pre_process_culture_facilities lines, nil
+      akita_city_entity_pre_process_culture_facilities lines, nil
     when  /^８９　用途別床面積（着工建築物）/
-      return akita_city_entity_pre_process_culture_facilities lines, 1
+      akita_city_entity_pre_process_culture_facilities lines, 1
     when  /^１５７　　国　　民　　健　　康　　保　　険/
-      return akita_city_entity_pre_process_culture_facilities lines, 2
-      #return akita_city_entity_pre_process_physical_disability lines
+      akita_city_entity_pre_process_culture_facilities lines, 2
     when  /^１１７　 二酸化硫黄（SO２）濃度の測定結果/,
           /^１１８　 二酸化窒素\(NO２）濃度の測定結果/,
           /^１１９　一酸化炭素（CO）濃度の測定結果/,
@@ -98,35 +97,33 @@ p lines.first, lines.first.split(/\,/).join("")
           /^１３８　乳幼児健康診査の受診状況/,
           /^１３９　結核健康診断の実施状況/,
           /^７９　主要金融機関の預金・貸出金状況/
-      return akita_city_entity_pre_process_multi_table lines
+      akita_city_entity_pre_process_multi_table lines
     when  /^１２１　炭化水素類（HC）濃度の測定結果/
-      return akita_city_entity_pre_process_multi_table lines, [3, 4]
+      akita_city_entity_pre_process_multi_table lines, [3, 4]
     when  /^１３０　夜間休日応急診療所の利用者数/,
           /^１４８　保　育　所　の　概　況/,
           /^４６　文　化　財/,
           /^１３５　各種検診の受診状況/,
           /^４７　事　業　所　数/
-      return akita_city_entity_pre_process_multi_table lines, 2
+      akita_city_entity_pre_process_multi_table lines, 2
     when /^１７０　非　行　少　年　補　導　状　況/
-      return akita_city_entity_pre_process_multi_table lines, [4, 3]
+      akita_city_entity_pre_process_multi_table lines, [4, 3]
     when  /^１７５　秋 田 市 の 歳 入/
-      return akita_city_entity_pre_process_revenue lines
+      akita_city_entity_pre_process_revenue lines
     when /^１８５　譲　与　税　と　交　付　金/
-      return akita_city_entity_pre_process_multi_table lines, [1, 2, 2]
+      akita_city_entity_pre_process_multi_table lines, [1, 2, 2]
     when /^１３７　特定健康診査等の受診状況と特定保健指導の実施状況/
-      return akita_city_entity_pre_process_multi_table lines, [2, 2, 1]
+      akita_city_entity_pre_process_multi_table lines, [2, 2, 1]
 
     when  /^市区町村コード/
       # ヘッダー自動判定, タイトルなし
-      return [csv_data_with_lines(lines, nil, false)]
+      [csv_data_with_lines(lines, nil, false)]
     when   /指定緊急避難場所一覧/
       # ヘッダー自動判定, タイトルあり
-      return [csv_data_with_lines(lines, nil, true)]
+      [csv_data_with_lines(lines, nil, true)]
     when /^開設者名/
       # ヘッダー1, タイトルなし
-      return [csv_data_with_lines(lines, 1, false)]
-    #when /^１３１　死　因　順　位　別　死　亡　者　数/
-    #  return [csv_data_with_lines(lines[1..-1], 2, false)]
+      [csv_data_with_lines(lines, 1, false)]
     when  /^１４１　　雇　　用　　保　　険　/, 
           /^１４３　労　働　者　災　害　補　償　保　険/, 
           /^１４４　労 働 組 合 と 組 合 員 の 状 況/, 
@@ -137,7 +134,7 @@ p lines.first, lines.first.split(/\,/).join("")
           /^１４５　　　生　　　活　　　保　　　護/,
           /^１５４　　厚　生　年　金　保　険/
       # ヘッダー自動判定, タイトルあり
-      return [csv_data_with_lines(lines[1..-1], nil, true)]
+      [csv_data_with_lines(lines[1..-1], nil, true)]
     when /^１０１　住宅の種類・建築の時期/,
           /^１３１　死　因　順　位　別　死　亡　者　数/
       a = lines_with_rectangle(lines, 1, 1, 1, 100)
@@ -145,71 +142,11 @@ p lines.first, lines.first.split(/\,/).join("")
       (2..3).each do |i|
         lines[i] = " " + lines[i]
       end
-      return [csv_data_with_lines(lines[s..-1], nil, false)]
+      [csv_data_with_lines(lines[s..-1], nil, false)]
     else
       # ヘッダー自動判定, タイトルなし
-      return [csv_data_with_lines(lines[1..-1], nil, false)]
+      [csv_data_with_lines(lines[1..-1], nil, false)]
     end
-
-    sources = []
-
-    until lines.empty?
-
-      new_lines = []
-      ml = lines.find{|l| /^（[０１２３４５６７８９]+）|.+日現在/ =~ l}
-      i = lines.index(ml)
-      if i
-        i += 1
-        has_header = true
-      else
-        if sources.empty?
-          i = 0
-          has_header = false
-        else
-          # 2回目以降は区切りが見つかならければ終わりにする。
-          lines = []
-        end
-      end
-      lines = lines[i..-1] || []
-
-      found = !has_header
-      last = -1
-      lines.each_with_index do |l, i|
-        unless found
-          case l
-          when /^\,/
-            ll = new_lines.pop
-            t = ""
-            elements = CSV.new(ll).to_a.first.zip(CSV.new(l).to_a.first)
-            .map do |a|
-              t = a.first if a.first && a.first.length != 0
-              [t, a.last || ""].join(" ").strip
-            end if ll
-            new_lines << join_rows(elements)
-          else
-            new_lines << l
-            found = new_lines.size > 1
-          end
-        else
-          case l
-          when /^[\s　]*注）/, /^[\s　]*資料|資料に基づき/, /^[\s　]*※/, /が対象/, lines.last
-            last = i + 1
-            break
-          else
-            new_lines << l
-          end
-        end
-      end
-      t = CSV.new(ml).first&.first if ml
-      sources << CsvData.new(new_lines, has_header, t) unless new_lines.empty?
-      new_lines = []
-      if last == -1
-        lines = []
-      else
-        lines = lines[last..-1] || []
-      end
-    end
-    sources
   end
 
   def akita_city_entity_pre_process_population lines
