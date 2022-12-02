@@ -66,6 +66,8 @@ p lines.first, lines.first.split(/\,/).join("")
           /^４４　主要文化施設の利用状況/,
           /^４５　主要スポーツ施設の利用状況/
       return akita_city_entity_pre_process_culture_facilities lines
+    when  /^７５　手形の交換状況/
+      return akita_city_entity_pre_process_bill lines
     when  /^１８９　地 目 別 評 価 面 積 、評 価 額/,
           /^１２９　市 立 秋 田 総 合 病 院 の 利 用 者 数/
       return akita_city_entity_pre_process_area_evaluation lines
@@ -76,6 +78,15 @@ p lines.first, lines.first.split(/\,/).join("")
       return akita_city_entity_pre_process_csv lines
     when  /^１５０　身体障害者手帳の交付状況/
       return akita_city_entity_pre_process_physical_disability_note lines
+    when  /^６９　商　業　の　推　移 / #( 卸 売 ・ 小 売 業 )　/
+      return akita_city_entity_pre_process_commerce lines
+    when /^１２５　ゴミの収集・処理状況/
+      return akita_city_entity_pre_process_garbage lines
+    when  /^８８　構造別建築物の件数・床面積・工事費（着工建築物）/,
+          /^９０　資金別利用関係別新設住宅の 戸数・床面積/
+      return akita_city_entity_pre_process_culture_facilities lines, nil
+    when  /^８９　用途別床面積（着工建築物）/
+      return akita_city_entity_pre_process_culture_facilities lines, 1
     when  /^１５７　　国　　民　　健　　康　　保　　険/
       return akita_city_entity_pre_process_culture_facilities lines, 2
       #return akita_city_entity_pre_process_physical_disability lines
@@ -85,14 +96,16 @@ p lines.first, lines.first.split(/\,/).join("")
           /^１２０　光化学オキシダント（Ox）濃度の測定結果/,
           /^１２２　浮遊粒子状物質（SPM）の測定結果/,
           /^１３８　乳幼児健康診査の受診状況/,
-          /^１３９　結核健康診断の実施状況/
+          /^１３９　結核健康診断の実施状況/,
+          /^７９　主要金融機関の預金・貸出金状況/
       return akita_city_entity_pre_process_multi_table lines
     when  /^１２１　炭化水素類（HC）濃度の測定結果/
       return akita_city_entity_pre_process_multi_table lines, [3, 4]
     when  /^１３０　夜間休日応急診療所の利用者数/,
           /^１４８　保　育　所　の　概　況/,
           /^４６　文　化　財/,
-          /^１３５　各種検診の受診状況/
+          /^１３５　各種検診の受診状況/,
+          /^４７　事　業　所　数/
       return akita_city_entity_pre_process_multi_table lines, 2
     when /^１７０　非　行　少　年　補　導　状　況/
       return akita_city_entity_pre_process_multi_table lines, [4, 3]
@@ -112,20 +125,27 @@ p lines.first, lines.first.split(/\,/).join("")
     when /^開設者名/
       # ヘッダー1, タイトルなし
       return [csv_data_with_lines(lines, 1, false)]
-    when /^１３１　死　因　順　位　別　死　亡　者　数/
-      return [csv_data_with_lines(lines[1..-1], 2, false)]
+    #when /^１３１　死　因　順　位　別　死　亡　者　数/
+    #  return [csv_data_with_lines(lines[1..-1], 2, false)]
     when  /^１４１　　雇　　用　　保　　険　/, 
           /^１４３　労　働　者　災　害　補　償　保　険/, 
           /^１４４　労 働 組 合 と 組 合 員 の 状 況/, 
           /^１４４　労　働　組　合　と　組　合　員　の　状　況/, 
           /^５９　漁　業　の　概　況/, 
-          /^４７　事　業　所　数/, 
-          /^７９　主要金融機関の預金・貸出金状況/, 
+          #/^７９　主要金融機関の預金・貸出金状況/, 
           /^１１３　電　灯 ・ 電　力　需　要　状　況/,
           /^１４５　　　生　　　活　　　保　　　護/,
           /^１５４　　厚　生　年　金　保　険/
       # ヘッダー自動判定, タイトルあり
       return [csv_data_with_lines(lines[1..-1], nil, true)]
+    when /^１０１　住宅の種類・建築の時期/,
+          /^１３１　死　因　順　位　別　死　亡　者　数/
+      a = lines_with_rectangle(lines, 1, 1, 1, 100)
+      s = a.map.with_index{|l, i| l.empty? ? nil : i + 1}.compact.first
+      (2..3).each do |i|
+        lines[i] = " " + lines[i]
+      end
+      return [csv_data_with_lines(lines[s..-1], nil, false)]
     else
       # ヘッダー自動判定, タイトルなし
       return [csv_data_with_lines(lines[1..-1], nil, false)]
@@ -446,6 +466,23 @@ p lines.first, lines.first.split(/\,/).join("")
     ]
   end
 
+  def akita_city_entity_pre_process_bill lines
+    regex = /^\s*[\(（]([\d０１２３４５６７８９]+)[\)）]/
+    a = lines_with_rectangle(lines, 0, 1, 1, 100)
+    indexes = a.map.with_index{|l, i| regex =~ l ? i + 1 : nil}.compact
+
+    size = lines.size
+    lines_set = indexes.map.with_index do |n,i|
+      s = indexes[i]
+      e = indexes[i + 1] || size
+      lines_with_rectangle(lines, 0, s, nil, e - s) 
+    end
+    
+    lines_set.map do |s|
+      csv_data_with_lines(s, nil, true)
+    end
+  end
+
   def akita_city_entity_pre_process_culture_facilities lines, headers_size = 4
     a = lines_with_rectangle(lines, 0, 0, 1, 100)
     indexes = a.map.with_index{|l, i| /^年[\s　]*度|^年[\s　]*次/ =~ l ? i : nil}
@@ -476,7 +513,7 @@ p lines.first, lines.first.split(/\,/).join("")
     lines1 = lines_set[1..-1].inject(lines_set.first) do |set, a|
       # ４５　主要スポーツ施設の利用状況（ Ⅱ ） の場合ヘッダーに2行追加する
       # ４５　主要スポーツ施設の利用状況（ Ⅲ  ） の場合ヘッダーに1行追加する
-      if /Ⅱ|Ⅲ/ =~ lines[0]
+      if /Ⅱ|Ⅲ|Ⅳ/ =~ lines[0]
         a.insert(3, "")
       end        
       if /Ⅱ/ =~ lines[0]
@@ -647,5 +684,65 @@ p lines.first, lines.first.split(/\,/).join("")
     end
   end
 
+  def akita_city_entity_pre_process_commerce lines, headers_size = 2
+    a = lines_with_rectangle(lines, 1, 1, 1, 100)
+
+    pre_nil = true
+    indexes = a.map.with_index do |l, i|
+      r = false
+      if pre_nil && !l.empty?
+        r = true
+      end
+      pre_nil = l.empty?
+      r ? i + 1: nil
+    end.compact
+
+    headers = lines_with_rectangle(lines, 0, indexes[0], nil, headers_size)
+
+    size = lines.size
+    lines_set = indexes.map.with_index do |n,i|
+      s = indexes[i]
+      e = indexes[i + 1] || size
+      [
+        lines_with_rectangle(lines, 0, s - 1, nil, 1),  # title
+        lines_with_rectangle(lines, 0, i == 0 ? s + headers_size : s, nil, e - s - 1 - (i == 0 ? headers_size : 0)),  # data
+      ]
+    end
     
+    lines_set.map.with_index do |s, i|
+      csv_data_with_lines(s[0] + headers + s[1], headers_size, true)
+    end
+  end
+
+  def akita_city_entity_pre_process_garbage lines
+    a = lines_with_rectangle(lines, 0, 1, 1, nil)
+
+    pre_nil = true
+    indexes = a.map.with_index do |l, i|
+      r = false
+      if pre_nil && !l.empty?
+        r = true
+      end
+      pre_nil = l.empty?
+      r ? i + 1: nil
+    end.compact
+
+    headers = lines_with_rectangle(lines, 0, indexes[0], nil, indexes[1] - indexes[0] - 1)
+
+    size = lines.size
+    indexes = indexes[1..-1]
+    lines_set = indexes.map.with_index do |n,i|
+      s = indexes[i]
+      e = indexes[i + 1] || size
+      [
+        lines_with_rectangle(lines, 1, s - 1, nil, 1),  # title
+        lines_with_rectangle(lines, 0, s, nil, e - s),  # data
+      ]
+    end
+    
+    lines_set.map.with_index do |s, i|
+      csv_data_with_lines(s[0] + headers + s[1], nil, true)
+    end
+  end
+  
 end
