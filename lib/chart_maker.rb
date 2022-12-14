@@ -22,13 +22,15 @@
 
 require 'csv'
 require 'chart_js'
+require 'cell_utils'
 
+# CSVオブジェクトからグラフオブジェクトを生成するクラス
 class ChartMaker
 
   attr_reader :charts, :titles
 
   # 年次項目判定用
-  YearRegex = /年[\s　]*度|年[\s　]*次|測[\s　]*定[\s　]*日|^年$/
+  YearRegex = /年[\s　]*度|年[\s　]*次|測[\s　]*定[\s　]*日|^年$|年月日|年月|暦年|都[\s　]*道[\s　]*府[\s　]*県|科目|性質別|会計別|投票日/
 
   # 数値として扱わない項目判定用
   NonNumberRegex = /コ[\s　]*ー[\s　]*ド|都[\s　]*道[\s　]*府[\s　]*県|市[\s　]*町[\s　]*村|年[\s　]*度|年[\s　]*次/
@@ -37,7 +39,9 @@ class ChartMaker
   PriorityGroups = %w(産業分類 面積規模 地区 階級 種別 河川名 路線名 図書館名 障がい部位 分類 産業大分類 内訳 施設名 公民館名 事業名 区分 区域)
   GroupRegex = /(?=地域.*)(?!.*コード)/
 
-  # 数値として扱わない項目判定用
+  # @param CSV csv csvオブジェクト
+  # @param String kind グラフ種類を識別する文字
+  # @param Symbol group_dir :norml 通常; :opposit 縦横逆?
   def initialize csv, kind, group_dir = :opposit
     @csv = csv
     @kind = kind
@@ -59,7 +63,7 @@ class ChartMaker
 
   def gen_line_chart
     csv = @csv
-    headers = @csv.headers.map{|e| e&.strip}
+    headers = csv.headers.map{|e| e&.strip}
     year_col = headers.find{|e| YearRegex =~ e}
   
     if year_col
@@ -72,11 +76,11 @@ class ChartMaker
             when NonNumberRegex
               next
             end
-            values = csv.map{|r| r[k]&.strip}
-            next unless number? values.find{|v| v}
+            values = csv.map{|r| r[k]}
+            next unless CellUtils.number? values.find{|v| v}
             dataset k do
               color :random
-              data csv.map{|r| number(r[k]&.strip)}
+              data csv.map{|r| CellUtils.number(r[k])}
             end
           end 
         end
@@ -98,7 +102,13 @@ class ChartMaker
     group_col ||= headers.find{|e| GroupRegex =~ e}
 
     # グループ化する項目の内容が1種類しかない場合グループ化しない
-    group_col = nil if csv.group_by{|r| r[group_col]}.size <= 1
+    group_col = nil if group_col.nil?
+    cols = csv.group_by{|r| r[group_col]}.keys
+    group_col = nil unless CellUtils.number? cols.find{|v| v}
+    if cols.size <= 1 || cols.find{|e| CellUtils.number?(e)}
+      group_col = nil
+    end
+
 
     if group_col
       case @group_dir
@@ -114,10 +124,10 @@ class ChartMaker
                   next
                 end
                 values = rows.map{|r| r[k]&.strip}
-                next unless number? values.find{|v| v}
+                next unless CellUtils.number? values.find{|v| v}
                 dataset k do
                   color :random
-                  data rows.map{|r| number(r[k]&.strip)}
+                  data rows.map{|r| CellUtils.number(r[k]&.strip)}
                 end
               end 
             end
@@ -135,7 +145,7 @@ class ChartMaker
             next
           end
           values = csv.map{|r| r[k]&.strip}
-          next unless number? values.find{|v| v}
+          next unless CellUtils.number? values.find{|v| v}
 
           chart = ChartJS.line do
             data do
@@ -144,14 +154,13 @@ class ChartMaker
               group.each do |g, r|
                 dataset g do
                   color :random
-                  data r.map{|r| number(r[k]&.strip)}
+                  data r.map{|r| CellUtils.number(r[k]&.strip)}
                 end
               end
             end
           end
           @charts << chart
           @titles << k
-    
         end
       end
 

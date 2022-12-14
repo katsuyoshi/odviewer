@@ -36,7 +36,7 @@
   #data.tab-pane.active
     = haml :_data_table, locals: { entity: @entity }
   #graph.tab-pane
-    = haml :_graph
+    = haml :_graph, locals: { entity: @entity }
   #location.tab-pane
     = haml :_location
 

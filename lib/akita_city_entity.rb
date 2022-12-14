@@ -27,7 +27,7 @@ module AkitaCityEntity
   include CellUtils
 
   def akita_city_entity_pre_process lines
-p lines.first, lines.first.split(/\,/).join("")
+p lines.first
     case lines.first.split(/\,/).join("")
     when /^人[\s　]*口[\s　]*世[\s　]*帯[\s　]*表/
       akita_city_entity_pre_process_population lines
@@ -82,21 +82,21 @@ p lines.first, lines.first.split(/\,/).join("")
       akita_city_entity_pre_process_commerce lines
     when /^１２５　ゴミの収集・処理状況/
       akita_city_entity_pre_process_garbage lines
-    when  /^８８　構造別建築物の件数・床面積・工事費（着工建築物）/,
-          /^９０　資金別利用関係別新設住宅の 戸数・床面積/
+    when  /^９０　資金別利用関係別新設住宅の 戸数・床面積/
       akita_city_entity_pre_process_culture_facilities lines, nil
     when  /^８９　用途別床面積（着工建築物）/
       akita_city_entity_pre_process_culture_facilities lines, 1
     when  /^１５７　　国　　民　　健　　康　　保　　険/
       akita_city_entity_pre_process_culture_facilities lines, 2
-    when  /^１１７　 二酸化硫黄（SO２）濃度の測定結果/,
+    when  /^８８　構造別建築物の件数・床面積・工事費（着工建築物）/
+      akita_city_entity_pre_process_culture_facilities lines, 3
+when  /^１１７　 二酸化硫黄（SO２）濃度の測定結果/,
           /^１１８　 二酸化窒素\(NO２）濃度の測定結果/,
           /^１１９　一酸化炭素（CO）濃度の測定結果/,
           /^１２０　光化学オキシダント（Ox）濃度の測定結果/,
           /^１２２　浮遊粒子状物質（SPM）の測定結果/,
           /^１３８　乳幼児健康診査の受診状況/,
-          /^１３９　結核健康診断の実施状況/,
-          /^７９　主要金融機関の預金・貸出金状況/
+          /^１３９　結核健康診断の実施状況/
       akita_city_entity_pre_process_multi_table lines
     when  /^１２１　炭化水素類（HC）濃度の測定結果/
       akita_city_entity_pre_process_multi_table lines, [3, 4]
@@ -104,8 +104,9 @@ p lines.first, lines.first.split(/\,/).join("")
           /^１４８　保　育　所　の　概　況/,
           /^４６　文　化　財/,
           /^１３５　各種検診の受診状況/,
-          /^４７　事　業　所　数/
-      akita_city_entity_pre_process_multi_table lines, 2
+          /^４７　事　業　所　数/,
+          /^７９　主要金融機関の預金・貸出金状況/
+          akita_city_entity_pre_process_multi_table lines, 2
     when /^１７０　非　行　少　年　補　導　状　況/
       akita_city_entity_pre_process_multi_table lines, [4, 3]
     when  /^１７５　秋 田 市 の 歳 入/

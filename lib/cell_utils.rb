@@ -29,7 +29,8 @@ module CellUtils
     return nil if location? v
     /^[△▲+-]?\s*(\d{1,3}?(\,\d{3})*|\d+)(\.|\.(\d+))?$/ =~ v
   end
-  
+  module_function :number?
+
   def number v
     return nil unless number? v
     return v if v.is_a? Numeric
@@ -39,6 +40,7 @@ module CellUtils
       v.gsub(/[△▲]/, "-").gsub(/[\s\,]/, '').to_i
     end
   end
+  module_function :number
 
   def location? v
     return nil unless v.scan(/\./).size == 2
@@ -48,6 +50,7 @@ module CellUtils
     end
     true
   end
+  module_function :location?
 
   def binding_headers headers1, headers2
     pa = pb = nil

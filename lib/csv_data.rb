@@ -1,5 +1,6 @@
 require 'csv'
 require 'cell_utils'
+require 'chart_maker'
 
 class CsvData
   include  CellUtils
@@ -17,7 +18,6 @@ class CsvData
   def csv
     @csv ||= begin
       csv = CSV.parse(lines.join("\n"), headers: has_headers?, liberal_parsing: true)
-
       # 空の行を削除
       csv.delete_if{|row| row.map{|e| e.is_a?(Array) ? e.last : e}.find{|e| e} == nil}
       
@@ -42,7 +42,7 @@ class CsvData
           csv.each do |r|
             r[h] = r[h].strip if r[h].is_a?(String)
             if number?(r[h])
-              r[h] = number(r[h])
+              r[h] = number(r[h]).to_s
             else
               r[h]
             end
@@ -53,7 +53,7 @@ class CsvData
           r.each_with_index do |c, i|
             c = c&.strip
             if number?(c)
-              r[i] = number(c)
+              r[i] = number(c).to_s
             else
               r[i] = c
             end
@@ -69,5 +69,17 @@ class CsvData
     @has_headers
   end
 
+  def charts
+    @charts ||= begin
+      [csv].map do |c|
+        unless c.is_a?(Array)
+          cm = ChartMaker.new c, title
+          cm.charts
+        else
+          nil
+        end
+      end.compact.flatten
+    end
+  end
 
 end

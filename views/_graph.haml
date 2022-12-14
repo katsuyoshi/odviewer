@@ -1,9 +1,12 @@
-- if @charts.empty?
-  グラフ表示する項目はありません。
-- else
-  - @charts.zip(@titles).each do |chart, title|
+- empty_chart = true
+- entity.csv_data.each do |d|
+  - d.charts.each do |chart|
+    - empty_chart = false
     .row
       .col-12.text-center
-        %h2= title
+        %h2= d.title
         = chart&.to_html
         %p 
+
+- if empty_chart
+  グラフ表示する項目はありません。
