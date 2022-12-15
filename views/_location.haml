@@ -1,19 +1,34 @@
-- if @locations.empty?
+- empty_locations = true
+- map_idxs = []
+- entity.csv_data.each_with_index do |d, i|
+  - locations = d.locations_set.locations
+  - center = d.locations_set.center
+  - unless locations.empty?
+    - map_idxs << i
+    - empty_locations = false
+    .row
+      .col-12.text-center
+        %h2= d.title
+
+        %div{id: "map#{i}"}
+        %div{id: "locations#{i}", data:{locations:"#{locations.to_json}", center:"#{center.to_json}"}}
+        %p 
+
+        :css
+          #map#{i} { height: 640px; }
+
+- if empty_locations
   地図表示できる項目はありません。
-- else
-  #map
 
-  #locations{data:{locations:"#{@locations.to_json}", center:"#{@center.to_json}"}}
-
-:css
-  #map { height: 640px; }
+%div{id: "map_idxs", data:{idxs:"#{map_idxs.to_json}"}}
 
 
 :coffee
 
-  show_map = () ->
-    locs = $('#locations').data('locations')
-    center = $('#locations').data('center')
+  show_map = (num) ->
+    loc_id = '#locations' + num
+    locs = $(loc_id).data('locations')
+    center = $(loc_id).data('center')
     osmUrl = 'https://tile.openstreetmap.org/{z}/{x}/{y}.png'
     osmAttribute = '© OpenStreetMap'
 
@@ -30,7 +45,8 @@
     osm = L.tileLayer(osmUrl,
       maxZoom: 19
       attribution: osmAttribute)
-    map = L.map('map',
+    map_id = 'map' + num
+    map = L.map(map_id,
       center: [
         center.lat
         center.long
@@ -48,5 +64,7 @@
   $('#location-tab').on 'click', (e) ->
     e.preventDefault()
     $(this).tab 'show'
-    show_map()
+    idxs = $(map_idxs).data('idxs')
+    for i of idxs
+      show_map(i)    
     return

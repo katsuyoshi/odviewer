@@ -38,7 +38,7 @@
   #graph.tab-pane
     = haml :_graph, locals: { entity: @entity }
   #location.tab-pane
-    = haml :_location
+    = haml :_location, locals: { entity: @entity }
 
 %p
   = haml :_breadcrumb, locals: { parents: @entity.node.parents }

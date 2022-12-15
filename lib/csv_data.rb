@@ -82,4 +82,8 @@ class CsvData
     end
   end
 
+  def locations_set
+    @locations_set ||= LocationPicker.new csv
+  end
+
 end
