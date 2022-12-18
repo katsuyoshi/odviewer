@@ -47,6 +47,10 @@ before '/*' do
   @od = OpenData.instance
 end
 
+get '/about' do
+  haml :about, :layout => :layout
+end
+
 get '/viewer/*' do
   @path = params['splat'].first
   @node = @od.node
@@ -60,7 +64,7 @@ end
 
 
 get '/' do
-  @node = @od.node
+  @node = @od.node.children.first.last
   haml :index, :layout => :layout
 end 
 
@@ -71,7 +75,7 @@ get '/*' do
   @path.split(/\//).each do |e|
     @node = @node[e] unless e.length == 0
   end
-  if @node == @od.node
+  if @node.parent == @od.node
     haml :index, :layout => :layout
   else
     haml :list, :layout => :layout

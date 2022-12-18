@@ -2,23 +2,20 @@
   このサイトでは自治体などか公開しているオープンデータを二次利用し
   = link_to '@gutskun', 'https://twitter.com/gutskun/', target: true
   が個人的に視覚化できるように試みています。<br />
-  このサイトに関する事は各データ提供先に問い合わせない様にしてください。<br />
-
-  ソースコードは
-  = link_to 'githubに公開', 'https://github.com/katsuyoshi/odviewer'
-  しています。変更してあなたの市町村に合わせてカスタマイズすることも可能です。
+  詳細は
+  = link_to "このサイトについて", "/about"
+  をご覧ください。<br />
 
 !!!%h2= @node.name
 
 = haml :_breadcrumb, locals: { parents: @node.parents }
 
-.h-100
-  %ul
-  - @node.children.each do |k, n|
-    - if n.leaf?
-      %li= link_to n.name, "/viewer#{n.path}"
-    - else
-      %li= link_to n.name, n.path
+%ul
+- @node.children.each do |k, n|
+  - if n.leaf?
+    %li= link_to n.name, "/viewer#{n.path}"
+  - else
+    %li= link_to n.name, n.path
 
 
 %p

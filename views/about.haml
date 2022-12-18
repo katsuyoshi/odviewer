@@ -1,0 +1,34 @@
+%h1 このサイトについて
+
+%p
+  このサイトでは自治体などか公開しているオープンデータを二次利用し
+  = link_to '@gutskun', 'https://twitter.com/gutskun/', target: true
+  が個人的に視覚化できるように試みています。<br />
+
+%h2 現在対応しているオープンデータ
+
+%p
+  .row
+    .col-11.offset-1
+      %h3 秋田県
+
+      %ul
+        %li= link_to '秋田市オープンデータ', 'https://www.city.akita.lg.jp/opendata/1000081/1000082.html', target: '_blank'
+        %li= link_to '大仙市オープンデータ', 'https://www.city.daisen.lg.jp/docs/2021121400096/', target: '_blank'
+
+
+%h2 ソースコード
+%p
+  ソースコードは
+  = link_to 'githubに公開', 'https://github.com/katsuyoshi/odviewer', target: '_blank'
+  しています。あなたの市町村に合わせてカスタマイズすることも可能です。
+
+%h2 注意事項
+
+%ul
+  %li 定期的に更新する予定ですが、最新のデータになっていない場合があります。データソースも確認してください。
+  %li オープンデータ提供されているExcelデータ、CSVデータを対象としています。
+  %li Excelデータで提供されている場合はCSVデータに変換しています。その際最初のシートのみ採用され、以降のシートは扱っていません。
+  %li グラフ表示できそうでもできてない場合があります。
+  %li このサイトに関する事は各データ提供先に問い合わせない様にしてください。
+  
