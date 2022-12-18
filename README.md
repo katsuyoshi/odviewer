@@ -1,12 +1,16 @@
 # ODVIEWER
 
-ODVIEWERは[秋田県大仙市が公開しているオープンデータ](https://www.city.daisen.lg.jp/categories/zokusei/opendatedoc/)のビューアーです。
+ODVIEWERはのビューアーです。
 
 Herokuで公開しています。  
 https://odviewer.herokuapp.com
 
 
-現在は大仙市のみですが、今後秋田県内のデータを取り入れていきたいと考えています。
+現在対応しているのは以下のデータです。  
+秋田県内のデータを中心に取り入れていきたいと考えています。  
+
+- [秋田県秋田市が公開しているオープンデータ](https://www.city.akita.lg.jp/opendata/)
+- [秋田県大仙市が公開しているオープンデータ](https://www.city.daisen.lg.jp/categories/zokusei/opendatedoc/)
 
 オープンデータの収集は[dim](https://github.com/c-3lab/dim)というオープンデータパッケージマネージャを使っています。  
 [dim.json](/dim.json)にデータのダウンロード先を登録しdimコマンドを実行すると[data_files](/data_files)以下にダウンロードしてくれる優れたツールです。  
@@ -58,17 +62,20 @@ Listening onで表示されるアドレス(この場合 http://127.0.0.1:9292)�
 
 # データ更新
 
-データの更新は dim コマンドで行います。
+データの更新は dim コマンドで行っています。
 
 dim コマンドのインストールは作者の方が qiita に記事を書いていますのでそちらをご覧ください。
 
 [そろそろオープンデータを無秩序に管理するのは卒業したいので📦データを管理するパッケージマネージャを開発した【ツール開発】](https://qiita.com/ryo-ma/items/0505f7790ad2b12bcdc2)
 
-```dim update```を実行するとデータが更新されます。
+
+データ更新は```rake```コマンドで行います。  
+以下で全データが最新のデータに更新されます。  
 
 ```
-% dim update
+% rake data:reload_all
 ```
+
 
 # あなたの市町村に対応するには
 
@@ -77,7 +84,3 @@ dim.jsonファイルをあなたの市町村のオープンデータに合わせ
 大仙市の場合は[mkdimjson.rb](/scripts/mkdimjson.rb)ファイルで[秋田県大仙市が公開しているオープンデータ](https://www.city.daisen.lg.jp/categories/zokusei/opendatedoc/)から収集してdim.jsonファイルに書き込む様にしていますので参考にしてください。
 
 グラフ表示する項目は力技でやっていますので、適用するには変更が必要になるかもしれません。
-
-
-
-
