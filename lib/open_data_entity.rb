@@ -82,7 +82,8 @@ class OpenDataEntity
     when "秋田市"
       akita_city_entity_pre_process lines
     else
-      CsvData.new lines
+      dir = %w(地目別土地評価額構成比).include?(title) ? :normal : :opposit
+      [CsvData.new(lines)]
     end
   end
 

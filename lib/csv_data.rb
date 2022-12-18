@@ -71,15 +71,23 @@ class CsvData
 
   def charts
     @charts ||= begin
-      [csv].map do |c|
+      @titles = []
+      charts = [csv].map do |c|
         unless c.is_a?(Array)
           cm = ChartMaker.new c, title
+          @titles << cm.titles
           cm.charts
         else
           nil
         end
       end.compact.flatten
+      @titles.flatten!
+      charts
     end
+  end
+
+  def titles
+    @titles
   end
 
   def locations_set

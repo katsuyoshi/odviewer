@@ -48,6 +48,40 @@ def contents_of prefecture_name, city_name, name_title, url_title
   end
 end
 
+def contents_of_daisen_city
+  prefecture_name = '秋田県'
+  city_name = '大仙市'
+  name_title = 'データ名'
+  url_title = '公開URL'
+  src_dir = File.join(@root_dir, 'data_files', 'ソースリスト', prefecture_name, city_name)
+  path = Dir.chdir(src_dir) do
+    p = Dir.glob('*.csv').first
+    File.join(src_dir, p) if p
+  end
+  contents = []
+  CSV.foreach(path, headers: true).each do |row|
+    url = row[url_title]
+    title = row[name_title]
+    next unless url
+
+    doc = Nokogiri::HTML(URI.open(url))
+    e = doc.css('a.iconFile.iconCsv').first
+    url2 = "#{url[/.*\//]}#{e['href']}"
+    contents << {
+      'url' => url2,
+      'name' => "#{prefecture_name}/#{city_name}/#{title}",
+      'catalogUrl' => nil,
+      'catalogResourceId' => nil,
+      'postProcesses' => [
+        'encode UTF-8' ],
+      'headers' => {},
+    }
+  rescue OpenURI::HTTPError => e
+    puts "\"#{title}\"'s url \"#{url}\" is missing. #{e}"
+  end
+  contents
+end
+
 def contents_of_akita_city
   prefecture_name = '秋田県'
   city_name = '秋田市'
@@ -114,7 +148,8 @@ end
 
 # 秋田市と大仙市に対応
 contents = 
-  contents_of_akita_city +
+  #contents_of_akita_city +
+  contents_of_daisen_city +
   #contents_of('秋田県', '大仙市', 'データ名', '公開URL') + 
   []
 

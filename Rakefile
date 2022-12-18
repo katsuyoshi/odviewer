@@ -36,5 +36,7 @@ namespace :data do
     system "dim install -F"
   end
 
+  desc 'update data'
+  task :reload_all => [:clean, :setup_config, :setup, :update]
 
 end

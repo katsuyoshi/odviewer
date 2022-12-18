@@ -2,2362 +2,1121 @@
   "fileVersion": "1.1",
   "contents": [
     {
-      "name": "秋田県/秋田市/位置と面積",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/561/03-1.xls",
+      "name": "秋田県/大仙市/雪の諸記録",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121000241/file_contents/doro4.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/市域の変遷",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/561/03-2.xls",
+      "name": "秋田県/大仙市/河川の状況",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121000234/file_contents/doro3.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/都市計画用途地域別面積",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/561/03-3.xlsx",
+      "name": "秋田県/大仙市/月別平均気温の推移",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120300038/file_contents/1-1.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/公園・緑地面積",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/561/03-4.xlsx",
+      "name": "秋田県/大仙市/月別降水量の推移",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120600138/file_contents/1-2.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/住居表示地区の面積",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/561/03-5.xlsx",
+      "name": "秋田県/大仙市/月別平均風速の推移",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120600152/file_contents/1-3.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/気象",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/561/03-6.xlsx",
+      "name": "秋田県/大仙市/気象の諸記録",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120600183/file_contents/1-5.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/人口・世帯の推移",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/563/03-7.xlsx",
+      "name": "秋田県/大仙市/住民基本台帳人口・世帯数",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121000227/file_contents/R03.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/人口動態",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/563/03-8-2.xlsx",
+      "name": "秋田県/大仙市/年齢（各歳・5歳階級）別・男女別人口",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120600190/file_contents/2-1.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/都道府県別転入・転出人口",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/563/03-9.xlsx",
+      "name": "秋田県/大仙市/（各地域別）人口・世帯数・面積・人口密度",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120600206/file_contents/2-2.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/外国人人口",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/563/03-12.xlsx",
+      "name": "秋田県/大仙市/人口集中地区の推移",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120600213/file_contents/2-3.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/住民基本台帳人口",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/563/03-13.xlsx",
+      "name": "秋田県/大仙市/秋田県年齢別人口流動調査による人口動態の推移",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120900016/file_contents/2-10.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/[国勢調査]人口・世帯の推移",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/563/03-14.xls",
+      "name": "秋田県/大仙市/年齢（５歳階級）別配偶者関係",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120900023/file_contents/2-12.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/[国勢調査]人口集中地区の推移",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/563/03-15.xls",
+      "name": "秋田県/大仙市/労働力人口",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120600220/file_contents/2-6.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/[国勢調査]年齢（5歳階級）別構成の推移",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/563/03-16.xls",
+      "name": "秋田県/大仙市/産業（大分類）、年齢（５歳階級）、１５歳以上就業者数",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120600237/file_contents/2-7.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/[国勢調査]年齢（15歳以上）別労働力状態",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/563/03-18.xls",
+      "name": "秋田県/大仙市/地域別産業（大分類）別就業者数の推移",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120600244/file_contents/2-8.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/秋田市人口世帯表 平成29年版",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/568/h29.1-12.xls",
+      "name": "秋田県/大仙市/農業経営耕地面積の状況",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120900122/file_contents/3-1-1.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/秋田市人口世帯表 平成28年版",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/568/h28.1-12.xls",
+      "name": "秋田県/大仙市/地域別農家戸数・農家人口・農業就業人口",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120900054/file_contents/3-2.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/秋田市人口世帯表 平成27年版",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/568/h27.1-12.xls",
+      "name": "秋田県/大仙市/専業・兼業農家数",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120900061/file_contents/3-3.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/秋田市人口世帯表 平成26年版",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/568/h26.1-12.xls",
+      "name": "秋田県/大仙市/経営規模別農家数",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120900085/file_contents/3-4.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/秋田市人口世帯表 平成25年版",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/568/h25.1-12.xls",
+      "name": "秋田県/大仙市/地域別経営耕地面積",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120900092/file_contents/3-5.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/秋田市人口世帯表 平成24年版",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/568/h24.1-12.xls",
+      "name": "秋田県/大仙市/農産物販売金額規模別農家数",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120900115/file_contents/3-6.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/秋田市人口世帯表 平成23年版",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/568/h23.1-12.xls",
+      "name": "秋田県/大仙市/販売目的の作物別作付け状況",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120900139/file_contents/3-1-2.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/秋田市人口世帯表 平成22年版",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/568/h22.1-12.xls",
+      "name": "秋田県/大仙市/事業所数・従業者数・製造品出荷額等の推移",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120900245/file_contents/5-1.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/秋田市人口世帯表 平成21年版",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/568/h21.1-12.xls",
+      "name": "秋田県/大仙市/産業（中分類）別事業所数の推移",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120900252/file_contents/5-2.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/秋田市人口世帯表 平成20年版",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/568/h20.1-12.xls",
+      "name": "秋田県/大仙市/産業（中分類）別従業者数の推移",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120900269/file_contents/5-3.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/秋田市人口世帯表 平成19年版",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/568/h19.1-12.xls",
+      "name": "秋田県/大仙市/産業（中分類）別現金給与総額の推移",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120900276/file_contents/5-4.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/秋田市人口世帯表 平成18年版",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/568/h18.1-12.xls",
+      "name": "秋田県/大仙市/産業（中分類）別原材料使用額等の推移",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120900283/file_contents/5-5.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/秋田市人口世帯表 平成17年版",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/568/h17.1-12.xls",
+      "name": "秋田県/大仙市/産業（中分類）別製造品出荷額等の推移",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120900290/file_contents/5-6.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/秋田市人口世帯表 平成16年版",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/568/h16.1-12.xls",
+      "name": "秋田県/大仙市/製造業の概要",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120900306/file_contents/5-7.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/秋田市人口世帯表 平成15年版",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/568/h15.1-12.xls",
+      "name": "秋田県/大仙市/商店数・従業者数・年間商品販売額の推移",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120900313/file_contents/6-1.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/秋田市人口世帯表 平成14年版",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/568/h14.1-12.xls",
+      "name": "秋田県/大仙市/産業（中分類）別商店数・従業者数・年間商品販売額等",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120900320/file_contents/6-2.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/秋田市人口世帯表 平成13年版",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/568/h13.1-12.xls",
+      "name": "秋田県/大仙市/セルフサービス店商店数・従業者数・年間商品販売額",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120900337/file_contents/6-3.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/秋田市人口世帯表 平成12年版",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/568/h12.1-12.xls",
+      "name": "秋田県/大仙市/小売業の業態別商店数・従業者数・売場面積・年間商品販売額",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120900344/file_contents/6-4.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/秋田市人口世帯表 平成11年版",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/568/h11.1-12.xls",
+      "name": "秋田県/大仙市/面積規模別商店数・従業者数・年間商品販売額（小売業）",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120900351/file_contents/6-5.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/秋田市人口世帯表 平成10年版",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/568/h10.1-12.xls",
+      "name": "秋田県/大仙市/産業（大分類）別事業所数の推移",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120900153/file_contents/4-1.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/秋田市人口世帯表 平成9年版（10月分から）",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/568/h9.10-12.xls",
+      "name": "秋田県/大仙市/産業（大分類）別従業者数の推移",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120900177/file_contents/4-2.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/職業紹介（3）産業別一般求人受理状況（常用）",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/589/03-140-3.xlsx",
+      "name": "秋田県/大仙市/産業（大分類）別事業所数及び従業の地位別従業者数",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120900214/file_contents/4-3.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/雇用保険（2）雇用保険適用状況",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/589/03-141-2.xlsx",
+      "name": "秋田県/大仙市/産業（大分類）、従業者規模別事業所数及び従業者数",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120900238/file_contents/4-4.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/雇用保険（3）失業給付金支給状況",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/589/03-141-3.xlsx",
+      "name": "秋田県/大仙市/地目別土地面積",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121000029/file_contents/06_.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/労働者災害補償保険（1）労災保険料および保険給付支払状況（署払分）",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/589/03-143-1.xlsx",
+      "name": "秋田県/大仙市/地目別土地評価額",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121000104/file_contents/07_1.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/労働者災害補償保険（2）特別支給金支払状況（労働福祉事業）（署払分）",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/589/03-143-2.xlsx",
+      "name": "秋田県/大仙市/地目別土地面積構成比",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121000081/file_contents/06_2_.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/労働者災害補償保険（3）労働保険業種別適用事業所数および労働者数",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/589/03-143-3.xlsx",
+      "name": "秋田県/大仙市/地目別土地評価額構成比",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121000111/file_contents/07_02.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/労働組合と組合員の状況（1）適用法規別",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/589/03-144-1.xlsx",
+      "name": "秋田県/大仙市/市道の状況",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121000203/file_contents/doro1.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/労働組合と組合員の状況（2）産業別",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/589/03-144-2.xlsx",
+      "name": "秋田県/大仙市/国道・県道の状況",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121000210/file_contents/doro2.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/[農林業センサス他] 農業の概況",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/573/03-48.xlsx",
+      "name": "秋田県/大仙市/公園の状況",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120900184/file_contents/kouen2.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/[農林業センサス他] 農業の地区別現況",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/573/r3-49.xlsx",
+      "name": "秋田県/大仙市/建築確認申請の状況",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121300228/file_contents/kenchikukakuninsinseinojoukyou.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/[農林業センサス他] 農家数の推移（秋田市・秋田県）",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/573/03-50.xlsx",
+      "name": "秋田県/大仙市/市道現況詳細（市道）",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121000258/file_contents/doro5.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/[農林業センサス他] 農業就業人口の推移",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/573/r3-51.xlsx",
+      "name": "秋田県/大仙市/上水道の給水状況",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121300167/file_contents/jousuidou.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/農作物の生産状況",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/573/03-57.xlsx",
+      "name": "秋田県/大仙市/簡易水道・小規模水道の状況",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121300174/file_contents/kanisuido.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/農地の転用状況",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/573/03-58.xlsx",
+      "name": "秋田県/大仙市/観光客数の推移",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121000265/file_contents/kankoukyakusunosuii.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/漁業の概況",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/573/03-59.xlsx",
+      "name": "秋田県/大仙市/主要観光施設の来場者数",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121000272/file_contents/syuyokankousisestunoraijosyasu.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/木材の生産量（需要部門別素材生産量（秋田県））",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/573/03-60.xlsx",
+      "name": "秋田県/大仙市/月別観光客数の推移",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121000289/file_contents/tukibetukankoukyakusuunosuii.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/保安林の概況",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/573/03-61.xlsx",
+      "name": "秋田県/大仙市/観光施設一覧",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121000319/file_contents/kankousisetuitiran.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/入会林野の概況",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/573/03-63.xlsx",
+      "name": "秋田県/大仙市/イベント一覧",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121000302/file_contents/ibentoitiran.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/製造業の推移",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/575/3-64seizou.xls",
+      "name": "秋田県/大仙市/秋田自動車道ＩＣ出入状況",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121000128/file_contents/8-1.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/経営組織別事業所数",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/575/3-65keiei.xls",
+      "name": "秋田県/大仙市/市内各駅乗客数（１日平均）",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121000135/file_contents/8-2.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/規模別事業所数の推移",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/575/3-66kibo.xls",
+      "name": "秋田県/大仙市/自動車保有台数の状況",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121000142/file_contents/8-3.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/産業中分類別事業所数、従業者数、現金給与総額、原材料使用額等、製造品出荷額等",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/575/r3-67sangyo.xls",
+      "name": "秋田県/大仙市/公衆無線LANアクセスポイント一覧",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121000180/file_contents/kousyumusenLAN.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/産業中分類別事業所数、従業者数、製造品出荷額等の推移",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/575/3-68-4santyu.xls",
+      "name": "秋田県/大仙市/公民館の利用状況",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120700012/file_contents/kouminkannoriyoujyoukyou.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/[秋田市の事業所] 平成26年経済センサス－基礎調査",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/571/h26.xlsx",
+      "name": "秋田県/大仙市/主要文化施設の利用状況",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120700029/file_contents/syuyoubunkasisetunoriyoujyoukyou.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/[秋田市の事業所] 平成21年経済センサス－基礎調査",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/571/h21.xlsx",
+      "name": "秋田県/大仙市/主要体育施設の利用状況",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120600015/file_contents/sportshalldate.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/[秋田市の事業所] 平成8年事業所・企業統計調査",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/571/h8.xlsx",
+      "name": "秋田県/大仙市/図書館蔵書冊数の状況",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120600169/file_contents/16_.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/事業所数・従業者数の推移",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/571/31-47.xls",
+      "name": "秋田県/大仙市/図書館貸出状況の推移",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120600176/file_contents/17_.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/平成19年商業統計調査",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/578/h19.xlsx",
+      "name": "秋田県/大仙市/文化財一覧",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121400010/file_contents/bunkazai.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/平成16年商業統計調査",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/578/h16akita.xlsx",
+      "name": "秋田県/大仙市/一般会計年度別決算額の推移",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121300082/file_contents/01_.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/平成14年商業統計調査",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/578/h14.xlsx",
+      "name": "秋田県/大仙市/一般会計歳入決算額の推移",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121300099/file_contents/02_.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/平成11年商業統計調査",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/578/h11.xlsx",
+      "name": "秋田県/大仙市/一般会計歳出目的別決算額の推移",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121300112/file_contents/03_.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/平成9年商業統計調査",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/578/h9.xlsx",
+      "name": "秋田県/大仙市/市税負担額の推移",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120800026/file_contents/1.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/平成4年商業統計調査",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/578/h4.xlsx",
+      "name": "秋田県/大仙市/特別会計歳入歳出別決算額の推移",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121300129/file_contents/05_.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/[平成28年経済センサス 活動調査他] 商業の推移（卸売・小売業）",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/578/03-69.xlsx",
+      "name": "秋田県/大仙市/公営企業会計決算額の推移",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121300150/file_contents/02_.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/[平成28年経済センサス 活動調査他]産業分類別商店数、従業者数、年間商品販売額",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/578/03-70-1.xlsx",
+      "name": "秋田県/大仙市/公営企業会計決算額の推移（水道事業）",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121300037/file_contents/suidou.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/秋田市中小企業融資あっせん状況（一般事業資金）",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/579/03-74.xlsx",
+      "name": "秋田県/大仙市/公共施設一覧",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121400058/file_contents/koukyou.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/手形の交換状況",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/579/03-75.xlsx",
+      "name": "秋田県/大仙市/公営企業会計決算額の推移（簡易水道事業）",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121300105/file_contents/suidou.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/主要金融機関の店舗数",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/579/03-78.xlsx",
+      "name": "秋田県/大仙市/公営企業会計決算額の推移（下水道事業）",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121300136/file_contents/gesuidou.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/主要金融機関の預金・貸出金状況",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/579/03-79.xlsx",
+      "name": "秋田県/大仙市/生活排水処理普及状況",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120900146/file_contents/20211215fukyuujoukyou.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/構造別建築物の件数・床面積・工事費（着工建築物）",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/583/03-88.xlsx",
+      "name": "秋田県/大仙市/合併浄化槽補助金の状況",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120900030/file_contents/joukasou_hojo.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/用途別床面積（着工建築物）",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/583/03-89.xlsx",
+      "name": "秋田県/大仙市/公共下水道の状況",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120900160/file_contents/20211215koukyougesuidoujoukyou.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/資金別利用関係別新設住宅の戸数・床面積",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/583/03-90.xlsx",
+      "name": "秋田県/大仙市/主要死因別死亡者数",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120900375/file_contents/01_1.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/用途地域別建築確認件数",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/583/03-91.xlsx",
+      "name": "秋田県/大仙市/予防接種の状況",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121000197/file_contents/02_1.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/専用住宅確認件数",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/583/03-93.xlsx",
+      "name": "秋田県/大仙市/乳幼児健診の受診状況",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120900399/file_contents/03_1.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/[住宅・土地統計調査] 世帯の主な働き手の通勤時間",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/583/03-96.xls",
+      "name": "秋田県/大仙市/各種健（検）診の受診状況",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121000166/file_contents/04_1.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/[住宅・土地統計調査] 住宅の種類・建築の時期・所有の関係等別、65歳以上の世帯員のいる世帯の高齢者等のための設備",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/583/03-101.xls",
+      "name": "秋田県/大仙市/交通事故発生件数",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120900221/file_contents/koutuujiko.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/[住宅・土地統計調査] 主世帯の年間収入、一か月当たりの家賃別借家数",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/583/03-102.xls",
+      "name": "秋田県/大仙市/指定緊急避難場所一覧",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121300013/file_contents/hinan_basyo.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/公営住宅",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/583/03-104.xlsx",
+      "name": "秋田県/大仙市/指定避難所一覧",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121300020/file_contents/hinansyo.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/道路の状況",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/583/03-105.xlsx",
+      "name": "秋田県/大仙市/生活排水処理水洗化状況",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120900108/file_contents/20211215suisenkajoukyou.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/公共下水道の状況",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/583/03-108.xlsx",
+      "name": "秋田県/大仙市/国保加入世帯の状況",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120600022/file_contents/01_.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/都市計画道路の状況",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/583/03-109.xlsx",
+      "name": "秋田県/大仙市/国保加入被保険者の状況",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120600039/file_contents/02_.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/区画整理事業による公共施設等の整備状況",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/583/03-110.xlsx",
+      "name": "秋田県/大仙市/保険給付の状況",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120600046/file_contents/03_.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/宅地開発の推移",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/583/03-111.xlsx",
+      "name": "秋田県/大仙市/高額療養費支給の状況",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120600053/file_contents/04_.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/保存樹の状況",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/583/03-112.xlsx",
+      "name": "秋田県/大仙市/後期高齢者医療費の状況",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120600060/file_contents/05_.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/電灯・電力需要状況",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/585/30-113dentou_kako.xls",
+      "name": "秋田県/大仙市/福祉医療費の状況－件数",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120600084/file_contents/06_.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/ガス需要状況（東部ガス）",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/585/03-114.xlsx",
+      "name": "秋田県/大仙市/福祉医療費の状況－金額",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120600091/file_contents/07_.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/上水道の給水状況",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/585/03-115.xlsx",
+      "name": "秋田県/大仙市/国民年金加入状況",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120600107/file_contents/08_.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/簡易水道の給水状況（上水道給水区域外）",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/585/03-116.xlsx",
+      "name": "秋田県/大仙市/拠出年金給付状況",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120600114/file_contents/09_.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/秋田港の貨物取扱状況",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/581/03-80.xlsx",
+      "name": "秋田県/大仙市/無拠出年金給付状況",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120600121/file_contents/10_.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/秋田港の階級別入港船舶数",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/581/03-82.xlsx",
+      "name": "秋田県/大仙市/生活保護の状況",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121400065/file_contents/hogo.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/秋田港の国別輸出入貨物状況",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/581/03-83.xlsx",
+      "name": "秋田県/大仙市/生活保護費の状況",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121400072/file_contents/hogohi.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/秋田空港の利用状況 （2）秋田－大阪（伊丹）間",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/581/03-84-2.xlsx",
+      "name": "秋田県/大仙市/児童手当の状況",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120800057/file_contents/jidoteate.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/秋田空港の利用状況 （3）秋田－札幌（新千歳）間",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/581/03-84-3.xlsx",
+      "name": "秋田県/大仙市/保育園の状況",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120800019/file_contents/hoikuen.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/秋田空港の利用状況 （4）秋田－名古屋（中部、小牧）間",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/581/03-84-4.xlsx",
+      "name": "秋田県/大仙市/障がい者の状況",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120300045/file_contents/shougai_jyoukyou.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/秋田空港の利用状況 （5）秋田－韓国（仁川）間",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/581/03-84-5.xlsx",
+      "name": "秋田県/大仙市/等級・障がい別の状況",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120300052/file_contents/shougai_toukyuu_bui.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/秋田空港の利用状況 （6）貨物・郵便（全路線）",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/581/03-84-6.xlsx",
+      "name": "秋田県/大仙市/市立大曲病院の利用者数",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121300143/file_contents/01_.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/自動車保有台数",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/581/03-86.xlsx",
+      "name": "秋田県/大仙市/ごみ処理の状況",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120900191/file_contents/gomisyori.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/秋田市公衆無線LANアクセスポイント一覧",
-      "url": "https://www.city.akita.lg.jp/kurashi/kokyoshisetsu/../../_res/projects/default_project/_page_/001/002/716/20221201/20221201_052019_public_wireless_lan.xlsx",
+      "name": "秋田県/大仙市/し尿処理の状況",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120900207/file_contents/sinyousyori.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/[学校基本調査他] 学校の概況",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/569/r3-21.xlsx",
+      "name": "秋田県/大仙市/介護サービス事業所一覧",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120900078/file_contents/kaigo.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/[学校基本調査他] 幼稚園の概況",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/569/03-22-1.xlsx",
+      "name": "秋田県/大仙市/医療機関一覧",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120900047/file_contents/iryoukikan.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/[学校基本調査他] 小学校の概況",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/569/03-23.xlsx",
+      "name": "秋田県/大仙市/公衆トイレ一覧",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121400041/file_contents/toire.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/[学校基本調査他] 中学校の概況",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/569/03-24.xlsx",
+      "name": "秋田県/大仙市/子育て施設一覧",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120800064/file_contents/kosodatesisetu.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/[学校基本調査他] 市立小学校施設の整備状況",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/569/03-25.xlsx",
+      "name": "秋田県/大仙市/医療施設数（病院）・病床数（開設主体・保健所別）",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121300051/file_contents/11-11.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/[学校基本調査他] 市立中学校施設の整備状況",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/569/03-26.xlsx",
+      "name": "秋田県/大仙市/病院の従事者数（2次医療圏別）",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121300075/file_contents/11-12.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/[学校基本調査他] 児童・生徒の平均体位",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/569/03-27.xlsx",
+      "name": "秋田県/大仙市/選挙人名簿登録者数の推移",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121300044/file_contents/senkyoninnmeibosuii.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/[学校基本調査他] 高等学校の概況",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/569/03-28.xlsx",
+      "name": "秋田県/大仙市/オープンデータ一覧",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121400096/file_contents/date.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/[学校基本調査他] 高等学校の学科別生徒数",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/569/03-29.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/[学校基本調査他] 高等専門学校の概況",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/569/r3-30.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/[学校基本調査他] 短期大学の概況",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/569/03-31.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/[学校基本調査他] 大学の概況",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/569/03-32.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/[学校基本調査他] 特別支援学校の概況",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/569/03-33.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/[学校基本調査他] 専修学校の概況",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/569/03-34.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/[学校基本調査他] 中学校卒業者の進路状況",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/569/03-36.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/[学校基本調査他] 高等学校卒業者の進路状況",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/569/03-37.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/[学校基本調査他] 高等学校卒業者の進学先",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/569/03-38.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/[学校基本調査他] 高等学校卒業者の都道府県別就職状況",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/569/03-39.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/[学校基本調査他] 高等学校卒業者の産業別就職状況",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/569/03-40.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/[学校基本調査他] 高等専門学校卒業者の進路状況",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/569/03-41.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/[学校基本調査他] 短期大学卒業者の進路状況",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/569/r3-42.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/[学校基本調査他] 大学卒業者の進路状況",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/569/03-43.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/[主要文化施設の利用状況] 市民サービスセンター等（総数、中央市民サービスセンター、北部市民サービスセンター、西部市民サービスセンター、東部市民サービスセンター、南部市民サービスセンター、南部市民サービスセンター別館、下新城交流センター、河辺市民サービスセンター、雄和市民サービスセンター）",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/569/03-44-1.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/[主要文化施設の利用状況] 大森山動物園、老人いこいの家、女性学習センター、市立千秋美術館、文化会館、勤労青少年ホーム",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/569/03-44-2.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/[主要文化施設の利用状況] 市立図書館、視聴覚ライブラリー",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/569/03-44-3.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/[主要文化施設の利用状況] 児童館、コミュニティセンター、ガラス工房、野外音楽堂、秋田城跡歴史資料館、赤レンガ郷土館、民俗芸能伝承館、土崎みなと歴史伝承館、佐竹史料館",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/569/03-44-4.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/[主要文化施設の利用状況] 県立図書館、県立美術館、県生涯学習センター、県民会館、県児童館",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/569/03-44-5.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/[主要文化施設の利用状況] 秋田県立博物館、秋田県総合生活文化会館（アトリオン）、太平山自然学習センター",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/569/03-44-6.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/[主要スポーツ施設の利用状況] 学校体育館施設、ナイター施設、勝平屋内ゲートボール場、屋内多目的運動場、県立体育館、サンライフ秋田",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/569/03-45-2.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/[主要スポーツ施設の利用状況] 新屋運動広場、向浜運動広場、県スポーツ科学センター、県立スケート場県立総合プール、県立野球場、一つ森公園弓道場",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/569/03-45-3.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/[主要スポーツ施設の利用状況] 河辺体育館、スポパークかわべ、河辺岩見三内野球場、河辺和田野球場、河辺戸島野球場、北野田公園、雄和体育館、雄和南体育館、雄和新波野球場、花の森野球場、花の森テニスコート、雄和B＆G海洋センター",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/569/03-45-4.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/文化財",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/569/03-46.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/秋田市の歳入・歳出決算の推移",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/594/03-175.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/一般会計歳入当初予算および決算",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/594/03-176.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/一般会計目的別歳出当初予算および決算",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/594/03-177.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/一般会計の性質別歳出当初予算および決算",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/594/03-178.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/特別会計歳入・歳出予算および決算",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/594/03-179.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/公営企業会計予算および決算",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/594/03-180.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/市税の税目別収入状況",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/594/03-181.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/市民一人当たりの市税の負担状況",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/594/03-182.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/地方交付税の状況",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/594/03-183.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/納税貯蓄組合の普及状況",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/594/03-184.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/譲与税と交付金（決算）",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/594/03-185.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/財産差押状況",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/594/03-186.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/市有財産",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/594/03-187.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/地目別土地面積",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/594/03-188.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/地目別評価面積・評価額",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/594/03-189.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/選挙人名簿登録者数の推移",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/594/03-190.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/選挙の投票状況",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/594/03-191.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/投票所一覧（オープンデータ）",
-      "url": "https://www.city.akita.lg.jp/kurashi/senkyo/1009382/../../../_res/projects/default_project/_page_/001/016/360/r4touhyoujoichiran.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/秋田市地域福祉市民意識調査_調査結果集計表",
-      "url": "https://www.city.akita.lg.jp/shisei/hoshin-keikaku/1011481/1004687/1018029/../../../../../_res/projects/default_project/_page_/001/017/370/tiiki_chousashukei.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/火災の発生状況と被害状況",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/593/03-163.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/消防力の推移",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/593/03-165.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/救急車の出動状況",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/593/03-167.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/交通事故の発生状況",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/593/03-168.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/交通事故の死傷者数",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/593/03-169.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/非行少年補導状況",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/593/03-170.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/地方裁判所事件の処理状況",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/593/03-172.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/簡易裁判所事件の処理状況",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/593/03-173.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/家庭裁判所事件の処理状況",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/593/03-174.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/二酸化硫黄（SO2）濃度の測定結果",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/587/03-117.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/二酸化窒素（NO2）濃度の測定結果",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/587/03-118.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/一酸化炭素（CO）濃度の測定結果",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/587/03-119.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/光化学オキシダント（OX）濃度の測定結果",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/587/03-120.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/炭化水素類（HC）濃度の測定結果",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/587/03-121.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/浮遊粒子状物質（SPM）の測定結果",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/587/03-122.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/主要河川におけるBOD平均値の推移",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/587/03-123.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/生活保護",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/590/03-145-1.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/児童扶養手当・特別児童扶養手当・児童手当の状況",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/590/03-147.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/保育所の概況",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/590/03-148-1.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/助産施設の措置状況",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/590/03-149.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/身体障害者手帳の交付状況",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/590/03-150.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/民生委員・児童委員の活動状況",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/590/03-151.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/福祉医療費受給者証の交付状況",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/590/03-152.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/福祉医療給付状況",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/590/03-153.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/厚生年金保険",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/590/03-154-1.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/国民年金（国民年金の加入状況）",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/590/03-155.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/国民健康保険",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/590/03-157.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/後期高齢者医療保険",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/590/03-158.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/戸籍・住民登録・印鑑登録等に関する取扱件数",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/590/03-159.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/家庭系ごみの排出状況/01家庭系ごみの月別排出量 （CSV 1.5KB）",
-      "url": "https://www.city.akita.lg.jp/kurashi/recycle/1006071/../../../_res/projects/default_project/_page_/001/006/163/tukigoto11gatu.csv",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/家庭系ごみの排出状況/02家庭系ごみ一人1日当たり月別排出量 （CSV 913B）",
-      "url": "https://www.city.akita.lg.jp/kurashi/recycle/1006071/../../../_res/projects/default_project/_page_/001/006/163/tukibetu11gatu.csv",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/家庭系ごみの排出状況/03一人1日当たりの家庭系ごみの累計排出量 （CSV 845B）",
-      "url": "https://www.city.akita.lg.jp/kurashi/recycle/1006071/../../../_res/projects/default_project/_page_/001/006/163/ruikeir411gatu.csv",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/家庭系ごみの排出状況/04国県市の排出量の推移 （CSV 541B）",
-      "url": "https://www.city.akita.lg.jp/kurashi/recycle/1006071/../../../_res/projects/default_project/_page_/001/006/163/2022080104.csv",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/し尿の収集・処理状況",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/587/03-124.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/ゴミの収集・処理状況",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/587/03-125.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/医療施設の概況",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/587/02-126.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/医療施設別従事者数",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/587/02-128.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/医療職種別従事者数",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/587/02-127.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/市立秋田総合病院の利用者数",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/587/03-129.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/夜間休日応急診療所の利用者数",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/587/03-130.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/死因順位別死亡者数",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/587/03-131.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/新生児の死亡者数",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/587/03-132.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/乳児の死亡者数",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/587/03-133.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/予防接種の実施状況",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/587/03-134.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/各種検診の受診状況",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/587/03-135.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/特定健康診断等の受診状況と特定保健指導の実施状況",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/587/03-137.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/乳幼児健康診査の受診状況",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/587/03-138.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/結核健康診断の実施状況",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/587/03-139.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/秋田市オープンデータ一覧",
-      "url": "https://www.city.akita.lg.jp/opendata/1000081/../../_res/projects/default_project/_page_/001/000/082/052019_open_data_list44_2.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/薬事関係施設一覧",
-      "url": "https://www.city.akita.lg.jp/kurashi/kenko/1005375/../../../_res/projects/default_project/_page_/001/021/003/r041031yakkyoku2.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/【中央地区】指定緊急避難場所一覧",
-      "url": "https://www.city.akita.lg.jp/bosai-kinkyu/bosai/1002188/1021451/../../../../_res/projects/default_project/_page_/001/033/971/kinnkyuu001.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/【東部地区】指定緊急避難場所一覧",
-      "url": "https://www.city.akita.lg.jp/bosai-kinkyu/bosai/1002188/1021451/../../../../_res/projects/default_project/_page_/001/033/984/kinnkyuu002.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/【西部地区】指定緊急避難場所一覧",
-      "url": "https://www.city.akita.lg.jp/bosai-kinkyu/bosai/1002188/1021451/../../../../_res/projects/default_project/_page_/001/033/985/kinnkyuu003.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/【南部地区】指定緊急避難場所一覧",
-      "url": "https://www.city.akita.lg.jp/bosai-kinkyu/bosai/1002188/1021451/../../../../_res/projects/default_project/_page_/001/033/986/kinnkyuu004.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/【北部地区】指定緊急避難場所一覧",
-      "url": "https://www.city.akita.lg.jp/bosai-kinkyu/bosai/1002188/1021451/../../../../_res/projects/default_project/_page_/001/033/983/kinnkyuu005.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/【河辺地区】指定緊急避難場所一覧",
-      "url": "https://www.city.akita.lg.jp/bosai-kinkyu/bosai/1002188/1021451/../../../../_res/projects/default_project/_page_/001/033/987/knnkyuu006.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/【雄和地区】指定緊急避難場所一覧",
-      "url": "https://www.city.akita.lg.jp/bosai-kinkyu/bosai/1002188/1021451/../../../../_res/projects/default_project/_page_/001/033/988/siteikinkyuhinanbashoyuuwa.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/過去の選挙結果",
-      "url": "https://www.city.akita.lg.jp/kurashi/senkyo/1008169/../../../_res/projects/default_project/_page_/001/008/283/shicho20211201.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/衛生検査所一覧",
-      "url": "https://www.city.akita.lg.jp/kurashi/kenko/1005375/../../../_res/projects/default_project/_page_/001/028/996/r030401eiseikennsasyo1.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
-        "encode UTF-8"
-      ],
-      "headers": {}
-    },
-    {
-      "name": "秋田県/秋田市/令和2年国勢調査",
-      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/010/369/r2.xlsx",
-      "catalogUrl": null,
-      "catalogResourceId": null,
-      "postProcesses": [
-        "xlsx-to-csv",
         "encode UTF-8"
       ],
       "headers": {}

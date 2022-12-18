@@ -1,6 +1,7 @@
+= haml :_breadcrumb, locals: { parents: @entity.node.parents }
+
 %h1= @entity.name
 
-= haml :_breadcrumb, locals: { parents: @entity.node.parents }
 
 - prev_node = @entity.node.prev_node
 - next_node = @entity.node.next_node

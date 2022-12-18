@@ -1,10 +1,12 @@
 - empty_chart = true
 - entity.csv_data.each do |d|
-  - d.charts.each do |chart|
+  - d.charts.each_with_index do |chart, i|
     - empty_chart = false
+    - title = d.titles[i]
     .row
       .col-12.text-center
-        %h2= d.title
+        %h2= d.title unless d.title&.empty?
+        %h3= title unless title&.empty?
         = chart&.to_html
         %p 
 

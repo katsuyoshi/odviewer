@@ -79,9 +79,6 @@ get '/viewer/*' do
   end
   @entity = @node.entity
 
-  @charts = []
-  @locations = []
-
   haml :viewer, :layout => :layout
 end
 
