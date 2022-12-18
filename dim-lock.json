@@ -2,6 +2,3442 @@
   "lockFileVersion": "1.1",
   "contents": [
     {
+      "name": "秋田県/秋田市/位置と面積",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/561/03-1.xls",
+      "path": "./data_files/秋田県/秋田市/位置と面積/03-1.xls",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-20T23:35:48.000Z",
+      "eTag": "7600-5dd1e740736c0",
+      "lastDownloaded": "2022-12-18T02:21:42.381Z",
+      "integrity": "c139e6be749099e50d5a90ddcec3f60ba18b8c8c",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/市域の変遷",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/561/03-2.xls",
+      "path": "./data_files/秋田県/秋田市/市域の変遷/03-2.xls",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-20T23:35:48.000Z",
+      "eTag": "7600-5dd1e7405813f",
+      "lastDownloaded": "2022-12-18T02:21:42.476Z",
+      "integrity": "d9c4930435aff49d74b40479ba2597f601f5cbfc",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/都市計画用途地域別面積",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/561/03-3.xlsx",
+      "path": "./data_files/秋田県/秋田市/都市計画用途地域別面積/03-3.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-20T23:35:48.000Z",
+      "eTag": "38d2-5dd1e74055e17",
+      "lastDownloaded": "2022-12-18T02:21:42.591Z",
+      "integrity": "c124799eabf85f59006eaf5b7a5b287afe877bb1",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/公園・緑地面積",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/561/03-4.xlsx",
+      "path": "./data_files/秋田県/秋田市/公園・緑地面積/03-4.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-20T23:35:48.000Z",
+      "eTag": "3e8e-5dd1e7403b44e",
+      "lastDownloaded": "2022-12-18T02:21:42.794Z",
+      "integrity": "bb3a858831eaa527182ad00a9342f56f2aebd491",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/住居表示地区の面積",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/561/03-5.xlsx",
+      "path": "./data_files/秋田県/秋田市/住居表示地区の面積/03-5.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-20T23:35:48.000Z",
+      "eTag": "52ad-5dd1e74026845",
+      "lastDownloaded": "2022-12-18T02:21:42.884Z",
+      "integrity": "27196bcc335c77346d857dc403c514d3507c0bd5",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/気象",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/561/03-6.xlsx",
+      "path": "./data_files/秋田県/秋田市/気象/03-6.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-20T23:35:48.000Z",
+      "eTag": "5b5e-5dd1e740100e4",
+      "lastDownloaded": "2022-12-18T02:21:42.995Z",
+      "integrity": "13cf915e96ff75b7d347a78198ae56eff24fcd17",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/人口・世帯の推移",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/563/03-7.xlsx",
+      "path": "./data_files/秋田県/秋田市/人口・世帯の推移/03-7.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-25T05:23:58.000Z",
+      "eTag": "4f23-5dd73c887c62d",
+      "lastDownloaded": "2022-12-18T02:21:43.139Z",
+      "integrity": "85adfad21774f2ee89c3946fcda078f1af701e3e",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/人口動態",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/563/03-8-2.xlsx",
+      "path": "./data_files/秋田県/秋田市/人口動態/03-8-2.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-25T05:23:58.000Z",
+      "eTag": "70a0-5dd73c8866e6b",
+      "lastDownloaded": "2022-12-18T02:21:43.333Z",
+      "integrity": "21e8f0c624e3034849db17320c81adea2b0f9f53",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/都道府県別転入・転出人口",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/563/03-9.xlsx",
+      "path": "./data_files/秋田県/秋田市/都道府県別転入・転出人口/03-9.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-25T05:23:58.000Z",
+      "eTag": "4973-5dd73c8896c0e",
+      "lastDownloaded": "2022-12-18T02:21:43.413Z",
+      "integrity": "a867cc69e2be39e236cc7408bcef08c6805be046",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/外国人人口",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/563/03-12.xlsx",
+      "path": "./data_files/秋田県/秋田市/外国人人口/03-12.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-25T05:23:58.000Z",
+      "eTag": "3dd2-5dd73c883caa1",
+      "lastDownloaded": "2022-12-18T02:21:43.504Z",
+      "integrity": "cc3d442caacee41e414fb6c1a2a317ced9be9f43",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/住民基本台帳人口",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/563/03-13.xlsx",
+      "path": "./data_files/秋田県/秋田市/住民基本台帳人口/03-13.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-25T05:23:58.000Z",
+      "eTag": "3733-5dd73c8833e01",
+      "lastDownloaded": "2022-12-18T02:21:43.595Z",
+      "integrity": "cc84037b7ff703e46b635385ceddd8c2436e5f9c",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/[国勢調査]人口・世帯の推移",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/563/03-14.xls",
+      "path": "./data_files/秋田県/秋田市/[国勢調査]人口・世帯の推移/03-14.xls",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-25T05:23:59.000Z",
+      "eTag": "8c00-5dd73c88cdee1",
+      "lastDownloaded": "2022-12-18T02:21:43.818Z",
+      "integrity": "63eb3e46dd5af65d3dcc15219ad3323c2948a9c0",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/[国勢調査]人口集中地区の推移",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/563/03-15.xls",
+      "path": "./data_files/秋田県/秋田市/[国勢調査]人口集中地区の推移/03-15.xls",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-25T05:23:59.000Z",
+      "eTag": "8200-5dd73c88c0420",
+      "lastDownloaded": "2022-12-18T02:21:43.941Z",
+      "integrity": "795a49d53dbf45c7299c2d118ef3055536596dcc",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/[国勢調査]年齢（5歳階級）別構成の推移",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/563/03-16.xls",
+      "path": "./data_files/秋田県/秋田市/[国勢調査]年齢（5歳階級）別構成の推移/03-16.xls",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-25T05:23:59.000Z",
+      "eTag": "9e00-5dd73c88e984a",
+      "lastDownloaded": "2022-12-18T02:21:44.316Z",
+      "integrity": "d287b630b25ad13f3664efad2cf0ddc1fd66afb0",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/[国勢調査]年齢（15歳以上）別労働力状態",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/563/03-18.xls",
+      "path": "./data_files/秋田県/秋田市/[国勢調査]年齢（15歳以上）別労働力状態/03-18.xls",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-25T05:23:59.000Z",
+      "eTag": "6e00-5dd73c891111c",
+      "lastDownloaded": "2022-12-18T02:21:44.654Z",
+      "integrity": "52f3a54e129c21b1620e99c1065554e67b44662d",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/秋田市人口世帯表 平成29年版",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/568/h29.1-12.xls",
+      "path": "./data_files/秋田県/秋田市/秋田市人口世帯表 平成29年版/h29.1-12.xls",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2018-02-27T08:16:04.000Z",
+      "eTag": "2c400-5662d3cd97900",
+      "lastDownloaded": "2022-12-18T02:21:45.912Z",
+      "integrity": "0d95496814df9583a1752292e3fc2f3740bad10c",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/秋田市人口世帯表 平成28年版",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/568/h28.1-12.xls",
+      "path": "./data_files/秋田県/秋田市/秋田市人口世帯表 平成28年版/h28.1-12.xls",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2018-02-27T08:16:04.000Z",
+      "eTag": "2c200-5662d3cd97900",
+      "lastDownloaded": "2022-12-18T02:21:46.095Z",
+      "integrity": "974554361627c18b274c621e2d8ac1cf066a502b",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/秋田市人口世帯表 平成27年版",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/568/h27.1-12.xls",
+      "path": "./data_files/秋田県/秋田市/秋田市人口世帯表 平成27年版/h27.1-12.xls",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2018-02-27T08:16:04.000Z",
+      "eTag": "28a00-5662d3cd97900",
+      "lastDownloaded": "2022-12-18T02:21:46.662Z",
+      "integrity": "52d3a67814bd0be5452ee4a11ae69386f6b1a71a",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/秋田市人口世帯表 平成26年版",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/568/h26.1-12.xls",
+      "path": "./data_files/秋田県/秋田市/秋田市人口世帯表 平成26年版/h26.1-12.xls",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2018-02-27T08:16:04.000Z",
+      "eTag": "2a600-5662d3cd97900",
+      "lastDownloaded": "2022-12-18T02:21:47.351Z",
+      "integrity": "d11e356721da3516ef65a3fd3648989d702a7c2e",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/秋田市人口世帯表 平成25年版",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/568/h25.1-12.xls",
+      "path": "./data_files/秋田県/秋田市/秋田市人口世帯表 平成25年版/h25.1-12.xls",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2018-02-27T08:16:04.000Z",
+      "eTag": "28600-5662d3cd97900",
+      "lastDownloaded": "2022-12-18T02:21:47.487Z",
+      "integrity": "6825ef84373418e91b82fd9c48456b9338e68b6d",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/秋田市人口世帯表 平成24年版",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/568/h24.1-12.xls",
+      "path": "./data_files/秋田県/秋田市/秋田市人口世帯表 平成24年版/h24.1-12.xls",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2018-02-27T08:16:04.000Z",
+      "eTag": "26600-5662d3cd97900",
+      "lastDownloaded": "2022-12-18T02:21:48.530Z",
+      "integrity": "1225997f3235b66ccfd943e8e929e4d03bd149b8",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/秋田市人口世帯表 平成23年版",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/568/h23.1-12.xls",
+      "path": "./data_files/秋田県/秋田市/秋田市人口世帯表 平成23年版/h23.1-12.xls",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2018-02-27T08:16:04.000Z",
+      "eTag": "29a00-5662d3cd97900",
+      "lastDownloaded": "2022-12-18T02:21:48.835Z",
+      "integrity": "1095d6ed54f4a697fd5ddfb406b0647dfee90980",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/秋田市人口世帯表 平成22年版",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/568/h22.1-12.xls",
+      "path": "./data_files/秋田県/秋田市/秋田市人口世帯表 平成22年版/h22.1-12.xls",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2018-02-27T08:16:04.000Z",
+      "eTag": "26200-5662d3cd97900",
+      "lastDownloaded": "2022-12-18T02:21:49.447Z",
+      "integrity": "d617633c4eba60dc2374ce650fbbdb8fcd5aa2a0",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/秋田市人口世帯表 平成21年版",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/568/h21.1-12.xls",
+      "path": "./data_files/秋田県/秋田市/秋田市人口世帯表 平成21年版/h21.1-12.xls",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2018-02-27T08:16:04.000Z",
+      "eTag": "25400-5662d3cd97900",
+      "lastDownloaded": "2022-12-18T02:21:49.888Z",
+      "integrity": "b853aa4c9691b2f8fc6e7f1326b8a1fbafcbe7fe",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/秋田市人口世帯表 平成20年版",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/568/h20.1-12.xls",
+      "path": "./data_files/秋田県/秋田市/秋田市人口世帯表 平成20年版/h20.1-12.xls",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2018-02-27T08:16:04.000Z",
+      "eTag": "26600-5662d3cd97900",
+      "lastDownloaded": "2022-12-18T02:21:50.369Z",
+      "integrity": "56d08cdefb5ebdc15139131c8fb6626602c72a6d",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/秋田市人口世帯表 平成19年版",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/568/h19.1-12.xls",
+      "path": "./data_files/秋田県/秋田市/秋田市人口世帯表 平成19年版/h19.1-12.xls",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2018-02-27T08:16:04.000Z",
+      "eTag": "26800-5662d3cd97900",
+      "lastDownloaded": "2022-12-18T02:21:50.733Z",
+      "integrity": "e2313f367610b444e1fb46b7e9f0a61590da1616",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/秋田市人口世帯表 平成18年版",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/568/h18.1-12.xls",
+      "path": "./data_files/秋田県/秋田市/秋田市人口世帯表 平成18年版/h18.1-12.xls",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2018-02-27T08:16:04.000Z",
+      "eTag": "25a00-5662d3cd97900",
+      "lastDownloaded": "2022-12-18T02:21:51.278Z",
+      "integrity": "772061ea0c3fa505001c620b4e51773bb7d4949a",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/秋田市人口世帯表 平成17年版",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/568/h17.1-12.xls",
+      "path": "./data_files/秋田県/秋田市/秋田市人口世帯表 平成17年版/h17.1-12.xls",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2018-02-27T08:16:04.000Z",
+      "eTag": "27200-5662d3cd97900",
+      "lastDownloaded": "2022-12-18T02:21:51.798Z",
+      "integrity": "fefd943227bfce02a6db5e093021b72ffc21bd39",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/秋田市人口世帯表 平成16年版",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/568/h16.1-12.xls",
+      "path": "./data_files/秋田県/秋田市/秋田市人口世帯表 平成16年版/h16.1-12.xls",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2018-02-27T08:16:05.000Z",
+      "eTag": "26800-5662d3ce8bb40",
+      "lastDownloaded": "2022-12-18T02:21:52.206Z",
+      "integrity": "7081bd195f3db7473bbcb174a9efefceb554f952",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/秋田市人口世帯表 平成15年版",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/568/h15.1-12.xls",
+      "path": "./data_files/秋田県/秋田市/秋田市人口世帯表 平成15年版/h15.1-12.xls",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2018-02-27T08:16:05.000Z",
+      "eTag": "26800-5662d3ce8bb40",
+      "lastDownloaded": "2022-12-18T02:21:52.722Z",
+      "integrity": "45ab60238e3eb7db0ca55dab1a24c9784c438c33",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/秋田市人口世帯表 平成14年版",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/568/h14.1-12.xls",
+      "path": "./data_files/秋田県/秋田市/秋田市人口世帯表 平成14年版/h14.1-12.xls",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2018-02-27T08:16:05.000Z",
+      "eTag": "26800-5662d3ce8bb40",
+      "lastDownloaded": "2022-12-18T02:21:52.832Z",
+      "integrity": "3e547292f92746a2dea9ef863961e80cc344ed56",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/秋田市人口世帯表 平成13年版",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/568/h13.1-12.xls",
+      "path": "./data_files/秋田県/秋田市/秋田市人口世帯表 平成13年版/h13.1-12.xls",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2018-02-27T08:16:05.000Z",
+      "eTag": "27600-5662d3ce8bb40",
+      "lastDownloaded": "2022-12-18T02:21:53.314Z",
+      "integrity": "9a2f3a91f762d3bb9146647eb16f96c4769427db",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/秋田市人口世帯表 平成12年版",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/568/h12.1-12.xls",
+      "path": "./data_files/秋田県/秋田市/秋田市人口世帯表 平成12年版/h12.1-12.xls",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2018-02-27T08:16:05.000Z",
+      "eTag": "25400-5662d3ce8bb40",
+      "lastDownloaded": "2022-12-18T02:21:53.999Z",
+      "integrity": "42c83eeb8e67ae8361b2e3cc5b91935a5f0f2ea5",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/秋田市人口世帯表 平成11年版",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/568/h11.1-12.xls",
+      "path": "./data_files/秋田県/秋田市/秋田市人口世帯表 平成11年版/h11.1-12.xls",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2018-02-27T08:16:05.000Z",
+      "eTag": "26800-5662d3ce8bb40",
+      "lastDownloaded": "2022-12-18T02:21:54.334Z",
+      "integrity": "7f0560dfc962a5c30ecf658261fb8efacf3c8409",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/秋田市人口世帯表 平成10年版",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/568/h10.1-12.xls",
+      "path": "./data_files/秋田県/秋田市/秋田市人口世帯表 平成10年版/h10.1-12.xls",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2018-02-27T08:16:05.000Z",
+      "eTag": "26800-5662d3ce8bb40",
+      "lastDownloaded": "2022-12-18T02:21:54.823Z",
+      "integrity": "72d5bad8306ef9ff66245818d4c8962d81fe49ef",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/秋田市人口世帯表 平成9年版（10月分から）",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/568/h9.10-12.xls",
+      "path": "./data_files/秋田県/秋田市/秋田市人口世帯表 平成9年版（10月分から）/h9.10-12.xls",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2018-02-27T08:16:05.000Z",
+      "eTag": "c800-5662d3ce8bb40",
+      "lastDownloaded": "2022-12-18T02:21:54.888Z",
+      "integrity": "46ce302464c81dff4d147ce29b3feae4c8aabd59",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/職業紹介（3）産業別一般求人受理状況（常用）",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/589/03-140-3.xlsx",
+      "path": "./data_files/秋田県/秋田市/職業紹介（3）産業別一般求人受理状況（常用）/03-140-3.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-12T06:16:24.000Z",
+      "eTag": "370d-5dc6f0015d8ff",
+      "lastDownloaded": "2022-12-18T02:21:55.519Z",
+      "integrity": "d27c6fcfaad7eb65f8c443772a7f6aef7242bd04",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/雇用保険（2）雇用保険適用状況",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/589/03-141-2.xlsx",
+      "path": "./data_files/秋田県/秋田市/雇用保険（2）雇用保険適用状況/03-141-2.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-12T06:16:24.000Z",
+      "eTag": "2f76-5dc6f00158ec6",
+      "lastDownloaded": "2022-12-18T02:21:56.928Z",
+      "integrity": "e518a8fd4fcae385fa777c535006e099de9ee0ec",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/雇用保険（3）失業給付金支給状況",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/589/03-141-3.xlsx",
+      "path": "./data_files/秋田県/秋田市/雇用保険（3）失業給付金支給状況/03-141-3.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-12T06:16:25.000Z",
+      "eTag": "4411-5dc6f0021cba0",
+      "lastDownloaded": "2022-12-18T02:21:56.995Z",
+      "integrity": "e2d37505c04e0feb49e064ef1e42fcfa9b524048",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/労働者災害補償保険（1）労災保険料および保険給付支払状況（署払分）",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/589/03-143-1.xlsx",
+      "path": "./data_files/秋田県/秋田市/労働者災害補償保険（1）労災保険料および保険給付支払状況（署払分）/03-143-1.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-12T06:16:24.000Z",
+      "eTag": "3c25-5dc6f001d1c64",
+      "lastDownloaded": "2022-12-18T02:21:57.840Z",
+      "integrity": "0f72b72e339cbfdb9a552509aba30679f98dc3de",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/労働者災害補償保険（2）特別支給金支払状況（労働福祉事業）（署払分）",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/589/03-143-2.xlsx",
+      "path": "./data_files/秋田県/秋田市/労働者災害補償保険（2）特別支給金支払状況（労働福祉事業）（署払分）/03-143-2.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-12T06:16:24.000Z",
+      "eTag": "34c5-5dc6f001b053b",
+      "lastDownloaded": "2022-12-18T02:21:58.055Z",
+      "integrity": "0d33be2b9e311f073d579dbd3c9eb15fca777697",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/労働者災害補償保険（3）労働保険業種別適用事業所数および労働者数",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/589/03-143-3.xlsx",
+      "path": "./data_files/秋田県/秋田市/労働者災害補償保険（3）労働保険業種別適用事業所数および労働者数/03-143-3.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-12T06:16:24.000Z",
+      "eTag": "3593-5dc6f00179a38",
+      "lastDownloaded": "2022-12-18T02:21:58.658Z",
+      "integrity": "1db70dbdd37e595ec15884bbb4a275961ed08581",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/労働組合と組合員の状況（1）適用法規別",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/589/03-144-1.xlsx",
+      "path": "./data_files/秋田県/秋田市/労働組合と組合員の状況（1）適用法規別/03-144-1.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-12T06:16:25.000Z",
+      "eTag": "3c6c-5dc6f002555e2",
+      "lastDownloaded": "2022-12-18T02:21:58.760Z",
+      "integrity": "b7421285b742d8499714d2f14c1acbdc172bdd36",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/労働組合と組合員の状況（2）産業別",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/589/03-144-2.xlsx",
+      "path": "./data_files/秋田県/秋田市/労働組合と組合員の状況（2）産業別/03-144-2.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-12T06:16:25.000Z",
+      "eTag": "5716-5dc6f0022a660",
+      "lastDownloaded": "2022-12-18T02:21:59.095Z",
+      "integrity": "872bba2a21e9de433633c5340694bae5c8631f52",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/[農林業センサス他] 農業の概況",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/573/03-48.xlsx",
+      "path": "./data_files/秋田県/秋田市/[農林業センサス他] 農業の概況/03-48.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2021-10-18T04:54:04.000Z",
+      "eTag": "bf15-5ce995598c6f7",
+      "lastDownloaded": "2022-12-18T02:21:59.538Z",
+      "integrity": "6472f77d757bc0a14539b4d2bad48302f57a4067",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/[農林業センサス他] 農業の地区別現況",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/573/r3-49.xlsx",
+      "path": "./data_files/秋田県/秋田市/[農林業センサス他] 農業の地区別現況/r3-49.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-26T05:53:35.000Z",
+      "eTag": "ac29-5dd88504520b6",
+      "lastDownloaded": "2022-12-18T02:21:59.771Z",
+      "integrity": "9f7306ae92f6338d2f0c0b6c1f9b19226a4c73e3",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/[農林業センサス他] 農家数の推移（秋田市・秋田県）",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/573/03-50.xlsx",
+      "path": "./data_files/秋田県/秋田市/[農林業センサス他] 農家数の推移（秋田市・秋田県）/03-50.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2021-10-18T04:56:27.000Z",
+      "eTag": "67e2-5ce995e1f2efb",
+      "lastDownloaded": "2022-12-18T02:22:00.569Z",
+      "integrity": "061616106299e6302c111727f5b2830e0f6e1f27",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/[農林業センサス他] 農業就業人口の推移",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/573/r3-51.xlsx",
+      "path": "./data_files/秋田県/秋田市/[農林業センサス他] 農業就業人口の推移/r3-51.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-26T05:53:35.000Z",
+      "eTag": "3784-5dd8850437ad5",
+      "lastDownloaded": "2022-12-18T02:22:00.775Z",
+      "integrity": "8066d238433ae7a2c6d9097da6b6cc58e7ca1758",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/農作物の生産状況",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/573/03-57.xlsx",
+      "path": "./data_files/秋田県/秋田市/農作物の生産状況/03-57.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-19T05:33:17.000Z",
+      "eTag": "3797-5dcfb36c5a9ed",
+      "lastDownloaded": "2022-12-18T02:22:01.125Z",
+      "integrity": "a83bbdf177a373d2a519bd843320b0af13f28362",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/農地の転用状況",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/573/03-58.xlsx",
+      "path": "./data_files/秋田県/秋田市/農地の転用状況/03-58.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-19T05:33:17.000Z",
+      "eTag": "34f4-5dcfb36c319ab",
+      "lastDownloaded": "2022-12-18T02:22:01.375Z",
+      "integrity": "38c5f59a4f8869c53c71324bcf831da0521fad03",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/漁業の概況",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/573/03-59.xlsx",
+      "path": "./data_files/秋田県/秋田市/漁業の概況/03-59.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-19T05:33:17.000Z",
+      "eTag": "3b14-5dcfb36c26dcb",
+      "lastDownloaded": "2022-12-18T02:22:01.615Z",
+      "integrity": "e920319e237151ddc11865d32c3d03da8e1cba75",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/木材の生産量（需要部門別素材生産量（秋田県））",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/573/03-60.xlsx",
+      "path": "./data_files/秋田県/秋田市/木材の生産量（需要部門別素材生産量（秋田県））/03-60.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-19T05:33:16.000Z",
+      "eTag": "35c1-5dcfb36be9180",
+      "lastDownloaded": "2022-12-18T02:22:01.692Z",
+      "integrity": "6a4318c7b353f8dc0bd6ad54e0cb401b2307eaea",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/保安林の概況",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/573/03-61.xlsx",
+      "path": "./data_files/秋田県/秋田市/保安林の概況/03-61.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-19T05:33:16.000Z",
+      "eTag": "323a-5dcfb36bdc660",
+      "lastDownloaded": "2022-12-18T02:22:01.855Z",
+      "integrity": "dfb69d9f2232a171bb3c8d5d1e4d51e3ffc4fe1e",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/入会林野の概況",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/573/03-63.xlsx",
+      "path": "./data_files/秋田県/秋田市/入会林野の概況/03-63.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-19T05:33:16.000Z",
+      "eTag": "33f6-5dcfb36ba0185",
+      "lastDownloaded": "2022-12-18T02:22:02.037Z",
+      "integrity": "3aacc1b949a4c99393ec8631963a754c58643875",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/製造業の推移",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/575/3-64seizou.xls",
+      "path": "./data_files/秋田県/秋田市/製造業の推移/3-64seizou.xls",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2021-12-20T07:40:14.000Z",
+      "eTag": "8c00-5d38effda894b",
+      "lastDownloaded": "2022-12-18T02:22:02.253Z",
+      "integrity": "ca808d8bcf8243f32e40f8c82ad42e25067d9a06",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/経営組織別事業所数",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/575/3-65keiei.xls",
+      "path": "./data_files/秋田県/秋田市/経営組織別事業所数/3-65keiei.xls",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2021-12-20T07:40:13.000Z",
+      "eTag": "7c00-5d38effcb4ed4",
+      "lastDownloaded": "2022-12-18T02:22:02.480Z",
+      "integrity": "02e9b67173ed54edea9b38d2b7f3581ae72130fe",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/規模別事業所数の推移",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/575/3-66kibo.xls",
+      "path": "./data_files/秋田県/秋田市/規模別事業所数の推移/3-66kibo.xls",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2021-12-20T07:40:13.000Z",
+      "eTag": "7000-5d38effcbcfbd",
+      "lastDownloaded": "2022-12-18T02:22:02.818Z",
+      "integrity": "ddd7b9877c2a7c5aef7b789abf86b145cf79da54",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/産業中分類別事業所数、従業者数、現金給与総額、原材料使用額等、製造品出荷額等",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/575/r3-67sangyo.xls",
+      "path": "./data_files/秋田県/秋田市/産業中分類別事業所数、従業者数、現金給与総額、原材料使用額等、製造品出荷額等/r3-67sangyo.xls",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-20T07:01:49.000Z",
+      "eTag": "9c00-5dd1091438e25",
+      "lastDownloaded": "2022-12-18T02:22:03.193Z",
+      "integrity": "2e7d808c4a0e3c616eb9acb6c69e0e77723bd467",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/産業中分類別事業所数、従業者数、製造品出荷額等の推移",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/575/3-68-4santyu.xls",
+      "path": "./data_files/秋田県/秋田市/産業中分類別事業所数、従業者数、製造品出荷額等の推移/3-68-4santyu.xls",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2021-12-22T23:54:45.000Z",
+      "eTag": "ac00-5d3c4d8accdda",
+      "lastDownloaded": "2022-12-18T02:22:03.355Z",
+      "integrity": "98c2a3d7926a8cd9622a8fe6f3b647c4007f4ed5",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/[秋田市の事業所] 平成26年経済センサス－基礎調査",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/571/h26.xlsx",
+      "path": "./data_files/秋田県/秋田市/[秋田市の事業所] 平成26年経済センサス－基礎調査/h26.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2018-05-24T05:11:37.000Z",
+      "eTag": "2d7e7-56cecaf8eb440",
+      "lastDownloaded": "2022-12-18T02:22:03.799Z",
+      "integrity": "01ec1dd3ead5efd73d5359b7f26084e0268b2e5d",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/[秋田市の事業所] 平成21年経済センサス－基礎調査",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/571/h21.xlsx",
+      "path": "./data_files/秋田県/秋田市/[秋田市の事業所] 平成21年経済センサス－基礎調査/h21.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2018-05-24T05:11:37.000Z",
+      "eTag": "44dfc-56cecaf8eb440",
+      "lastDownloaded": "2022-12-18T02:22:05.108Z",
+      "integrity": "7622d85846fe822ea51db9222301241fdcc523e0",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/[秋田市の事業所] 平成8年事業所・企業統計調査",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/571/h8.xlsx",
+      "path": "./data_files/秋田県/秋田市/[秋田市の事業所] 平成8年事業所・企業統計調査/h8.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2018-05-24T05:11:29.000Z",
+      "eTag": "1f7aa-56cecaf14a240",
+      "lastDownloaded": "2022-12-18T02:22:05.446Z",
+      "integrity": "ff81a8c04f7e9e03112bf974490f93b41318b43a",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/事業所数・従業者数の推移",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/571/31-47.xls",
+      "path": "./data_files/秋田県/秋田市/事業所数・従業者数の推移/31-47.xls",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2020-04-20T00:35:31.000Z",
+      "eTag": "9600-5a3ae1389fac0",
+      "lastDownloaded": "2022-12-18T02:22:05.495Z",
+      "integrity": "3630d5f0672221d43760e19b17df264d5fbd65c7",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/平成19年商業統計調査",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/578/h19.xlsx",
+      "path": "./data_files/秋田県/秋田市/平成19年商業統計調査/h19.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2018-05-24T08:54:03.000Z",
+      "eTag": "67d0f-56cefcb0a80c0",
+      "lastDownloaded": "2022-12-18T02:22:06.502Z",
+      "integrity": "ef558d629a8587c9b3fc9a96343650126c02a7d0",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/平成16年商業統計調査",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/578/h16akita.xlsx",
+      "path": "./data_files/秋田県/秋田市/平成16年商業統計調査/h16akita.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2018-05-24T08:53:52.000Z",
+      "eTag": "4f67d-56cefca62a800",
+      "lastDownloaded": "2022-12-18T02:22:07.524Z",
+      "integrity": "7bb5a43898508b034013b02cfc90b914304a91da",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/平成14年商業統計調査",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/578/h14.xlsx",
+      "path": "./data_files/秋田県/秋田市/平成14年商業統計調査/h14.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2018-05-24T08:53:52.000Z",
+      "eTag": "5c122-56cefca62a800",
+      "lastDownloaded": "2022-12-18T02:22:07.805Z",
+      "integrity": "d9b04c8319dca0acbc41fdf65c54346e4ed31913",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/平成11年商業統計調査",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/578/h11.xlsx",
+      "path": "./data_files/秋田県/秋田市/平成11年商業統計調査/h11.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2018-05-24T08:53:52.000Z",
+      "eTag": "5aa69-56cefca62a800",
+      "lastDownloaded": "2022-12-18T02:22:08.444Z",
+      "integrity": "905702155ac261da73714c5d646c1a651ea64e07",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/平成9年商業統計調査",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/578/h9.xlsx",
+      "path": "./data_files/秋田県/秋田市/平成9年商業統計調査/h9.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2018-05-24T08:53:52.000Z",
+      "eTag": "26355-56cefca62a800",
+      "lastDownloaded": "2022-12-18T02:22:08.576Z",
+      "integrity": "105e51e995580146549b3791a6e9cec064904f52",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/平成4年商業統計調査",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/578/h4.xlsx",
+      "path": "./data_files/秋田県/秋田市/平成4年商業統計調査/h4.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2018-05-24T08:53:52.000Z",
+      "eTag": "15189-56cefca62a800",
+      "lastDownloaded": "2022-12-18T02:22:08.676Z",
+      "integrity": "67abfbc6a97795f1aa0c9f2c032ac8bc6854ab77",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/[平成28年経済センサス 活動調査他] 商業の推移（卸売・小売業）",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/578/03-69.xlsx",
+      "path": "./data_files/秋田県/秋田市/[平成28年経済センサス 活動調査他] 商業の推移（卸売・小売業）/03-69.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-14T01:37:43.000Z",
+      "eTag": "3ed4-5dc935717ab8f",
+      "lastDownloaded": "2022-12-18T02:22:08.745Z",
+      "integrity": "63d8ca1b6dcd15975e064a86a1d4eaf2e159112c",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/[平成28年経済センサス 活動調査他]産業分類別商店数、従業者数、年間商品販売額",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/578/03-70-1.xlsx",
+      "path": "./data_files/秋田県/秋田市/[平成28年経済センサス 活動調査他]産業分類別商店数、従業者数、年間商品販売額/03-70-1.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-14T01:37:42.000Z",
+      "eTag": "57f2-5dc9357173a47",
+      "lastDownloaded": "2022-12-18T02:22:08.958Z",
+      "integrity": "e2889fbe81f02e30eb84631befc6c7422e269ca1",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/秋田市中小企業融資あっせん状況（一般事業資金）",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/579/03-74.xlsx",
+      "path": "./data_files/秋田県/秋田市/秋田市中小企業融資あっせん状況（一般事業資金）/03-74.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-13T06:39:49.000Z",
+      "eTag": "3651-5dc8371a9167a",
+      "lastDownloaded": "2022-12-18T02:22:09.164Z",
+      "integrity": "086e490903433d52e32d39c533c359a3fbd4c2b0",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/手形の交換状況",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/579/03-75.xlsx",
+      "path": "./data_files/秋田県/秋田市/手形の交換状況/03-75.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-03-22T05:52:18.000Z",
+      "eTag": "3821-5dac8374168c8",
+      "lastDownloaded": "2022-12-18T02:22:10.085Z",
+      "integrity": "f734918e1c2874cc907f59da5e476c0aa022b67b",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/主要金融機関の店舗数",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/579/03-78.xlsx",
+      "path": "./data_files/秋田県/秋田市/主要金融機関の店舗数/03-78.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-03-22T05:52:18.000Z",
+      "eTag": "731f-5dac837426a99",
+      "lastDownloaded": "2022-12-18T02:22:10.533Z",
+      "integrity": "89f0408e6f42e1fee2f8b115923d80d37e565d09",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/主要金融機関の預金・貸出金状況",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/579/03-79.xlsx",
+      "path": "./data_files/秋田県/秋田市/主要金融機関の預金・貸出金状況/03-79.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-03-22T05:52:19.000Z",
+      "eTag": "10b64-5dac837432231",
+      "lastDownloaded": "2022-12-18T02:22:11.062Z",
+      "integrity": "0cde1a25d1cb888d1594feacd7140a96e0fd0185",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/構造別建築物の件数・床面積・工事費（着工建築物）",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/583/03-88.xlsx",
+      "path": "./data_files/秋田県/秋田市/構造別建築物の件数・床面積・工事費（着工建築物）/03-88.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-20T00:54:32.000Z",
+      "eTag": "3d90-5dd0b6fb759c4",
+      "lastDownloaded": "2022-12-18T02:22:11.283Z",
+      "integrity": "dbc4bf827107bf06747ecb2b3879fbb49acf44c4",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/用途別床面積（着工建築物）",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/583/03-89.xlsx",
+      "path": "./data_files/秋田県/秋田市/用途別床面積（着工建築物）/03-89.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-20T00:54:32.000Z",
+      "eTag": "3fe3-5dd0b6fbca928",
+      "lastDownloaded": "2022-12-18T02:22:11.627Z",
+      "integrity": "a7e53a8d674b101d06b03c1968b9ca2926477ab1",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/資金別利用関係別新設住宅の戸数・床面積",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/583/03-90.xlsx",
+      "path": "./data_files/秋田県/秋田市/資金別利用関係別新設住宅の戸数・床面積/03-90.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-20T00:54:29.000Z",
+      "eTag": "3ef7-5dd0b6f94414c",
+      "lastDownloaded": "2022-12-18T02:22:11.849Z",
+      "integrity": "c8f154cc1cd860d9e9ac80bec5f5e1690411f79a",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/用途地域別建築確認件数",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/583/03-91.xlsx",
+      "path": "./data_files/秋田県/秋田市/用途地域別建築確認件数/03-91.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-20T00:54:29.000Z",
+      "eTag": "3bb3-5dd0b6f955e75",
+      "lastDownloaded": "2022-12-18T02:22:11.932Z",
+      "integrity": "203d9685623f7b8a0a728b0a66656d8ac0e4cfc2",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/専用住宅確認件数",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/583/03-93.xlsx",
+      "path": "./data_files/秋田県/秋田市/専用住宅確認件数/03-93.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-20T00:54:29.000Z",
+      "eTag": "33ca-5dd0b6f92e98b",
+      "lastDownloaded": "2022-12-18T02:22:12.140Z",
+      "integrity": "4e482427eba7db95d7072e6b17d505399f3f82ef",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/[住宅・土地統計調査] 世帯の主な働き手の通勤時間",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/583/03-96.xls",
+      "path": "./data_files/秋田県/秋田市/[住宅・土地統計調査] 世帯の主な働き手の通勤時間/03-96.xls",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-20T00:54:30.000Z",
+      "eTag": "7800-5dd0b6f95fe9e",
+      "lastDownloaded": "2022-12-18T02:22:12.706Z",
+      "integrity": "ab385a6a0569c2361b8997b0b5311acc14aef2f1",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/[住宅・土地統計調査] 住宅の種類・建築の時期・所有の関係等別、65歳以上の世帯員のいる世帯の高齢者等のための設備",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/583/03-101.xls",
+      "path": "./data_files/秋田県/秋田市/[住宅・土地統計調査] 住宅の種類・建築の時期・所有の関係等別、65歳以上の世帯員のいる世帯の高齢者等のための設備/03-101.xls",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-20T00:54:30.000Z",
+      "eTag": "8800-5dd0b6fa3971f",
+      "lastDownloaded": "2022-12-18T02:22:14.589Z",
+      "integrity": "ec7ea4de433a19a4cf4098809b4cddac49a0f6cb",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/[住宅・土地統計調査] 主世帯の年間収入、一か月当たりの家賃別借家数",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/583/03-102.xls",
+      "path": "./data_files/秋田県/秋田市/[住宅・土地統計調査] 主世帯の年間収入、一か月当たりの家賃別借家数/03-102.xls",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-20T00:54:29.000Z",
+      "eTag": "7e00-5dd0b6f91bcc3",
+      "lastDownloaded": "2022-12-18T02:22:15.055Z",
+      "integrity": "d2b2572626fe37bfce87cde4f3a93a90bd957f72",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/公営住宅",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/583/03-104.xlsx",
+      "path": "./data_files/秋田県/秋田市/公営住宅/03-104.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-20T00:54:32.000Z",
+      "eTag": "5cb0-5dd0b6fbc9d70",
+      "lastDownloaded": "2022-12-18T02:22:15.933Z",
+      "integrity": "bd4f56066ce81ab08072a850739d1a041a036455",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/道路の状況",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/583/03-105.xlsx",
+      "path": "./data_files/秋田県/秋田市/道路の状況/03-105.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-20T00:54:32.000Z",
+      "eTag": "6d81-5dd0b6fbdbe81",
+      "lastDownloaded": "2022-12-18T02:22:17.342Z",
+      "integrity": "e552a1df4b2dd3bdd04bae31b964607742a9e0d5",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/公共下水道の状況",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/583/03-108.xlsx",
+      "path": "./data_files/秋田県/秋田市/公共下水道の状況/03-108.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-20T00:54:28.000Z",
+      "eTag": "4339-5dd0b6f862bcb",
+      "lastDownloaded": "2022-12-18T02:22:17.479Z",
+      "integrity": "ae9206c73c43b72cbe138cdd61b98c917afc1742",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/都市計画道路の状況",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/583/03-109.xlsx",
+      "path": "./data_files/秋田県/秋田市/都市計画道路の状況/03-109.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-20T00:54:29.000Z",
+      "eTag": "3b8b-5dd0b6f88d37d",
+      "lastDownloaded": "2022-12-18T02:22:17.919Z",
+      "integrity": "537509d33afe99fe1749ce854d59c065c6a8f03b",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/区画整理事業による公共施設等の整備状況",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/583/03-110.xlsx",
+      "path": "./data_files/秋田県/秋田市/区画整理事業による公共施設等の整備状況/03-110.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-20T00:54:29.000Z",
+      "eTag": "35bd-5dd0b6f89aa55",
+      "lastDownloaded": "2022-12-18T02:22:18.388Z",
+      "integrity": "2764b4da7d959205e0f4a2630c73e628c856ff9f",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/宅地開発の推移",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/583/03-111.xlsx",
+      "path": "./data_files/秋田県/秋田市/宅地開発の推移/03-111.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-20T00:54:29.000Z",
+      "eTag": "36c1-5dd0b6f8a0045",
+      "lastDownloaded": "2022-12-18T02:22:18.782Z",
+      "integrity": "1b877cec88ced793c096bc1b25edf2f59def2283",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/保存樹の状況",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/583/03-112.xlsx",
+      "path": "./data_files/秋田県/秋田市/保存樹の状況/03-112.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-20T00:54:29.000Z",
+      "eTag": "3598-5dd0b6f88373c",
+      "lastDownloaded": "2022-12-18T02:22:19.142Z",
+      "integrity": "80daa53df3938c93e4e11ee17783da63c4871c5c",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/電灯・電力需要状況",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/585/30-113dentou_kako.xls",
+      "path": "./data_files/秋田県/秋田市/電灯・電力需要状況/30-113dentou_kako.xls",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2019-03-26T06:47:02.000Z",
+      "eTag": "a200-584f9b03c0580",
+      "lastDownloaded": "2022-12-18T02:22:19.651Z",
+      "integrity": "d5ea18b5d6cdf15a425bd43c0c45ffc3f08b6f9e",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/ガス需要状況（東部ガス）",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/585/03-114.xlsx",
+      "path": "./data_files/秋田県/秋田市/ガス需要状況（東部ガス）/03-114.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-25T04:14:57.000Z",
+      "eTag": "5237-5dd72d1b6e963",
+      "lastDownloaded": "2022-12-18T02:22:19.965Z",
+      "integrity": "c299ccbb85c759a2e7c32c11006086cfba28cf5b",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/上水道の給水状況",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/585/03-115.xlsx",
+      "path": "./data_files/秋田県/秋田市/上水道の給水状況/03-115.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-25T04:14:57.000Z",
+      "eTag": "3af2-5dd72d1b64d22",
+      "lastDownloaded": "2022-12-18T02:22:20.207Z",
+      "integrity": "c70b70e4e2c53661ae0efbd3ae435febd26fac90",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/簡易水道の給水状況（上水道給水区域外）",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/585/03-116.xlsx",
+      "path": "./data_files/秋田県/秋田市/簡易水道の給水状況（上水道給水区域外）/03-116.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-25T04:14:57.000Z",
+      "eTag": "38fd-5dd72d1b54769",
+      "lastDownloaded": "2022-12-18T02:22:20.536Z",
+      "integrity": "0c43031bf29b102613591988e50d653ccc8d6ff5",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/秋田港の貨物取扱状況",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/581/03-80.xlsx",
+      "path": "./data_files/秋田県/秋田市/秋田港の貨物取扱状況/03-80.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-13T06:55:01.000Z",
+      "eTag": "3519-5dc83a8020b98",
+      "lastDownloaded": "2022-12-18T02:22:20.775Z",
+      "integrity": "a4283eaa26a6781da36577069d63646cde6e2acc",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/秋田港の階級別入港船舶数",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/581/03-82.xlsx",
+      "path": "./data_files/秋田県/秋田市/秋田港の階級別入港船舶数/03-82.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-13T06:55:00.000Z",
+      "eTag": "3b88-5dc83a7fef686",
+      "lastDownloaded": "2022-12-18T02:22:21.091Z",
+      "integrity": "1fb80256418093ec5578f7a074565c761c9c61b0",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/秋田港の国別輸出入貨物状況",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/581/03-83.xlsx",
+      "path": "./data_files/秋田県/秋田市/秋田港の国別輸出入貨物状況/03-83.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-13T06:55:00.000Z",
+      "eTag": "378b-5dc83a7fd1224",
+      "lastDownloaded": "2022-12-18T02:22:21.535Z",
+      "integrity": "25d2e29bb30d1034087797be9129cf119a434f57",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/秋田空港の利用状況 （2）秋田－大阪（伊丹）間",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/581/03-84-2.xlsx",
+      "path": "./data_files/秋田県/秋田市/秋田空港の利用状況 （2）秋田－大阪（伊丹）間/03-84-2.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-13T06:55:00.000Z",
+      "eTag": "3f69-5dc83a7fafee3",
+      "lastDownloaded": "2022-12-18T02:22:21.749Z",
+      "integrity": "45e6d39062777858b26bf41914bdad47872074b2",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/秋田空港の利用状況 （3）秋田－札幌（新千歳）間",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/581/03-84-3.xlsx",
+      "path": "./data_files/秋田県/秋田市/秋田空港の利用状況 （3）秋田－札幌（新千歳）間/03-84-3.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-13T06:55:00.000Z",
+      "eTag": "3dd6-5dc83a7f46b46",
+      "lastDownloaded": "2022-12-18T02:22:22.111Z",
+      "integrity": "40182cdb70b94bedafc5e9c89c01d92fc2fcfecb",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/秋田空港の利用状況 （4）秋田－名古屋（中部、小牧）間",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/581/03-84-4.xlsx",
+      "path": "./data_files/秋田県/秋田市/秋田空港の利用状況 （4）秋田－名古屋（中部、小牧）間/03-84-4.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-13T06:55:00.000Z",
+      "eTag": "39c7-5dc83a7f3f9fd",
+      "lastDownloaded": "2022-12-18T02:22:22.257Z",
+      "integrity": "2f5430c2a39c82706bb04d26a96b6393665343f6",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/秋田空港の利用状況 （5）秋田－韓国（仁川）間",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/581/03-84-5.xlsx",
+      "path": "./data_files/秋田県/秋田市/秋田空港の利用状況 （5）秋田－韓国（仁川）間/03-84-5.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-13T06:55:00.000Z",
+      "eTag": "39f2-5dc83a7f388b5",
+      "lastDownloaded": "2022-12-18T02:22:22.321Z",
+      "integrity": "301480be9d7e83ea0d4c0d9d1f4df559a4c58a02",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/秋田空港の利用状況 （6）貨物・郵便（全路線）",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/581/03-84-6.xlsx",
+      "path": "./data_files/秋田県/秋田市/秋田空港の利用状況 （6）貨物・郵便（全路線）/03-84-6.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-13T06:55:00.000Z",
+      "eTag": "38e9-5dc83a7f25bec",
+      "lastDownloaded": "2022-12-18T02:22:22.390Z",
+      "integrity": "a4bff36aa5a688f458d8801d36a000417b3c9f6c",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/自動車保有台数",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/581/03-86.xlsx",
+      "path": "./data_files/秋田県/秋田市/自動車保有台数/03-86.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-13T06:54:59.000Z",
+      "eTag": "478c-5dc83a7ef2b82",
+      "lastDownloaded": "2022-12-18T02:22:24.022Z",
+      "integrity": "3efd6be66c3e6d1e761ee6035de002ce58505a93",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/秋田市公衆無線LANアクセスポイント一覧",
+      "url": "https://www.city.akita.lg.jp/kurashi/kokyoshisetsu/../../_res/projects/default_project/_page_/001/002/716/20221201/20221201_052019_public_wireless_lan.xlsx",
+      "path": "./data_files/秋田県/秋田市/秋田市公衆無線LANアクセスポイント一覧/20221201_052019_public_wireless_lan.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-11-29T08:24:26.000Z",
+      "eTag": "4501-5ee97b748d6a4",
+      "lastDownloaded": "2022-12-18T02:22:24.155Z",
+      "integrity": "711b1c0e2f09f86f1111f5a6dfc9964e23ee94e1",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/[学校基本調査他] 学校の概況",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/569/r3-21.xlsx",
+      "path": "./data_files/秋田県/秋田市/[学校基本調査他] 学校の概況/r3-21.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-19T02:14:24.000Z",
+      "eTag": "21ac6-5dcf86f7e72b6",
+      "lastDownloaded": "2022-12-18T02:22:24.758Z",
+      "integrity": "f2125a5ed23c4be4c8319371927c43f3f0ef34d4",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/[学校基本調査他] 幼稚園の概況",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/569/03-22-1.xlsx",
+      "path": "./data_files/秋田県/秋田市/[学校基本調査他] 幼稚園の概況/03-22-1.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-18T04:56:33.000Z",
+      "eTag": "32ac-5dce695930c31",
+      "lastDownloaded": "2022-12-18T02:22:24.802Z",
+      "integrity": "8f115935c009dbad6aced14e0feaa92a8082fedb",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/[学校基本調査他] 小学校の概況",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/569/03-23.xlsx",
+      "path": "./data_files/秋田県/秋田市/[学校基本調査他] 小学校の概況/03-23.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-18T04:56:33.000Z",
+      "eTag": "39b9-5dce695963c9b",
+      "lastDownloaded": "2022-12-18T02:22:24.947Z",
+      "integrity": "21f8fdcb6718307860709c380d0ceafbec799d44",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/[学校基本調査他] 中学校の概況",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/569/03-24.xlsx",
+      "path": "./data_files/秋田県/秋田市/[学校基本調査他] 中学校の概況/03-24.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-18T04:56:34.000Z",
+      "eTag": "3aa6-5dce6959a18e6",
+      "lastDownloaded": "2022-12-18T02:22:25.229Z",
+      "integrity": "482380b11be3ed545f9dd585648be0d99a37b091",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/[学校基本調査他] 市立小学校施設の整備状況",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/569/03-25.xlsx",
+      "path": "./data_files/秋田県/秋田市/[学校基本調査他] 市立小学校施設の整備状況/03-25.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-18T04:56:33.000Z",
+      "eTag": "3baa-5dce695988e5c",
+      "lastDownloaded": "2022-12-18T02:22:25.346Z",
+      "integrity": "65030f8e8482f4925903d5d5dc7d8517be1c699e",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/[学校基本調査他] 市立中学校施設の整備状況",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/569/03-26.xlsx",
+      "path": "./data_files/秋田県/秋田市/[学校基本調査他] 市立中学校施設の整備状況/03-26.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-18T04:56:34.000Z",
+      "eTag": "3bd8-5dce6959b072e",
+      "lastDownloaded": "2022-12-18T02:22:25.757Z",
+      "integrity": "d795e9d08f5152280eccbd2f521d0f1cbee82267",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/[学校基本調査他] 児童・生徒の平均体位",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/569/03-27.xlsx",
+      "path": "./data_files/秋田県/秋田市/[学校基本調査他] 児童・生徒の平均体位/03-27.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-18T04:56:34.000Z",
+      "eTag": "3c88-5dce6959cd807",
+      "lastDownloaded": "2022-12-18T02:22:25.991Z",
+      "integrity": "74a240b277352ffad49ec668efc375c9b94c764a",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/[学校基本調査他] 高等学校の概況",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/569/03-28.xlsx",
+      "path": "./data_files/秋田県/秋田市/[学校基本調査他] 高等学校の概況/03-28.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-18T04:56:34.000Z",
+      "eTag": "3c2c-5dce695a02f82",
+      "lastDownloaded": "2022-12-18T02:22:26.312Z",
+      "integrity": "3321b7931d0f8879376cd5fac6370b28caa720db",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/[学校基本調査他] 高等学校の学科別生徒数",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/569/03-29.xlsx",
+      "path": "./data_files/秋田県/秋田市/[学校基本調査他] 高等学校の学科別生徒数/03-29.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-18T04:56:34.000Z",
+      "eTag": "3b89-5dce6959d6890",
+      "lastDownloaded": "2022-12-18T02:22:26.805Z",
+      "integrity": "504b6957597e92bcabdb6d629e9e592a74890b51",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/[学校基本調査他] 高等専門学校の概況",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/569/r3-30.xlsx",
+      "path": "./data_files/秋田県/秋田市/[学校基本調査他] 高等専門学校の概況/r3-30.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-25T02:35:25.000Z",
+      "eTag": "3c26-5dd716dc056e7",
+      "lastDownloaded": "2022-12-18T02:22:26.890Z",
+      "integrity": "f9a32d377370631b26e9458170a448386bdd5acc",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/[学校基本調査他] 短期大学の概況",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/569/03-31.xlsx",
+      "path": "./data_files/秋田県/秋田市/[学校基本調査他] 短期大学の概況/03-31.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-18T04:56:34.000Z",
+      "eTag": "afcd-5dce6959e5ea9",
+      "lastDownloaded": "2022-12-18T02:22:27.612Z",
+      "integrity": "9ea4c3cdb60df6aae16ae6d595c46b7f0e840076",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/[学校基本調査他] 大学の概況",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/569/03-32.xlsx",
+      "path": "./data_files/秋田県/秋田市/[学校基本調査他] 大学の概況/03-32.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-27T01:29:50.000Z",
+      "eTag": "12224-5dd98bee304fc",
+      "lastDownloaded": "2022-12-18T02:22:28.406Z",
+      "integrity": "4bc9072b7db7a96af0816b79abbda6e85ba4e5b8",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/[学校基本調査他] 特別支援学校の概況",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/569/03-33.xlsx",
+      "path": "./data_files/秋田県/秋田市/[学校基本調査他] 特別支援学校の概況/03-33.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-18T04:56:34.000Z",
+      "eTag": "39ac-5dce6959b64ee",
+      "lastDownloaded": "2022-12-18T02:22:28.660Z",
+      "integrity": "01110b1229bd43c5a33a114220317daaf859bc98",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/[学校基本調査他] 専修学校の概況",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/569/03-34.xlsx",
+      "path": "./data_files/秋田県/秋田市/[学校基本調査他] 専修学校の概況/03-34.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-18T04:56:33.000Z",
+      "eTag": "3672-5dce6959882a4",
+      "lastDownloaded": "2022-12-18T02:22:29.004Z",
+      "integrity": "2877dca4985f1e68604e7934ac42951fdfd2e479",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/[学校基本調査他] 中学校卒業者の進路状況",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/569/03-36.xlsx",
+      "path": "./data_files/秋田県/秋田市/[学校基本調査他] 中学校卒業者の進路状況/03-36.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-18T04:56:33.000Z",
+      "eTag": "3bbd-5dce695977cec",
+      "lastDownloaded": "2022-12-18T02:22:29.172Z",
+      "integrity": "e573a16990c192fc527cc7f41b5eb9fa48ae3d5e",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/[学校基本調査他] 高等学校卒業者の進路状況",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/569/03-37.xlsx",
+      "path": "./data_files/秋田県/秋田市/[学校基本調査他] 高等学校卒業者の進路状況/03-37.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-18T04:56:32.000Z",
+      "eTag": "3cc4-5dce695885dc9",
+      "lastDownloaded": "2022-12-18T02:22:29.401Z",
+      "integrity": "ba870646b28d10f1720fd9daab555b5813a5eccf",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/[学校基本調査他] 高等学校卒業者の進学先",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/569/03-38.xlsx",
+      "path": "./data_files/秋田県/秋田市/[学校基本調査他] 高等学校卒業者の進学先/03-38.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-18T04:56:32.000Z",
+      "eTag": "38b1-5dce69588e682",
+      "lastDownloaded": "2022-12-18T02:22:29.482Z",
+      "integrity": "bf869ecae1d4bbbe6fb7fd24b8ef1beb73d9a6bc",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/[学校基本調査他] 高等学校卒業者の都道府県別就職状況",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/569/03-39.xlsx",
+      "path": "./data_files/秋田県/秋田市/[学校基本調査他] 高等学校卒業者の都道府県別就職状況/03-39.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-18T04:56:32.000Z",
+      "eTag": "3c66-5dce6958715a8",
+      "lastDownloaded": "2022-12-18T02:22:29.732Z",
+      "integrity": "927762304d5d72b38dd1d9705974fd352e6b04d8",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/[学校基本調査他] 高等学校卒業者の産業別就職状況",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/569/03-40.xlsx",
+      "path": "./data_files/秋田県/秋田市/[学校基本調査他] 高等学校卒業者の産業別就職状況/03-40.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-18T04:56:32.000Z",
+      "eTag": "415c-5dce695881f49",
+      "lastDownloaded": "2022-12-18T02:22:30.031Z",
+      "integrity": "165b3d64ce817cd87c4b51e9d2a5c0ddb78ef72e",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/[学校基本調査他] 高等専門学校卒業者の進路状況",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/569/03-41.xlsx",
+      "path": "./data_files/秋田県/秋田市/[学校基本調査他] 高等専門学校卒業者の進路状況/03-41.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-18T04:56:32.000Z",
+      "eTag": "3c09-5dce69588a031",
+      "lastDownloaded": "2022-12-18T02:22:30.093Z",
+      "integrity": "edf7539a9b9743360b767b31ae0c45ae9fd3b0cd",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/[学校基本調査他] 短期大学卒業者の進路状況",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/569/r3-42.xlsx",
+      "path": "./data_files/秋田県/秋田市/[学校基本調査他] 短期大学卒業者の進路状況/r3-42.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-25T02:41:15.000Z",
+      "eTag": "7c69-5dd71829ada1c",
+      "lastDownloaded": "2022-12-18T02:22:30.143Z",
+      "integrity": "14c9d1a65075d84e8a0f33ca4528002b7f451a58",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/[学校基本調査他] 大学卒業者の進路状況",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/569/03-43.xlsx",
+      "path": "./data_files/秋田県/秋田市/[学校基本調査他] 大学卒業者の進路状況/03-43.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-18T04:56:32.000Z",
+      "eTag": "a565-5dce69584b05f",
+      "lastDownloaded": "2022-12-18T02:22:30.487Z",
+      "integrity": "670037cce6b1fcb1b187b598be1403ca3eaa532c",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/[主要文化施設の利用状況] 市民サービスセンター等（総数、中央市民サービスセンター、北部市民サービスセンター、西部市民サービスセンター、東部市民サービスセンター、南部市民サービスセンター、南部市民サービスセンター別館、下新城交流センター、河辺市民サービスセンター、雄和市民サービスセンター）",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/569/03-44-1.xlsx",
+      "path": "./data_files/秋田県/秋田市/[主要文化施設の利用状況] 市民サービスセンター等（総数、中央市民サービスセンター、北部市民サービスセンター、西部市民サービスセンター、東部市民サービスセンター、南部市民サービスセンター、南部市民サービスセンター別館、下新城交流センター、河辺市民サービスセンター、雄和市民サービスセンター）/03-44-1.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-19T00:45:13.000Z",
+      "eTag": "10ca3-5dcf7308f2b67",
+      "lastDownloaded": "2022-12-18T02:22:30.716Z",
+      "integrity": "90be7c5f4d5087fdafea54fde691a693f86ec1e2",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/[主要文化施設の利用状況] 大森山動物園、老人いこいの家、女性学習センター、市立千秋美術館、文化会館、勤労青少年ホーム",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/569/03-44-2.xlsx",
+      "path": "./data_files/秋田県/秋田市/[主要文化施設の利用状況] 大森山動物園、老人いこいの家、女性学習センター、市立千秋美術館、文化会館、勤労青少年ホーム/03-44-2.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-19T00:45:36.000Z",
+      "eTag": "ad68-5dcf731eecbfe",
+      "lastDownloaded": "2022-12-18T02:22:31.076Z",
+      "integrity": "168f09d47d03b9c15895e611bed69e4a710ea706",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/[主要文化施設の利用状況] 市立図書館、視聴覚ライブラリー",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/569/03-44-3.xlsx",
+      "path": "./data_files/秋田県/秋田市/[主要文化施設の利用状況] 市立図書館、視聴覚ライブラリー/03-44-3.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-19T00:45:12.000Z",
+      "eTag": "8766-5dcf7308aab0c",
+      "lastDownloaded": "2022-12-18T02:22:31.762Z",
+      "integrity": "2f62b5236b1e32d390191f35187170d362e2f43d",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/[主要文化施設の利用状況] 児童館、コミュニティセンター、ガラス工房、野外音楽堂、秋田城跡歴史資料館、赤レンガ郷土館、民俗芸能伝承館、土崎みなと歴史伝承館、佐竹史料館",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/569/03-44-4.xlsx",
+      "path": "./data_files/秋田県/秋田市/[主要文化施設の利用状況] 児童館、コミュニティセンター、ガラス工房、野外音楽堂、秋田城跡歴史資料館、赤レンガ郷土館、民俗芸能伝承館、土崎みなと歴史伝承館、佐竹史料館/03-44-4.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-19T00:45:13.000Z",
+      "eTag": "15f3f-5dcf7308e3d1e",
+      "lastDownloaded": "2022-12-18T02:22:31.863Z",
+      "integrity": "7b0d0e239a6579c8876f6286a38b543ef6546f87",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/[主要文化施設の利用状況] 県立図書館、県立美術館、県生涯学習センター、県民会館、県児童館",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/569/03-44-5.xlsx",
+      "path": "./data_files/秋田県/秋田市/[主要文化施設の利用状況] 県立図書館、県立美術館、県生涯学習センター、県民会館、県児童館/03-44-5.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-19T00:45:12.000Z",
+      "eTag": "e3a9-5dcf730892c3a",
+      "lastDownloaded": "2022-12-18T02:22:32.425Z",
+      "integrity": "96d24ba359413cc6de5f41d6e690df4e7ce56eba",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/[主要文化施設の利用状況] 秋田県立博物館、秋田県総合生活文化会館（アトリオン）、太平山自然学習センター",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/569/03-44-6.xlsx",
+      "path": "./data_files/秋田県/秋田市/[主要文化施設の利用状況] 秋田県立博物館、秋田県総合生活文化会館（アトリオン）、太平山自然学習センター/03-44-6.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-19T00:45:13.000Z",
+      "eTag": "9583-5dcf7308b00fc",
+      "lastDownloaded": "2022-12-18T02:22:32.549Z",
+      "integrity": "ffcd195657127b51ad7c3dc71b276a5591117b87",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/[主要スポーツ施設の利用状況] 学校体育館施設、ナイター施設、勝平屋内ゲートボール場、屋内多目的運動場、県立体育館、サンライフ秋田",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/569/03-45-2.xlsx",
+      "path": "./data_files/秋田県/秋田市/[主要スポーツ施設の利用状況] 学校体育館施設、ナイター施設、勝平屋内ゲートボール場、屋内多目的運動場、県立体育館、サンライフ秋田/03-45-2.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-19T00:45:13.000Z",
+      "eTag": "b605-5dcf73092ffe1",
+      "lastDownloaded": "2022-12-18T02:22:32.638Z",
+      "integrity": "c5e1b8f58e3170e8eedc17ce9c3fe91336b1713d",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/[主要スポーツ施設の利用状況] 新屋運動広場、向浜運動広場、県スポーツ科学センター、県立スケート場県立総合プール、県立野球場、一つ森公園弓道場",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/569/03-45-3.xlsx",
+      "path": "./data_files/秋田県/秋田市/[主要スポーツ施設の利用状況] 新屋運動広場、向浜運動広場、県スポーツ科学センター、県立スケート場県立総合プール、県立野球場、一つ森公園弓道場/03-45-3.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-19T00:45:12.000Z",
+      "eTag": "bbb6-5dcf73088ca92",
+      "lastDownloaded": "2022-12-18T02:22:32.717Z",
+      "integrity": "496bf55d06d33a7367af73d7b50da9f5719b8870",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/[主要スポーツ施設の利用状況] 河辺体育館、スポパークかわべ、河辺岩見三内野球場、河辺和田野球場、河辺戸島野球場、北野田公園、雄和体育館、雄和南体育館、雄和新波野球場、花の森野球場、花の森テニスコート、雄和B＆G海洋センター",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/569/03-45-4.xlsx",
+      "path": "./data_files/秋田県/秋田市/[主要スポーツ施設の利用状況] 河辺体育館、スポパークかわべ、河辺岩見三内野球場、河辺和田野球場、河辺戸島野球場、北野田公園、雄和体育館、雄和南体育館、雄和新波野球場、花の森野球場、花の森テニスコート、雄和B＆G海洋センター/03-45-4.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-27T02:36:12.000Z",
+      "eTag": "4914-5dd99ac30754f",
+      "lastDownloaded": "2022-12-18T02:22:33.071Z",
+      "integrity": "7ead37653aae3f96c550fe7e640d931e90cd53a1",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/文化財",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/569/03-46.xlsx",
+      "path": "./data_files/秋田県/秋田市/文化財/03-46.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-19T00:45:11.000Z",
+      "eTag": "3dd7-5dcf7307aefa8",
+      "lastDownloaded": "2022-12-18T02:22:33.149Z",
+      "integrity": "1f50594f6a4720fc1e8cf4c2399d60c9db50303a",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/秋田市の歳入・歳出決算の推移",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/594/03-175.xlsx",
+      "path": "./data_files/秋田県/秋田市/秋田市の歳入・歳出決算の推移/03-175.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-21T23:37:23.000Z",
+      "eTag": "3c00-5dd329784e6d8",
+      "lastDownloaded": "2022-12-18T02:22:33.787Z",
+      "integrity": "a0a197cb19beaf80ebdf8ba6adf06a9ef1cb573c",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/一般会計歳入当初予算および決算",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/594/03-176.xlsx",
+      "path": "./data_files/秋田県/秋田市/一般会計歳入当初予算および決算/03-176.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-21T23:37:23.000Z",
+      "eTag": "4032-5dd3297862729",
+      "lastDownloaded": "2022-12-18T02:22:34.173Z",
+      "integrity": "d4eac6ba47bbf4398c866dee10618fc12d2d265a",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/一般会計目的別歳出当初予算および決算",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/594/03-177.xlsx",
+      "path": "./data_files/秋田県/秋田市/一般会計目的別歳出当初予算および決算/03-177.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-21T23:37:23.000Z",
+      "eTag": "396b-5dd329783fc77",
+      "lastDownloaded": "2022-12-18T02:22:34.669Z",
+      "integrity": "01d705f3c4b7c02d7f7e4d15883d002883c98a02",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/一般会計の性質別歳出当初予算および決算",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/594/03-178.xlsx",
+      "path": "./data_files/秋田県/秋田市/一般会計の性質別歳出当初予算および決算/03-178.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-21T23:37:23.000Z",
+      "eTag": "3b28-5dd329785b5e0",
+      "lastDownloaded": "2022-12-18T02:22:35.239Z",
+      "integrity": "1f8f1c20fb8c31cda8e2184c4293c84db9ee4bfe",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/特別会計歳入・歳出予算および決算",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/594/03-179.xlsx",
+      "path": "./data_files/秋田県/秋田市/特別会計歳入・歳出予算および決算/03-179.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-21T23:37:23.000Z",
+      "eTag": "3cad-5dd3297867931",
+      "lastDownloaded": "2022-12-18T02:22:35.304Z",
+      "integrity": "1ca50b853ce861e10a65abb3f74de81dc38292c6",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/公営企業会計予算および決算",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/594/03-180.xlsx",
+      "path": "./data_files/秋田県/秋田市/公営企業会計予算および決算/03-180.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-21T23:37:23.000Z",
+      "eTag": "3a6a-5dd3297876392",
+      "lastDownloaded": "2022-12-18T02:22:36.029Z",
+      "integrity": "b5862bfd673af0bfa8643faa601db7fbc61b7d79",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/市税の税目別収入状況",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/594/03-181.xlsx",
+      "path": "./data_files/秋田県/秋田市/市税の税目別収入状況/03-181.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-21T23:37:23.000Z",
+      "eTag": "3aed-5dd3297889ffa",
+      "lastDownloaded": "2022-12-18T02:22:36.407Z",
+      "integrity": "3f64aba0b1bd4cb564a5adb1905f57d3865a3b03",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/市民一人当たりの市税の負担状況",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/594/03-182.xlsx",
+      "path": "./data_files/秋田県/秋田市/市民一人当たりの市税の負担状況/03-182.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-21T23:37:23.000Z",
+      "eTag": "3498-5dd3297876f4a",
+      "lastDownloaded": "2022-12-18T02:22:36.483Z",
+      "integrity": "9ae9db8951fdf41a5c8bea3403a6d4a4a5d74b3f",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/地方交付税の状況",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/594/03-183.xlsx",
+      "path": "./data_files/秋田県/秋田市/地方交付税の状況/03-183.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-21T23:37:23.000Z",
+      "eTag": "333b-5dd329788c322",
+      "lastDownloaded": "2022-12-18T02:22:36.792Z",
+      "integrity": "960856c7d6317168e063d7029fc1e715b3c9f79b",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/納税貯蓄組合の普及状況",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/594/03-184.xlsx",
+      "path": "./data_files/秋田県/秋田市/納税貯蓄組合の普及状況/03-184.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-21T23:37:24.000Z",
+      "eTag": "365e-5dd329789634b",
+      "lastDownloaded": "2022-12-18T02:22:37.288Z",
+      "integrity": "8b4015cb164f6553c0af5e4ec869239db32d7859",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/譲与税と交付金（決算）",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/594/03-185.xlsx",
+      "path": "./data_files/秋田県/秋田市/譲与税と交付金（決算）/03-185.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-21T23:37:24.000Z",
+      "eTag": "4c31-5dd32978b10fc",
+      "lastDownloaded": "2022-12-18T02:22:37.468Z",
+      "integrity": "5efe9a636b13caeee55b801194b74d3a61e28237",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/財産差押状況",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/594/03-186.xlsx",
+      "path": "./data_files/秋田県/秋田市/財産差押状況/03-186.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-21T23:37:24.000Z",
+      "eTag": "3754-5dd32978c320d",
+      "lastDownloaded": "2022-12-18T02:22:37.546Z",
+      "integrity": "74dfd199ad2d4ea9e684c895652a6154903003f0",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/市有財産",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/594/03-187.xlsx",
+      "path": "./data_files/秋田県/秋田市/市有財産/03-187.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-21T23:37:24.000Z",
+      "eTag": "4d2c-5dd32978d2c0d",
+      "lastDownloaded": "2022-12-18T02:22:37.799Z",
+      "integrity": "e94c40d60f8d5845f70d629373773d6b9fe001c3",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/地目別土地面積",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/594/03-188.xlsx",
+      "path": "./data_files/秋田県/秋田市/地目別土地面積/03-188.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-21T23:37:24.000Z",
+      "eTag": "3642-5dd32978ea6f6",
+      "lastDownloaded": "2022-12-18T02:22:37.875Z",
+      "integrity": "27cf1d6992c2e9ad3c682725a1189fd3d09a8cc4",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/地目別評価面積・評価額",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/594/03-189.xlsx",
+      "path": "./data_files/秋田県/秋田市/地目別評価面積・評価額/03-189.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-21T23:37:24.000Z",
+      "eTag": "3bdb-5dd32978f2faf",
+      "lastDownloaded": "2022-12-18T02:22:37.955Z",
+      "integrity": "65e5c4f9ded3b98c23c8ce2865e92ce10954ed8e",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/選挙人名簿登録者数の推移",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/594/03-190.xlsx",
+      "path": "./data_files/秋田県/秋田市/選挙人名簿登録者数の推移/03-190.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-21T23:37:23.000Z",
+      "eTag": "3609-5dd329781b286",
+      "lastDownloaded": "2022-12-18T02:22:38.022Z",
+      "integrity": "274b5746041f7a5fb3fd3548270ca84cac232496",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/選挙の投票状況",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/594/03-191.xlsx",
+      "path": "./data_files/秋田県/秋田市/選挙の投票状況/03-191.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-21T23:37:24.000Z",
+      "eTag": "43cc-5dd329789a5b3",
+      "lastDownloaded": "2022-12-18T02:22:38.125Z",
+      "integrity": "36344586f35043cf959572fc971bc1724d927a29",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/投票所一覧（オープンデータ）",
+      "url": "https://www.city.akita.lg.jp/kurashi/senkyo/1009382/../../../_res/projects/default_project/_page_/001/016/360/r4touhyoujoichiran.xlsx",
+      "path": "./data_files/秋田県/秋田市/投票所一覧（オープンデータ）/r4touhyoujoichiran.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-05-31T07:21:57.000Z",
+      "eTag": "403e-5e049a0b9f7a6",
+      "lastDownloaded": "2022-12-18T02:22:38.868Z",
+      "integrity": "2fc76ac6068cd7b92a1896055acb73b9619a4268",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/秋田市地域福祉市民意識調査_調査結果集計表",
+      "url": "https://www.city.akita.lg.jp/shisei/hoshin-keikaku/1011481/1004687/1018029/../../../../../_res/projects/default_project/_page_/001/017/370/tiiki_chousashukei.xlsx",
+      "path": "./data_files/秋田県/秋田市/秋田市地域福祉市民意識調査_調査結果集計表/tiiki_chousashukei.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2018-09-27T02:41:32.000Z",
+      "eTag": "1dcb93-576d146d28f00",
+      "lastDownloaded": "2022-12-18T02:22:42.042Z",
+      "integrity": "51fa0e653958c5c34ef9f127e87f32abf0410209",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/火災の発生状況と被害状況",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/593/03-163.xlsx",
+      "path": "./data_files/秋田県/秋田市/火災の発生状況と被害状況/03-163.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-25T01:05:53.000Z",
+      "eTag": "4096-5dd702d821501",
+      "lastDownloaded": "2022-12-18T02:22:42.218Z",
+      "integrity": "fd0b3134e9348db3f33ef6931ce34bf1f0c47e78",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/消防力の推移",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/593/03-165.xlsx",
+      "path": "./data_files/秋田県/秋田市/消防力の推移/03-165.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-25T01:05:53.000Z",
+      "eTag": "3ee1-5dd702d828261",
+      "lastDownloaded": "2022-12-18T02:22:42.290Z",
+      "integrity": "f3f0416a420525e7a7f9f6ed27693ab4c1f6441c",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/救急車の出動状況",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/593/03-167.xlsx",
+      "path": "./data_files/秋田県/秋田市/救急車の出動状況/03-167.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-25T01:05:53.000Z",
+      "eTag": "3b3d-5dd702d845b0b",
+      "lastDownloaded": "2022-12-18T02:22:42.507Z",
+      "integrity": "9018142a562ee467ac8e4967a53f4c80b97d2395",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/交通事故の発生状況",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/593/03-168.xlsx",
+      "path": "./data_files/秋田県/秋田市/交通事故の発生状況/03-168.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-25T01:05:53.000Z",
+      "eTag": "31b1-5dd702d847663",
+      "lastDownloaded": "2022-12-18T02:22:42.598Z",
+      "integrity": "2ec6f9abae97936f4c39f043acc858080eb83117",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/交通事故の死傷者数",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/593/03-169.xlsx",
+      "path": "./data_files/秋田県/秋田市/交通事故の死傷者数/03-169.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-25T01:05:53.000Z",
+      "eTag": "3a0f-5dd702d84f363",
+      "lastDownloaded": "2022-12-18T02:22:42.675Z",
+      "integrity": "66bbbe49e5c294bec3e844961b166eadb6485fa1",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/非行少年補導状況",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/593/03-170.xlsx",
+      "path": "./data_files/秋田県/秋田市/非行少年補導状況/03-170.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-25T01:05:53.000Z",
+      "eTag": "3f9a-5dd702d85ed64",
+      "lastDownloaded": "2022-12-18T02:22:42.758Z",
+      "integrity": "f33be5dc1ac6d95e956982ec0803b49ca3a6fcf2",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/地方裁判所事件の処理状況",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/593/03-172.xlsx",
+      "path": "./data_files/秋田県/秋田市/地方裁判所事件の処理状況/03-172.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-25T01:05:53.000Z",
+      "eTag": "37e7-5dd702d87d5ad",
+      "lastDownloaded": "2022-12-18T02:22:42.897Z",
+      "integrity": "3ebcbed21ed91cb172d508fd1b56b2ab4dbfcc28",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/簡易裁判所事件の処理状況",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/593/03-173.xlsx",
+      "path": "./data_files/秋田県/秋田市/簡易裁判所事件の処理状況/03-173.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-25T01:05:53.000Z",
+      "eTag": "3836-5dd702d84e7ab",
+      "lastDownloaded": "2022-12-18T02:22:43.031Z",
+      "integrity": "c11ccc06a1946f62617df424e8b5f1037207ad5e",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/家庭裁判所事件の処理状況",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/593/03-174.xlsx",
+      "path": "./data_files/秋田県/秋田市/家庭裁判所事件の処理状況/03-174.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-25T01:05:53.000Z",
+      "eTag": "3b65-5dd702d85a714",
+      "lastDownloaded": "2022-12-18T02:22:43.121Z",
+      "integrity": "0d0ad5330bddb8f4bc6ece5e7e1a5aea191a5552",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/二酸化硫黄（SO2）濃度の測定結果",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/587/03-117.xlsx",
+      "path": "./data_files/秋田県/秋田市/二酸化硫黄（SO2）濃度の測定結果/03-117.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-22T04:41:27.000Z",
+      "eTag": "3d67-5dd36d6ecf3f7",
+      "lastDownloaded": "2022-12-18T02:22:43.550Z",
+      "integrity": "ddc4a5ab72667dba9ba24c142589f84b53be0f73",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/二酸化窒素（NO2）濃度の測定結果",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/587/03-118.xlsx",
+      "path": "./data_files/秋田県/秋田市/二酸化窒素（NO2）濃度の測定結果/03-118.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-22T04:41:27.000Z",
+      "eTag": "3d76-5dd36d6edbf18",
+      "lastDownloaded": "2022-12-18T02:22:43.632Z",
+      "integrity": "e34bf2142c85e1bbb066c8a3c33485f6cf01291d",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/一酸化炭素（CO）濃度の測定結果",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/587/03-119.xlsx",
+      "path": "./data_files/秋田県/秋田市/一酸化炭素（CO）濃度の測定結果/03-119.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-22T04:41:27.000Z",
+      "eTag": "38ae-5dd36d6eae0b6",
+      "lastDownloaded": "2022-12-18T02:22:43.736Z",
+      "integrity": "f16fb73fb7bda5f3ae5db72c30a0ec5de396e4e9",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/光化学オキシダント（OX）濃度の測定結果",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/587/03-120.xlsx",
+      "path": "./data_files/秋田県/秋田市/光化学オキシダント（OX）濃度の測定結果/03-120.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-22T04:41:27.000Z",
+      "eTag": "3e85-5dd36d6ed26bf",
+      "lastDownloaded": "2022-12-18T02:22:43.948Z",
+      "integrity": "2c02ff5d8e075d091e277e6772bf4c1ced43da34",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/炭化水素類（HC）濃度の測定結果",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/587/03-121.xlsx",
+      "path": "./data_files/秋田県/秋田市/炭化水素類（HC）濃度の測定結果/03-121.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-22T04:41:27.000Z",
+      "eTag": "3f56-5dd36d6ede240",
+      "lastDownloaded": "2022-12-18T02:22:44.083Z",
+      "integrity": "d73a79a36e56ceb59b1472b68da742f8c3a3389d",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/浮遊粒子状物質（SPM）の測定結果",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/587/03-122.xlsx",
+      "path": "./data_files/秋田県/秋田市/浮遊粒子状物質（SPM）の測定結果/03-122.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-22T04:41:27.000Z",
+      "eTag": "3ec2-5dd36d6ea57fd",
+      "lastDownloaded": "2022-12-18T02:22:44.160Z",
+      "integrity": "26cc87b4f4d2b689f60928ba3114d8f54dbd69b2",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/主要河川におけるBOD平均値の推移",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/587/03-123.xlsx",
+      "path": "./data_files/秋田県/秋田市/主要河川におけるBOD平均値の推移/03-123.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-22T04:41:27.000Z",
+      "eTag": "3600-5dd36d6e8f86c",
+      "lastDownloaded": "2022-12-18T02:22:44.237Z",
+      "integrity": "62bafb14300d2375978a61f89220afacb3a9e1dc",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/生活保護",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/590/03-145-1.xlsx",
+      "path": "./data_files/秋田県/秋田市/生活保護/03-145-1.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-21T04:21:24.000Z",
+      "eTag": "435b-5dd22715d78c1",
+      "lastDownloaded": "2022-12-18T02:22:44.320Z",
+      "integrity": "58b15e3a3d1c3a0dbb2baf1e17c7e82a2dd0a560",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/児童扶養手当・特別児童扶養手当・児童手当の状況",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/590/03-147.xlsx",
+      "path": "./data_files/秋田県/秋田市/児童扶養手当・特別児童扶養手当・児童手当の状況/03-147.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-21T04:21:24.000Z",
+      "eTag": "500d-5dd22715f8feb",
+      "lastDownloaded": "2022-12-18T02:22:44.417Z",
+      "integrity": "a6eff8b4efd5aeccd62a8b63e8756ccca2a39ce5",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/保育所の概況",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/590/03-148-1.xlsx",
+      "path": "./data_files/秋田県/秋田市/保育所の概況/03-148-1.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-21T04:21:24.000Z",
+      "eTag": "3d0a-5dd227160c86c",
+      "lastDownloaded": "2022-12-18T02:22:44.606Z",
+      "integrity": "e7922086cf27bdb87e27b331286d7d766309fe04",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/助産施設の措置状況",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/590/03-149.xlsx",
+      "path": "./data_files/秋田県/秋田市/助産施設の措置状況/03-149.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-21T04:21:24.000Z",
+      "eTag": "3097-5dd22715e0d32",
+      "lastDownloaded": "2022-12-18T02:22:44.673Z",
+      "integrity": "46ac13e542c10e59d04a93e6e22eddfd914487d0",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/身体障害者手帳の交付状況",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/590/03-150.xlsx",
+      "path": "./data_files/秋田県/秋田市/身体障害者手帳の交付状況/03-150.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-21T04:21:24.000Z",
+      "eTag": "3efd-5dd22715ead5a",
+      "lastDownloaded": "2022-12-18T02:22:44.749Z",
+      "integrity": "7f498e7a94c5b539f725f4370b35800cd3cca461",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/民生委員・児童委員の活動状況",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/590/03-151.xlsx",
+      "path": "./data_files/秋田県/秋田市/民生委員・児童委員の活動状況/03-151.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-21T04:21:24.000Z",
+      "eTag": "47f2-5dd22715fbae3",
+      "lastDownloaded": "2022-12-18T02:22:44.824Z",
+      "integrity": "f7af83bcd08a1b42a1fb3424e6fef43131af06f8",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/福祉医療費受給者証の交付状況",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/590/03-152.xlsx",
+      "path": "./data_files/秋田県/秋田市/福祉医療費受給者証の交付状況/03-152.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-21T04:21:24.000Z",
+      "eTag": "3b09-5dd2271610304",
+      "lastDownloaded": "2022-12-18T02:22:44.998Z",
+      "integrity": "61acf58f3feb80bc721fba21055d0552f57d020a",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/福祉医療給付状況",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/590/03-153.xlsx",
+      "path": "./data_files/秋田県/秋田市/福祉医療給付状況/03-153.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-21T04:21:24.000Z",
+      "eTag": "3538-5dd2271611e5c",
+      "lastDownloaded": "2022-12-18T02:22:45.128Z",
+      "integrity": "f8fd354929c4e6b348a6b227618f18d14a6e7e69",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/厚生年金保険",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/590/03-154-1.xlsx",
+      "path": "./data_files/秋田県/秋田市/厚生年金保険/03-154-1.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-21T04:21:24.000Z",
+      "eTag": "3838-5dd2271627a05",
+      "lastDownloaded": "2022-12-18T02:22:45.210Z",
+      "integrity": "2d8b1bbefc9eb8d29ab8b0d786209aaad4b142ad",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/国民年金（国民年金の加入状況）",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/590/03-155.xlsx",
+      "path": "./data_files/秋田県/秋田市/国民年金（国民年金の加入状況）/03-155.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-21T04:21:23.000Z",
+      "eTag": "3e41-5dd2271540aab",
+      "lastDownloaded": "2022-12-18T02:22:45.386Z",
+      "integrity": "c3c99ef014b99cc8a3e9bc9e486bc508d14c1f7a",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/国民健康保険",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/590/03-157.xlsx",
+      "path": "./data_files/秋田県/秋田市/国民健康保険/03-157.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-21T04:21:23.000Z",
+      "eTag": "3b4c-5dd227153cc2b",
+      "lastDownloaded": "2022-12-18T02:22:45.459Z",
+      "integrity": "ca0651ca46dca176aa00f7bc9b99f01395734a49",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/後期高齢者医療保険",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/590/03-158.xlsx",
+      "path": "./data_files/秋田県/秋田市/後期高齢者医療保険/03-158.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-21T04:21:23.000Z",
+      "eTag": "3282-5dd227152ed82",
+      "lastDownloaded": "2022-12-18T02:22:45.655Z",
+      "integrity": "8f2dd394db7bd21c46dfd0b914cadcde3addfc4e",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/戸籍・住民登録・印鑑登録等に関する取扱件数",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/590/03-159.xlsx",
+      "path": "./data_files/秋田県/秋田市/戸籍・住民登録・印鑑登録等に関する取扱件数/03-159.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-21T04:21:23.000Z",
+      "eTag": "3905-5dd22715143b9",
+      "lastDownloaded": "2022-12-18T02:22:45.721Z",
+      "integrity": "4c38e5e865cf07798ffb1dbf8f54aced32b2aa93",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/家庭系ごみの排出状況/01家庭系ごみの月別排出量 （CSV 1.5KB）",
+      "url": "https://www.city.akita.lg.jp/kurashi/recycle/1006071/../../../_res/projects/default_project/_page_/001/006/163/tukigoto12gatu.csv",
+      "path": "./data_files/秋田県/秋田市/家庭系ごみの排出状況/01家庭系ごみの月別排出量 （CSV 1.5KB）/tukigoto12gatu.csv",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-12-07T00:53:57.000Z",
+      "eTag": "618-5ef325afd0f5a",
+      "lastDownloaded": "2022-12-18T02:22:45.808Z",
+      "integrity": "7dac5fab3ff6ac4f731b19d4abd163002269727b",
+      "postProcesses": [
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/家庭系ごみの排出状況/02家庭系ごみ一人1日当たり月別排出量 （CSV 916B）",
+      "url": "https://www.city.akita.lg.jp/kurashi/recycle/1006071/../../../_res/projects/default_project/_page_/001/006/163/tukibetu12gatu.csv",
+      "path": "./data_files/秋田県/秋田市/家庭系ごみの排出状況/02家庭系ごみ一人1日当たり月別排出量 （CSV 916B）/tukibetu12gatu.csv",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-12-07T00:54:39.000Z",
+      "eTag": "394-5ef325d849e48",
+      "lastDownloaded": "2022-12-18T02:22:45.888Z",
+      "integrity": "f1819362993a91dadb982a26e06d47a91569cd88",
+      "postProcesses": [
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/家庭系ごみの排出状況/03一人1日当たりの家庭系ごみの累計排出量 （CSV 848B）",
+      "url": "https://www.city.akita.lg.jp/kurashi/recycle/1006071/../../../_res/projects/default_project/_page_/001/006/163/ruikei12gatu..csv",
+      "path": "./data_files/秋田県/秋田市/家庭系ごみの排出状況/03一人1日当たりの家庭系ごみの累計排出量 （CSV 848B）/ruikei12gatu..csv",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-12-07T00:55:19.000Z",
+      "eTag": "350-5ef325fe4e66b",
+      "lastDownloaded": "2022-12-18T02:22:45.947Z",
+      "integrity": "f50565314db735a65fe4b36f5208695d716ab435",
+      "postProcesses": [
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/家庭系ごみの排出状況/04国県市の排出量の推移 （CSV 541B）",
+      "url": "https://www.city.akita.lg.jp/kurashi/recycle/1006071/../../../_res/projects/default_project/_page_/001/006/163/2022080104.csv",
+      "path": "./data_files/秋田県/秋田市/家庭系ごみの排出状況/04国県市の排出量の推移 （CSV 541B）/2022080104.csv",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-08-04T04:48:01.000Z",
+      "eTag": "21d-5e5630ded56d3",
+      "lastDownloaded": "2022-12-18T02:22:46.080Z",
+      "integrity": "b725eb6b90cef3d23365da7d5935033ca843ddbe",
+      "postProcesses": [
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/し尿の収集・処理状況",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/587/03-124.xlsx",
+      "path": "./data_files/秋田県/秋田市/し尿の収集・処理状況/03-124.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-22T04:41:27.000Z",
+      "eTag": "2d58-5dd36d6e8e4e4",
+      "lastDownloaded": "2022-12-18T02:22:46.235Z",
+      "integrity": "47a8849da09cece2bc4cdaf44a88cf6da1f22f77",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/ゴミの収集・処理状況",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/587/03-125.xlsx",
+      "path": "./data_files/秋田県/秋田市/ゴミの収集・処理状況/03-125.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-22T04:41:27.000Z",
+      "eTag": "3ef8-5dd36d6e8351c",
+      "lastDownloaded": "2022-12-18T02:22:46.309Z",
+      "integrity": "ac62830e1e7b42c3787915eb4daa127c136a0176",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/医療施設の概況",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/587/02-126.xlsx",
+      "path": "./data_files/秋田県/秋田市/医療施設の概況/02-126.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2021-04-14T05:06:37.000Z",
+      "eTag": "3561-5bfe7b6191140",
+      "lastDownloaded": "2022-12-18T02:22:46.378Z",
+      "integrity": "279588c625f91468e0ca6b455947024f2b058869",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/医療施設別従事者数",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/587/02-128.xlsx",
+      "path": "./data_files/秋田県/秋田市/医療施設別従事者数/02-128.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2021-04-14T05:06:38.000Z",
+      "eTag": "30f0-5bfe7b6285380",
+      "lastDownloaded": "2022-12-18T02:22:46.458Z",
+      "integrity": "1acd30b005da5f223ed82dd50e919d05a2d48dd7",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/医療職種別従事者数",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/587/02-127.xlsx",
+      "path": "./data_files/秋田県/秋田市/医療職種別従事者数/02-127.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2021-04-14T05:06:37.000Z",
+      "eTag": "3b41-5bfe7b6191140",
+      "lastDownloaded": "2022-12-18T02:22:46.528Z",
+      "integrity": "6d87e291ae49ea039a821ad31d09f84655542b78",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/市立秋田総合病院の利用者数",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/587/03-129.xlsx",
+      "path": "./data_files/秋田県/秋田市/市立秋田総合病院の利用者数/03-129.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-22T04:41:27.000Z",
+      "eTag": "46b0-5dd36d6e82d4c",
+      "lastDownloaded": "2022-12-18T02:22:46.743Z",
+      "integrity": "01cbc9c401edab4236cde3d357a8ab51c3a765ce",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/夜間休日応急診療所の利用者数",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/587/03-130.xlsx",
+      "path": "./data_files/秋田県/秋田市/夜間休日応急診療所の利用者数/03-130.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-22T04:41:27.000Z",
+      "eTag": "4088-5dd36d6ef2a61",
+      "lastDownloaded": "2022-12-18T02:22:46.840Z",
+      "integrity": "197f386b72dac0a2392e02b84d0f51da541beff4",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/死因順位別死亡者数",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/587/03-131.xlsx",
+      "path": "./data_files/秋田県/秋田市/死因順位別死亡者数/03-131.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-22T04:41:27.000Z",
+      "eTag": "3970-5dd36d6f0b8d2",
+      "lastDownloaded": "2022-12-18T02:22:46.916Z",
+      "integrity": "d2a320cf373371ed59502ae5ccac14015db31a3e",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/新生児の死亡者数",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/587/03-132.xlsx",
+      "path": "./data_files/秋田県/秋田市/新生児の死亡者数/03-132.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-22T04:41:27.000Z",
+      "eTag": "366b-5dd36d6f1be8b",
+      "lastDownloaded": "2022-12-18T02:22:46.987Z",
+      "integrity": "6c9c9dd3a683bea96587a9caecbcc5d9cf08fe9e",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/乳児の死亡者数",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/587/03-133.xlsx",
+      "path": "./data_files/秋田県/秋田市/乳児の死亡者数/03-133.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-22T04:41:26.000Z",
+      "eTag": "365b-5dd36d6e66ffa",
+      "lastDownloaded": "2022-12-18T02:22:47.227Z",
+      "integrity": "54f3afcbd4781b06af25ffed63c18106bbc126f5",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/予防接種の実施状況",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/587/03-134.xlsx",
+      "path": "./data_files/秋田県/秋田市/予防接種の実施状況/03-134.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-22T04:41:27.000Z",
+      "eTag": "3e9b-5dd36d6f4e725",
+      "lastDownloaded": "2022-12-18T02:22:47.300Z",
+      "integrity": "183d0e93bd03759e3a65b439b2dab801c3b8c32d",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/各種検診の受診状況",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/587/03-135.xlsx",
+      "path": "./data_files/秋田県/秋田市/各種検診の受診状況/03-135.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-22T04:41:27.000Z",
+      "eTag": "4543-5dd36d6f5bdfe",
+      "lastDownloaded": "2022-12-18T02:22:47.380Z",
+      "integrity": "9a45f0c82a9b12d305d73dc1873fc834019075a3",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/特定健康診断等の受診状況と特定保健指導の実施状況",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/587/03-137.xlsx",
+      "path": "./data_files/秋田県/秋田市/特定健康診断等の受診状況と特定保健指導の実施状況/03-137.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-22T04:41:26.000Z",
+      "eTag": "3cf1-5dd36d6e5a8c2",
+      "lastDownloaded": "2022-12-18T02:22:47.455Z",
+      "integrity": "497d50b5006a9832eab2bbe8ee1f532d8a0217d1",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/乳幼児健康診査の受診状況",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/587/03-138.xlsx",
+      "path": "./data_files/秋田県/秋田市/乳幼児健康診査の受診状況/03-138.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-22T04:41:27.000Z",
+      "eTag": "3c1d-5dd36d6e8351c",
+      "lastDownloaded": "2022-12-18T02:22:47.556Z",
+      "integrity": "f766d2d380a47023888f30bd1d54335450b9b193",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/結核健康診断の実施状況",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/587/03-139.xlsx",
+      "path": "./data_files/秋田県/秋田市/結核健康診断の実施状況/03-139.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-04-22T04:41:27.000Z",
+      "eTag": "3f3c-5dd36d6f10ec2",
+      "lastDownloaded": "2022-12-18T02:22:47.792Z",
+      "integrity": "ba12d2fca34f4a2042feaf417ac9c9a706702a59",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/秋田市オープンデータ一覧",
+      "url": "https://www.city.akita.lg.jp/opendata/1000081/../../_res/projects/default_project/_page_/001/000/082/052019_open_data_list45.xlsx",
+      "path": "./data_files/秋田県/秋田市/秋田市オープンデータ一覧/052019_open_data_list45.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-12-12T00:31:26.000Z",
+      "eTag": "ac02-5ef969faacdb2",
+      "lastDownloaded": "2022-12-18T02:22:47.899Z",
+      "integrity": "aa82dcdc403cd93006a7835f3978a5cfc5f176b8",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/薬事関係施設一覧",
+      "url": "https://www.city.akita.lg.jp/kurashi/kenko/1005375/../../../_res/projects/default_project/_page_/001/021/003/r041031yakkyoku2.xlsx",
+      "path": "./data_files/秋田県/秋田市/薬事関係施設一覧/r041031yakkyoku2.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-11-02T00:57:33.000Z",
+      "eTag": "6e59-5ec72536a2107",
+      "lastDownloaded": "2022-12-18T02:22:47.957Z",
+      "integrity": "51e15d3d9e2e8e7b40639e187cafabe6728700bf",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/【中央地区】指定緊急避難場所一覧",
+      "url": "https://www.city.akita.lg.jp/bosai-kinkyu/bosai/1002188/1021451/../../../../_res/projects/default_project/_page_/001/033/971/kinnkyuu001.xlsx",
+      "path": "./data_files/秋田県/秋田市/【中央地区】指定緊急避難場所一覧/kinnkyuu001.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-03-08T01:53:59.000Z",
+      "eTag": "3cb2-5d9ab41238b75",
+      "lastDownloaded": "2022-12-18T02:22:48.146Z",
+      "integrity": "b757bec871ed12c87785a68ec8af202ee85541e9",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/【東部地区】指定緊急避難場所一覧",
+      "url": "https://www.city.akita.lg.jp/bosai-kinkyu/bosai/1002188/1021451/../../../../_res/projects/default_project/_page_/001/033/984/kinnkyuu002.xlsx",
+      "path": "./data_files/秋田県/秋田市/【東部地区】指定緊急避難場所一覧/kinnkyuu002.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-03-09T04:03:04.000Z",
+      "eTag": "3530-5d9c12c9de2c7",
+      "lastDownloaded": "2022-12-18T02:22:48.316Z",
+      "integrity": "851ebad621fea413a4d4f731480a9d4d99d9c015",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/【西部地区】指定緊急避難場所一覧",
+      "url": "https://www.city.akita.lg.jp/bosai-kinkyu/bosai/1002188/1021451/../../../../_res/projects/default_project/_page_/001/033/985/kinnkyuu003.xlsx",
+      "path": "./data_files/秋田県/秋田市/【西部地区】指定緊急避難場所一覧/kinnkyuu003.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-03-09T04:03:58.000Z",
+      "eTag": "36aa-5d9c12fdfb9e8",
+      "lastDownloaded": "2022-12-18T02:22:48.395Z",
+      "integrity": "c99e4e153d44ea7911810d5d18728b2d07dbec81",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/【南部地区】指定緊急避難場所一覧",
+      "url": "https://www.city.akita.lg.jp/bosai-kinkyu/bosai/1002188/1021451/../../../../_res/projects/default_project/_page_/001/033/986/kinnkyuu004.xlsx",
+      "path": "./data_files/秋田県/秋田市/【南部地区】指定緊急避難場所一覧/kinnkyuu004.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-03-09T04:04:44.000Z",
+      "eTag": "3449-5d9c1329d93a1",
+      "lastDownloaded": "2022-12-18T02:22:48.467Z",
+      "integrity": "9fc9e660eb060f1927137ec8cbc03febec26a88a",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/【北部地区】指定緊急避難場所一覧",
+      "url": "https://www.city.akita.lg.jp/bosai-kinkyu/bosai/1002188/1021451/../../../../_res/projects/default_project/_page_/001/033/983/kinnkyuu005.xlsx",
+      "path": "./data_files/秋田県/秋田市/【北部地区】指定緊急避難場所一覧/kinnkyuu005.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-03-09T00:13:35.000Z",
+      "eTag": "3f24-5d9bdf7f4a373",
+      "lastDownloaded": "2022-12-18T02:22:48.565Z",
+      "integrity": "b1a43f403312c94ff6045bf278ccbe2f111adacc",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/【河辺地区】指定緊急避難場所一覧",
+      "url": "https://www.city.akita.lg.jp/bosai-kinkyu/bosai/1002188/1021451/../../../../_res/projects/default_project/_page_/001/033/987/knnkyuu006.xlsx",
+      "path": "./data_files/秋田県/秋田市/【河辺地区】指定緊急避難場所一覧/knnkyuu006.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-03-09T04:06:14.000Z",
+      "eTag": "31cc-5d9c137f1c994",
+      "lastDownloaded": "2022-12-18T02:22:48.797Z",
+      "integrity": "88d95c262b99db37f897717533578d48964e7c8d",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/【雄和地区】指定緊急避難場所一覧",
+      "url": "https://www.city.akita.lg.jp/bosai-kinkyu/bosai/1002188/1021451/../../../../_res/projects/default_project/_page_/001/033/988/siteikinkyuhinanbashoyuuwa.xlsx",
+      "path": "./data_files/秋田県/秋田市/【雄和地区】指定緊急避難場所一覧/siteikinkyuhinanbashoyuuwa.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-03-09T04:06:56.000Z",
+      "eTag": "33c2-5d9c13a794915",
+      "lastDownloaded": "2022-12-18T02:22:48.890Z",
+      "integrity": "1f8d50d21dd043630ad79b0b3f04e58b53614cb5",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/過去の選挙結果",
+      "url": "https://www.city.akita.lg.jp/kurashi/senkyo/1008169/../../../_res/projects/default_project/_page_/001/008/283/shicho20211201.xlsx",
+      "path": "./data_files/秋田県/秋田市/過去の選挙結果/shicho20211201.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2021-12-02T00:18:28.000Z",
+      "eTag": "2e24-5d21ebacc43bf",
+      "lastDownloaded": "2022-12-18T02:22:48.966Z",
+      "integrity": "72f69eee54f8763c971b1c6dbc6ed208f541a3d4",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/衛生検査所一覧",
+      "url": "https://www.city.akita.lg.jp/kurashi/kenko/1005375/../../../_res/projects/default_project/_page_/001/028/996/r030401eiseikennsasyo1.xlsx",
+      "path": "./data_files/秋田県/秋田市/衛生検査所一覧/r030401eiseikennsasyo1.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2021-04-12T06:42:06.000Z",
+      "eTag": "285e-5bfc0cfe3eb80",
+      "lastDownloaded": "2022-12-18T02:22:49.027Z",
+      "integrity": "abd1ccddc7f7c82b0b8f501842c59b1eba379bd5",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/令和2年国勢調査",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/010/369/r2.xlsx",
+      "path": "./data_files/秋田県/秋田市/令和2年国勢調査/r2.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "lastModified": "2022-07-11T04:55:15.000Z",
+      "eTag": "d503e-5e3805b90d995",
+      "lastDownloaded": "2022-12-18T02:22:50.386Z",
+      "integrity": "648f610ac28576f7b234ce15e6fe793709b95279",
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
       "name": "秋田県/大仙市/雪の諸記録",
       "url": "https://www.city.daisen.lg.jp/docs/2021121000241/file_contents/doro4.csv",
       "path": "./data_files/秋田県/大仙市/雪の諸記録/doro4.csv",
@@ -9,7 +3445,7 @@
       "catalogResourceId": null,
       "lastModified": "2021-12-14T15:00:29.000Z",
       "eTag": "61b8b18d-37dd",
-      "lastDownloaded": "2022-12-17T16:18:19.227Z",
+      "lastDownloaded": "2022-12-18T02:22:50.542Z",
       "integrity": "bc06b71c3306091c49345b3c7335e5475420542d",
       "postProcesses": [
         "encode UTF-8"
@@ -24,7 +3460,7 @@
       "catalogResourceId": null,
       "lastModified": "2021-12-14T15:00:26.000Z",
       "eTag": "61b8b18a-6cd",
-      "lastDownloaded": "2022-12-17T16:18:19.290Z",
+      "lastDownloaded": "2022-12-18T02:22:50.631Z",
       "integrity": "b40347b4beda94fa251e5bbc6e2776e943e52064",
       "postProcesses": [
         "encode UTF-8"
@@ -39,7 +3475,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-05-11T07:18:27.000Z",
       "eTag": "627b6343-b33",
-      "lastDownloaded": "2022-12-17T16:18:19.481Z",
+      "lastDownloaded": "2022-12-18T02:22:50.891Z",
       "integrity": "228d4b67007bddc1a2cc1990c5a8546d42b6a153",
       "postProcesses": [
         "encode UTF-8"
@@ -54,7 +3490,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-05-09T06:04:42.000Z",
       "eTag": "6278aefa-f04",
-      "lastDownloaded": "2022-12-17T16:18:19.653Z",
+      "lastDownloaded": "2022-12-18T02:22:51.140Z",
       "integrity": "9d085d72d7a6ace0d170492b77584d1f8599b127",
       "postProcesses": [
         "encode UTF-8"
@@ -69,7 +3505,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-05-11T06:41:37.000Z",
       "eTag": "627b5aa1-cfd",
-      "lastDownloaded": "2022-12-17T16:18:19.711Z",
+      "lastDownloaded": "2022-12-18T02:22:51.417Z",
       "integrity": "12282ae8a3e8a878d269af30e593f6769545b9ec",
       "postProcesses": [
         "encode UTF-8"
@@ -84,7 +3520,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-05-11T06:40:31.000Z",
       "eTag": "627b5a5f-1023",
-      "lastDownloaded": "2022-12-17T16:18:20.228Z",
+      "lastDownloaded": "2022-12-18T02:22:51.538Z",
       "integrity": "2edf8880df4a75aa7308025c7e87cc2ca4e8f6bd",
       "postProcesses": [
         "encode UTF-8"
@@ -99,7 +3535,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-07-14T07:13:59.000Z",
       "eTag": "62cfc237-9ff",
-      "lastDownloaded": "2022-12-17T16:18:20.310Z",
+      "lastDownloaded": "2022-12-18T02:22:51.680Z",
       "integrity": "e6f85e672a2c0a4e6c457a2ed3841a137865f152",
       "postProcesses": [
         "encode UTF-8"
@@ -114,7 +3550,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-05-11T07:20:51.000Z",
       "eTag": "627b63d3-9be3",
-      "lastDownloaded": "2022-12-17T16:18:20.557Z",
+      "lastDownloaded": "2022-12-18T02:22:51.943Z",
       "integrity": "744bb2a7de13915a670332df3c6874a748bf9c1f",
       "postProcesses": [
         "encode UTF-8"
@@ -129,7 +3565,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-05-09T06:03:33.000Z",
       "eTag": "6278aeb5-a24",
-      "lastDownloaded": "2022-12-17T16:18:20.608Z",
+      "lastDownloaded": "2022-12-18T02:22:52.053Z",
       "integrity": "d695ff74798ef11bf72bab85979768548b92283f",
       "postProcesses": [
         "encode UTF-8"
@@ -144,7 +3580,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-05-11T07:19:46.000Z",
       "eTag": "627b6392-18c",
-      "lastDownloaded": "2022-12-17T16:18:20.671Z",
+      "lastDownloaded": "2022-12-18T02:22:52.238Z",
       "integrity": "fc5bf6193c0449ee2e56f6a89547c2614aeb7b24",
       "postProcesses": [
         "encode UTF-8"
@@ -159,7 +3595,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-05-09T06:00:32.000Z",
       "eTag": "6278ae00-52b",
-      "lastDownloaded": "2022-12-17T16:18:20.726Z",
+      "lastDownloaded": "2022-12-18T02:22:52.465Z",
       "integrity": "f2d9ae80786827941c8e87e96c76814965217d51",
       "postProcesses": [
         "encode UTF-8"
@@ -174,7 +3610,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-05-11T02:53:38.000Z",
       "eTag": "627b2532-1244",
-      "lastDownloaded": "2022-12-17T16:18:20.896Z",
+      "lastDownloaded": "2022-12-18T02:22:52.547Z",
       "integrity": "dd87e6cd320f15dfac34d4516a88e083cfdd1c10",
       "postProcesses": [
         "encode UTF-8"
@@ -189,7 +3625,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-05-09T06:13:42.000Z",
       "eTag": "6278b116-1b5e",
-      "lastDownloaded": "2022-12-17T16:18:21.027Z",
+      "lastDownloaded": "2022-12-18T02:22:52.698Z",
       "integrity": "18fe1d6902b86aba3af0f7dfc8977e1a92601d0a",
       "postProcesses": [
         "encode UTF-8"
@@ -204,7 +3640,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-05-09T06:15:15.000Z",
       "eTag": "6278b173-1859",
-      "lastDownloaded": "2022-12-17T16:18:21.106Z",
+      "lastDownloaded": "2022-12-18T02:22:52.986Z",
       "integrity": "a9801b33b9d4dfbebcac67b1f55251db88057e5d",
       "postProcesses": [
         "encode UTF-8"
@@ -219,7 +3655,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-05-09T06:16:37.000Z",
       "eTag": "6278b1c5-fa1",
-      "lastDownloaded": "2022-12-17T16:18:21.163Z",
+      "lastDownloaded": "2022-12-18T02:22:53.102Z",
       "integrity": "40136fac42f4d9aa0d966184474713297edf30e1",
       "postProcesses": [
         "encode UTF-8"
@@ -234,7 +3670,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-05-11T02:52:28.000Z",
       "eTag": "627b24ec-842",
-      "lastDownloaded": "2022-12-17T16:18:21.237Z",
+      "lastDownloaded": "2022-12-18T02:22:53.513Z",
       "integrity": "c350c4e3612ce687b7c1e098d8ca9fa162c98bb5",
       "postProcesses": [
         "encode UTF-8"
@@ -249,7 +3685,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-05-11T07:21:54.000Z",
       "eTag": "627b6412-7001",
-      "lastDownloaded": "2022-12-17T16:18:21.320Z",
+      "lastDownloaded": "2022-12-18T02:22:53.829Z",
       "integrity": "9f1878ba4d5d4db4da452ba4fb369e64678e12ef",
       "postProcesses": [
         "encode UTF-8"
@@ -264,7 +3700,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-05-09T06:12:19.000Z",
       "eTag": "6278b0c3-299b",
-      "lastDownloaded": "2022-12-17T16:18:21.377Z",
+      "lastDownloaded": "2022-12-18T02:22:54.038Z",
       "integrity": "dd0da6ce04f97ca13187fba3f8eedeade6698d38",
       "postProcesses": [
         "encode UTF-8"
@@ -279,7 +3715,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-05-11T00:12:30.000Z",
       "eTag": "627aff6e-3306",
-      "lastDownloaded": "2022-12-17T16:18:21.582Z",
+      "lastDownloaded": "2022-12-18T02:22:54.166Z",
       "integrity": "669f41fe2c01ec5f821d58a13390d5835278aae5",
       "postProcesses": [
         "encode UTF-8"
@@ -294,7 +3730,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-05-09T06:08:26.000Z",
       "eTag": "6278afda-595f",
-      "lastDownloaded": "2022-12-17T16:18:21.657Z",
+      "lastDownloaded": "2022-12-18T02:22:54.278Z",
       "integrity": "a84852d06ad636dc4e18154b0de403cae636b394",
       "postProcesses": [
         "encode UTF-8"
@@ -309,7 +3745,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-05-09T06:07:06.000Z",
       "eTag": "6278af8a-17d3",
-      "lastDownloaded": "2022-12-17T16:18:21.714Z",
+      "lastDownloaded": "2022-12-18T02:22:54.433Z",
       "integrity": "72c023af95a622e997ba60155f7314b24831fc28",
       "postProcesses": [
         "encode UTF-8"
@@ -324,7 +3760,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-05-11T02:51:19.000Z",
       "eTag": "627b24a7-75f",
-      "lastDownloaded": "2022-12-17T16:18:21.796Z",
+      "lastDownloaded": "2022-12-18T02:22:54.559Z",
       "integrity": "77ba4f02d4059051ad22ed8f77eb582a07688985",
       "postProcesses": [
         "encode UTF-8"
@@ -339,7 +3775,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-05-11T00:30:14.000Z",
       "eTag": "627b0396-501f",
-      "lastDownloaded": "2022-12-17T16:18:21.947Z",
+      "lastDownloaded": "2022-12-18T02:22:54.795Z",
       "integrity": "a429267bd1d454311429d969ddfb0d65d94c08aa",
       "postProcesses": [
         "encode UTF-8"
@@ -354,7 +3790,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-05-11T00:24:20.000Z",
       "eTag": "627b0234-f8c",
-      "lastDownloaded": "2022-12-17T16:18:22.156Z",
+      "lastDownloaded": "2022-12-18T02:22:55.084Z",
       "integrity": "cd853f75b1d87511df8efaae7c148213e382d5d1",
       "postProcesses": [
         "encode UTF-8"
@@ -369,7 +3805,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-05-11T00:15:35.000Z",
       "eTag": "627b0027-f85",
-      "lastDownloaded": "2022-12-17T16:18:22.219Z",
+      "lastDownloaded": "2022-12-18T02:22:55.182Z",
       "integrity": "bbcecf25b79cc9e4227e630d5762365e2517546a",
       "postProcesses": [
         "encode UTF-8"
@@ -384,7 +3820,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-05-11T00:13:42.000Z",
       "eTag": "627affb6-21e8dd",
-      "lastDownloaded": "2022-12-17T16:18:23.341Z",
+      "lastDownloaded": "2022-12-18T02:22:57.343Z",
       "integrity": "c166ce50eb067243142a4fb6d449cb1e9c89bbf6",
       "postProcesses": [
         "encode UTF-8"
@@ -399,7 +3835,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-05-11T00:11:09.000Z",
       "eTag": "627aff1d-1bfd",
-      "lastDownloaded": "2022-12-17T16:18:23.422Z",
+      "lastDownloaded": "2022-12-18T02:22:57.575Z",
       "integrity": "c2b4ea0e3add22acc60e162b5f2bdd7ea1a97ff6",
       "postProcesses": [
         "encode UTF-8"
@@ -414,7 +3850,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-05-09T06:24:01.000Z",
       "eTag": "6278b381-1c9d",
-      "lastDownloaded": "2022-12-17T16:18:23.488Z",
+      "lastDownloaded": "2022-12-18T02:22:57.712Z",
       "integrity": "e93845cf4bf6fce4356739b36de62d3746a889ca",
       "postProcesses": [
         "encode UTF-8"
@@ -429,7 +3865,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-05-09T06:22:53.000Z",
       "eTag": "6278b33d-14f1f",
-      "lastDownloaded": "2022-12-17T16:18:23.692Z",
+      "lastDownloaded": "2022-12-18T02:22:57.825Z",
       "integrity": "a20de151b8694a4dd0915a76b5029b347a5936c8",
       "postProcesses": [
         "encode UTF-8"
@@ -444,7 +3880,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-05-11T00:20:30.000Z",
       "eTag": "627b014e-caa",
-      "lastDownloaded": "2022-12-17T16:18:23.743Z",
+      "lastDownloaded": "2022-12-18T02:22:57.972Z",
       "integrity": "80da19b6d930178affaeea31d47c5ce507dc4712",
       "postProcesses": [
         "encode UTF-8"
@@ -459,7 +3895,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-05-11T00:23:07.000Z",
       "eTag": "627b01eb-5da",
-      "lastDownloaded": "2022-12-17T16:18:23.798Z",
+      "lastDownloaded": "2022-12-18T02:22:58.232Z",
       "integrity": "eddcfeb0c4a463775bf2da8f21f94ea6b96b1502",
       "postProcesses": [
         "encode UTF-8"
@@ -474,7 +3910,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-05-09T06:18:54.000Z",
       "eTag": "6278b24e-345",
-      "lastDownloaded": "2022-12-17T16:18:23.862Z",
+      "lastDownloaded": "2022-12-18T02:22:58.316Z",
       "integrity": "7eaaca613448517d515067f0715b2013493753df",
       "postProcesses": [
         "encode UTF-8"
@@ -489,7 +3925,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-05-09T06:17:49.000Z",
       "eTag": "6278b20d-ed3",
-      "lastDownloaded": "2022-12-17T16:18:24.040Z",
+      "lastDownloaded": "2022-12-18T02:22:58.474Z",
       "integrity": "5dc8c5a23ab1cc30aa540a61a1c7fa63899010cf",
       "postProcesses": [
         "encode UTF-8"
@@ -504,7 +3940,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-05-11T00:18:23.000Z",
       "eTag": "627b00cf-1406",
-      "lastDownloaded": "2022-12-17T16:18:24.171Z",
+      "lastDownloaded": "2022-12-18T02:22:58.952Z",
       "integrity": "026876045daa01f809badb648f026cb2987a58a9",
       "postProcesses": [
         "encode UTF-8"
@@ -519,7 +3955,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-05-11T06:34:16.000Z",
       "eTag": "627b58e8-2b0c",
-      "lastDownloaded": "2022-12-17T16:18:24.273Z",
+      "lastDownloaded": "2022-12-18T02:22:59.058Z",
       "integrity": "34d9da02d3169e79f11fd0f86bd9baaa85e87a38",
       "postProcesses": [
         "encode UTF-8"
@@ -534,7 +3970,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-05-09T06:05:58.000Z",
       "eTag": "6278af46-2f61",
-      "lastDownloaded": "2022-12-17T16:18:24.378Z",
+      "lastDownloaded": "2022-12-18T02:22:59.378Z",
       "integrity": "c3c327fca687c78e4ddf5cd6b48e76fd028ab439",
       "postProcesses": [
         "encode UTF-8"
@@ -549,7 +3985,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-05-09T06:01:55.000Z",
       "eTag": "6278ae53-37b2",
-      "lastDownloaded": "2022-12-17T16:18:24.476Z",
+      "lastDownloaded": "2022-12-18T02:22:59.547Z",
       "integrity": "2f42ab8c670f1e10f9a197b47717703a2d9f3a61",
       "postProcesses": [
         "encode UTF-8"
@@ -564,7 +4000,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-05-11T06:39:20.000Z",
       "eTag": "627b5a18-35f4",
-      "lastDownloaded": "2022-12-17T16:18:24.539Z",
+      "lastDownloaded": "2022-12-18T02:22:59.804Z",
       "integrity": "5fda95b94fe6f3f455922750f383b6b730189426",
       "postProcesses": [
         "encode UTF-8"
@@ -579,7 +4015,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-05-09T02:56:26.000Z",
       "eTag": "627882da-3d3c",
-      "lastDownloaded": "2022-12-17T16:18:24.728Z",
+      "lastDownloaded": "2022-12-18T02:22:59.955Z",
       "integrity": "0b9eaa139866bd91c05950509869ea0da633653a",
       "postProcesses": [
         "encode UTF-8"
@@ -594,7 +4030,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-05-09T02:54:13.000Z",
       "eTag": "62788255-5271",
-      "lastDownloaded": "2022-12-17T16:18:24.839Z",
+      "lastDownloaded": "2022-12-18T02:23:00.085Z",
       "integrity": "ffcd15e09504e982853bbeafb77f1eec0eaf9133",
       "postProcesses": [
         "encode UTF-8"
@@ -609,7 +4045,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-05-09T02:52:07.000Z",
       "eTag": "627881d7-3911",
-      "lastDownloaded": "2022-12-17T16:18:24.954Z",
+      "lastDownloaded": "2022-12-18T02:23:00.329Z",
       "integrity": "b9a41049d081d88de74706d18f38fefb03f77d8e",
       "postProcesses": [
         "encode UTF-8"
@@ -624,7 +4060,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-05-09T02:50:47.000Z",
       "eTag": "62788187-38a9",
-      "lastDownloaded": "2022-12-17T16:18:25.115Z",
+      "lastDownloaded": "2022-12-18T02:23:00.414Z",
       "integrity": "3eb57d29e0cbdc9f79794ee23011c91c2784243f",
       "postProcesses": [
         "encode UTF-8"
@@ -639,7 +4075,7 @@
       "catalogResourceId": null,
       "lastModified": "2021-12-14T15:00:26.000Z",
       "eTag": "61b8b18a-5b12",
-      "lastDownloaded": "2022-12-17T16:18:25.312Z",
+      "lastDownloaded": "2022-12-18T02:23:00.568Z",
       "integrity": "d0bca3f86271b6e2f263ddef0b0f888b8a074f96",
       "postProcesses": [
         "encode UTF-8"
@@ -654,7 +4090,7 @@
       "catalogResourceId": null,
       "lastModified": "2021-12-14T15:00:26.000Z",
       "eTag": "61b8b18a-c32",
-      "lastDownloaded": "2022-12-17T16:18:25.389Z",
+      "lastDownloaded": "2022-12-18T02:23:00.722Z",
       "integrity": "e5c8ecda13c4fd857d3aaf01282da406047cc49c",
       "postProcesses": [
         "encode UTF-8"
@@ -669,7 +4105,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-05-11T07:28:01.000Z",
       "eTag": "627b6581-438",
-      "lastDownloaded": "2022-12-17T16:18:25.445Z",
+      "lastDownloaded": "2022-12-18T02:23:00.852Z",
       "integrity": "eb8b46359215ed30faf891dfc1d413cd1f7441b6",
       "postProcesses": [
         "encode UTF-8"
@@ -684,7 +4120,7 @@
       "catalogResourceId": null,
       "lastModified": "2021-12-14T15:00:40.000Z",
       "eTag": "61b8b198-572c",
-      "lastDownloaded": "2022-12-17T16:18:25.547Z",
+      "lastDownloaded": "2022-12-18T02:23:01.051Z",
       "integrity": "8e852082654f512b289e8c09e459094d9d81f7ab",
       "postProcesses": [
         "encode UTF-8"
@@ -699,7 +4135,7 @@
       "catalogResourceId": null,
       "lastModified": "2021-12-14T15:00:30.000Z",
       "eTag": "61b8b18e-2ebd",
-      "lastDownloaded": "2022-12-17T16:18:25.580Z",
+      "lastDownloaded": "2022-12-18T02:23:01.160Z",
       "integrity": "4598237beeb6de3ccbb83dcb63422eb5f1a53ed6",
       "postProcesses": [
         "encode UTF-8"
@@ -714,7 +4150,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-05-09T01:21:36.000Z",
       "eTag": "62786ca0-8eb",
-      "lastDownloaded": "2022-12-17T16:18:25.772Z",
+      "lastDownloaded": "2022-12-18T02:23:01.376Z",
       "integrity": "f2c5ea7a851a7e0b8fde3c13ec413e5a40cdac83",
       "postProcesses": [
         "encode UTF-8"
@@ -729,7 +4165,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-05-09T01:31:17.000Z",
       "eTag": "62786ee5-27e4",
-      "lastDownloaded": "2022-12-17T16:18:26.149Z",
+      "lastDownloaded": "2022-12-18T02:23:01.475Z",
       "integrity": "1dc5ab85f671cadedfc3a84e1cebdce8e95097c1",
       "postProcesses": [
         "encode UTF-8"
@@ -744,7 +4180,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-05-09T01:30:19.000Z",
       "eTag": "62786eab-37d4",
-      "lastDownloaded": "2022-12-17T16:18:26.796Z",
+      "lastDownloaded": "2022-12-18T02:23:01.575Z",
       "integrity": "c07a0395fd520b403b5dc3c757a9d7f693d4b1e6",
       "postProcesses": [
         "encode UTF-8"
@@ -759,7 +4195,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-05-09T01:27:37.000Z",
       "eTag": "62786e09-2a68",
-      "lastDownloaded": "2022-12-17T16:18:26.855Z",
+      "lastDownloaded": "2022-12-18T02:23:01.648Z",
       "integrity": "847bcfc578e24193a347ad32ade05fca2c703c4d",
       "postProcesses": [
         "encode UTF-8"
@@ -774,7 +4210,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-05-09T01:26:05.000Z",
       "eTag": "62786dad-3dbe",
-      "lastDownloaded": "2022-12-17T16:18:26.922Z",
+      "lastDownloaded": "2022-12-18T02:23:01.909Z",
       "integrity": "592b5afdeb02beea14c32a6a5d5dca757aee8fca",
       "postProcesses": [
         "encode UTF-8"
@@ -789,7 +4225,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-05-09T01:25:25.000Z",
       "eTag": "62786d85-298c",
-      "lastDownloaded": "2022-12-17T16:18:27.009Z",
+      "lastDownloaded": "2022-12-18T02:23:02.043Z",
       "integrity": "d0cdfc543ffb0a19e2748baee30d2b0141a9e4a9",
       "postProcesses": [
         "encode UTF-8"
@@ -804,7 +4240,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-05-09T01:29:11.000Z",
       "eTag": "62786e67-5637",
-      "lastDownloaded": "2022-12-17T16:18:27.084Z",
+      "lastDownloaded": "2022-12-18T02:23:02.153Z",
       "integrity": "264d435a9e016dca74f62edaa3a7a142df7a1278",
       "postProcesses": [
         "encode UTF-8"
@@ -819,7 +4255,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-05-11T00:28:46.000Z",
       "eTag": "627b033e-380",
-      "lastDownloaded": "2022-12-17T16:18:27.317Z",
+      "lastDownloaded": "2022-12-18T02:23:02.220Z",
       "integrity": "2af4e3f901192c67617e7fc70e83f80cbd3cccfb",
       "postProcesses": [
         "encode UTF-8"
@@ -834,7 +4270,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-05-11T00:16:54.000Z",
       "eTag": "627b0076-2ef",
-      "lastDownloaded": "2022-12-17T16:18:27.378Z",
+      "lastDownloaded": "2022-12-18T02:23:02.431Z",
       "integrity": "3e22054c429574c08f40193b735d2d7fa82495f3",
       "postProcesses": [
         "encode UTF-8"
@@ -849,7 +4285,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-05-11T00:27:36.000Z",
       "eTag": "627b02f8-13bb",
-      "lastDownloaded": "2022-12-17T16:18:27.451Z",
+      "lastDownloaded": "2022-12-18T02:23:02.581Z",
       "integrity": "7b073dd79c9f7b724df4b135c5df00a6305413ca",
       "postProcesses": [
         "encode UTF-8"
@@ -864,7 +4300,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-05-02T07:00:28.000Z",
       "eTag": "626f818c-32b5",
-      "lastDownloaded": "2022-12-17T16:18:27.517Z",
+      "lastDownloaded": "2022-12-18T02:23:02.818Z",
       "integrity": "e30f16310631ab882f8b2b1748e6582075e459a1",
       "postProcesses": [
         "encode UTF-8"
@@ -879,7 +4315,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-05-09T02:27:41.000Z",
       "eTag": "62787c1d-e93b",
-      "lastDownloaded": "2022-12-17T16:18:27.600Z",
+      "lastDownloaded": "2022-12-18T02:23:03.013Z",
       "integrity": "41d8a18ee847e244b14a8c3137e20064825da9f2",
       "postProcesses": [
         "encode UTF-8"
@@ -894,7 +4330,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-05-09T02:29:07.000Z",
       "eTag": "62787c73-7233",
-      "lastDownloaded": "2022-12-17T16:18:27.684Z",
+      "lastDownloaded": "2022-12-18T02:23:03.124Z",
       "integrity": "0e72af63188a0ea778d9754ec80ca74b4be99e74",
       "postProcesses": [
         "encode UTF-8"
@@ -909,7 +4345,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-05-02T07:03:13.000Z",
       "eTag": "626f8231-29d18",
-      "lastDownloaded": "2022-12-17T16:18:27.900Z",
+      "lastDownloaded": "2022-12-18T02:23:03.311Z",
       "integrity": "f46db6bc933a5a4587c44392f04db6b53ddd1468",
       "postProcesses": [
         "encode UTF-8"
@@ -924,7 +4360,7 @@
       "catalogResourceId": null,
       "lastModified": "2021-12-14T15:00:23.000Z",
       "eTag": "61b8b187-5019",
-      "lastDownloaded": "2022-12-17T16:18:27.989Z",
+      "lastDownloaded": "2022-12-18T02:23:03.577Z",
       "integrity": "2e39d081c67f93532c95410c2062d739073a3370",
       "postProcesses": [
         "encode UTF-8"
@@ -939,7 +4375,7 @@
       "catalogResourceId": null,
       "lastModified": "2021-12-14T15:00:22.000Z",
       "eTag": "61b8b186-3732",
-      "lastDownloaded": "2022-12-17T16:18:28.056Z",
+      "lastDownloaded": "2022-12-18T02:23:03.647Z",
       "integrity": "a097fc27b129e2bbfacd2dc0327715d152a8eddc",
       "postProcesses": [
         "encode UTF-8"
@@ -954,7 +4390,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-05-11T07:32:23.000Z",
       "eTag": "627b6687-d8d1",
-      "lastDownloaded": "2022-12-17T16:18:28.236Z",
+      "lastDownloaded": "2022-12-18T02:23:04.000Z",
       "integrity": "96c9b485acaefbf05ff34db1d60fbe2f5fa5b4bb",
       "postProcesses": [
         "encode UTF-8"
@@ -969,7 +4405,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-05-09T02:09:04.000Z",
       "eTag": "627877c0-411",
-      "lastDownloaded": "2022-12-17T16:18:28.366Z",
+      "lastDownloaded": "2022-12-18T02:23:04.068Z",
       "integrity": "9ef3e7bc48c101ce8177d1758ff1b8a90830f15c",
       "postProcesses": [
         "encode UTF-8"
@@ -984,7 +4420,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-05-09T02:02:12.000Z",
       "eTag": "62787624-6d24",
-      "lastDownloaded": "2022-12-17T16:18:28.435Z",
+      "lastDownloaded": "2022-12-18T02:23:04.186Z",
       "integrity": "7e5b01b4c7646b1a7d0d713248a408be46a6097b",
       "postProcesses": [
         "encode UTF-8"
@@ -999,7 +4435,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-05-09T02:00:50.000Z",
       "eTag": "627875d2-290f",
-      "lastDownloaded": "2022-12-17T16:18:28.504Z",
+      "lastDownloaded": "2022-12-18T02:23:04.280Z",
       "integrity": "b4f2782eb6758ca6df77052b89793956ec97cfdb",
       "postProcesses": [
         "encode UTF-8"
@@ -1014,7 +4450,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-05-09T01:59:30.000Z",
       "eTag": "62787582-46c",
-      "lastDownloaded": "2022-12-17T16:18:28.577Z",
+      "lastDownloaded": "2022-12-18T02:23:04.524Z",
       "integrity": "bba8046a47c895bd05acb43948074c0b36d2c92b",
       "postProcesses": [
         "encode UTF-8"
@@ -1029,7 +4465,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-05-09T02:10:10.000Z",
       "eTag": "62787802-90c9",
-      "lastDownloaded": "2022-12-17T16:18:29.087Z",
+      "lastDownloaded": "2022-12-18T02:23:04.660Z",
       "integrity": "0ac599373e416ebcb5aa5c363eb7beea9d33b383",
       "postProcesses": [
         "encode UTF-8"
@@ -1044,7 +4480,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-05-09T02:24:58.000Z",
       "eTag": "62787b7a-70b",
-      "lastDownloaded": "2022-12-17T16:18:29.589Z",
+      "lastDownloaded": "2022-12-18T02:23:04.820Z",
       "integrity": "018b051eb10d7e4a379167f2aa27b4a676850161",
       "postProcesses": [
         "encode UTF-8"
@@ -1059,7 +4495,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-05-09T01:45:47.000Z",
       "eTag": "6278724b-5a3",
-      "lastDownloaded": "2022-12-17T16:18:29.642Z",
+      "lastDownloaded": "2022-12-18T02:23:05.048Z",
       "integrity": "325395ff45085eb243491236662c046d75c90f4a",
       "postProcesses": [
         "encode UTF-8"
@@ -1074,7 +4510,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-05-09T01:24:23.000Z",
       "eTag": "62786d47-f67a",
-      "lastDownloaded": "2022-12-17T16:18:29.733Z",
+      "lastDownloaded": "2022-12-18T02:23:05.286Z",
       "integrity": "b6cacff8dee40b4c0ac40d7c0a781e2e6a5aeab0",
       "postProcesses": [
         "encode UTF-8"
@@ -1089,7 +4525,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-05-09T01:41:50.000Z",
       "eTag": "6278715e-1e4",
-      "lastDownloaded": "2022-12-17T16:18:29.939Z",
+      "lastDownloaded": "2022-12-18T02:23:05.364Z",
       "integrity": "cabe847688cde0156c904945b86981403ea1889c",
       "postProcesses": [
         "encode UTF-8"
@@ -1104,7 +4540,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-05-09T01:43:43.000Z",
       "eTag": "627871cf-18a",
-      "lastDownloaded": "2022-12-17T16:18:29.996Z",
+      "lastDownloaded": "2022-12-18T02:23:05.729Z",
       "integrity": "5bf94a68ee34bbbc1ed1029858b737c61b65f0da",
       "postProcesses": [
         "encode UTF-8"
@@ -1119,7 +4555,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-05-09T01:13:30.000Z",
       "eTag": "62786aba-27d",
-      "lastDownloaded": "2022-12-17T16:18:30.065Z",
+      "lastDownloaded": "2022-12-18T02:23:05.808Z",
       "integrity": "33f82883d55b8eb428fbdc60c0b37a3bae689acf",
       "postProcesses": [
         "encode UTF-8"
@@ -1134,7 +4570,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-05-09T02:46:14.000Z",
       "eTag": "62788076-461e",
-      "lastDownloaded": "2022-12-17T16:18:30.215Z",
+      "lastDownloaded": "2022-12-18T02:23:05.966Z",
       "integrity": "f1cc3770f68d5a5fa499ca640fa39240ded8273d",
       "postProcesses": [
         "encode UTF-8"
@@ -1149,7 +4585,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-05-02T07:08:08.000Z",
       "eTag": "626f8358-2b23",
-      "lastDownloaded": "2022-12-17T16:18:30.463Z",
+      "lastDownloaded": "2022-12-18T02:23:06.127Z",
       "integrity": "2426188e621903d90caed666eefdf99343b3640b",
       "postProcesses": [
         "encode UTF-8"
@@ -1164,7 +4600,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-05-09T01:54:08.000Z",
       "eTag": "62787440-b37",
-      "lastDownloaded": "2022-12-17T16:18:30.517Z",
+      "lastDownloaded": "2022-12-18T02:23:06.249Z",
       "integrity": "7e7dd610a21f3d3c981c3eb60ae509e60ba68097",
       "postProcesses": [
         "encode UTF-8"
@@ -1179,7 +4615,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-05-02T06:18:08.000Z",
       "eTag": "626f77a0-afe",
-      "lastDownloaded": "2022-12-17T16:18:30.578Z",
+      "lastDownloaded": "2022-12-18T02:23:06.373Z",
       "integrity": "6ac72392f2b4ef4309e8df653dbf2ad726963140",
       "postProcesses": [
         "encode UTF-8"
@@ -1194,7 +4630,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-05-09T01:49:51.000Z",
       "eTag": "6278733f-ae3",
-      "lastDownloaded": "2022-12-17T16:18:30.680Z",
+      "lastDownloaded": "2022-12-18T02:23:06.447Z",
       "integrity": "61bc5a798b6c243a81d90fba666559a3a89fd9fc",
       "postProcesses": [
         "encode UTF-8"
@@ -1209,7 +4645,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-05-09T01:48:05.000Z",
       "eTag": "627872d5-bf5",
-      "lastDownloaded": "2022-12-17T16:18:30.821Z",
+      "lastDownloaded": "2022-12-18T02:23:06.683Z",
       "integrity": "73eb6321169b6a441516dd1bfd4ff5e0c905bbd6",
       "postProcesses": [
         "encode UTF-8"
@@ -1224,7 +4660,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-05-09T02:44:11.000Z",
       "eTag": "62787ffb-2df6",
-      "lastDownloaded": "2022-12-17T16:18:31.015Z",
+      "lastDownloaded": "2022-12-18T02:23:06.818Z",
       "integrity": "f9b4b3ac6fa781e70d0eed2872582417f11707ba",
       "postProcesses": [
         "encode UTF-8"
@@ -1239,7 +4675,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-05-11T07:27:00.000Z",
       "eTag": "627b6544-3a82",
-      "lastDownloaded": "2022-12-17T16:18:31.129Z",
+      "lastDownloaded": "2022-12-18T02:23:07.141Z",
       "integrity": "71b9881b693eb1af158300737550df6cf4ecf936",
       "postProcesses": [
         "encode UTF-8"
@@ -1254,7 +4690,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-05-11T07:26:00.000Z",
       "eTag": "627b6508-2f28",
-      "lastDownloaded": "2022-12-17T16:18:31.510Z",
+      "lastDownloaded": "2022-12-18T02:23:07.258Z",
       "integrity": "90bad457dbad88516b9c5436150764ea7325e81b",
       "postProcesses": [
         "encode UTF-8"
@@ -1269,7 +4705,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-05-02T07:05:26.000Z",
       "eTag": "626f82b6-b1d",
-      "lastDownloaded": "2022-12-17T16:18:31.545Z",
+      "lastDownloaded": "2022-12-18T02:23:07.396Z",
       "integrity": "b42e42cb41d5c5861cc6bf8fea7c95d1e7171d30",
       "postProcesses": [
         "encode UTF-8"
@@ -1284,7 +4720,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-10-25T07:53:20.000Z",
       "eTag": "635795f0-6c4",
-      "lastDownloaded": "2022-12-17T16:18:31.617Z",
+      "lastDownloaded": "2022-12-18T02:23:07.866Z",
       "integrity": "f55a1e9085f59930ab6a5cafd3bf011fad6c2423",
       "postProcesses": [
         "encode UTF-8"
@@ -1299,7 +4735,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-10-25T07:52:15.000Z",
       "eTag": "635795af-7e2",
-      "lastDownloaded": "2022-12-17T16:18:31.683Z",
+      "lastDownloaded": "2022-12-18T02:23:08.385Z",
       "integrity": "11c6ed1d56e413ce4788c886fdc3ad8500d0162c",
       "postProcesses": [
         "encode UTF-8"
@@ -1314,7 +4750,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-10-25T07:50:11.000Z",
       "eTag": "63579533-ac6",
-      "lastDownloaded": "2022-12-17T16:18:31.757Z",
+      "lastDownloaded": "2022-12-18T02:23:08.718Z",
       "integrity": "86a84126eb42a5a331d9b536e8d6f5e45d0854b0",
       "postProcesses": [
         "encode UTF-8"
@@ -1329,7 +4765,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-10-25T07:35:26.000Z",
       "eTag": "635791be-76c",
-      "lastDownloaded": "2022-12-17T16:18:31.822Z",
+      "lastDownloaded": "2022-12-18T02:23:08.794Z",
       "integrity": "5465836f7182a018aee3f49c3827bc5009e4ba55",
       "postProcesses": [
         "encode UTF-8"
@@ -1344,7 +4780,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-10-25T07:34:07.000Z",
       "eTag": "6357916f-8e1",
-      "lastDownloaded": "2022-12-17T16:18:32.067Z",
+      "lastDownloaded": "2022-12-18T02:23:08.970Z",
       "integrity": "51f92770f4aa39f7a01bc2c1093dee1f63779362",
       "postProcesses": [
         "encode UTF-8"
@@ -1359,7 +4795,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-10-25T07:32:51.000Z",
       "eTag": "63579123-828",
-      "lastDownloaded": "2022-12-17T16:18:32.124Z",
+      "lastDownloaded": "2022-12-18T02:23:09.239Z",
       "integrity": "61ff8eaf1c289a3041cad40cd44333bf729d95a7",
       "postProcesses": [
         "encode UTF-8"
@@ -1374,7 +4810,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-10-25T07:30:49.000Z",
       "eTag": "635790a9-872",
-      "lastDownloaded": "2022-12-17T16:18:32.190Z",
+      "lastDownloaded": "2022-12-18T02:23:09.336Z",
       "integrity": "6ab62b1079a1021384b027ddd266c868b61336ec",
       "postProcesses": [
         "encode UTF-8"
@@ -1389,7 +4825,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-10-25T07:29:14.000Z",
       "eTag": "6357904a-701",
-      "lastDownloaded": "2022-12-17T16:18:32.252Z",
+      "lastDownloaded": "2022-12-18T02:23:09.460Z",
       "integrity": "434873b4b6aab455a53adb830695bfab0cd104cf",
       "postProcesses": [
         "encode UTF-8"
@@ -1404,7 +4840,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-10-25T07:27:27.000Z",
       "eTag": "63578fdf-dbe",
-      "lastDownloaded": "2022-12-17T16:18:32.429Z",
+      "lastDownloaded": "2022-12-18T02:23:09.535Z",
       "integrity": "5ece6a87f5594c5a699bf947122e9863d59a7dfd",
       "postProcesses": [
         "encode UTF-8"
@@ -1419,7 +4855,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-10-25T07:24:23.000Z",
       "eTag": "63578f27-596",
-      "lastDownloaded": "2022-12-17T16:18:32.562Z",
+      "lastDownloaded": "2022-12-18T02:23:09.763Z",
       "integrity": "3ee92714a16d1d64a06f5c2ea4260d813fddc713",
       "postProcesses": [
         "encode UTF-8"
@@ -1434,7 +4870,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-05-09T02:48:10.000Z",
       "eTag": "627880ea-6bc",
-      "lastDownloaded": "2022-12-17T16:18:32.639Z",
+      "lastDownloaded": "2022-12-18T02:23:09.861Z",
       "integrity": "6cbe5a655b0ce431e3240276474ea3c1e73c2cad",
       "postProcesses": [
         "encode UTF-8"
@@ -1449,7 +4885,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-05-09T02:49:18.000Z",
       "eTag": "6278812e-cc7",
-      "lastDownloaded": "2022-12-17T16:18:32.701Z",
+      "lastDownloaded": "2022-12-18T02:23:09.998Z",
       "integrity": "569c4424597aebfd4f95afb213316b8c6d081269",
       "postProcesses": [
         "encode UTF-8"
@@ -1464,7 +4900,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-05-02T06:49:12.000Z",
       "eTag": "626f7ee8-8e9",
-      "lastDownloaded": "2022-12-17T16:18:32.773Z",
+      "lastDownloaded": "2022-12-18T02:23:10.183Z",
       "integrity": "09039da085a38a68d4d59f813643ce65f953e944",
       "postProcesses": [
         "encode UTF-8"
@@ -1479,7 +4915,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-05-02T06:46:50.000Z",
       "eTag": "626f7e5a-63a9",
-      "lastDownloaded": "2022-12-17T16:18:32.863Z",
+      "lastDownloaded": "2022-12-18T02:23:10.431Z",
       "integrity": "5b1f86533bbe7fd7a81ca73d6caec9a480f2ee80",
       "postProcesses": [
         "encode UTF-8"
@@ -1494,7 +4930,7 @@
       "catalogResourceId": null,
       "lastModified": "2021-12-14T15:00:05.000Z",
       "eTag": "61b8b175-861",
-      "lastDownloaded": "2022-12-17T16:18:32.920Z",
+      "lastDownloaded": "2022-12-18T02:23:10.555Z",
       "integrity": "9ccfd819395f5f92ccd21b669c9a4044e944b21d",
       "postProcesses": [
         "encode UTF-8"
@@ -1509,7 +4945,7 @@
       "catalogResourceId": null,
       "lastModified": "2021-12-14T15:00:03.000Z",
       "eTag": "61b8b173-e12",
-      "lastDownloaded": "2022-12-17T16:18:33.159Z",
+      "lastDownloaded": "2022-12-18T02:23:10.829Z",
       "integrity": "8cd73f0cd2549f00f94b577a27f63b7f49e646e3",
       "postProcesses": [
         "encode UTF-8"
@@ -1524,7 +4960,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-05-09T02:23:45.000Z",
       "eTag": "62787b31-3d7",
-      "lastDownloaded": "2022-12-17T16:18:33.223Z",
+      "lastDownloaded": "2022-12-18T02:23:10.945Z",
       "integrity": "8d97aef8bc6c228d256436592239922b7073160d",
       "postProcesses": [
         "encode UTF-8"
@@ -1539,7 +4975,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-05-09T02:42:22.000Z",
       "eTag": "62787f8e-5f4",
-      "lastDownloaded": "2022-12-17T16:18:33.310Z",
+      "lastDownloaded": "2022-12-18T02:23:11.221Z",
       "integrity": "b66690ee15884e62cf3d3ef901629fb7c0af4f8c",
       "postProcesses": [
         "encode UTF-8"
@@ -1554,7 +4990,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-05-09T02:39:48.000Z",
       "eTag": "62787ef4-3e7",
-      "lastDownloaded": "2022-12-17T16:18:33.373Z",
+      "lastDownloaded": "2022-12-18T02:23:11.418Z",
       "integrity": "9039596fcaad0f0edfa6ce5cca6f20d55be1028f",
       "postProcesses": [
         "encode UTF-8"
@@ -1569,7 +5005,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-05-09T01:55:31.000Z",
       "eTag": "62787493-ded3",
-      "lastDownloaded": "2022-12-17T16:18:33.620Z",
+      "lastDownloaded": "2022-12-18T02:23:11.553Z",
       "integrity": "06154758159b879bbc24333dc10e5ca36067de5b",
       "postProcesses": [
         "encode UTF-8"
@@ -1584,7 +5020,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-05-09T01:58:06.000Z",
       "eTag": "6278752e-62af",
-      "lastDownloaded": "2022-12-17T16:18:34.159Z",
+      "lastDownloaded": "2022-12-18T02:23:11.684Z",
       "integrity": "c415118759313521f0a5fe6378a5cb2ecbd603a1",
       "postProcesses": [
         "encode UTF-8"
@@ -1599,7 +5035,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-05-09T01:23:49.000Z",
       "eTag": "62786d25-15d9",
-      "lastDownloaded": "2022-12-17T16:18:34.245Z",
+      "lastDownloaded": "2022-12-18T02:23:12.255Z",
       "integrity": "a2a292bd9a85d7a08e37aed6795468a1027a218b",
       "postProcesses": [
         "encode UTF-8"
@@ -1614,7 +5050,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-05-11T08:00:35.000Z",
       "eTag": "627b6d23-3488",
-      "lastDownloaded": "2022-12-17T16:18:34.327Z",
+      "lastDownloaded": "2022-12-18T02:23:12.536Z",
       "integrity": "d680412089900c57df9c29b31faa9819295543d9",
       "postProcesses": [
         "encode UTF-8"
@@ -1629,7 +5065,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-05-11T02:48:50.000Z",
       "eTag": "627b2412-329",
-      "lastDownloaded": "2022-12-17T16:18:34.386Z",
+      "lastDownloaded": "2022-12-18T02:23:12.646Z",
       "integrity": "e25929504194a31c0699145209c3c95a775203db",
       "postProcesses": [
         "encode UTF-8"
@@ -1644,7 +5080,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-05-11T00:59:09.000Z",
       "eTag": "627b0a5d-d6d",
-      "lastDownloaded": "2022-12-17T16:18:34.559Z",
+      "lastDownloaded": "2022-12-18T02:23:12.908Z",
       "integrity": "9b39dcc821a245afe01e74b3c9ac624c829f33bd",
       "postProcesses": [
         "encode UTF-8"
@@ -1659,7 +5095,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-05-09T05:57:00.000Z",
       "eTag": "6278ad2c-123e",
-      "lastDownloaded": "2022-12-17T16:18:34.690Z",
+      "lastDownloaded": "2022-12-18T02:23:13.036Z",
       "integrity": "40f603b502bac4887481234528ffcb34594658be",
       "postProcesses": [
         "encode UTF-8"
@@ -1674,7 +5110,7 @@
       "catalogResourceId": null,
       "lastModified": "2022-05-09T01:22:59.000Z",
       "eTag": "62786cf3-447b",
-      "lastDownloaded": "2022-12-17T16:18:34.753Z",
+      "lastDownloaded": "2022-12-18T02:23:13.146Z",
       "integrity": "e61493bff011f12fdefac1d870f043d30abdd9aa",
       "postProcesses": [
         "encode UTF-8"

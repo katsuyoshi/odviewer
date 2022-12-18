@@ -29,25 +29,6 @@ require 'json'
 
 @root_dir = File.expand_path("../../", __FILE__)
 
-# データ一覧ファイルからコンテンツを抜き取る
-def contents_of prefecture_name, city_name, name_title, url_title
-  src_dir = File.join(@root_dir, 'data_files', 'ソースリスト', prefecture_name, city_name)
-  path = Dir.chdir(src_dir) do
-    p = Dir.glob('*.csv').first
-    File.join(src_dir, p) if p
-  end
-  CSV.foreach(path, headers: true).map do |row|
-    {
-      'url' => row[url_title],
-      'name' => "#{prefecture_name}/#{city_name}/#{row[name_title]}",
-      'catalogUrl' => nil,
-      'catalogResourceId' => nil,
-      'postProcesses' => [ 'encode UTF-8' ],
-      'headers' => {},
-    }
-  end
-end
-
 def contents_of_daisen_city
   prefecture_name = '秋田県'
   city_name = '大仙市'
@@ -148,9 +129,8 @@ end
 
 # 秋田市と大仙市に対応
 contents = 
-  #contents_of_akita_city +
+  contents_of_akita_city +
   contents_of_daisen_city +
-  #contents_of('秋田県', '大仙市', 'データ名', '公開URL') + 
   []
 
 # dim.jsonの更新

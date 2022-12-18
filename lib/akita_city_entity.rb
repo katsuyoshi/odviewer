@@ -138,7 +138,7 @@ when  /^１１７　 二酸化硫黄（SO２）濃度の測定結果/,
       [csv_data_with_lines(lines[1..-1], nil, true)]
     when /^１０１　住宅の種類・建築の時期/,
           /^１３１　死　因　順　位　別　死　亡　者　数/
-      a = lines_with_rectangle(lines, 1, 1, 1, 100)
+      a = lines_with_rectangle(lines, 1, 1, 1, nil)
       s = a.map.with_index{|l, i| l.empty? ? nil : i + 1}.compact.first
       (2..3).each do |i|
         lines[i] = " " + lines[i]
@@ -172,7 +172,7 @@ when  /^１１７　 二酸化硫黄（SO２）濃度の測定結果/,
     # 左側の表サイズ探索
     # 秋田市の下に空行があるので、2回目(t=true)のnilの位置を検索
     t = nil
-    a = lines_with_rectangle(lines, 0, 10, 2, 100)
+    a = lines_with_rectangle(lines, 0, 10, 2, nil)
     row1_size = a.map{|e| e&.strip}.index do |e|
       r = t && e == ","
       tt ||= e == (",")
@@ -182,7 +182,7 @@ when  /^１１７　 二酸化硫黄（SO２）濃度の測定結果/,
     end || a.size
 
     # 右側の表サイズ探索
-    a = lines_with_rectangle(lines, 6, 10, 2, 100)
+    a = lines_with_rectangle(lines, 6, 10, 2, nil)
     row2_size = a.map{|e| e&.strip}.index(",") || a.size
 
     lines3 = 
@@ -350,7 +350,7 @@ when  /^１１７　 二酸化硫黄（SO２）濃度の測定結果/,
   end
 
   def akita_city_entity_pre_process_properties lines
-    a = lines_with_rectangle(lines, 0, 1, 2, 100)
+    a = lines_with_rectangle(lines, 0, 1, 2, nil)
     maches = a.select{|e| /^\(\d+\)/ =~ e}
     s = 1; e = nil
     lines_set = maches.map.with_index do |l, i|
@@ -373,7 +373,7 @@ when  /^１１７　 二酸化硫黄（SO２）濃度の測定結果/,
   end
 
   def akita_city_entity_pre_process_port lines
-    a = lines_with_rectangle(lines, 0, 1, 2, 100)
+    a = lines_with_rectangle(lines, 0, 1, 2, nil)
     maches = a.select{|e| /^[\(（][\d０１２３４５６７８９]+[\)）]/ =~ e}
     s = 1; e = nil
     maches.map.with_index do |l, i|
@@ -388,7 +388,7 @@ when  /^１１７　 二酸化硫黄（SO２）濃度の測定結果/,
   end
 
   def akita_city_entity_pre_process_port2 lines
-    a = lines_with_rectangle(lines, 0, 1, 1, 100)
+    a = lines_with_rectangle(lines, 0, 1, 1, nil)
     s = a.index(a.find{|e| /^\s*\(\d+\)/ =~ e})
     e = a.index(a.find{|e| /１月/ =~ e})
     title = a[s]
@@ -406,7 +406,7 @@ when  /^１１７　 二酸化硫黄（SO２）濃度の測定結果/,
 
   def akita_city_entity_pre_process_bill lines
     regex = /^\s*[\(（]([\d０１２３４５６７８９]+)[\)）]/
-    a = lines_with_rectangle(lines, 0, 1, 1, 100)
+    a = lines_with_rectangle(lines, 0, 1, 1, nil)
     indexes = a.map.with_index{|l, i| regex =~ l ? i + 1 : nil}.compact
 
     size = lines.size
@@ -422,7 +422,7 @@ when  /^１１７　 二酸化硫黄（SO２）濃度の測定結果/,
   end
 
   def akita_city_entity_pre_process_culture_facilities lines, headers_size = 4
-    a = lines_with_rectangle(lines, 0, 0, 1, 100)
+    a = lines_with_rectangle(lines, 0, 0, 1, nil)
     indexes = a.map.with_index{|l, i| /^年[\s　]*度|^年[\s　]*次/ =~ l ? i : nil}
     indexes.compact!
     size = lines.size
@@ -499,7 +499,8 @@ when  /^１１７　 二酸化硫黄（SO２）濃度の測定結果/,
 
   def akita_city_entity_pre_process_csv lines
 
-    lines[0] = " " + lines[0]
+    # csvデータの先頭に項目名が入っていないので入ってない場合は"年度"を足す
+    lines[0] = (/年/ =~ lines[1] ? "年度" : " ") + lines[0] if /^\,/ =~ lines[0]
     [
       csv_data_with_lines(lines, 1, false)
     ]
@@ -509,7 +510,7 @@ when  /^１１７　 二酸化硫黄（SO２）濃度の測定結果/,
   def akita_city_entity_pre_process_multi_table lines, header_sizes = 1
     regex = /^\s*[\(（]([\d０１２３４５６７８９]+)[\)）]/
     # "(n)" にマッチする行を探す
-    l_a = lines_with_rectangle(lines, 0, 0, 1, 100)
+    l_a = lines_with_rectangle(lines, 0, 0, 1, nil)
     l_indexes = l_a.map.with_index{|l, i| regex =~ l ? i : nil}.compact
     size = lines.size
     # 列方向でも"(n)"にマッチする列を探す
@@ -531,7 +532,7 @@ when  /^１１７　 二酸化硫黄（SO２）濃度の測定結果/,
     # 右側のテーブル
     r_lines_set = []
     unless w == -1
-      r_a = lines_with_rectangle(lines, c_size, 0, 1, 100)
+      r_a = lines_with_rectangle(lines, c_size, 0, 1, nil)
       r_indexes = r_a.map.with_index{|l, i| regex =~ l ? i : nil}.compact
 
       # １８５　譲　与　税　と　交　付　金 の場合したの表までのサイズを測る
@@ -558,7 +559,7 @@ when  /^１１７　 二酸化硫黄（SO２）濃度の測定結果/,
   end
 
   def akita_city_entity_pre_process_physical_disability lines, headers_size = 2
-    a = lines_with_rectangle(lines, 3, 1, 1, 100)
+    a = lines_with_rectangle(lines, 3, 1, 1, nil)
 
     pre_nil = true
     indexes = a.map.with_index do |l, i|
@@ -590,7 +591,7 @@ when  /^１１７　 二酸化硫黄（SO２）濃度の測定結果/,
   end
 
   def akita_city_entity_pre_process_physical_disability_note lines, headers_size = 2
-    a = lines_with_rectangle(lines, 1, 1, 1, 100)
+    a = lines_with_rectangle(lines, 1, 1, 1, nil)
 
     pre_nil = true
     indexes = a.map.with_index do |l, i|
@@ -623,7 +624,7 @@ when  /^１１７　 二酸化硫黄（SO２）濃度の測定結果/,
   end
 
   def akita_city_entity_pre_process_commerce lines, headers_size = 2
-    a = lines_with_rectangle(lines, 1, 1, 1, 100)
+    a = lines_with_rectangle(lines, 1, 1, 1, nil)
 
     pre_nil = true
     indexes = a.map.with_index do |l, i|
@@ -635,20 +636,18 @@ when  /^１１７　 二酸化硫黄（SO２）濃度の測定結果/,
       r ? i + 1: nil
     end.compact
 
-    headers = lines_with_rectangle(lines, 0, indexes[0], nil, headers_size)
-
     size = lines.size
     lines_set = indexes.map.with_index do |n,i|
       s = indexes[i]
       e = indexes[i + 1] || size
       [
         lines_with_rectangle(lines, 0, s - 1, nil, 1),  # title
-        lines_with_rectangle(lines, 0, i == 0 ? s + headers_size : s, nil, e - s - 1 - (i == 0 ? headers_size : 0)),  # data
+        lines_with_rectangle(lines, 0, s, nil, e - s - 1),  # data
       ]
     end
     
     lines_set.map.with_index do |s, i|
-      csv_data_with_lines(s[0] + headers + s[1], headers_size, true)
+      csv_data_with_lines(s[0] + s[1], headers_size, true)
     end
   end
 

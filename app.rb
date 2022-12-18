@@ -47,30 +47,6 @@ before '/*' do
   @od = OpenData.instance
 end
 
-# NG: 乳幼児健診の受診状況
-#     住民基本台帳人口・世帯数
-get '/viewer/:kind' do
-  #od = OpenData.instance
-  @daisen_data = @od.data
-  @kind = params[:kind]
-  @updated_at = od.updated_at(@kind)
-
-  index = @daisen_data.keys.index @kind
-  @prev_kind = @daisen_data.keys[index - 1] if index > 0
-  @next_kind = @daisen_data.keys[index + 1] if index
-
-  @csv = @daisen_data[@kind]
-  csv = @csv
-  gen = ChartMaker.new csv, @kind
-  @charts = gen.charts
-  @titles = gen.titles
-  loc_gen = LocationPicker.new csv
-  @locations = loc_gen.locations
-  @center = loc_gen.center
-
-  haml :viewer, :layout => :layout
-end
-
 get '/viewer/*' do
   @path = params['splat'].first
   @node = @od.node
@@ -95,7 +71,11 @@ get '/*' do
   @path.split(/\//).each do |e|
     @node = @node[e] unless e.length == 0
   end
-  haml :index, :layout => :layout
+  if @node == @od.node
+    haml :index, :layout => :layout
+  else
+    haml :list, :layout => :layout
+  end
 end 
 
 

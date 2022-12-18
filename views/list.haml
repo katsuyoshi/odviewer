@@ -1,0 +1,13 @@
+= haml :_breadcrumb, locals: { parents: @node.parents }
+%h2= @node.name
+
+%ul
+- @node.children.each do |k, n|
+  - if n.leaf?
+    %li= link_to n.name, "/viewer#{n.path}"
+  - else
+    %li= link_to n.name, n.path
+
+
+%p
+!!!= haml :_breadcrumb, locals: { parents: @node.parents }

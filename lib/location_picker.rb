@@ -35,6 +35,7 @@ class LocationPicker
   private
 
   def gen_locations
+    return if @csv.is_a? Array
     headers = @csv.headers
     return unless headers.include?('緯度') && headers.include?('経度')
     return unless @csv.find{|r| r['緯度']}
