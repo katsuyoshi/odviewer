@@ -13,14 +13,15 @@ path_map ||= {}
 config_path = File.join(@root_dir, 'dim-lock.json')
 config = JSON.parse(File.read(config_path))
 pathes = config['contents'].map do |c|
-  path = c['path']
+  path = c['path'].gsub(/\.xls(x)?$/, ".csv")
 end
 
 path_map.delete_if{|path| !pathes.include?(path)}
 pathes.each do |path|
-  path_map[path] ||= File.join(@root_dir, "data", "#{SecureRandom.uuid}.csv")
+  path_map[path] ||= File.join("./data", "#{SecureRandom.uuid}.csv")
 end
 
+rm_r "./data"
 mkdir_p File.dirname(path_map[path_map.keys.first])
 
 path_map.each do |src, dst|
