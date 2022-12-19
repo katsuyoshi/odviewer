@@ -18,7 +18,7 @@ end
 
 path_map.delete_if{|path| !pathes.include?(path)}
 pathes.each do |path|
-  path_map[path] ||= File.join(@root_dir, "public", "data_files", "#{SecureRandom.uuid}.csv")
+  path_map[path] ||= File.join(@root_dir, "data", "#{SecureRandom.uuid}.csv")
 end
 
 mkdir_p File.dirname(path_map[path_map.keys.first])
