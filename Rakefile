@@ -42,6 +42,6 @@ namespace :data do
   end
 
   desc 'clean and download all data'
-  task :reload_all => [:clean, :setup_config, :setup, :update]
+  task :reload_all => [:clean, :setup_config, :setup, :update, :publish]
 
 end
