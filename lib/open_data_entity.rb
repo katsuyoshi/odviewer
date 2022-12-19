@@ -34,12 +34,26 @@ class OpenDataEntity
   attr_reader :url, :path, :classifies, :name, :file_name, :csvs, :title
   attr_reader :updated_at, :checked_at
 
+  class << self
+  
+    def pub_path_for path
+      @path_map ||= begin
+        root_dir = File.expand_path("../../", __FILE__)
+        path_map_path = File.join(root_dir, 'config', 'path_map.json')
+        h = JSON.parse(File.read(path_map_path)) if File.exist? path_map_path
+        h || {}
+      end
+      @path_map["./#{path}"]
+    end
+    
+  end
+
+
   def initialize config
     @url = config['url']
     @path = config['path'].gsub(/^\.\//, "").gsub(/\.xls(x)?$/, ".csv")
     @classifies = @path.split(/\//)
 
-    # "path": "./data_files/国保加入被保険者の状況/02_.csv",
     # remove first & last elements
     @file_name = @classifies.last
     @classifies.pop
@@ -89,11 +103,12 @@ class OpenDataEntity
 
   def load    
     @csv_data ||= begin
-      path = File.join(@root_dir, self.path)
+      pub_path = self.class.pub_path_for self.path
+p pub_path
       # @see: https://github.com/ruby/csv/issues/66
       # row内に改行が含まれるとパースできないので前処理で前の行に追加する
       lines = []
-      File.read(path).each_line do |l|
+      File.read(pub_path).each_line do |l|
         l.chomp!
         if lines.empty? ||
           lines.last.scan(/\"/).size % 2 == 0

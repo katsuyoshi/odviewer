@@ -36,7 +36,12 @@ namespace :data do
     system "dim install -F"
   end
 
-  desc 'update data'
+  desc 'publish data'
+  task :publish do |t|
+    system "ruby ./scripts/publish_data.rb"
+  end
+
+  desc 'clean and download all data'
   task :reload_all => [:clean, :setup_config, :setup, :update]
 
 end
