@@ -1,6 +1,6 @@
 # ODVIEWER
 
-ODVIEWERはのビューアーです。
+ODVIEWERはオープンデータのビューアーです。
 
 Herokuで公開しています。  
 https://odviewer.herokuapp.com
