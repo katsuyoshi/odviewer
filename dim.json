@@ -68,6 +68,17 @@
       "headers": {}
     },
     {
+      "name": "秋田県/秋田市/平成22年国勢調査",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/010/369/h22-1.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
       "name": "秋田県/秋田市/人口・世帯の推移",
       "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/563/03-7.xlsx",
       "catalogUrl": null,
@@ -2036,7 +2047,7 @@
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/家庭系ごみの排出状況/02家庭系ごみ一人1日当たり月別排出量 （CSV 916B）",
+      "name": "秋田県/秋田市/家庭系ごみの排出状況/02家庭系ごみ一人1日当たり月別排出量 （CSV 919B）",
       "url": "https://www.city.akita.lg.jp/kurashi/recycle/1006071/../../../_res/projects/default_project/_page_/001/006/163/tukibetu12gatu.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
@@ -2046,7 +2057,7 @@
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/家庭系ごみの排出状況/03一人1日当たりの家庭系ごみの累計排出量 （CSV 848B）",
+      "name": "秋田県/秋田市/家庭系ごみの排出状況/03一人1日当たりの家庭系ごみの累計排出量 （CSV 851B）",
       "url": "https://www.city.akita.lg.jp/kurashi/recycle/1006071/../../../_res/projects/default_project/_page_/001/006/163/ruikei12gatu..csv",
       "catalogUrl": null,
       "catalogResourceId": null,
@@ -2232,7 +2243,7 @@
     },
     {
       "name": "秋田県/秋田市/秋田市オープンデータ一覧",
-      "url": "https://www.city.akita.lg.jp/opendata/1000081/../../_res/projects/default_project/_page_/001/000/082/052019_open_data_list45.xlsx",
+      "url": "https://www.city.akita.lg.jp/opendata/1000081/../../_res/projects/default_project/_page_/001/000/082/052019_open_data_list46.xlsx",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
@@ -2354,6 +2365,17 @@
     {
       "name": "秋田県/秋田市/令和2年国勢調査",
       "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/010/369/r2.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/令和4年11月定例会　議案などに対する議員の表決状況",
+      "url": "https://www.city.akita.lg.jp/shigikai/nittei/1032845/1036218/../../../../_res/projects/default_project/_page_/001/036/223/sanpi041221.xls",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
