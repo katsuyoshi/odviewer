@@ -16,7 +16,8 @@ namespace :data do
 
   desc 'remove data_files'
   task :clean do
-    rm_r './data_files'
+    d = './data_files'
+    rm_r d if File.exist? d
   end
 
   desc 'update config/dim.json'
