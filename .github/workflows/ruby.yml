@@ -36,7 +36,7 @@ jobs:
         #bundler-cache: true # runs 'bundle install' and caches installed gems automatically
     #- name: Update dependencies
     #  run: bundle update
-    #- name: gem install
-    #  run: bundle install
+    - name: gem install
+      run: bundle install
     - name: Run to update all data
       run: bundle exec rake data:reload_all
