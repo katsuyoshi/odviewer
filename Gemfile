@@ -22,8 +22,10 @@ gem 'dotenv'
 group :development do
   gem 'sinatra-contrib'
   gem 'debug'
+  gem 'rake'
 end
 
 group :test do
   gem 'test-unit'
 end
+
