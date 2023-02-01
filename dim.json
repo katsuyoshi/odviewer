@@ -2254,7 +2254,7 @@
     },
     {
       "name": "秋田県/秋田市/薬事関係施設一覧",
-      "url": "https://www.city.akita.lg.jp/kurashi/kenko/1005375/../../../_res/projects/default_project/_page_/001/021/003/r041031yakkyoku2.xlsx",
+      "url": "https://www.city.akita.lg.jp/kurashi/kenko/1005375/../../../_res/projects/default_project/_page_/001/021/003/r050104yakkyok.xlsx",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
@@ -2386,7 +2386,7 @@
     },
     {
       "name": "秋田県/大仙市/雪の諸記録",
-      "url": "https://www.city.daisen.lg.jp/docs/2021121000241/file_contents/doro4.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121000241/file_contents/R4doro4.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
@@ -2396,7 +2396,7 @@
     },
     {
       "name": "秋田県/大仙市/河川の状況",
-      "url": "https://www.city.daisen.lg.jp/docs/2021121000234/file_contents/doro3.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121000234/file_contents/R4doro3.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
@@ -2437,6 +2437,16 @@
     {
       "name": "秋田県/大仙市/気象の諸記録",
       "url": "https://www.city.daisen.lg.jp/docs/2021120600183/file_contents/1-5.csv",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "postProcesses": [
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/大仙市/過去の積雪深",
+      "url": "https://www.city.daisen.lg.jp/docs/2022011100027/file_contents/sekisetu.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
@@ -2766,7 +2776,7 @@
     },
     {
       "name": "秋田県/大仙市/地目別土地面積",
-      "url": "https://www.city.daisen.lg.jp/docs/2021121000029/file_contents/06_.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121000029/file_contents/06_01.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
@@ -2776,7 +2786,7 @@
     },
     {
       "name": "秋田県/大仙市/地目別土地評価額",
-      "url": "https://www.city.daisen.lg.jp/docs/2021121000104/file_contents/07_1.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121000104/file_contents/07_01.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
@@ -2786,7 +2796,7 @@
     },
     {
       "name": "秋田県/大仙市/地目別土地面積構成比",
-      "url": "https://www.city.daisen.lg.jp/docs/2021121000081/file_contents/06_2_.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121000081/file_contents/06_02.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
@@ -2796,7 +2806,7 @@
     },
     {
       "name": "秋田県/大仙市/地目別土地評価額構成比",
-      "url": "https://www.city.daisen.lg.jp/docs/2021121000111/file_contents/07_02.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121000111/file_contents/07_2.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
@@ -2806,7 +2816,7 @@
     },
     {
       "name": "秋田県/大仙市/市道の状況",
-      "url": "https://www.city.daisen.lg.jp/docs/2021121000203/file_contents/doro1.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121000203/file_contents/R4doro2.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
@@ -2816,7 +2826,7 @@
     },
     {
       "name": "秋田県/大仙市/国道・県道の状況",
-      "url": "https://www.city.daisen.lg.jp/docs/2021121000210/file_contents/doro2.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121000210/file_contents/R4doro2.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
@@ -2826,7 +2836,7 @@
     },
     {
       "name": "秋田県/大仙市/公園の状況",
-      "url": "https://www.city.daisen.lg.jp/docs/2021120900184/file_contents/kouen2.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120900184/file_contents/kouen3.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
@@ -2845,8 +2855,8 @@
       "headers": {}
     },
     {
-      "name": "秋田県/大仙市/市道現況詳細（市道）",
-      "url": "https://www.city.daisen.lg.jp/docs/2021121000258/file_contents/doro5.csv",
+      "name": "秋田県/大仙市/道路現況詳細（市道）",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121000258/file_contents/R4doro5.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
@@ -2876,7 +2886,7 @@
     },
     {
       "name": "秋田県/大仙市/観光客数の推移",
-      "url": "https://www.city.daisen.lg.jp/docs/2021121000265/file_contents/kankoukyakusunosuii.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121000265/file_contents/kankoukyakusunosuii1.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
@@ -2886,7 +2896,7 @@
     },
     {
       "name": "秋田県/大仙市/主要観光施設の来場者数",
-      "url": "https://www.city.daisen.lg.jp/docs/2021121000272/file_contents/syuyokankousisestunoraijosyasu.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121000272/file_contents/syuyokankousisestunoraijosyasu1.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
@@ -2896,7 +2906,7 @@
     },
     {
       "name": "秋田県/大仙市/月別観光客数の推移",
-      "url": "https://www.city.daisen.lg.jp/docs/2021121000289/file_contents/tukibetukankoukyakusuunosuii.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121000289/file_contents/tukibetukankoukyakusuunosuii1.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
@@ -2906,7 +2916,7 @@
     },
     {
       "name": "秋田県/大仙市/観光施設一覧",
-      "url": "https://www.city.daisen.lg.jp/docs/2021121000319/file_contents/kankousisetuitiran.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121000319/file_contents/kankousisetuitiran1.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
@@ -2916,7 +2926,7 @@
     },
     {
       "name": "秋田県/大仙市/イベント一覧",
-      "url": "https://www.city.daisen.lg.jp/docs/2021121000302/file_contents/ibentoitiran.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121000302/file_contents/ibentoitiran1.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
@@ -2986,7 +2996,7 @@
     },
     {
       "name": "秋田県/大仙市/主要体育施設の利用状況",
-      "url": "https://www.city.daisen.lg.jp/docs/2021120600015/file_contents/sportshalldate.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120600015/file_contents/15_.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
@@ -3016,7 +3026,7 @@
     },
     {
       "name": "秋田県/大仙市/文化財一覧",
-      "url": "https://www.city.daisen.lg.jp/docs/2021121400010/file_contents/bunkazai.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121400010/file_contents/bunkazai_230111.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
@@ -3025,7 +3035,7 @@
       "headers": {}
     },
     {
-      "name": "秋田県/大仙市/一般会計年度別決算額の推移",
+      "name": "秋田県/大仙市/一般会計年度別歳入歳出決算額の推移",
       "url": "https://www.city.daisen.lg.jp/docs/2021121300082/file_contents/01_.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
@@ -3056,7 +3066,7 @@
     },
     {
       "name": "秋田県/大仙市/市税負担額の推移",
-      "url": "https://www.city.daisen.lg.jp/docs/2021120800026/file_contents/1.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120800026/file_contents/sizeifutangakusuii.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
@@ -3126,7 +3136,7 @@
     },
     {
       "name": "秋田県/大仙市/生活排水処理普及状況",
-      "url": "https://www.city.daisen.lg.jp/docs/2021120900146/file_contents/20211215fukyuujoukyou.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120900146/file_contents/20230113fukyuujoukyou.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
@@ -3146,7 +3156,7 @@
     },
     {
       "name": "秋田県/大仙市/公共下水道の状況",
-      "url": "https://www.city.daisen.lg.jp/docs/2021120900160/file_contents/20211215koukyougesuidoujoukyou.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120900160/file_contents/20230113koukyougesuidoujoukyou.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
@@ -3156,7 +3166,7 @@
     },
     {
       "name": "秋田県/大仙市/主要死因別死亡者数",
-      "url": "https://www.city.daisen.lg.jp/docs/2021120900375/file_contents/01_1.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120900375/file_contents/01_2.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
@@ -3166,7 +3176,7 @@
     },
     {
       "name": "秋田県/大仙市/予防接種の状況",
-      "url": "https://www.city.daisen.lg.jp/docs/2021121000197/file_contents/02_1.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121000197/file_contents/R4-02_1.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
@@ -3176,7 +3186,7 @@
     },
     {
       "name": "秋田県/大仙市/乳幼児健診の受診状況",
-      "url": "https://www.city.daisen.lg.jp/docs/2021120900399/file_contents/03_1.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120900399/file_contents/03_2.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
@@ -3186,7 +3196,7 @@
     },
     {
       "name": "秋田県/大仙市/各種健（検）診の受診状況",
-      "url": "https://www.city.daisen.lg.jp/docs/2021121000166/file_contents/04_1.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121000166/file_contents/04_2.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
@@ -3196,7 +3206,7 @@
     },
     {
       "name": "秋田県/大仙市/交通事故発生件数",
-      "url": "https://www.city.daisen.lg.jp/docs/2021120900221/file_contents/koutuujiko.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120900221/file_contents/koutuujikokennsuu.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
@@ -3226,7 +3236,7 @@
     },
     {
       "name": "秋田県/大仙市/生活排水処理水洗化状況",
-      "url": "https://www.city.daisen.lg.jp/docs/2021120900108/file_contents/20211215suisenkajoukyou.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021120900108/file_contents/20230113suisenkajoukyou.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
@@ -3336,7 +3346,7 @@
     },
     {
       "name": "秋田県/大仙市/生活保護の状況",
-      "url": "https://www.city.daisen.lg.jp/docs/2021121400065/file_contents/hogo.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121400065/file_contents/seikatsu2022.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
@@ -3346,7 +3356,7 @@
     },
     {
       "name": "秋田県/大仙市/生活保護費の状況",
-      "url": "https://www.city.daisen.lg.jp/docs/2021121400072/file_contents/hogohi.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121400072/file_contents/hogohi2022.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
@@ -3486,7 +3496,7 @@
     },
     {
       "name": "秋田県/大仙市/選挙人名簿登録者数の推移",
-      "url": "https://www.city.daisen.lg.jp/docs/2021121300044/file_contents/senkyoninnmeibosuii.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121300044/file_contents/R04senkyoninnmeibosuii.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
@@ -3496,7 +3506,7 @@
     },
     {
       "name": "秋田県/大仙市/オープンデータ一覧",
-      "url": "https://www.city.daisen.lg.jp/docs/2021121400096/file_contents/date.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121400096/file_contents/date2.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
