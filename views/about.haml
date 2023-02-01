@@ -16,6 +16,21 @@
         %li= link_to '秋田市オープンデータ', 'https://www.city.akita.lg.jp/opendata/', target: '_blank'
         %li= link_to '大仙市オープンデータ', 'https://www.city.daisen.lg.jp/categories/zokusei/opendatedoc/', target: '_blank'
 
+%h2 マークの説明
+
+.row
+  .col
+    サイト上に出てくるマークの意味は次のとおりです。
+
+    %table.table
+      %tr
+        %td
+          %span.badge.rounded-pill.bg-success Updated
+        %td 1ヶ月以内に更新されました。
+      %tr
+        %td
+          = haml(:_download_icon)
+        %td 一次ソースをダウンロードできます
 
 %h2 ソースコード
 %p
@@ -26,9 +41,9 @@
 %h2 注意事項
 
 %ul
-  %li 定期的に更新する予定ですが、最新のデータになっていない場合があります。データソースも確認してください。
-  %li オープンデータ提供されているExcelデータ、CSVデータを対象としています。
-  %li Excelデータで提供されている場合はCSVデータに変換しています。その際最初のシートのみ採用され、以降のシートは扱っていません。
+  %li 定期的に更新する予定ですが、最新のデータになっていない場合があります。元データも確認してください。
+  %li オープンデータで提供されているExcelデータ、CSVデータを対象としています。
+  %li Excelデータで提供されている場合はCSVデータに変換しています。その際最初のシートのみ採用され、以降のシートは取扱っていません。
   %li グラフ表示できそうでもできてない場合があります。
   %li このサイトに関する事は各データ提供先に問い合わせない様にしてください。
   
