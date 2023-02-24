@@ -68,6 +68,17 @@
       "headers": {}
     },
     {
+      "name": "秋田県/秋田市/平成27年国勢調査",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/010/369/h27.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
       "name": "秋田県/秋田市/平成22年国勢調査",
       "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/010/369/h22-1.xlsx",
       "catalogUrl": null,
@@ -2047,7 +2058,7 @@
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/家庭系ごみの排出状況/02家庭系ごみ一人1日当たり月別排出量 （CSV 919B）",
+      "name": "秋田県/秋田市/家庭系ごみの排出状況/02家庭系ごみ一人1日当たり月別排出量 （CSV 922B）",
       "url": "https://www.city.akita.lg.jp/kurashi/recycle/1006071/../../../_res/projects/default_project/_page_/001/006/163/tukibetu12gatu.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
@@ -2057,7 +2068,7 @@
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/家庭系ごみの排出状況/03一人1日当たりの家庭系ごみの累計排出量 （CSV 851B）",
+      "name": "秋田県/秋田市/家庭系ごみの排出状況/03一人1日当たりの家庭系ごみの累計排出量 （CSV 854B）",
       "url": "https://www.city.akita.lg.jp/kurashi/recycle/1006071/../../../_res/projects/default_project/_page_/001/006/163/ruikei12gatu..csv",
       "catalogUrl": null,
       "catalogResourceId": null,
@@ -2243,7 +2254,7 @@
     },
     {
       "name": "秋田県/秋田市/秋田市オープンデータ一覧",
-      "url": "https://www.city.akita.lg.jp/opendata/1000081/../../_res/projects/default_project/_page_/001/000/082/052019_open_data_list46.xlsx",
+      "url": "https://www.city.akita.lg.jp/opendata/1000081/../../_res/projects/default_project/_page_/001/000/082/052019_open_data_list47.xlsx",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
@@ -3456,7 +3467,7 @@
     },
     {
       "name": "秋田県/大仙市/公衆トイレ一覧",
-      "url": "https://www.city.daisen.lg.jp/docs/2021121400041/file_contents/toire.csv",
+      "url": "https://www.city.daisen.lg.jp/docs/2021121400041/file_contents/toire2023.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
