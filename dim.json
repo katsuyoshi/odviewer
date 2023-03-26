@@ -1158,7 +1158,7 @@
     },
     {
       "name": "秋田県/秋田市/秋田市公衆無線LANアクセスポイント一覧",
-      "url": "https://www.city.akita.lg.jp/kurashi/kokyoshisetsu/../../_res/projects/default_project/_page_/001/002/716/20221201/20221201_052019_public_wireless_lan.xlsx",
+      "url": "https://www.city.akita.lg.jp/kurashi/kokyoshisetsu/../../_res/projects/default_project/_page_/001/002/716/20230321/20230321_052019_public_wireless_lan.xlsx",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
@@ -2049,7 +2049,7 @@
     },
     {
       "name": "秋田県/秋田市/家庭系ごみの排出状況/01家庭系ごみの月別排出量 （CSV 1.5KB）",
-      "url": "https://www.city.akita.lg.jp/kurashi/recycle/1006071/../../../_res/projects/default_project/_page_/001/006/163/tukigoto12gatu.csv",
+      "url": "https://www.city.akita.lg.jp/kurashi/recycle/1006071/../../../_res/projects/default_project/_page_/001/006/163/tukigotor4.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
@@ -2058,8 +2058,8 @@
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/家庭系ごみの排出状況/02家庭系ごみ一人1日当たり月別排出量 （CSV 922B）",
-      "url": "https://www.city.akita.lg.jp/kurashi/recycle/1006071/../../../_res/projects/default_project/_page_/001/006/163/tukibetu12gatu.csv",
+      "name": "秋田県/秋田市/家庭系ごみの排出状況/02家庭系ごみ一人1日当たり月別排出量 （CSV 925B）",
+      "url": "https://www.city.akita.lg.jp/kurashi/recycle/1006071/../../../_res/projects/default_project/_page_/001/006/163/tukibetur4.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
@@ -2068,8 +2068,8 @@
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/家庭系ごみの排出状況/03一人1日当たりの家庭系ごみの累計排出量 （CSV 854B）",
-      "url": "https://www.city.akita.lg.jp/kurashi/recycle/1006071/../../../_res/projects/default_project/_page_/001/006/163/ruikei12gatu..csv",
+      "name": "秋田県/秋田市/家庭系ごみの排出状況/03一人1日当たりの家庭系ごみの累計排出量 （CSV 857B）",
+      "url": "https://www.city.akita.lg.jp/kurashi/recycle/1006071/../../../_res/projects/default_project/_page_/001/006/163/ruikeir4.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [

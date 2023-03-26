@@ -102,7 +102,6 @@
   "./data_files/秋田県/秋田市/秋田空港の利用状況 （5）秋田－韓国（仁川）間/03-84-5.csv": "./data/b0f47792-2e4a-4ffc-a9e5-6a6c15248765.csv",
   "./data_files/秋田県/秋田市/秋田空港の利用状況 （6）貨物・郵便（全路線）/03-84-6.csv": "./data/adc624bd-fec1-4836-9993-8ec7195f3e9c.csv",
   "./data_files/秋田県/秋田市/自動車保有台数/03-86.csv": "./data/44457937-61d7-4fd5-b2d9-467b12d15798.csv",
-  "./data_files/秋田県/秋田市/秋田市公衆無線LANアクセスポイント一覧/20221201_052019_public_wireless_lan.csv": "./data/7881a073-8c67-4d6f-b8d7-96313ca6af16.csv",
   "./data_files/秋田県/秋田市/[学校基本調査他] 学校の概況/r3-21.csv": "./data/ba9f6bac-673c-4dd4-a7fe-1be38a0de351.csv",
   "./data_files/秋田県/秋田市/[学校基本調査他] 幼稚園の概況/03-22-1.csv": "./data/c6595ead-e9cb-438e-8b10-2ff4c003333c.csv",
   "./data_files/秋田県/秋田市/[学校基本調査他] 小学校の概況/03-23.csv": "./data/050e3f99-08ff-41b9-bb79-185bd634cdd8.csv",
@@ -183,7 +182,6 @@
   "./data_files/秋田県/秋田市/国民健康保険/03-157.csv": "./data/33cb5a0f-0836-447f-8a0c-5ae89407b31a.csv",
   "./data_files/秋田県/秋田市/後期高齢者医療保険/03-158.csv": "./data/d979f43d-6f1b-40ac-859e-46129c9a99e9.csv",
   "./data_files/秋田県/秋田市/戸籍・住民登録・印鑑登録等に関する取扱件数/03-159.csv": "./data/da593c43-2a6c-4269-8136-3b64908e42ac.csv",
-  "./data_files/秋田県/秋田市/家庭系ごみの排出状況/01家庭系ごみの月別排出量 （CSV 1.5KB）/tukigoto12gatu.csv": "./data/9a24f387-15fe-4685-9d47-d47f80503a78.csv",
   "./data_files/秋田県/秋田市/家庭系ごみの排出状況/04国県市の排出量の推移 （CSV 541B）/2022080104.csv": "./data/c8b98320-74b3-427a-9a01-f385fe449515.csv",
   "./data_files/秋田県/秋田市/し尿の収集・処理状況/03-124.csv": "./data/5a51d5ab-4f54-4133-baa6-e9c09b44a6ad.csv",
   "./data_files/秋田県/秋田市/ゴミの収集・処理状況/03-125.csv": "./data/31501dd2-3bb6-47b0-ac8a-c92b62a258de.csv",
@@ -326,8 +324,10 @@
   "./data_files/秋田県/大仙市/選挙人名簿登録者数の推移/R04senkyoninnmeibosuii.csv": "./data/51c7013c-2afc-406c-bf83-dc6444c8ce3a.csv",
   "./data_files/秋田県/大仙市/オープンデータ一覧/date2.csv": "./data/66ab15f4-2721-4a19-bb2a-b9b42a78ff64.csv",
   "./data_files/秋田県/秋田市/平成27年国勢調査/h27.csv": "./data/0cf68190-5044-4037-9964-bed041da844f.csv",
-  "./data_files/秋田県/秋田市/家庭系ごみの排出状況/02家庭系ごみ一人1日当たり月別排出量 （CSV 922B）/tukibetu12gatu.csv": "./data/781bd0d6-678a-4c22-9e5b-e940c312253e.csv",
-  "./data_files/秋田県/秋田市/家庭系ごみの排出状況/03一人1日当たりの家庭系ごみの累計排出量 （CSV 854B）/ruikei12gatu..csv": "./data/9cf0f857-0bda-437a-8138-da1286d69605.csv",
   "./data_files/秋田県/秋田市/秋田市オープンデータ一覧/052019_open_data_list47.csv": "./data/4a2839d0-03ca-475e-a641-08765af60d18.csv",
-  "./data_files/秋田県/大仙市/公衆トイレ一覧/toire2023.csv": "./data/dc058dc9-a6a5-4969-a076-a8f1fb38efae.csv"
+  "./data_files/秋田県/大仙市/公衆トイレ一覧/toire2023.csv": "./data/dc058dc9-a6a5-4969-a076-a8f1fb38efae.csv",
+  "./data_files/秋田県/秋田市/秋田市公衆無線LANアクセスポイント一覧/20230321_052019_public_wireless_lan.csv": "./data/79fe33db-2299-4491-8325-d1bf7df66c74.csv",
+  "./data_files/秋田県/秋田市/家庭系ごみの排出状況/01家庭系ごみの月別排出量 （CSV 1.5KB）/tukigotor4.csv": "./data/6e5be28b-6e19-457e-8d0e-9e6a79fb86d2.csv",
+  "./data_files/秋田県/秋田市/家庭系ごみの排出状況/02家庭系ごみ一人1日当たり月別排出量 （CSV 925B）/tukibetur4.csv": "./data/646362fd-8fab-44ac-8365-c6b2b240ee80.csv",
+  "./data_files/秋田県/秋田市/家庭系ごみの排出状況/03一人1日当たりの家庭系ごみの累計排出量 （CSV 857B）/ruikeir4.csv": "./data/3ed0c377-27c0-43cd-b8c1-1d0445872bf9.csv"
 }
