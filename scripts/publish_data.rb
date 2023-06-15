@@ -21,7 +21,7 @@ pathes.each do |path|
   path_map[path] ||= File.join("./data", "#{SecureRandom.uuid}.csv")
 end
 
-rm_r "./data"
+rm_r "./data" if File.exist? "./data"
 mkdir_p File.dirname(path_map[path_map.keys.first])
 
 path_map.each do |src, dst|
