@@ -301,8 +301,6 @@
   "./data_files/秋田県/秋田市/後期高齢者医療保険/04-158.csv": "./data/4964f31c-54e0-4f75-afd0-4ff70c7f3e15.csv",
   "./data_files/秋田県/秋田市/戸籍・住民登録・印鑑登録等に関する取扱件数/04-159.csv": "./data/04409e16-8f84-49ae-8739-a9ddab8afffc.csv",
   "./data_files/秋田県/秋田市/家庭系ごみの排出状況/01家庭系ごみの月別排出量 （CSV 1.6KB）/r5tukigoto.csv": "./data/c5522ff8-9444-44d9-a5cb-72460e6f47a0.csv",
-  "./data_files/秋田県/秋田市/家庭系ごみの排出状況/02家庭系ごみ一人1日当たり月別排出量 （CSV 968B）/r5tukibetu.csv": "./data/322a592d-71ed-4f45-aaf2-e7894f8d2ecb.csv",
-  "./data_files/秋田県/秋田市/家庭系ごみの排出状況/03一人1日当たりの家庭系ごみの累計排出量 （CSV 889B）/r5ruikei.csv": "./data/115ab57a-3bc5-4973-ad51-d6465c6a82bc.csv",
   "./data_files/秋田県/秋田市/家庭系ごみの排出状況/04国県市の排出量の推移 （CSV 565B）/zitutaitilyousa.csv": "./data/75f9a7ee-bf19-4a43-b9d5-659b838d89d4.csv",
   "./data_files/秋田県/秋田市/し尿の収集・処理状況/04-124.csv": "./data/65882d70-e226-403b-8281-7df90c2a685d.csv",
   "./data_files/秋田県/秋田市/ゴミの収集・処理状況/04-125.csv": "./data/5793801c-1b8a-49ad-ae0b-17b5096d6efd.csv",
@@ -318,8 +316,6 @@
   "./data_files/秋田県/秋田市/各種検診の受診状況/04-135.csv": "./data/5b6efb25-4f24-4de6-b656-fc45a806f02e.csv",
   "./data_files/秋田県/秋田市/乳幼児健康診査の受診状況/04-138.csv": "./data/52f2858e-c386-4a89-a592-b18f3c8cbf16.csv",
   "./data_files/秋田県/秋田市/結核健康診断の実施状況/04-139.csv": "./data/40400333-c596-4555-96ae-9f3c87042731.csv",
-  "./data_files/秋田県/秋田市/秋田市オープンデータ一覧/052019_open_data_list49.csv": "./data/66d9c994-8feb-4b63-a29f-a82994f05d85.csv",
-  "./data_files/秋田県/秋田市/薬事関係施設一覧/r050401yakkyoku.csv": "./data/e47acec7-1d07-435a-9948-0ebf96d3a521.csv",
   "./data_files/秋田県/秋田市/令和5年2月定例会　議案などに対する議員の表決状況/r050307-sanpi-open.csv": "./data/2362a26f-9867-4255-a819-581897783619.csv",
   "./data_files/秋田県/大仙市/住民基本台帳人口・世帯数/R04.csv": "./data/a19ed268-1ef3-4982-9e2f-0484f75e95df.csv",
   "./data_files/秋田県/大仙市/人口の移動状況/2-13-1.csv": "./data/d3bd67be-51d9-44f1-9013-4ecf6c8199ea.csv",
@@ -339,5 +335,10 @@
   "./data_files/秋田県/大仙市/少年事件処理件数/12-16.csv": "./data/b73b6121-edbb-4b32-9689-d17551328bf7.csv",
   "./data_files/秋田県/大仙市/刑事事件処理件数(地方裁判所)/12-13.csv": "./data/f51dcfe1-498e-456f-bf63-17b27f9cf3bf.csv",
   "./data_files/秋田県/大仙市/刑事事件処理件数(簡易裁判所）/12-14.csv": "./data/1991f4ad-9ac7-4c18-90dc-92a9d75a2c44.csv",
-  "./data_files/秋田県/大仙市/オープンデータ一覧/date20230317.csv": "./data/fecf9683-6306-4cd4-8cbf-0e5ec4d5025d.csv"
+  "./data_files/秋田県/大仙市/オープンデータ一覧/date20230317.csv": "./data/fecf9683-6306-4cd4-8cbf-0e5ec4d5025d.csv",
+  "./data_files/秋田県/秋田市/家庭系ごみの排出状況/02家庭系ごみ一人1日当たり月別排出量 （CSV 971B）/r5tukibetu.csv": "./data/a6bdbbe4-a73c-4bf8-a492-b928d620bb40.csv",
+  "./data_files/秋田県/秋田市/家庭系ごみの排出状況/03一人1日当たりの家庭系ごみの累計排出量 （CSV 892B）/r5ruikei.csv": "./data/49a0c585-59b6-4847-812d-73994a77d403.csv",
+  "./data_files/秋田県/秋田市/特定健康診査等の受診状況と特定保健指導の実施状況/04-137.csv": "./data/82ecc958-7411-4de6-92a5-09815a6f5a56.csv",
+  "./data_files/秋田県/秋田市/秋田市オープンデータ一覧/052019_open_data_list50.csv": "./data/df920c03-fbf1-44c8-924d-513e490bd456.csv",
+  "./data_files/秋田県/秋田市/薬事関係施設一覧/050701yakkyoku.csv": "./data/2bcf2253-d213-4388-94f6-8ffa02295967.csv"
 }

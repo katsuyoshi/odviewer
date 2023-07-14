@@ -1981,7 +1981,7 @@
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/家庭系ごみの排出状況/02家庭系ごみ一人1日当たり月別排出量 （CSV 968B）",
+      "name": "秋田県/秋田市/家庭系ごみの排出状況/02家庭系ごみ一人1日当たり月別排出量 （CSV 971B）",
       "url": "https://www.city.akita.lg.jp/kurashi/recycle/1006071/../../../_res/projects/default_project/_page_/001/006/163/r5tukibetu.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
@@ -1991,7 +1991,7 @@
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/家庭系ごみの排出状況/03一人1日当たりの家庭系ごみの累計排出量 （CSV 889B）",
+      "name": "秋田県/秋田市/家庭系ごみの排出状況/03一人1日当たりの家庭系ごみの累計排出量 （CSV 892B）",
       "url": "https://www.city.akita.lg.jp/kurashi/recycle/1006071/../../../_res/projects/default_project/_page_/001/006/163/r5ruikei.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
@@ -2143,6 +2143,17 @@
       "headers": {}
     },
     {
+      "name": "秋田県/秋田市/特定健康診査等の受診状況と特定保健指導の実施状況",
+      "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/587/04-137.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
       "name": "秋田県/秋田市/乳幼児健康診査の受診状況",
       "url": "https://www.city.akita.lg.jp/shisei/tokei/1003666/../../../_res/projects/default_project/_page_/001/003/587/04-138.xlsx",
       "catalogUrl": null,
@@ -2166,7 +2177,7 @@
     },
     {
       "name": "秋田県/秋田市/秋田市オープンデータ一覧",
-      "url": "https://www.city.akita.lg.jp/opendata/1000081/../../_res/projects/default_project/_page_/001/000/082/052019_open_data_list49.xlsx",
+      "url": "https://www.city.akita.lg.jp/opendata/1000081/../../_res/projects/default_project/_page_/001/000/082/052019_open_data_list50.xlsx",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
@@ -2177,7 +2188,7 @@
     },
     {
       "name": "秋田県/秋田市/薬事関係施設一覧",
-      "url": "https://www.city.akita.lg.jp/kurashi/kenko/1005375/../../../_res/projects/default_project/_page_/001/021/003/r050401yakkyoku.xlsx",
+      "url": "https://www.city.akita.lg.jp/kurashi/kenko/1005375/../../../_res/projects/default_project/_page_/001/021/003/050701yakkyoku.xlsx",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
