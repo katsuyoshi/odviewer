@@ -2177,7 +2177,7 @@
     },
     {
       "name": "秋田県/秋田市/秋田市オープンデータ一覧",
-      "url": "https://www.city.akita.lg.jp/opendata/1000081/../../_res/projects/default_project/_page_/001/000/082/052019_open_data_list50.xlsx",
+      "url": "https://www.city.akita.lg.jp/opendata/1000081/../../_res/projects/default_project/_page_/001/000/082/052019_open_data_list51.xlsx",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
@@ -2321,6 +2321,17 @@
     {
       "name": "秋田県/秋田市/令和5年2月定例会　議案などに対する議員の表決状況",
       "url": "https://www.city.akita.lg.jp/shigikai/nittei/1036226/1037105/../../../../_res/projects/default_project/_page_/001/037/110/r050307-sanpi-open.xlsx",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "postProcesses": [
+        "xlsx-to-csv",
+        "encode UTF-8"
+      ],
+      "headers": {}
+    },
+    {
+      "name": "秋田県/秋田市/令和5年6月定例会　議案などに対する議員の表決状況",
+      "url": "https://www.city.akita.lg.jp/shigikai/nittei/1036226/1038826/../../../../_res/projects/default_project/_page_/001/038/831/sanpir050703.xls",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
