@@ -1981,7 +1981,7 @@
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/家庭系ごみの排出状況/02家庭系ごみ一人1日当たり月別排出量 （CSV 971B）",
+      "name": "秋田県/秋田市/家庭系ごみの排出状況/02家庭系ごみ一人1日当たり月別排出量 （CSV 974B）",
       "url": "https://www.city.akita.lg.jp/kurashi/recycle/1006071/../../../_res/projects/default_project/_page_/001/006/163/r5tukibetu.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
@@ -1991,7 +1991,7 @@
       "headers": {}
     },
     {
-      "name": "秋田県/秋田市/家庭系ごみの排出状況/03一人1日当たりの家庭系ごみの累計排出量 （CSV 892B）",
+      "name": "秋田県/秋田市/家庭系ごみの排出状況/03一人1日当たりの家庭系ごみの累計排出量 （CSV 895B）",
       "url": "https://www.city.akita.lg.jp/kurashi/recycle/1006071/../../../_res/projects/default_project/_page_/001/006/163/r5ruikei.csv",
       "catalogUrl": null,
       "catalogResourceId": null,
@@ -2177,7 +2177,7 @@
     },
     {
       "name": "秋田県/秋田市/秋田市オープンデータ一覧",
-      "url": "https://www.city.akita.lg.jp/opendata/1000081/../../_res/projects/default_project/_page_/001/000/082/052019_open_data_list51.xlsx",
+      "url": "https://www.city.akita.lg.jp/opendata/1000081/../../_res/projects/default_project/_page_/001/000/082/052019_open_data_list52.xlsx",
       "catalogUrl": null,
       "catalogResourceId": null,
       "postProcesses": [
